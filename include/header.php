@@ -23,7 +23,7 @@
                                     <li><a href="about.php">
                                             About Us
                                         </a></li>
-                                        <li><a href="rules.pdf">
+                                        <li><a href="rules_2025.pdf">
                                             Rules
                                         </a></li>
                                         <li><a href="#partner">

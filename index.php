@@ -415,6 +415,30 @@ Service Area
         </div>
     </section>
 
+    <section style="padding-top: 90px;" class="space-bottom bg-theme overflow-hidden">
+        <div class="container">
+            <div class="row gy-80 gx-40 align-items-center">
+                <div class="col-xl-4">
+                    <div class="cta-thumb img-shine" data-mask-src="assets/img/shape/cta_1_1-img-mask.png">
+                        <img src="quest/avv.png" alt="img">
+                    </div>
+                </div>
+                <div class="col-xl-8">
+                    <div class="me-xxl-5 pe-xxl-5">
+                        <div class="title-area">
+                            <span class="shadow-title">Partner</span>
+                            <h2 class="sec-title text-white">Amrita Vishwa Vidyapeetham</h2>
+                            <p class="sec-text text-white">Amrita Vishwa Vidyapeetham, recognized as an Institution of Eminence by the Government of India, is a globally respected, multi-disciplinary university. With its ethos rooted in the vision of its Chancellor, Mata Amritanandamayi Devi, the university seeks to integrate academic excellence with spiritual and cultural values. </p>
+                        </div>
+                        <div class="btn-wrap">
+                            <a href="https://www.amrita.edu/" class="th-btn btn-mask th-btn-icon">Visit Amrita</a>
+                            <a href="https://www.amrita.edu/about/" class="th-btn btn-mask2 th-btn-icon">Know More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
     <!--==============================
 Portfolio Area  
 ==============================-->
