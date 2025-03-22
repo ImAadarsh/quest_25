@@ -171,7 +171,7 @@ Blog Area
                     <div class="th-blog blog-single has-post-thumbnail">
                         <div class="blog-img" data-overlay="black" data-opacity="5">
                             <a href="blog-details.php"><img src="assets/img/blog/blog-s-1-3.jpg" alt="Blog Image"></a>
-                            <a href="https://www.youtube.com/watch?v=_sI_Ps7JSEk" class="play-btn popup-video"><i class="fas fa-play"></i></a>
+                            <a href="https://www.youtube.com/watch?v=C7-5kkSayl8" class="play-btn popup-video"><i class="fas fa-play"></i></a>
                         </div>
                         <div class="blog-content">
                             <div class="blog-meta">

@@ -273,34 +273,40 @@ About Area
                         <div class="slider-area">
                             <div class="swiper th-slider about-thumb-slider" id="aboutSlider1" data-slider-options='{"breakpoints":{"0":{"slidesPerView":1},"576":{"slidesPerView":"1"},"768":{"slidesPerView":"1","effect":"fade"},"992":{"slidesPerView":"3"},"1200":{"slidesPerView":"3"}},"effect":"coverflow","coverflowEffect":{"rotate":"0","stretch":"350","depth":"215","modifier":"1"},"centeredSlides":"true"}'>
                                 <div class="swiper-wrapper">
+
                                     <div class="swiper-slide">
                                         <div class="img1">
-                                            <img src="assets/img/normal/about_2_1.png" alt="About">
+                                            <img src="event/1.png" alt="About">
                                         </div>
                                     </div>
                                     <div class="swiper-slide">
                                         <div class="img1">
-                                            <img src="assets/img/normal/about_2_2.png" alt="About">
+                                            <img src="event/2.png" alt="About">
                                         </div>
                                     </div>
                                     <div class="swiper-slide">
                                         <div class="img1">
-                                            <img src="assets/img/normal/about_2_3.png" alt="About">
+                                            <img src="event/3.png" alt="About">
                                         </div>
                                     </div>
                                     <div class="swiper-slide">
                                         <div class="img1">
-                                            <img src="assets/img/normal/about_2_1.png" alt="About">
+                                            <img src="event/4.png" alt="About">
                                         </div>
                                     </div>
                                     <div class="swiper-slide">
                                         <div class="img1">
-                                            <img src="assets/img/normal/about_2_2.png" alt="About">
+                                            <img src="event/5.png" alt="About">
                                         </div>
                                     </div>
                                     <div class="swiper-slide">
                                         <div class="img1">
-                                            <img src="assets/img/normal/about_2_3.png" alt="About">
+                                            <img src="event/6.png" alt="About">
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="img1">
+                                            <img src="event/7.png" alt="About">
                                         </div>
                                     </div>
                                 </div>
@@ -309,36 +315,28 @@ About Area
                         </div>
                         <div class="about-tag">
                             <div class="about-experience-tag">
-                                <span class="circle-title-anime">Quest Living Solutions</span>
+                                <span class="circle-title-anime">Eduace Quest 2025 - Season 03</span>
                             </div>
-                            <a href="https://www.youtube.com/watch?v=_sI_Ps7JSEk" class="play-btn popup-video"><i class="fa-sharp fa-solid fa-play"></i></a>
+                            <a href="https://www.youtube.com/watch?v=C7-5kkSayl8" class="play-btn popup-video"><i class="fa-sharp fa-solid fa-play"></i></a>
                         </div>
                     </div>
                 </div>
                 <div class="col-xl-5">
                     <div class="title-area mb-32">
+                        <span class="shadow-title">Team</span>
                         <h2 class="sec-title style2">Quest 2025</h2>
                         <p class="sec-text">Welcome to the QUEST STEAM Quiz, an exhilarating challenge crafted exclusively for school students in India! Brought to you by EDUACE Group in association with Amrita Vishwa Vidyapeetham, this quiz immerses participants in the captivating realm of Science, Technology, Engineering, Arts, and Mathematics (STEAM), with a distinct focus on India's rich contributions.</p>
                     </div>
-                    <div class="about-wrap2">
+                  
                         <div class="checklist style2">
                             <ul>
-                                <li><img src="assets/img/icon/checkmark.svg" alt="img">Quality real estate services</li>
-                                <li><img src="assets/img/icon/checkmark.svg" alt="img">100% Satisfaction guarantee</li>
-                                <li><img src="assets/img/icon/checkmark.svg" alt="img">Highly professional team</li>
-                                <li><img src="assets/img/icon/checkmark.svg" alt="img">Dealing always on time</li>
+                                <li><img src="assets/img/icon/checkmark.svg" alt="img"> Quiz based on STEAM for students of grade 06th till 12th standard.</li>
+                                <li><img src="assets/img/icon/checkmark.svg" alt="img">Major centres spread across Asian Region- India(12 Centres).</li>
+                                <li><img src="assets/img/icon/checkmark.svg" alt="img">1.25+ Lac students will take the quiz.</li>
+                                <!-- <li><img src="assets/img/icon/checkmark.svg" alt="img">Dealing always on time</li> -->
                             </ul>
                         </div>
-                        <div class="call-btn">
-                            <div class="icon-btn">
-                                <img src="assets/img/icon/phone.svg" alt="img">
-                            </div>
-                            <div class="btn-content">
-                                <h6 class="btn-title">Call Us 24/7</h6>
-                                <span class="btn-text"><a href="tel:0123456789">+01 234 56789</a></span>
-                            </div>
-                        </div>
-                    </div>
+                
                     <div class="btn-wrap mt-5">
                         <a href="about.php" class="th-btn style2 th-btn-icon">More About Quest</a>
                     </div>
@@ -617,7 +615,7 @@ Gallery Area
     </div><!--==============================
 Team Area  
 ==============================-->
-    <section class="space bg-title-dark">
+<section class="space bg-title-dark">
         <div class="sec-bg-shape2-3 jump shape-mockup d-xxl-block d-none text-white" data-top="10%" data-right="2%">
             <img src="assets/img/shape/section_shape_2_3.jpg" alt="img">
         </div>
@@ -1170,165 +1168,9 @@ Contact Area
     <!--==============================
 Blog Area  
 ==============================-->
-    <section class="overflow-hidden space bg-title-dark">
-        <div class="sec-bg-shape2-3 jump shape-mockup d-xl-block d-none text-white" data-bottom="40%" data-right="0%">
-            <img src="assets/img/shape/section_shape_2_3.jpg" alt="img">
-        </div>
-        <div class="container">
-            <div class="row justify-content-lg-between justify-content-center align-items-end">
-                <div class="col-xl-5 col-lg-6">
-                    <div class="title-area text-lg-start text-center">
-                        <h2 class="sec-title text-white">News & Articles</h2>
-                        <p class="text-white">Quest help you easily create a real estate trading website. With the function Register, Login, Post real estate news.</p>
-                    </div>
-                </div>
-                <div class="col-lg-auto">
-                    <div class="sec-btn">
-                        <a href="blog.php" class="th-btn style-border3 th-btn-icon">Browse All Blog</a>
-                    </div>
-                </div>
-            </div>
-            <div class="slider-area blog-slider2">
-                <div class="swiper th-slider" id="blogSlider2" data-slider-options='{"breakpoints":{"0":{"slidesPerView":1},"576":{"slidesPerView":"1"},"768":{"slidesPerView":"2"},"992":{"slidesPerView":"2"},"1200":{"slidesPerView":"2"}}}'>
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide">
-                            <div class="blog-card style2">
-                                <div class="blog-img">
-                                    <a href="blog-details.php">
-                                        <img src="assets/img/blog/blog_2_1.jpg" alt="blog image">
-                                    </a>
-                                </div>
-                                <div class="blog-content">
-                                    <div class="blog-meta">
-                                        <a href="blog.php">April 22, 2024</a>
-                                        <a href="blog.php">08 min read</a>
-                                    </div>
-                                    <h3 class="box-title"><a href="blog-details.php">What trends do we expect to start growing in the coming future journey?</a></h3>
-                                    <a href="blog-details.php" class="th-btn style-border th-btn-icon">Read More</a>
-                                </div>
-                            </div>
-                        </div>
 
-                        <div class="swiper-slide">
-                            <div class="blog-card style2">
-                                <div class="blog-img">
-                                    <a href="blog-details.php">
-                                        <img src="assets/img/blog/blog_2_2.jpg" alt="blog image">
-                                    </a>
-                                </div>
-                                <div class="blog-content">
-                                    <div class="blog-meta">
-                                        <a href="blog.php">June 16, 2024</a>
-                                        <a href="blog.php">10 min read</a>
-                                    </div>
-                                    <h3 class="box-title"><a href="blog-details.php">The workplace tells and screams for more top story bloggers already be following</a></h3>
-                                    <a href="blog-details.php" class="th-btn style-border th-btn-icon">Read More</a>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="swiper-slide">
-                            <div class="blog-card style2">
-                                <div class="blog-img">
-                                    <a href="blog-details.php">
-                                        <img src="assets/img/blog/blog_2_1.jpg" alt="blog image">
-                                    </a>
-                                </div>
-                                <div class="blog-content">
-                                    <div class="blog-meta">
-                                        <a href="blog.php">April 22, 2024</a>
-                                        <a href="blog.php">08 min read</a>
-                                    </div>
-                                    <h3 class="box-title"><a href="blog-details.php">What trends do we expect to start growing in the coming future journey?</a></h3>
-                                    <a href="blog-details.php" class="th-btn style-border th-btn-icon">Read More</a>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="swiper-slide">
-                            <div class="blog-card style2">
-                                <div class="blog-img">
-                                    <a href="blog-details.php">
-                                        <img src="assets/img/blog/blog_2_2.jpg" alt="blog image">
-                                    </a>
-                                </div>
-                                <div class="blog-content">
-                                    <div class="blog-meta">
-                                        <a href="blog.php">June 16, 2024</a>
-                                        <a href="blog.php">10 min read</a>
-                                    </div>
-                                    <h3 class="box-title"><a href="blog-details.php">The workplace tells and screams for more top story bloggers already be following</a></h3>
-                                    <a href="blog-details.php" class="th-btn style-border th-btn-icon">Read More</a>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <div class="space bg-gray overflow-hidden">
-        <div class="sec-bg-shape2-1 spin shape-mockup d-xl-block d-none" data-top="7%" data-right="15%">
-            <img src="assets/img/shape/section_shape_2_1.jpg" alt="img">
-        </div>
-        <div class="container-fluid">
-            <div class="swiper th-slider instagram-slider1" id="instaSlider1" data-slider-options='{"breakpoints":{"0":{"slidesPerView":1},"576":{"slidesPerView":"2"},"768":{"slidesPerView":"3"},"992":{"slidesPerView":"4"},"1200":{"slidesPerView":"5"}}}'>
-                <div class="swiper-wrapper">
-
-                    <div class="col-auto swiper-slide">
-                        <div class="insta-box">
-                            <img src="insta/1.png" alt="Instagram">
-                            <a target="_blank" href="https://www.instagram.com/quest.eduace" class="icon-btn"><i class="fa-brands fa-instagram"></i></a>
-                        </div>
-                    </div>
-                    <div class="col-auto swiper-slide">
-                        <div class="insta-box">
-                            <img src="insta/2.png" alt="Instagram">
-                            <a target="_blank" href="https://www.instagram.com/quest.eduace" class="icon-btn"><i class="fa-brands fa-instagram"></i></a>
-                        </div>
-                    </div>
-                    <div class="col-auto swiper-slide">
-                        <div class="insta-box">
-                            <img src="insta/3.png" alt="Instagram">
-                            <a target="_blank" href="https://www.instagram.com/quest.eduace" class="icon-btn"><i class="fa-brands fa-instagram"></i></a>
-                        </div>
-                    </div>
-                    <div class="col-auto swiper-slide">
-                        <div class="insta-box">
-                            <img src="insta/4.png" alt="Instagram">
-                            <a target="_blank" href="https://www.instagram.com/quest.eduace" class="icon-btn"><i class="fa-brands fa-instagram"></i></a>
-                        </div>
-                    </div>
-                    <div class="col-auto swiper-slide">
-                        <div class="insta-box">
-                            <img src="insta/5.png" alt="Instagram">
-                            <a target="_blank" href="https://www.instagram.com/quest.eduace" class="icon-btn"><i class="fa-brands fa-instagram"></i></a>
-                        </div>
-                    </div>
-                    <div class="col-auto swiper-slide">
-                        <div class="insta-box">
-                            <img src="insta/6.png" alt="Instagram">
-                            <a target="_blank" href="https://www.instagram.com/quest.eduace" class="icon-btn"><i class="fa-brands fa-instagram"></i></a>
-                        </div>
-                    </div>
-                    <div class="col-auto swiper-slide">
-                        <div class="insta-box">
-                            <img src="insta/7.png" alt="Instagram">
-                            <a target="_blank" href="https://www.instagram.com/quest.eduace" class="icon-btn"><i class="fa-brands fa-instagram"></i></a>
-                        </div>
-                    </div>
-                    <div class="col-auto swiper-slide">
-                        <div class="insta-box">
-                            <img src="insta/8.png" alt="Instagram">
-                            <a target="_blank" href="https://www.instagram.com/quest.eduace" class="icon-btn"><i class="fa-brands fa-instagram"></i></a>
-                        </div>
-                    </div>
-  
-                </div>
-            </div>
-        </div>
-    </div><!--==============================
+    
+    <!--==============================
     Popup Modal v1
 ============================== -->
     <div class="th-modal modal fade" id="portfolioModal" tabindex="-1" aria-hidden="true">

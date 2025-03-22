@@ -97,10 +97,10 @@
             <div class="row justify-content-center">
                 <div class="col-xl-9">
                     <div class="breadcumb-content">
-                        <h1 class="breadcumb-title">Affordable Pricing</h1>
+                        <h1 class="breadcumb-title">Quest FAQ</h1>
                         <ul class="breadcumb-menu">
                             <li><a href="index.php">Home</a></li>
-                            <li>Pricing</li>
+                            <li>FAQ</li>
                         </ul>
                     </div>
                 </div>
@@ -109,110 +109,11 @@
     </div><!--==============================
 Price Area  
 ==============================-->
-    <section class="space">
-        <div class="container">
-            <div class="row gy-4 justify-content-center">
-
-                <div class="col-lg-4 col-md-6">
-                    <div class="price-card ">
-                        <div class="offer-tag">Most Popular</div>
-                        <div class="price-card-icon">
-                            <img src="assets/img/icon/pricing-icon1-1.svg" alt="img">
-                        </div>
-                        <h3 class="price-card-title">Basic Plan</h3>
-                        <h4 class="price-card_price">$15900.00<span class="duration">/ Month</span></h4>
-                        <p class="price-card_text">Automatically connect with prospective clients</p>
-                        <div class="price-card_content">
-                            <a href="#" class="th-btn style-border2 w-100">Get Started</a>
-                            <div class="checklist">
-                                <ul>
-                                    <li><i class="fal fa-circle-check"></i> Free Listing</li>
-                                    <li><i class="fal fa-circle-check"></i> 15 Featured Listing</li>
-                                    <li><i class="fal fa-circle-check"></i> Contact with agent</li>
-                                    <li><i class="fal fa-circle-check"></i> 2 Year validity</li>
-                                    <li><i class="fal fa-circle-check"></i> 24/7 Support center</li>
-                                    <li><i class="fal fa-circle-check"></i> 100% money back guarantee</li>
-                                    <li><i class="fal fa-circle-check"></i> Auto refresh ads</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-md-6">
-                    <div class="price-card active">
-                        <div class="offer-tag">Most Popular</div>
-                        <div class="price-card-icon">
-                            <img src="assets/img/icon/pricing-icon1-2.svg" alt="img">
-                        </div>
-                        <h3 class="price-card-title">Advanced Plan</h3>
-                        <h4 class="price-card_price">$25000.00<span class="duration">/ Month</span></h4>
-                        <p class="price-card_text">Automatically connect with prospective clients</p>
-                        <div class="price-card_content">
-                            <a href="#" class="th-btn style-border2 w-100">Get Started</a>
-                            <div class="checklist">
-                                <ul>
-                                    <li><i class="fal fa-circle-check"></i> Free Listing</li>
-                                    <li><i class="fal fa-circle-check"></i> 15 Featured Listing</li>
-                                    <li><i class="fal fa-circle-check"></i> Contact with agent</li>
-                                    <li><i class="fal fa-circle-check"></i> 2 Year validity</li>
-                                    <li><i class="fal fa-circle-check"></i> 24/7 Support center</li>
-                                    <li><i class="fal fa-circle-check"></i> 100% money back guarantee</li>
-                                    <li><i class="fal fa-circle-check"></i> Auto refresh ads</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-md-6">
-                    <div class="price-card ">
-                        <div class="offer-tag">Most Popular</div>
-                        <div class="price-card-icon">
-                            <img src="assets/img/icon/pricing-icon1-3.svg" alt="img">
-                        </div>
-                        <h3 class="price-card-title">Premium Plan</h3>
-                        <h4 class="price-card_price">$35000.00<span class="duration">/ Month</span></h4>
-                        <p class="price-card_text">Automatically connect with prospective clients</p>
-                        <div class="price-card_content">
-                            <a href="#" class="th-btn style-border2 w-100">Get Started</a>
-                            <div class="checklist">
-                                <ul>
-                                    <li><i class="fal fa-circle-check"></i> Free Listing</li>
-                                    <li><i class="fal fa-circle-check"></i> 15 Featured Listing</li>
-                                    <li><i class="fal fa-circle-check"></i> Contact with agent</li>
-                                    <li><i class="fal fa-circle-check"></i> 2 Year validity</li>
-                                    <li><i class="fal fa-circle-check"></i> 24/7 Support center</li>
-                                    <li><i class="fal fa-circle-check"></i> 100% money back guarantee</li>
-                                    <li><i class="fal fa-circle-check"></i> Auto refresh ads</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section><!--==============================
+   
+    <!--==============================
 Subscribe Area   
 ==============================-->
-    <div class=" subscribe-area-2 z-index-common" data-bg-src="assets/img/bg/subscribe-bg-2-1.png" data-overlay="theme" data-opacity="7">
-        <div class="container">
-            <div class="row gx-35 justify-content-center">
-                <div class="col-xxl-10">
-                    <div class="title-area text-center">
-                        <h2 class="sec-title text-white">Newsletter to get updated the latest news</h2>
-                    </div>
-                    <form action="#" class="subscribe-form style2">
-                        <div class="form-group style-border3 style-radius">
-                            <input type="text" class="form-control" placeholder="Enter Email">
-                            <i class="fal fa-envelope"></i>
-                        </div>
-                        <button class="th-btn">Subscribe Now <span class="btn-icon"><img src="assets/img/icon/paper-plane.svg" alt="img"></span></button>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </div>
+
     <!--==============================
 Faq Area
 ==============================-->

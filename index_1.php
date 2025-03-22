@@ -252,7 +252,7 @@ Hero Area
                                 </div>
                                 <div class="col-lg-4">
                                     <div class="hero-video-wrap text-center" data-ani="slideinright" data-ani-delay="0.4s">
-                                        <a href="https://www.youtube.com/watch?v=_sI_Ps7JSEk" class="play-btn style2 popup-video"><i class="fa-sharp fa-solid fa-play"></i></a>
+                                        <a href="https://www.youtube.com/watch?v=C7-5kkSayl8" class="play-btn style2 popup-video"><i class="fa-sharp fa-solid fa-play"></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -281,7 +281,7 @@ Hero Area
                                 </div>
                                 <div class="col-lg-4">
                                     <div class="hero-video-wrap text-center" data-ani="slideinright" data-ani-delay="0.4s">
-                                        <a href="https://www.youtube.com/watch?v=_sI_Ps7JSEk" class="play-btn style2 popup-video"><i class="fa-sharp fa-solid fa-play"></i></a>
+                                        <a href="https://www.youtube.com/watch?v=C7-5kkSayl8" class="play-btn style2 popup-video"><i class="fa-sharp fa-solid fa-play"></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -310,7 +310,7 @@ Hero Area
                                 </div>
                                 <div class="col-lg-4">
                                     <div class="hero-video-wrap text-center" data-ani="slideinright" data-ani-delay="0.4s">
-                                        <a href="https://www.youtube.com/watch?v=_sI_Ps7JSEk" class="play-btn style2 popup-video"><i class="fa-sharp fa-solid fa-play"></i></a>
+                                        <a href="https://www.youtube.com/watch?v=C7-5kkSayl8" class="play-btn style2 popup-video"><i class="fa-sharp fa-solid fa-play"></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -968,7 +968,7 @@ Video Area
             <div class="video-wrap1">
                 <div class="video-box1">
                     <img src="assets/img/normal/video_1_1.png" alt="img">
-                    <a href="https://www.youtube.com/watch?v=_sI_Ps7JSEk" class="play-btn style3 popup-video"><i class="fa-sharp fa-solid fa-play"></i></a>
+                    <a href="https://www.youtube.com/watch?v=C7-5kkSayl8" class="play-btn style3 popup-video"><i class="fa-sharp fa-solid fa-play"></i></a>
                 </div>
                 <div class="video-wrap-details">
                     <div class="title-area mb-45">

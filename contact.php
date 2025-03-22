@@ -202,17 +202,19 @@ Contact Area
         </div>
         <div class="location-map contact-sec-map z-index-common">
             <div class="contact-map">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3644.7310056272386!2d89.2286059153658!3d24.00527418490799!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39fe9b97badc6151%3A0x30b048c9fb2129bc!2sAngfuztheme!5e0!3m2!1sen!2sbd!4v1651028958211!5m2!1sen!2sbd" allowfullscreen="" loading="lazy"></iframe>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3601.7939195916774!2d78.55618197665515!3d25.47855592024485!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x397771e6f7e2836f%3A0x5fa93aadee1e14ad!2sMahendra%20Puri%20Colony!5e0!3m2!1sen!2sin!4v1742664316207!5m2!1sen!2sin" allowfullscreen="" loading="lazy"></iframe>
             </div>
             <div class="location-map-address bg-theme">
                 <div class="thumb">
-                    <img src="assets/img/property/property_inner_1.jpg" alt="img">
+                    <img src="https://www.ipnfoundation.org/images/header-logo-white.png" alt="img">
                 </div>
                 <div class="media-body">
                     <h4 class="title">Address:</h4>
-                    <p class="text">Brooklyn, New York 11233, United States</p>
+                    <p class="text">101, Mahendrapuri Colony,
+Near Kali mata mandir,
+Gwalior road, Jhansi</p>
                     <h4 class="title">Post Code:</h4>
-                    <p class="text">12345</p>
+                    <p class="text">284003</p>
                 </div>
             </div>
         </div>

@@ -498,7 +498,7 @@ Property Page Area
                             <h3 class="page-title mt-50 mb-30">Property Video</h3>
                             <div class="video-box2 mb-30">
                                 <img src="assets/img/property/property_inner_3.jpg" alt="img">
-                                <a href="https://www.youtube.com/watch?v=_sI_Ps7JSEk" class="play-btn style4 popup-video"><i class="fa-sharp fa-solid fa-play"></i></a>
+                                <a href="https://www.youtube.com/watch?v=C7-5kkSayl8" class="play-btn style4 popup-video"><i class="fa-sharp fa-solid fa-play"></i></a>
                             </div>
                         </div>
                     </div>

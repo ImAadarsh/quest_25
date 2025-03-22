@@ -97,10 +97,10 @@
             <div class="row justify-content-center">
                 <div class="col-xl-9">
                     <div class="breadcumb-content">
-                        <h1 class="breadcumb-title">Agencies</h1>
+                        <h1 class="breadcumb-title">Participating Schools</h1>
                         <ul class="breadcumb-menu">
                             <li><a href="index.php">Home</a></li>
-                            <li>Agencies</li>
+                            <li>Participating Schools</li>
                         </ul>
                     </div>
                 </div>
@@ -114,7 +114,7 @@ Property Page Area
             <div class="th-sort-bar">
                 <div class="row justify-content-between align-items-center">
                     <div class="col-md">
-                        <h2 class="fw-medium">All Agencies</h2>
+                        <h2 class="fw-medium">Participating Schools</h2>
                     </div>
 
                     <div class="col-md-auto">
@@ -138,7 +138,7 @@ Property Page Area
                 </div>
             </div>
             <div class="row">
-                <div class="col-xxl-8 col-lg-7">
+                <div class="col-xxl-12 col-lg-7">
                     <div class="tab-content" id="nav-tabContent">
                         <div class="tab-pane fade active show" id="tab-list" role="tabpanel" aria-labelledby="tab-shop-list">
                             <div class="row gy-40">
@@ -413,100 +413,7 @@ Property Page Area
 
                     </div>
                 </div>
-                <div class="col-xxl-4 col-lg-5">
-                    <aside class="sidebar-area">
-                        <div class="widget widget_search  ">
-                            <form class="search-form">
-                                <input type="text" placeholder="Search...">
-                                <button type="submit"><i class="far fa-search"></i></button>
-                            </form>
-                        </div>
-                        <div class="widget  ">
-                            <h3 class="widget_title">Recent Posts</h3>
-                            <div class="recent-post-wrap">
-                                <div class="recent-post">
-                                    <div class="media-img">
-                                        <a href="blog-details.php"><img src="assets/img/blog/recent-post-1-1.jpg" alt="Blog Image"></a>
-                                    </div>
-                                    <div class="media-body">
-                                        <h4 class="post-title"><a class="text-inherit" href="blog-details.php">Exploring The Green Spaces Of Quest Residence</a></h4>
-                                        <div class="recent-post-meta">
-                                            <a href="blog.php"><i class="far fa-calendar"></i>22/6/2024</a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="recent-post">
-                                    <div class="media-img">
-                                        <a href="blog-details.php"><img src="assets/img/blog/recent-post-1-2.jpg" alt="Blog Image"></a>
-                                    </div>
-                                    <div class="media-body">
-                                        <h4 class="post-title"><a class="text-inherit" href="blog-details.php">Harmony With Nature Of Quest Residence</a></h4>
-                                        <div class="recent-post-meta">
-                                            <a href="blog.php"><i class="far fa-calendar"></i>25/6/2024</a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="recent-post">
-                                    <div class="media-img">
-                                        <a href="blog-details.php"><img src="assets/img/blog/recent-post-1-3.jpg" alt="Blog Image"></a>
-                                    </div>
-                                    <div class="media-body">
-                                        <h4 class="post-title"><a class="text-inherit" href="blog-details.php">Exploring The Green Spaces Of Quest Residence</a></h4>
-                                        <div class="recent-post-meta">
-                                            <a href="blog.php"><i class="far fa-calendar"></i>27/6/2024</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="widget widget_categories  ">
-                            <h3 class="widget_title">Post Categories</h3>
-                            <ul>
-                                <li>
-                                    <a href="blog.php">Apartment <span>(8)</span></a>
 
-                                </li>
-                                <li>
-                                    <a href="blog.php">Real Estate <span>(10)</span></a>
-                                </li>
-                                <li>
-                                    <a href="blog.php">Property <span>(12)</span></a>
-                                </li>
-                                <li>
-                                    <a href="blog.php">News & Tips <span>(6)</span></a>
-                                </li>
-                                <li>
-                                    <a href="blog.php">Modern Houses <span>(8)</span></a>
-                                </li>
-                                <li>
-                                    <a href="blog.php">Banglow <span>(11)</span></a>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="widget widget_tag_cloud  ">
-                            <h3 class="widget_title">Popular Tags</h3>
-                            <div class="tagcloud">
-                                <a href="blog.php">Business</a>
-                                <a href="blog.php">Buyer</a>
-                                <a href="blog.php">Rent</a>
-                                <a href="blog.php">Innovate</a>
-                                <a href="blog.php">Real estate</a>
-                                <a href="blog.php">Modern</a>
-                                <a href="blog.php">Luxury</a>
-                                <a href="blog.php">Sale</a>
-                            </div>
-                        </div>
-                        <div class="widget widget_banner  " data-bg-src="assets/img/widget/widget-banner.png">
-                            <div class="widget-banner text-center">
-                                <h3 class="title">Need Help? We Are Here To Help You</h3>
-                                <div class="logo"><img src="assets/img/logo.svg" alt="img"></div>
-                                <h4 class="subtitle">You Get Online support</h4>
-                                <h5 class="link"><a href="tel:256214203215">+256 214 203 215</a></h5>
-                                <a href="blog-details.php" class="th-btn style-border th-btn-icon">Read More</a>
-                            </div>
-                        </div>
-                    </aside>
-                </div>
             </div>
 
         </div>
