@@ -7,7 +7,7 @@
                             <div class="widget footer-widget">
                                 <div class="th-widget-about">
                                     <div class="about-logo">
-                                        <a href="index.php"><img src="assets/img/logo.svg" alt="Realar"></a>
+                                        <a href="index.php"><img src="assets/img/logo.svg" alt="Quest"></a>
                                     </div>
                                     <p class="about-text">Rapidiously myocardinate cross-platform intellectual capital model. Appropriately create interactive infrastructures</p>
                                     <div class="th-social style3">
@@ -36,8 +36,8 @@
                                             <img src="assets/img/icon/phone.svg" alt="img">
                                         </div>
                                         <div class="details">
-                                            <p><a href="tel:+0123456789" class="info-box_link">+01 234 567 890</a></p>
-                                            <p><a href="tel:+09876543210" class="info-box_link">+09 876 543 210</a></p>
+                                            <p><a href="tel:+917753888063" class="info-box_link">7753888063</a></p>
+                                            <p><a href="tel:+09876543210" class="info-box_link">9876 543 210</a></p>
                                         </div>
                                     </div>
                                     <div class="info-box_text">
@@ -45,8 +45,8 @@
                                             <img src="assets/img/icon/envelope.svg" alt="img">
                                         </div>
                                         <div class="details">
-                                            <p><a href="mailto:mailinfo00@realar.com" class="info-box_link">mailinfo00@realar.com</a></p>
-                                            <p><a href="mailto:support24@realar.com" class="info-box_link">support24@realar.com</a></p>
+                                            <p><a href="mailto:info@eduace.in" class="info-box_link">info@eduace.in</a></p>
+                                            <p><a href="mailto:team@ipnindia.in" class="info-box_link">team@ipnindia.in</a></p>
                                         </div>
                                     </div>
                                 </div>
@@ -98,7 +98,7 @@
                     <div class="row gy-2 align-items-center">
                         <div class="col-lg-6">
                             <p class="copyright-text">
-                                Copyright <i class="fal fa-copyright"></i> 2024 <a href="index.php">Realar</a>, All rights reserved.</p>
+                            <i class="fal fa-copyright"></i> 2025 Eduace Quest. Developed By  <a href="https://endeavourdigital.in">Endeavour Digital</a>.</p>
                         </div>
                         <div class="col-lg-6 text-center text-lg-end">
                             <div class="footer-links">
