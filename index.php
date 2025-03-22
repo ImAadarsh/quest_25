@@ -415,7 +415,7 @@ Service Area
         </div>
     </section>
 
-    <section style="padding-top: 90px;" class="space-bottom bg-theme overflow-hidden">
+    <section id="partner" style="padding-top: 90px;" class="space-bottom bg-theme overflow-hidden">
         <div class="container">
             <div class="row gy-80 gx-40 align-items-center">
                 <div class="col-xl-4">
