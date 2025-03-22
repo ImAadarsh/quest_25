@@ -368,7 +368,7 @@ Property Page Area
                             <div class="property-card-details">
                                 <span class="property-card-subtitle">Apartment</span>
                                 <h4 class="property-card-title"><a href="property-details.php">Villa Berkel-Enschot</a></h4>
-                                <p class="property-card-text">Rapidiously myocardinate cross-platform intellectual capital model. Appropriately create interactive infrastructures</p>
+                                <p class="property-card-text">India's leading knowledge company, empowering students in Tier-1, 2, and 3 towns. Enhancing life skills and general awareness through engaging quizzes.</p>
                                 <div class="property-card-price-meta">
                                     <h5 class="property-card-price">$45,000.00</h5>
                                     <div class="property-ratting-wrap">
@@ -407,7 +407,7 @@ Property Page Area
                             <div class="property-card-details">
                                 <span class="property-card-subtitle">Apartment</span>
                                 <h4 class="property-card-title"><a href="property-details.php">Toronto Townhouse</a></h4>
-                                <p class="property-card-text">Rapidiously myocardinate cross-platform intellectual capital model. Appropriately create interactive infrastructures</p>
+                                <p class="property-card-text">India's leading knowledge company, empowering students in Tier-1, 2, and 3 towns. Enhancing life skills and general awareness through engaging quizzes.</p>
                                 <div class="property-card-price-meta">
                                     <h5 class="property-card-price">$45,000.00</h5>
                                     <div class="property-ratting-wrap">
@@ -446,7 +446,7 @@ Property Page Area
                             <div class="property-card-details">
                                 <span class="property-card-subtitle">Apartment</span>
                                 <h4 class="property-card-title"><a href="property-details.php">Virgin Vineyard House</a></h4>
-                                <p class="property-card-text">Rapidiously myocardinate cross-platform intellectual capital model. Appropriately create interactive infrastructures</p>
+                                <p class="property-card-text">India's leading knowledge company, empowering students in Tier-1, 2, and 3 towns. Enhancing life skills and general awareness through engaging quizzes.</p>
                                 <div class="property-card-price-meta">
                                     <h5 class="property-card-price">$45,000.00</h5>
                                     <div class="property-ratting-wrap">
@@ -485,7 +485,7 @@ Property Page Area
                             <div class="property-card-details">
                                 <span class="property-card-subtitle">Apartment</span>
                                 <h4 class="property-card-title"><a href="property-details.php">Apartments Auckland</a></h4>
-                                <p class="property-card-text">Rapidiously myocardinate cross-platform intellectual capital model. Appropriately create interactive infrastructures</p>
+                                <p class="property-card-text">India's leading knowledge company, empowering students in Tier-1, 2, and 3 towns. Enhancing life skills and general awareness through engaging quizzes.</p>
                                 <div class="property-card-price-meta">
                                     <h5 class="property-card-price">$45,000.00</h5>
                                     <div class="property-ratting-wrap">

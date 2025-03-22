@@ -6,7 +6,7 @@
                     <div class="about-logo">
                         <a href="index.php"><img src="assets/img/logo.svg" alt="Quest"></a>
                     </div>
-                    <p class="about-text"> Rapidiously myocardinate cross-platform intellectual capital model. Appropriately create interactive infrastructures</p>
+                    <p class="about-text"> India's leading knowledge company, empowering students in Tier-1, 2, and 3 towns. Enhancing life skills and general awareness through engaging quizzes.</p>
                 </div>
             </div>
             <div class="widget  ">
@@ -25,7 +25,7 @@
                         </div>
                         <div class="details">
                             <p><a href="tel:+0123456789" class="info-box_link">+01 234 567 890</a></p>
-                            <p><a href="tel:+09876543210" class="info-box_link">+09 876 543 210</a></p>
+                            <p><a href="tel:+91 84007 00199" class="info-box_link">+09 876 543 210</a></p>
                         </div>
                     </div>
                     <div class="info-box_text">

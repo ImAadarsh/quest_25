@@ -9,7 +9,7 @@
                                     <div class="about-logo">
                                         <a href="index.php"><img src="assets/img/logo.svg" alt="Quest"></a>
                                     </div>
-                                    <p class="about-text">Rapidiously myocardinate cross-platform intellectual capital model. Appropriately create interactive infrastructures</p>
+                                    <p style="text-align: justify;" class="about-text">India's top knowledge company, empowering students in Tier-1, 2, and 3 towns. Enhancing life skills and general awareness through engaging quizzes.</p>
                                     <div class="th-social style3">
                                         <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
                                         <a href="https://www.twitter.com/"><i class="fab fa-twitter"></i></a>
@@ -27,8 +27,8 @@
                                     <div class="info-box_text">
                                         <div class="icon"><img src="assets/img/icon/location-dot.svg" alt="img"></div>
                                         <div class="details">
-                                            <p>789 Inner Lane, Holy park,</p>
-                                            <p>California, USA</p>
+                                            <p>101, Mahendrapuri Colony,</p>
+                                            <p>Gwalior road, Jhansi- 284003</p>
                                         </div>
                                     </div>
                                     <div class="info-box_text">
@@ -36,8 +36,8 @@
                                             <img src="assets/img/icon/phone.svg" alt="img">
                                         </div>
                                         <div class="details">
-                                            <p><a href="tel:+917753888063" class="info-box_link">7753888063</a></p>
-                                            <p><a href="tel:+09876543210" class="info-box_link">9876 543 210</a></p>
+                                            <p><a href="tel:+917753888063" class="info-box_link">77538 88063</a></p>
+                                            <p><a href="tel:+91 84007 00199" class="info-box_link">84007 00199</a></p>
                                         </div>
                                     </div>
                                     <div class="info-box_text">

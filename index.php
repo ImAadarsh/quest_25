@@ -964,144 +964,11 @@ Testimonial Area
     <!--==============================
 Client Area  
 ==============================-->
-    <div class="client-area-1 space bg-title-dark overflow-hidden">
-        <div class="container">
-            <div class="slider-area client-slider1">
-                <div class="swiper th-slider has-shadow" id="clientSlider1" data-slider-options='{"breakpoints":{"0":{"slidesPerView":2},"576":{"slidesPerView":"3"},"768":{"slidesPerView":"4"},"992":{"slidesPerView":"5"},"1200":{"slidesPerView":"6"}}}'>
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide">
-                            <a href="#" class="client-card">
-                                <img src="assets/img/brand/brand_1_1.svg" alt="Image">
-                            </a>
-                        </div>
 
-                        <div class="swiper-slide">
-                            <a href="#" class="client-card">
-                                <img src="assets/img/brand/brand_1_2.svg" alt="Image">
-                            </a>
-                        </div>
-
-                        <div class="swiper-slide">
-                            <a href="#" class="client-card">
-                                <img src="assets/img/brand/brand_1_3.svg" alt="Image">
-                            </a>
-                        </div>
-
-                        <div class="swiper-slide">
-                            <a href="#" class="client-card">
-                                <img src="assets/img/brand/brand_1_4.svg" alt="Image">
-                            </a>
-                        </div>
-
-                        <div class="swiper-slide">
-                            <a href="#" class="client-card">
-                                <img src="assets/img/brand/brand_1_5.svg" alt="Image">
-                            </a>
-                        </div>
-
-                        <div class="swiper-slide">
-                            <a href="#" class="client-card">
-                                <img src="assets/img/brand/brand_1_6.svg" alt="Image">
-                            </a>
-                        </div>
-
-                        <div class="swiper-slide">
-                            <a href="#" class="client-card">
-                                <img src="assets/img/brand/brand_1_1.svg" alt="Image">
-                            </a>
-                        </div>
-
-                        <div class="swiper-slide">
-                            <a href="#" class="client-card">
-                                <img src="assets/img/brand/brand_1_2.svg" alt="Image">
-                            </a>
-                        </div>
-
-                        <div class="swiper-slide">
-                            <a href="#" class="client-card">
-                                <img src="assets/img/brand/brand_1_3.svg" alt="Image">
-                            </a>
-                        </div>
-
-                        <div class="swiper-slide">
-                            <a href="#" class="client-card">
-                                <img src="assets/img/brand/brand_1_4.svg" alt="Image">
-                            </a>
-                        </div>
-
-                        <div class="swiper-slide">
-                            <a href="#" class="client-card">
-                                <img src="assets/img/brand/brand_1_5.svg" alt="Image">
-                            </a>
-                        </div>
-
-                        <div class="swiper-slide">
-                            <a href="#" class="client-card">
-                                <img src="assets/img/brand/brand_1_6.svg" alt="Image">
-                            </a>
-                        </div>
-
-
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div><!--==============================
+    <!--==============================
 Appointment Area   
 ==============================-->
-    <div class="space-bottom bg-title-dark overflow-hidden">
-        <div class="sec-bg-shape2-1 spin shape-mockup d-xl-block d-none text-white" data-bottom="9%" data-left="34%">
-            <img src="assets/img/shape/section_shape_2_1.jpg" alt="img">
-        </div>
-        <div class="sec-bg-shape2-2 wave-anim shape-mockup d-xl-block d-none text-white" data-top="19%" data-left="12%" data-bg-src="assets/img/shape/section_shape_2_2.jpg">
-        </div>
-        <div class="container">
-            <div class="row gx-60 align-items-center">
-                <div class="col-lg-5">
-                    <div class="appointment-thumb text-xl-end mb-lg-0 mb-50">
-                        <img src="assets/img/normal/booking_1_1.png" alt="img">
-                    </div>
-                </div>
-                <div class="col-lg-7">
-                    <div class="title-area mb-35">
-                        <h2 class="sec-title text-white">Book Business Solutions</h2>
-                    </div>
-                    <form action="mail.php" method="POST" class="appointment-form ajax-contact me-xl-5">
-                        <div class="row">
-                            <div class="form-group style-border3 col-md-6">
-                                <input type="text" class="form-control" name="name" id="name" placeholder="Your Name*">
-                                <i class="fal fa-user"></i>
-                            </div>
-                            <div class="form-group style-border3 col-md-6">
-                                <input type="email" class="form-control" name="email" id="email" placeholder="Your Email*">
-                                <i class="fal fa-envelope"></i>
-                            </div>
-                            <div class="form-group style-border3 col-md-12">
-                                <select name="subject" id="subject" class="form-select">
-                                    <option value="" disabled selected hidden>Select Service Type</option>
-                                    <option value="Real Estate">Real Estate</option>
-                                    <option value="Apartment">Apartment</option>
-                                    <option value="Residencial">Residencial</option>
-                                    <option value="Deluxe">Deluxe</option>
-                                </select>
-                                <i class="fal fa-angle-down"></i>
-                            </div>
-                            <div class="col-12 form-group style-border3">
-                                <i class="far fa-comments"></i>
-                                <textarea placeholder="Type Your Message" class="form-control"></textarea>
-                            </div>
-                            <div class="col-12 form-btn mt-4">
-                                <button class="th-btn style-border">Submit Message <span class="btn-icon"><img src="assets/img/icon/paper-plane.svg" alt="img"></span></button>
-                            </div>
-                        </div>
-                        <p class="form-messages mb-0 mt-3"></p>
-                    </form>
-                </div>
-
-            </div>
-
-        </div>
-    </div><!--==============================
+   <!--==============================
 Contact Area   
 ==============================-->
     <div class="space bg-gray position-relative overflow-hidden">
@@ -1110,7 +977,7 @@ Contact Area
         </div>
         <div class="container">
             <div class="row gx-35">
-                <div class="col-lg-5">
+                <div class="col-lg-12">
                     <div class="title-area">
                         <h2 class="sec-title">Get In Touch</h2>
                         <p>Quest help you easily create a real estate trading website. With the function Register, Login, Post real estate news.</p>
@@ -1148,22 +1015,6 @@ Contact Area
                 </div>
             </div>
         </div>
-        <div class="location-map contact-sec-map">
-            <div class="contact-map">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3644.7310056272386!2d89.2286059153658!3d24.00527418490799!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39fe9b97badc6151%3A0x30b048c9fb2129bc!2sAngfuztheme!5e0!3m2!1sen!2sbd!4v1651028958211!5m2!1sen!2sbd" allowfullscreen="" loading="lazy"></iframe>
-            </div>
-            <div class="location-map-address">
-                <div class="thumb">
-                    <img src="assets/img/property/property_inner_1.jpg" alt="img">
-                </div>
-                <div class="media-body">
-                    <h4 class="title">Address:</h4>
-                    <p class="text">Brooklyn, New York 11233, United States</p>
-                    <h4 class="title">Post Code:</h4>
-                    <p class="text">12345</p>
-                </div>
-            </div>
-        </div>
     </div>
     <!--==============================
 Blog Area  
@@ -1173,62 +1024,7 @@ Blog Area
     <!--==============================
     Popup Modal v1
 ============================== -->
-    <div class="th-modal modal fade" id="portfolioModal" tabindex="-1" aria-hidden="true">
-        <div class="modal-dialog modal-xl">
-            <div class="modal-content">
-                <div class="container">
-                    <button type="button" class="icon-btn btn-close bg-title-dark" data-bs-dismiss="modal" aria-label="Close"><i class="fa-regular fa-xmark"></i></button>
-                    <div class="page-single bg-title-dark">
-                        <div class="page-img mb-30">
-                            <img class="w-100 rounded-20" src="assets/img/project/project_pop1_1.png" alt="portfolio Image">
-                        </div>
-                        <div class="page-content">
-                            <h2 class="h3 page-title text-white fw-medium">Where Visibility Meets Success</h2>
-                            <div class="row gy-30">
-                                <div class="col-xl-7">
-                                    <p class="mb-20 text-light">The timeline varies depending on the complexity of the project. Simple projects may take a few weeks, while more complex ones could extend to several months. Timelines are influenced by factors like scope, feedback iterations, and client responsiveness.</p>
-
-                                    <p class="mb-xl-4 mb-0 text-light">Project timelines vary based on complexity and scope. Small projects may take a few weeks, while larger ones could span several months. Timelines are established during project kickoff. We use a range of industry-standard tools such as Sketch.</p>
-                                </div>
-                                <div class="col-xl-5">
-                                    <div class="checklist">
-                                        <ul>
-                                            <li class="text-light"><strong>Service Category:</strong> Rubix Carabil Tower</li>
-                                            <li class="text-light"><strong>Clients:</strong> David Malan</li>
-                                            <li class="text-light"><strong>Project Date:</strong> 13 June, 2020</li>
-                                            <li class="text-light"><strong>Avenue End Date:</strong> 22 July, 2023</li>
-                                            <li class="text-light"><strong>Locations:</strong> NewYork - 2546 Firs, USA</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="row gy-30 gx-40 align-items-center">
-                                <div class="col-xl-6">
-                                    <div class="page-img mb-0">
-                                        <img class="w-100 rounded-20" src="assets/img/project/project_pop2_1.png" alt="portfolio Image">
-                                    </div>
-                                </div>
-                                <div class="col-xl-6">
-                                    <h4 class="box-title text-white fw-medium">Services Benefits:</h4>
-                                    <p class="text-light">We can do both. We can adhere to existing brand guidelines, ensuring consistency, or help develop new ones if a client is looking for a fresh identity. Our goal is to align the UI/UX design with the brand's overall strategy product meets the needs.</p>
-                                    <div class="checklist style3">
-                                        <ul>
-                                            <li class="text-light"><i class="far fa-check-circle"></i>We use the latest diagnostic equipment</li>
-                                            <li class="text-light"><i class="far fa-check-circle"></i>Automotive service our clients receive</li>
-                                            <li class="text-light"><i class="far fa-check-circle"></i>We are a member of Professional Service</li>
-                                            <li class="text-light"><i class="far fa-check-circle"></i>Digital how will activities impact traditional</li>
-                                            <li class="text-light"><i class="far fa-check-circle"></i>Architect and technical engineer</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div><!--==============================
+   <!--==============================
 	Footer Area
 ==============================-->
 <?php include "include/footer.php"; ?>

@@ -630,7 +630,7 @@ Property Area
                     <div class="property-card-details">
                         <span class="property-card-subtitle">Apartment</span>
                         <h4 class="property-card-title"><a href="property-details.php">Villa Berkel-Enschot</a></h4>
-                        <p class="property-card-text">Rapidiously myocardinate cross-platform intellectual capital model. Appropriately create interactive infrastructures</p>
+                        <p class="property-card-text">India's leading knowledge company, empowering students in Tier-1, 2, and 3 towns. Enhancing life skills and general awareness through engaging quizzes.</p>
                         <div class="property-card-price-meta">
                             <h5 class="property-card-price">$45,000.00</h5>
                             <div class="property-ratting-wrap">
@@ -667,7 +667,7 @@ Property Area
                     <div class="property-card-details">
                         <span class="property-card-subtitle">Apartment</span>
                         <h4 class="property-card-title"><a href="property-details.php">Toronto Townhouse</a></h4>
-                        <p class="property-card-text">Rapidiously myocardinate cross-platform intellectual capital model. Appropriately create interactive infrastructures</p>
+                        <p class="property-card-text">India's leading knowledge company, empowering students in Tier-1, 2, and 3 towns. Enhancing life skills and general awareness through engaging quizzes.</p>
                         <div class="property-card-price-meta">
                             <h5 class="property-card-price">$45,000.00</h5>
                             <div class="property-ratting-wrap">
@@ -704,7 +704,7 @@ Property Area
                     <div class="property-card-details">
                         <span class="property-card-subtitle">Apartment</span>
                         <h4 class="property-card-title"><a href="property-details.php">Virgin Vineyard House</a></h4>
-                        <p class="property-card-text">Rapidiously myocardinate cross-platform intellectual capital model. Appropriately create interactive infrastructures</p>
+                        <p class="property-card-text">India's leading knowledge company, empowering students in Tier-1, 2, and 3 towns. Enhancing life skills and general awareness through engaging quizzes.</p>
                         <div class="property-card-price-meta">
                             <h5 class="property-card-price">$45,000.00</h5>
                             <div class="property-ratting-wrap">
@@ -741,7 +741,7 @@ Property Area
                     <div class="property-card-details">
                         <span class="property-card-subtitle">Apartment</span>
                         <h4 class="property-card-title"><a href="property-details.php">Apartments Auckland</a></h4>
-                        <p class="property-card-text">Rapidiously myocardinate cross-platform intellectual capital model. Appropriately create interactive infrastructures</p>
+                        <p class="property-card-text">India's leading knowledge company, empowering students in Tier-1, 2, and 3 towns. Enhancing life skills and general awareness through engaging quizzes.</p>
                         <div class="property-card-price-meta">
                             <h5 class="property-card-price">$45,000.00</h5>
                             <div class="property-ratting-wrap">
@@ -1213,7 +1213,7 @@ Cta Area
                         <div class="title-area">
                             <span class="shadow-title">CONSULTING</span>
                             <h2 class="sec-title text-white">Buying & Selling We Make It Simple</h2>
-                            <p class="sec-text text-white">Rapidiously myocardinate cross-platform intellectual capital model. Appropriately create interactive infrastructures</p>
+                            <p class="sec-text text-white">India's leading knowledge company, empowering students in Tier-1, 2, and 3 towns. Enhancing life skills and general awareness through engaging quizzes.</p>
                         </div>
                         <div class="btn-wrap">
                             <a href="contact.php" class="th-btn btn-mask th-btn-icon">Get Started</a>
@@ -1334,7 +1334,7 @@ Download Area
                         <div class="title-area mb-30">
                             <span class="shadow-title">Applicaton</span>
                             <h2 class="sec-title text-white">Get A Luxury Home It’s Easy</h2>
-                            <p class="sec-text text-white">Rapidiously myocardinate cross-platform intellectual capital model. Appropriately create interactive infrastructures</p>
+                            <p class="sec-text text-white">India's leading knowledge company, empowering students in Tier-1, 2, and 3 towns. Enhancing life skills and general awareness through engaging quizzes.</p>
                         </div>
                         <div class="btn-wrap justify-content-lg-start justify-content-center">
                             <a href="contact.php" class="th-btn btn-mask th-btn-icon">Download App</a>
@@ -1375,7 +1375,7 @@ Blog Area
                 <div class="blog-content">
                     <span class="subtitle">Housing</span>
                     <h3 class="box-title"><a href="blog-details.php">Imaging Trends Will Shape the Future of Architecture Design</a></h3>
-                    <p class="blog-text">Rapidiously myocardinate cross-platform intellectual capital model. Appropriately create interactive infrastructures</p>
+                    <p class="blog-text">India's leading knowledge company, empowering students in Tier-1, 2, and 3 towns. Enhancing life skills and general awareness through engaging quizzes.</p>
                     <div class="blog-bottom-wrap">
                         <div class="blog-author-wrap">
                             <div class="avatar">
@@ -1399,7 +1399,7 @@ Blog Area
                 <div class="blog-content">
                     <span class="subtitle">Housing</span>
                     <h3 class="box-title"><a href="blog-details.php">We endowed Villa 1 with interestingly spatial experiences.</a></h3>
-                    <p class="blog-text">Rapidiously myocardinate cross-platform intellectual capital model. Appropriately create interactive infrastructures</p>
+                    <p class="blog-text">India's leading knowledge company, empowering students in Tier-1, 2, and 3 towns. Enhancing life skills and general awareness through engaging quizzes.</p>
                     <div class="blog-bottom-wrap">
                         <div class="blog-author-wrap">
                             <div class="avatar">
