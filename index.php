@@ -4,8 +4,8 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Eduace Quest 2025 - Home Two</title>
-    <meta name="author" content="Quest">
+    <title>Eduace Quest 2025 - Season 03</title>
+    <meta name="author" content="Endeavour Digital">
     <meta name="description" content="Eduace Quest 2025">
     <meta name="keywords" content="Eduace Quest 2025, Endeavour Digital">
     <meta name="robots" content="INDEX,FOLLOW">
