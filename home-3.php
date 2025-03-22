@@ -99,47 +99,47 @@
         <div class="th-menu-area text-center">
             <button class="th-menu-toggle"><i class="fal fa-times"></i></button>
             <div class="mobile-logo">
-                <a href="index.html">
+                <a href="index.php">
                     <img src="assets/img/logo-white.svg" alt="Realar">
                 </a>
             </div>
             <div class="th-mobile-menu">
                 <ul>
                     <li class="menu-item-has-children">
-                        <a href="index.html">
+                        <a href="index.php">
                             Home
                         </a>
                         <ul class="sub-menu">
-                            <li><a href="index.html">Home Luxury Apartment</a></li>
-                            <li><a href="home-2.html">Home Real Estate Agency</a></li>
-                            <li><a href="home-3.html">Home Commercial Real Estate</a></li>
+                            <li><a href="index.php">Home Luxury Apartment</a></li>
+                            <li><a href="home-2.php">Home Real Estate Agency</a></li>
+                            <li><a href="home-3.php">Home Commercial Real Estate</a></li>
                         </ul>
                     </li>
-                    <li><a href="about.html">
+                    <li><a href="about.php">
                             About Us
                         </a></li>
                     <li class="menu-item-has-children">
-                        <a href="property.html">
+                        <a href="property.php">
                             Properties
                         </a>
                         <ul class="sub-menu">
-                            <li><a href="property.html">
+                            <li><a href="property.php">
                                     Properties
                                 </a></li>
-                            <li><a href="property-details.html">
+                            <li><a href="property-details.php">
                                     Property Details
                                 </a></li>
                         </ul>
                     </li>
                     <li class="menu-item-has-children">
-                        <a href="agency.html">
+                        <a href="agency.php">
                             Agencies
                         </a>
                         <ul class="sub-menu">
-                            <li><a href="agency.html">
+                            <li><a href="agency.php">
                                     Agencies
                                 </a></li>
-                            <li><a href="agency-details.html">
+                            <li><a href="agency-details.php">
                                     Agencies Details
                                 </a></li>
                         </ul>
@@ -149,55 +149,55 @@
                             Pages
                         </a>
                         <ul class="sub-menu">
-                            <li><a href="team.html">
+                            <li><a href="team.php">
                                     Agent Page
                                 </a></li>
-                            <li><a href="team-details.html">
+                            <li><a href="team-details.php">
                                     Agent Details
                                 </a></li>
-                            <li><a href="pricing.html">
+                            <li><a href="pricing.php">
                                     Pricing Page
                                 </a></li>
-                            <li class="menu-item-has-children"><a href="shop.html">
+                            <li class="menu-item-has-children"><a href="shop.php">
                                     Shop Page
                                 </a>
                                 <ul class="sub-menu">
-                                    <li><a href="shop.html">
+                                    <li><a href="shop.php">
                                             Shop Page
                                         </a></li>
-                                    <li><a href="shop-details.html">
+                                    <li><a href="shop-details.php">
                                             Shop Details
                                         </a></li>
-                                    <li><a href="cart.html">
+                                    <li><a href="cart.php">
                                             Cart Page
                                         </a></li>
-                                    <li><a href="checkout.html">
+                                    <li><a href="checkout.php">
                                             Checkout Page
                                         </a></li>
-                                    <li><a href="wishlist.html">
+                                    <li><a href="wishlist.php">
                                             Wistlist Page
                                         </a></li>
                                 </ul>
                             </li>
-                            <li><a href="error.html">
+                            <li><a href="error.php">
                                     Error Page
                                 </a></li>
                         </ul>
                     </li>
                     <li class="menu-item-has-children">
-                        <a href="blog.html">
+                        <a href="blog.php">
                             Blog
                         </a>
                         <ul class="sub-menu">
-                            <li><a href="blog.html">
+                            <li><a href="blog.php">
                                     Blog Page
                                 </a></li>
-                            <li><a href="blog-details.html">
+                            <li><a href="blog-details.php">
                                     Blog Details
                                 </a></li>
                         </ul>
                     </li>
-                    <li><a href="contact.html">
+                    <li><a href="contact.php">
                             Contact Us
                         </a></li>
                 </ul>
@@ -212,7 +212,7 @@
             <div class="widget  ">
                 <div class="th-widget-about">
                     <div class="about-logo">
-                        <a href="index.html"><img src="assets/img/logo.svg" alt="Realar"></a>
+                        <a href="index.php"><img src="assets/img/logo.svg" alt="Realar"></a>
                     </div>
                     <p class="about-text"> Rapidiously myocardinate cross-platform intellectual capital model. Appropriately create interactive infrastructures</p>
                 </div>
@@ -275,7 +275,7 @@
                     <div class="row align-items-center justify-content-between">
                         <div class="col-auto">
                             <div class="header-logo">
-                                <a href="index.html">
+                                <a href="index.php">
                                     <img src="assets/img/logo-white2.svg" alt="Realar">
                                 </a>
                             </div>
@@ -284,40 +284,40 @@
                             <nav class="main-menu d-none d-lg-inline-block">
                                 <ul>
                                     <li class="menu-item-has-children">
-                                        <a href="index.html">
+                                        <a href="index.php">
                                             Home
                                         </a>
                                         <ul class="sub-menu">
-                                            <li><a href="index.html">Home Luxury Apartment</a></li>
-                                            <li><a href="home-2.html">Home Real Estate Agency</a></li>
-                                            <li><a href="home-3.html">Home Commercial Real Estate</a></li>
+                                            <li><a href="index.php">Home Luxury Apartment</a></li>
+                                            <li><a href="home-2.php">Home Real Estate Agency</a></li>
+                                            <li><a href="home-3.php">Home Commercial Real Estate</a></li>
                                         </ul>
                                     </li>
-                                    <li><a href="about.html">
+                                    <li><a href="about.php">
                                             About Us
                                         </a></li>
                                     <li class="menu-item-has-children">
-                                        <a href="property.html">
+                                        <a href="property.php">
                                             Properties
                                         </a>
                                         <ul class="sub-menu">
-                                            <li><a href="property.html">
+                                            <li><a href="property.php">
                                                     Properties
                                                 </a></li>
-                                            <li><a href="property-details.html">
+                                            <li><a href="property-details.php">
                                                     Property Details
                                                 </a></li>
                                         </ul>
                                     </li>
                                     <li class="menu-item-has-children">
-                                        <a href="agency.html">
+                                        <a href="agency.php">
                                             Agencies
                                         </a>
                                         <ul class="sub-menu">
-                                            <li><a href="agency.html">
+                                            <li><a href="agency.php">
                                                     Agencies
                                                 </a></li>
-                                            <li><a href="agency-details.html">
+                                            <li><a href="agency-details.php">
                                                     Agencies Details
                                                 </a></li>
                                         </ul>
@@ -327,55 +327,55 @@
                                             Pages
                                         </a>
                                         <ul class="sub-menu">
-                                            <li><a href="team.html">
+                                            <li><a href="team.php">
                                                     Agent Page
                                                 </a></li>
-                                            <li><a href="team-details.html">
+                                            <li><a href="team-details.php">
                                                     Agent Details
                                                 </a></li>
-                                            <li><a href="pricing.html">
+                                            <li><a href="pricing.php">
                                                     Pricing Page
                                                 </a></li>
-                                            <li class="menu-item-has-children"><a href="shop.html">
+                                            <li class="menu-item-has-children"><a href="shop.php">
                                                     Shop Page
                                                 </a>
                                                 <ul class="sub-menu">
-                                                    <li><a href="shop.html">
+                                                    <li><a href="shop.php">
                                                             Shop Page
                                                         </a></li>
-                                                    <li><a href="shop-details.html">
+                                                    <li><a href="shop-details.php">
                                                             Shop Details
                                                         </a></li>
-                                                    <li><a href="cart.html">
+                                                    <li><a href="cart.php">
                                                             Cart Page
                                                         </a></li>
-                                                    <li><a href="checkout.html">
+                                                    <li><a href="checkout.php">
                                                             Checkout Page
                                                         </a></li>
-                                                    <li><a href="wishlist.html">
+                                                    <li><a href="wishlist.php">
                                                             Wistlist Page
                                                         </a></li>
                                                 </ul>
                                             </li>
-                                            <li><a href="error.html">
+                                            <li><a href="error.php">
                                                     Error Page
                                                 </a></li>
                                         </ul>
                                     </li>
                                     <li class="menu-item-has-children">
-                                        <a href="blog.html">
+                                        <a href="blog.php">
                                             Blog
                                         </a>
                                         <ul class="sub-menu">
-                                            <li><a href="blog.html">
+                                            <li><a href="blog.php">
                                                     Blog Page
                                                 </a></li>
-                                            <li><a href="blog-details.html">
+                                            <li><a href="blog-details.php">
                                                     Blog Details
                                                 </a></li>
                                         </ul>
                                     </li>
-                                    <li><a href="contact.html">
+                                    <li><a href="contact.php">
                                             Contact Us
                                         </a></li>
                                 </ul>
@@ -390,7 +390,7 @@
                         </div>
                         <div class="col-auto d-none d-xxl-block">
                             <div class="header-button">
-                                <a href="contact.html" class="th-btn style-border th-btn-icon">Request A Visit</a>
+                                <a href="contact.php" class="th-btn style-border th-btn-icon">Request A Visit</a>
                                 <button type="button" class="simple-icon sideMenuInfo sidebar-btn style2">
                                     <span class="line"></span>
                                     <span class="line"></span>
@@ -416,9 +416,9 @@ Hero Area
                 <div class="col-12">
                     <div class="hero-style3 text-center">
                         <div class="btn-wrap justify-content-center">
-                            <a href="property.html" class="th-btn style-border th-btn-icon">Sales</a>
-                            <a href="property.html" class="th-btn style-border th-btn-icon">Rentals</a>
-                            <a href="property.html" class="th-btn style-border th-btn-icon">Commercial</a>
+                            <a href="property.php" class="th-btn style-border th-btn-icon">Sales</a>
+                            <a href="property.php" class="th-btn style-border th-btn-icon">Rentals</a>
+                            <a href="property.php" class="th-btn style-border th-btn-icon">Commercial</a>
                         </div>
                         <h1 class="hero-title text-white">
                             Experience The Harmonious Blend Of Luxury
@@ -499,12 +499,12 @@ Property Area 2
                                         </div>
                                         <div class="property-card-details">
                                             <div class="media-left">
-                                                <h4 class="property-card-title"><a href="property-details.html">Town Houses</a></h4>
+                                                <h4 class="property-card-title"><a href="property-details.php">Town Houses</a></h4>
                                                 <h5 class="property-card-price">$ 1500.00 USD/night</h5>
                                                 <p class="property-card-location">California</p>
                                             </div>
                                             <div class="btn-wrap">
-                                                <a href="property-details.html" class="th-btn style-border2 th-btn-icon">Details</a>
+                                                <a href="property-details.php" class="th-btn style-border2 th-btn-icon">Details</a>
                                             </div>
                                         </div>
                                     </div>
@@ -522,12 +522,12 @@ Property Area 2
                                         </div>
                                         <div class="property-card-details">
                                             <div class="media-left">
-                                                <h4 class="property-card-title"><a href="property-details.html">Family Houses</a></h4>
+                                                <h4 class="property-card-title"><a href="property-details.php">Family Houses</a></h4>
                                                 <h5 class="property-card-price">$ 1500.00 USD/night</h5>
                                                 <p class="property-card-location">California</p>
                                             </div>
                                             <div class="btn-wrap">
-                                                <a href="property-details.html" class="th-btn style-border2 th-btn-icon">Details</a>
+                                                <a href="property-details.php" class="th-btn style-border2 th-btn-icon">Details</a>
                                             </div>
                                         </div>
                                     </div>
@@ -545,12 +545,12 @@ Property Area 2
                                         </div>
                                         <div class="property-card-details">
                                             <div class="media-left">
-                                                <h4 class="property-card-title"><a href="property-details.html">Apartments House</a></h4>
+                                                <h4 class="property-card-title"><a href="property-details.php">Apartments House</a></h4>
                                                 <h5 class="property-card-price">$ 1500.00 USD/night</h5>
                                                 <p class="property-card-location">California</p>
                                             </div>
                                             <div class="btn-wrap">
-                                                <a href="property-details.html" class="th-btn style-border2 th-btn-icon">Details</a>
+                                                <a href="property-details.php" class="th-btn style-border2 th-btn-icon">Details</a>
                                             </div>
                                         </div>
                                     </div>
@@ -568,12 +568,12 @@ Property Area 2
                                         </div>
                                         <div class="property-card-details">
                                             <div class="media-left">
-                                                <h4 class="property-card-title"><a href="property-details.html">Modern House</a></h4>
+                                                <h4 class="property-card-title"><a href="property-details.php">Modern House</a></h4>
                                                 <h5 class="property-card-price">$ 1500.00 USD/night</h5>
                                                 <p class="property-card-location">California</p>
                                             </div>
                                             <div class="btn-wrap">
-                                                <a href="property-details.html" class="th-btn style-border2 th-btn-icon">Details</a>
+                                                <a href="property-details.php" class="th-btn style-border2 th-btn-icon">Details</a>
                                             </div>
                                         </div>
                                     </div>
@@ -591,12 +591,12 @@ Property Area 2
                                         </div>
                                         <div class="property-card-details">
                                             <div class="media-left">
-                                                <h4 class="property-card-title"><a href="property-details.html">Town Houses</a></h4>
+                                                <h4 class="property-card-title"><a href="property-details.php">Town Houses</a></h4>
                                                 <h5 class="property-card-price">$ 1500.00 USD/night</h5>
                                                 <p class="property-card-location">California</p>
                                             </div>
                                             <div class="btn-wrap">
-                                                <a href="property-details.html" class="th-btn style-border2 th-btn-icon">Details</a>
+                                                <a href="property-details.php" class="th-btn style-border2 th-btn-icon">Details</a>
                                             </div>
                                         </div>
                                     </div>
@@ -614,12 +614,12 @@ Property Area 2
                                         </div>
                                         <div class="property-card-details">
                                             <div class="media-left">
-                                                <h4 class="property-card-title"><a href="property-details.html">Family Houses</a></h4>
+                                                <h4 class="property-card-title"><a href="property-details.php">Family Houses</a></h4>
                                                 <h5 class="property-card-price">$ 1500.00 USD/night</h5>
                                                 <p class="property-card-location">California</p>
                                             </div>
                                             <div class="btn-wrap">
-                                                <a href="property-details.html" class="th-btn style-border2 th-btn-icon">Details</a>
+                                                <a href="property-details.php" class="th-btn style-border2 th-btn-icon">Details</a>
                                             </div>
                                         </div>
                                     </div>
@@ -645,12 +645,12 @@ Property Area 2
                                         </div>
                                         <div class="property-card-details">
                                             <div class="media-left">
-                                                <h4 class="property-card-title"><a href="property-details.html">Town Houses</a></h4>
+                                                <h4 class="property-card-title"><a href="property-details.php">Town Houses</a></h4>
                                                 <h5 class="property-card-price">$ 1500.00 USD/night</h5>
                                                 <p class="property-card-location">California</p>
                                             </div>
                                             <div class="btn-wrap">
-                                                <a href="property-details.html" class="th-btn style-border2 th-btn-icon">Details</a>
+                                                <a href="property-details.php" class="th-btn style-border2 th-btn-icon">Details</a>
                                             </div>
                                         </div>
                                     </div>
@@ -668,12 +668,12 @@ Property Area 2
                                         </div>
                                         <div class="property-card-details">
                                             <div class="media-left">
-                                                <h4 class="property-card-title"><a href="property-details.html">Family Houses</a></h4>
+                                                <h4 class="property-card-title"><a href="property-details.php">Family Houses</a></h4>
                                                 <h5 class="property-card-price">$ 1500.00 USD/night</h5>
                                                 <p class="property-card-location">California</p>
                                             </div>
                                             <div class="btn-wrap">
-                                                <a href="property-details.html" class="th-btn style-border2 th-btn-icon">Details</a>
+                                                <a href="property-details.php" class="th-btn style-border2 th-btn-icon">Details</a>
                                             </div>
                                         </div>
                                     </div>
@@ -691,12 +691,12 @@ Property Area 2
                                         </div>
                                         <div class="property-card-details">
                                             <div class="media-left">
-                                                <h4 class="property-card-title"><a href="property-details.html">Apartments House</a></h4>
+                                                <h4 class="property-card-title"><a href="property-details.php">Apartments House</a></h4>
                                                 <h5 class="property-card-price">$ 1500.00 USD/night</h5>
                                                 <p class="property-card-location">California</p>
                                             </div>
                                             <div class="btn-wrap">
-                                                <a href="property-details.html" class="th-btn style-border2 th-btn-icon">Details</a>
+                                                <a href="property-details.php" class="th-btn style-border2 th-btn-icon">Details</a>
                                             </div>
                                         </div>
                                     </div>
@@ -714,12 +714,12 @@ Property Area 2
                                         </div>
                                         <div class="property-card-details">
                                             <div class="media-left">
-                                                <h4 class="property-card-title"><a href="property-details.html">Modern House</a></h4>
+                                                <h4 class="property-card-title"><a href="property-details.php">Modern House</a></h4>
                                                 <h5 class="property-card-price">$ 1500.00 USD/night</h5>
                                                 <p class="property-card-location">California</p>
                                             </div>
                                             <div class="btn-wrap">
-                                                <a href="property-details.html" class="th-btn style-border2 th-btn-icon">Details</a>
+                                                <a href="property-details.php" class="th-btn style-border2 th-btn-icon">Details</a>
                                             </div>
                                         </div>
                                     </div>
@@ -737,12 +737,12 @@ Property Area 2
                                         </div>
                                         <div class="property-card-details">
                                             <div class="media-left">
-                                                <h4 class="property-card-title"><a href="property-details.html">Town Houses</a></h4>
+                                                <h4 class="property-card-title"><a href="property-details.php">Town Houses</a></h4>
                                                 <h5 class="property-card-price">$ 1500.00 USD/night</h5>
                                                 <p class="property-card-location">California</p>
                                             </div>
                                             <div class="btn-wrap">
-                                                <a href="property-details.html" class="th-btn style-border2 th-btn-icon">Details</a>
+                                                <a href="property-details.php" class="th-btn style-border2 th-btn-icon">Details</a>
                                             </div>
                                         </div>
                                     </div>
@@ -760,12 +760,12 @@ Property Area 2
                                         </div>
                                         <div class="property-card-details">
                                             <div class="media-left">
-                                                <h4 class="property-card-title"><a href="property-details.html">Family Houses</a></h4>
+                                                <h4 class="property-card-title"><a href="property-details.php">Family Houses</a></h4>
                                                 <h5 class="property-card-price">$ 1500.00 USD/night</h5>
                                                 <p class="property-card-location">California</p>
                                             </div>
                                             <div class="btn-wrap">
-                                                <a href="property-details.html" class="th-btn style-border2 th-btn-icon">Details</a>
+                                                <a href="property-details.php" class="th-btn style-border2 th-btn-icon">Details</a>
                                             </div>
                                         </div>
                                     </div>
@@ -843,7 +843,7 @@ Service Area
                 </div>
                 <div class="col-auto">
                     <div class="sec-btn">
-                        <a href="service.html" class="th-btn style2 th-btn-icon">Browse All Services</a>
+                        <a href="service.php" class="th-btn style2 th-btn-icon">Browse All Services</a>
                     </div>
                 </div>
             </div>
@@ -854,11 +854,11 @@ Service Area
                             <div class="service-card-icon">
                                 <img src="assets/img/icon/service-icon3-1.svg" alt="Icon">
                             </div>
-                            <h3 class="box-title"><a href="property-details.html">Trusted Developer</a></h3>
+                            <h3 class="box-title"><a href="property-details.php">Trusted Developer</a></h3>
                             <p class="box-text">Generous amounts of south facing glazing maximize the solar gains for most of the year.</p>
                             <div class="service-img img-shine">
                                 <img src="assets/img/service/1-1.png" alt="img">
-                                <a href="property-details.html" class="icon-btn">
+                                <a href="property-details.php" class="icon-btn">
                                     <img src="assets/img/icon/arrow-right.svg" alt="img">
                                 </a>
                             </div>
@@ -869,11 +869,11 @@ Service Area
                             <div class="service-card-icon">
                                 <img src="assets/img/icon/service-icon3-2.svg" alt="Icon">
                             </div>
-                            <h3 class="box-title"><a href="property-details.html">Safe & Trustworthy</a></h3>
+                            <h3 class="box-title"><a href="property-details.php">Safe & Trustworthy</a></h3>
                             <p class="box-text">All living, dining, kitchen and play areas were devised by attached to the home.</p>
                             <div class="service-img img-shine">
                                 <img src="assets/img/service/3-1.png" alt="img">
-                                <a href="property-details.html" class="icon-btn">
+                                <a href="property-details.php" class="icon-btn">
                                     <img src="assets/img/icon/arrow-right.svg" alt="img">
                                 </a>
                             </div>
@@ -884,11 +884,11 @@ Service Area
                             <div class="service-card-icon">
                                 <img src="assets/img/icon/service-icon4-1.svg" alt="Icon">
                             </div>
-                            <h3 class="box-title"><a href="property-details.html">Zero Commissions</a></h3>
+                            <h3 class="box-title"><a href="property-details.php">Zero Commissions</a></h3>
                             <p class="box-text">The studio used the existing foundations to reduce client costs and worked.</p>
                             <div class="service-img img-shine">
                                 <img src="assets/img/service/3-2.png" alt="img">
-                                <a href="property-details.html" class="icon-btn">
+                                <a href="property-details.php" class="icon-btn">
                                     <img src="assets/img/icon/arrow-right.svg" alt="img">
                                 </a>
                             </div>
@@ -899,11 +899,11 @@ Service Area
                             <div class="service-card-icon">
                                 <img src="assets/img/icon/service-icon3-3.svg" alt="Icon">
                             </div>
-                            <h3 class="box-title"><a href="property-details.html">Dedicated Support</a></h3>
+                            <h3 class="box-title"><a href="property-details.php">Dedicated Support</a></h3>
                             <p class="box-text">All-inclusive real estate services to facilitate the easy management of your properties.</p>
                             <div class="service-img img-shine">
                                 <img src="assets/img/service/3-3.png" alt="img">
-                                <a href="property-details.html" class="icon-btn">
+                                <a href="property-details.php" class="icon-btn">
                                     <img src="assets/img/icon/arrow-right.svg" alt="img">
                                 </a>
                             </div>
@@ -914,11 +914,11 @@ Service Area
                             <div class="service-card-icon">
                                 <img src="assets/img/icon/service-icon3-1.svg" alt="Icon">
                             </div>
-                            <h3 class="box-title"><a href="property-details.html">Trusted Developer</a></h3>
+                            <h3 class="box-title"><a href="property-details.php">Trusted Developer</a></h3>
                             <p class="box-text">Generous amounts of south facing glazing maximize the solar gains for most of the year.</p>
                             <div class="service-img img-shine">
                                 <img src="assets/img/service/1-1.png" alt="img">
-                                <a href="property-details.html" class="icon-btn">
+                                <a href="property-details.php" class="icon-btn">
                                     <img src="assets/img/icon/arrow-right.svg" alt="img">
                                 </a>
                             </div>
@@ -929,11 +929,11 @@ Service Area
                             <div class="service-card-icon">
                                 <img src="assets/img/icon/service-icon3-2.svg" alt="Icon">
                             </div>
-                            <h3 class="box-title"><a href="property-details.html">Safe & Trustworthy</a></h3>
+                            <h3 class="box-title"><a href="property-details.php">Safe & Trustworthy</a></h3>
                             <p class="box-text">All living, dining, kitchen and play areas were devised by attached to the home.</p>
                             <div class="service-img img-shine">
                                 <img src="assets/img/service/3-1.png" alt="img">
-                                <a href="property-details.html" class="icon-btn">
+                                <a href="property-details.php" class="icon-btn">
                                     <img src="assets/img/icon/arrow-right.svg" alt="img">
                                 </a>
                             </div>
@@ -944,11 +944,11 @@ Service Area
                             <div class="service-card-icon">
                                 <img src="assets/img/icon/service-icon4-1.svg" alt="Icon">
                             </div>
-                            <h3 class="box-title"><a href="property-details.html">Zero Commissions</a></h3>
+                            <h3 class="box-title"><a href="property-details.php">Zero Commissions</a></h3>
                             <p class="box-text">The studio used the existing foundations to reduce client costs and worked.</p>
                             <div class="service-img img-shine">
                                 <img src="assets/img/service/3-2.png" alt="img">
-                                <a href="property-details.html" class="icon-btn">
+                                <a href="property-details.php" class="icon-btn">
                                     <img src="assets/img/icon/arrow-right.svg" alt="img">
                                 </a>
                             </div>
@@ -959,11 +959,11 @@ Service Area
                             <div class="service-card-icon">
                                 <img src="assets/img/icon/service-icon3-3.svg" alt="Icon">
                             </div>
-                            <h3 class="box-title"><a href="property-details.html">Dedicated Support</a></h3>
+                            <h3 class="box-title"><a href="property-details.php">Dedicated Support</a></h3>
                             <p class="box-text">All-inclusive real estate services to facilitate the easy management of your properties.</p>
                             <div class="service-img img-shine">
                                 <img src="assets/img/service/3-3.png" alt="img">
-                                <a href="property-details.html" class="icon-btn">
+                                <a href="property-details.php" class="icon-btn">
                                     <img src="assets/img/icon/arrow-right.svg" alt="img">
                                 </a>
                             </div>
@@ -998,8 +998,8 @@ About Area
                         <h2 class="sec-title text-white">Our Behind Story</h2>
                         <p class="text-light">While surrounded by the splendor of nature, a concept of balancing luxury and sustainability. Realar Residence therefore became a symbol of this admirable endeavor.</p>
                         <div class="btn-wrap justify-content-center">
-                            <a href="about.html" class="th-btn mb-0 style-white2 th-btn-icon">More About Realar</a>
-                            <a href="about.html" class="th-btn mb-0 style-border3 th-btn-icon">More About Realar</a>
+                            <a href="about.php" class="th-btn mb-0 style-white2 th-btn-icon">More About Realar</a>
+                            <a href="about.php" class="th-btn mb-0 style-border3 th-btn-icon">More About Realar</a>
                         </div>
                     </div>
                 </div>
@@ -1056,7 +1056,7 @@ Portfolio Area
                 </div>
                 <div class="col-auto">
                     <div class="sec-btn">
-                        <a href="project.html" class="th-btn style2 th-btn-icon">Browse All Project</a>
+                        <a href="project.php" class="th-btn style2 th-btn-icon">Browse All Project</a>
                     </div>
                 </div>
             </div>
@@ -1067,7 +1067,7 @@ Portfolio Area
                             <div class="portfolio-card style3">
                                 <div class="portfolio-img">
                                     <img src="assets/img/project/project_3_1.png" alt="project image">
-                                    <a href="property-details.html" class="icon-btn">
+                                    <a href="property-details.php" class="icon-btn">
                                         <div class="icon">
                                             <img src="assets/img/icon/arrow-right.svg" alt="img">
                                         </div>
@@ -1075,7 +1075,7 @@ Portfolio Area
                                     </a>
                                 </div>
                                 <div class="portfolio-content">
-                                    <h3 class="portfolio-title"><a href="property-details.html">01. Luxury Apartment</a></h3>
+                                    <h3 class="portfolio-title"><a href="property-details.php">01. Luxury Apartment</a></h3>
                                     <p class="portfolio-text">Architects and engineers collaborate to create detail design plans that translate concepts into realar team feasible structures. </p>
                                 </div>
                             </div>
@@ -1085,7 +1085,7 @@ Portfolio Area
                             <div class="portfolio-card style3">
                                 <div class="portfolio-img">
                                     <img src="assets/img/project/project_3_2.png" alt="project image">
-                                    <a href="property-details.html" class="icon-btn">
+                                    <a href="property-details.php" class="icon-btn">
                                         <div class="icon">
                                             <img src="assets/img/icon/arrow-right.svg" alt="img">
                                         </div>
@@ -1093,7 +1093,7 @@ Portfolio Area
                                     </a>
                                 </div>
                                 <div class="portfolio-content">
-                                    <h3 class="portfolio-title"><a href="property-details.html">02. Family House</a></h3>
+                                    <h3 class="portfolio-title"><a href="property-details.php">02. Family House</a></h3>
                                     <p class="portfolio-text">Many modern construction companies focus on sale sustainable building practices, realar incorporating eco-friendly material energy-efficient.</p>
                                 </div>
                             </div>
@@ -1103,7 +1103,7 @@ Portfolio Area
                             <div class="portfolio-card style3">
                                 <div class="portfolio-img">
                                     <img src="assets/img/project/project_3_3.png" alt="project image">
-                                    <a href="property-details.html" class="icon-btn">
+                                    <a href="property-details.php" class="icon-btn">
                                         <div class="icon">
                                             <img src="assets/img/icon/arrow-right.svg" alt="img">
                                         </div>
@@ -1111,7 +1111,7 @@ Portfolio Area
                                     </a>
                                 </div>
                                 <div class="portfolio-content">
-                                    <h3 class="portfolio-title"><a href="property-details.html">03. Luxury Bedroom</a></h3>
+                                    <h3 class="portfolio-title"><a href="property-details.php">03. Luxury Bedroom</a></h3>
                                     <p class="portfolio-text">Architects and engineers collaborate to create detail design plans that translate concepts into realar team feasible structures. </p>
                                 </div>
                             </div>
@@ -1121,7 +1121,7 @@ Portfolio Area
                             <div class="portfolio-card style3">
                                 <div class="portfolio-img">
                                     <img src="assets/img/project/project_3_4.png" alt="project image">
-                                    <a href="property-details.html" class="icon-btn">
+                                    <a href="property-details.php" class="icon-btn">
                                         <div class="icon">
                                             <img src="assets/img/icon/arrow-right.svg" alt="img">
                                         </div>
@@ -1129,7 +1129,7 @@ Portfolio Area
                                     </a>
                                 </div>
                                 <div class="portfolio-content">
-                                    <h3 class="portfolio-title"><a href="property-details.html">04. Eco House</a></h3>
+                                    <h3 class="portfolio-title"><a href="property-details.php">04. Eco House</a></h3>
                                     <p class="portfolio-text">Many modern construction companies focus on sale sustainable building practices, realar incorporating eco-friendly material energy-efficient.</p>
                                 </div>
                             </div>
@@ -1139,7 +1139,7 @@ Portfolio Area
                             <div class="portfolio-card style3">
                                 <div class="portfolio-img">
                                     <img src="assets/img/project/project_3_1.png" alt="project image">
-                                    <a href="property-details.html" class="icon-btn">
+                                    <a href="property-details.php" class="icon-btn">
                                         <div class="icon">
                                             <img src="assets/img/icon/arrow-right.svg" alt="img">
                                         </div>
@@ -1147,7 +1147,7 @@ Portfolio Area
                                     </a>
                                 </div>
                                 <div class="portfolio-content">
-                                    <h3 class="portfolio-title"><a href="property-details.html">01. Luxury Apartment</a></h3>
+                                    <h3 class="portfolio-title"><a href="property-details.php">01. Luxury Apartment</a></h3>
                                     <p class="portfolio-text">Architects and engineers collaborate to create detail design plans that translate concepts into realar team feasible structures. </p>
                                 </div>
                             </div>
@@ -1157,7 +1157,7 @@ Portfolio Area
                             <div class="portfolio-card style3">
                                 <div class="portfolio-img">
                                     <img src="assets/img/project/project_3_2.png" alt="project image">
-                                    <a href="property-details.html" class="icon-btn">
+                                    <a href="property-details.php" class="icon-btn">
                                         <div class="icon">
                                             <img src="assets/img/icon/arrow-right.svg" alt="img">
                                         </div>
@@ -1165,7 +1165,7 @@ Portfolio Area
                                     </a>
                                 </div>
                                 <div class="portfolio-content">
-                                    <h3 class="portfolio-title"><a href="property-details.html">02. Family House</a></h3>
+                                    <h3 class="portfolio-title"><a href="property-details.php">02. Family House</a></h3>
                                     <p class="portfolio-text">Many modern construction companies focus on sale sustainable building practices, realar incorporating eco-friendly material energy-efficient.</p>
                                 </div>
                             </div>
@@ -1175,7 +1175,7 @@ Portfolio Area
                             <div class="portfolio-card style3">
                                 <div class="portfolio-img">
                                     <img src="assets/img/project/project_3_3.png" alt="project image">
-                                    <a href="property-details.html" class="icon-btn">
+                                    <a href="property-details.php" class="icon-btn">
                                         <div class="icon">
                                             <img src="assets/img/icon/arrow-right.svg" alt="img">
                                         </div>
@@ -1183,7 +1183,7 @@ Portfolio Area
                                     </a>
                                 </div>
                                 <div class="portfolio-content">
-                                    <h3 class="portfolio-title"><a href="property-details.html">03. Luxury Bedroom</a></h3>
+                                    <h3 class="portfolio-title"><a href="property-details.php">03. Luxury Bedroom</a></h3>
                                     <p class="portfolio-text">Architects and engineers collaborate to create detail design plans that translate concepts into realar team feasible structures. </p>
                                 </div>
                             </div>
@@ -1193,7 +1193,7 @@ Portfolio Area
                             <div class="portfolio-card style3">
                                 <div class="portfolio-img">
                                     <img src="assets/img/project/project_3_4.png" alt="project image">
-                                    <a href="property-details.html" class="icon-btn">
+                                    <a href="property-details.php" class="icon-btn">
                                         <div class="icon">
                                             <img src="assets/img/icon/arrow-right.svg" alt="img">
                                         </div>
@@ -1201,7 +1201,7 @@ Portfolio Area
                                     </a>
                                 </div>
                                 <div class="portfolio-content">
-                                    <h3 class="portfolio-title"><a href="property-details.html">04. Eco House</a></h3>
+                                    <h3 class="portfolio-title"><a href="property-details.php">04. Eco House</a></h3>
                                     <p class="portfolio-text">Many modern construction companies focus on sale sustainable building practices, realar incorporating eco-friendly material energy-efficient.</p>
                                 </div>
                             </div>
@@ -1606,7 +1606,7 @@ Team Area
                 </div>
                 <div class="col-auto">
                     <div class="sec-btn">
-                        <a href="team.html" class="th-btn style-border th-btn-icon">View All Team</a>
+                        <a href="team.php" class="th-btn style-border th-btn-icon">View All Team</a>
                     </div>
                 </div>
             </div>
@@ -1628,12 +1628,12 @@ Team Area
                                             <a target="_blank" href="https://youtube.com/"><i class="fab fa-youtube"></i></a>
                                             <a target="_blank" href="https://instagram.com/"><i class="fab fa-instagram"></i></a>
                                         </div>
-                                        <a class="icon-btn" href="team-details.html"><img src="assets/img/icon/arrow-right.svg" alt="img"></a>
+                                        <a class="icon-btn" href="team-details.php"><img src="assets/img/icon/arrow-right.svg" alt="img"></a>
                                     </div>
                                 </div>
                                 <div class="team-card-content">
                                     <div class="media-left">
-                                        <h3 class="box-title"><a href="team-details.html">Janny Wilson</a></h3>
+                                        <h3 class="box-title"><a href="team-details.php">Janny Wilson</a></h3>
                                         <span class="team-desig">Property Expert</span>
                                     </div>
                                     <a class="icon-btn" href="tel:09876543210"><img src="assets/img/icon/phone.svg" alt="img"></a>
@@ -1656,12 +1656,12 @@ Team Area
                                             <a target="_blank" href="https://youtube.com/"><i class="fab fa-youtube"></i></a>
                                             <a target="_blank" href="https://instagram.com/"><i class="fab fa-instagram"></i></a>
                                         </div>
-                                        <a class="icon-btn" href="team-details.html"><img src="assets/img/icon/arrow-right.svg" alt="img"></a>
+                                        <a class="icon-btn" href="team-details.php"><img src="assets/img/icon/arrow-right.svg" alt="img"></a>
                                     </div>
                                 </div>
                                 <div class="team-card-content">
                                     <div class="media-left">
-                                        <h3 class="box-title"><a href="team-details.html">Andrew Richard</a></h3>
+                                        <h3 class="box-title"><a href="team-details.php">Andrew Richard</a></h3>
                                         <span class="team-desig">Property Expert</span>
                                     </div>
                                     <a class="icon-btn" href="tel:09876543210"><img src="assets/img/icon/phone.svg" alt="img"></a>
@@ -1684,12 +1684,12 @@ Team Area
                                             <a target="_blank" href="https://youtube.com/"><i class="fab fa-youtube"></i></a>
                                             <a target="_blank" href="https://instagram.com/"><i class="fab fa-instagram"></i></a>
                                         </div>
-                                        <a class="icon-btn" href="team-details.html"><img src="assets/img/icon/arrow-right.svg" alt="img"></a>
+                                        <a class="icon-btn" href="team-details.php"><img src="assets/img/icon/arrow-right.svg" alt="img"></a>
                                     </div>
                                 </div>
                                 <div class="team-card-content">
                                     <div class="media-left">
-                                        <h3 class="box-title"><a href="team-details.html">Zarin Wilson</a></h3>
+                                        <h3 class="box-title"><a href="team-details.php">Zarin Wilson</a></h3>
                                         <span class="team-desig">Property Expert</span>
                                     </div>
                                     <a class="icon-btn" href="tel:09876543210"><img src="assets/img/icon/phone.svg" alt="img"></a>
@@ -1712,12 +1712,12 @@ Team Area
                                             <a target="_blank" href="https://youtube.com/"><i class="fab fa-youtube"></i></a>
                                             <a target="_blank" href="https://instagram.com/"><i class="fab fa-instagram"></i></a>
                                         </div>
-                                        <a class="icon-btn" href="team-details.html"><img src="assets/img/icon/arrow-right.svg" alt="img"></a>
+                                        <a class="icon-btn" href="team-details.php"><img src="assets/img/icon/arrow-right.svg" alt="img"></a>
                                     </div>
                                 </div>
                                 <div class="team-card-content">
                                     <div class="media-left">
-                                        <h3 class="box-title"><a href="team-details.html">Michel Smith</a></h3>
+                                        <h3 class="box-title"><a href="team-details.php">Michel Smith</a></h3>
                                         <span class="team-desig">Property Expert</span>
                                     </div>
                                     <a class="icon-btn" href="tel:09876543210"><img src="assets/img/icon/phone.svg" alt="img"></a>
@@ -1740,12 +1740,12 @@ Team Area
                                             <a target="_blank" href="https://youtube.com/"><i class="fab fa-youtube"></i></a>
                                             <a target="_blank" href="https://instagram.com/"><i class="fab fa-instagram"></i></a>
                                         </div>
-                                        <a class="icon-btn" href="team-details.html"><img src="assets/img/icon/arrow-right.svg" alt="img"></a>
+                                        <a class="icon-btn" href="team-details.php"><img src="assets/img/icon/arrow-right.svg" alt="img"></a>
                                     </div>
                                 </div>
                                 <div class="team-card-content">
                                     <div class="media-left">
-                                        <h3 class="box-title"><a href="team-details.html">Janny Wilson</a></h3>
+                                        <h3 class="box-title"><a href="team-details.php">Janny Wilson</a></h3>
                                         <span class="team-desig">Property Expert</span>
                                     </div>
                                     <a class="icon-btn" href="tel:09876543210"><img src="assets/img/icon/phone.svg" alt="img"></a>
@@ -1768,12 +1768,12 @@ Team Area
                                             <a target="_blank" href="https://youtube.com/"><i class="fab fa-youtube"></i></a>
                                             <a target="_blank" href="https://instagram.com/"><i class="fab fa-instagram"></i></a>
                                         </div>
-                                        <a class="icon-btn" href="team-details.html"><img src="assets/img/icon/arrow-right.svg" alt="img"></a>
+                                        <a class="icon-btn" href="team-details.php"><img src="assets/img/icon/arrow-right.svg" alt="img"></a>
                                     </div>
                                 </div>
                                 <div class="team-card-content">
                                     <div class="media-left">
-                                        <h3 class="box-title"><a href="team-details.html">Andrew Richard</a></h3>
+                                        <h3 class="box-title"><a href="team-details.php">Andrew Richard</a></h3>
                                         <span class="team-desig">Property Expert</span>
                                     </div>
                                     <a class="icon-btn" href="tel:09876543210"><img src="assets/img/icon/phone.svg" alt="img"></a>
@@ -1796,12 +1796,12 @@ Team Area
                                             <a target="_blank" href="https://youtube.com/"><i class="fab fa-youtube"></i></a>
                                             <a target="_blank" href="https://instagram.com/"><i class="fab fa-instagram"></i></a>
                                         </div>
-                                        <a class="icon-btn" href="team-details.html"><img src="assets/img/icon/arrow-right.svg" alt="img"></a>
+                                        <a class="icon-btn" href="team-details.php"><img src="assets/img/icon/arrow-right.svg" alt="img"></a>
                                     </div>
                                 </div>
                                 <div class="team-card-content">
                                     <div class="media-left">
-                                        <h3 class="box-title"><a href="team-details.html">Zarin Wilson</a></h3>
+                                        <h3 class="box-title"><a href="team-details.php">Zarin Wilson</a></h3>
                                         <span class="team-desig">Property Expert</span>
                                     </div>
                                     <a class="icon-btn" href="tel:09876543210"><img src="assets/img/icon/phone.svg" alt="img"></a>
@@ -1824,12 +1824,12 @@ Team Area
                                             <a target="_blank" href="https://youtube.com/"><i class="fab fa-youtube"></i></a>
                                             <a target="_blank" href="https://instagram.com/"><i class="fab fa-instagram"></i></a>
                                         </div>
-                                        <a class="icon-btn" href="team-details.html"><img src="assets/img/icon/arrow-right.svg" alt="img"></a>
+                                        <a class="icon-btn" href="team-details.php"><img src="assets/img/icon/arrow-right.svg" alt="img"></a>
                                     </div>
                                 </div>
                                 <div class="team-card-content">
                                     <div class="media-left">
-                                        <h3 class="box-title"><a href="team-details.html">Michel Smith</a></h3>
+                                        <h3 class="box-title"><a href="team-details.php">Michel Smith</a></h3>
                                         <span class="team-desig">Property Expert</span>
                                     </div>
                                     <a class="icon-btn" href="tel:09876543210"><img src="assets/img/icon/phone.svg" alt="img"></a>
@@ -1862,7 +1862,7 @@ Blog Area
                 </div>
                 <div class="col-auto">
                     <div class="sec-btn">
-                        <a href="blog.html" class="th-btn style2 th-btn-icon">Browse All Blog</a>
+                        <a href="blog.php" class="th-btn style2 th-btn-icon">Browse All Blog</a>
                     </div>
                 </div>
             </div>
@@ -1876,11 +1876,11 @@ Blog Area
                                 </div>
                                 <div class="blog-content">
                                     <div class="blog-meta">
-                                        <a href="blog.html">April 22, 2024</a>
-                                        <a href="blog.html">08 min read</a>
+                                        <a href="blog.php">April 22, 2024</a>
+                                        <a href="blog.php">08 min read</a>
                                     </div>
-                                    <h3 class="box-title"><a href="blog-details.html">Innovative structures rise, blending Construction and project</a></h3>
-                                    <a href="blog-details.html" class="th-btn style-border2 th-btn-icon">Read More</a>
+                                    <h3 class="box-title"><a href="blog-details.php">Innovative structures rise, blending Construction and project</a></h3>
+                                    <a href="blog-details.php" class="th-btn style-border2 th-btn-icon">Read More</a>
                                 </div>
                             </div>
                         </div>
@@ -1892,11 +1892,11 @@ Blog Area
                                 </div>
                                 <div class="blog-content">
                                     <div class="blog-meta">
-                                        <a href="blog.html">June 16, 2024</a>
-                                        <a href="blog.html">10 min read</a>
+                                        <a href="blog.php">June 16, 2024</a>
+                                        <a href="blog.php">10 min read</a>
                                     </div>
-                                    <h3 class="box-title"><a href="blog-details.html">What trends do we expect to start growing in the coming future?</a></h3>
-                                    <a href="blog-details.html" class="th-btn style-border2 th-btn-icon">Read More</a>
+                                    <h3 class="box-title"><a href="blog-details.php">What trends do we expect to start growing in the coming future?</a></h3>
+                                    <a href="blog-details.php" class="th-btn style-border2 th-btn-icon">Read More</a>
                                 </div>
                             </div>
                         </div>
@@ -1908,11 +1908,11 @@ Blog Area
                                 </div>
                                 <div class="blog-content">
                                     <div class="blog-meta">
-                                        <a href="blog.html">April 22, 2024</a>
-                                        <a href="blog.html">08 min read</a>
+                                        <a href="blog.php">April 22, 2024</a>
+                                        <a href="blog.php">08 min read</a>
                                     </div>
-                                    <h3 class="box-title"><a href="blog-details.html">Living sustainability: A day in the life at realar residence</a></h3>
-                                    <a href="blog-details.html" class="th-btn style-border2 th-btn-icon">Read More</a>
+                                    <h3 class="box-title"><a href="blog-details.php">Living sustainability: A day in the life at realar residence</a></h3>
+                                    <a href="blog-details.php" class="th-btn style-border2 th-btn-icon">Read More</a>
                                 </div>
                             </div>
                         </div>
@@ -1924,11 +1924,11 @@ Blog Area
                                 </div>
                                 <div class="blog-content">
                                     <div class="blog-meta">
-                                        <a href="blog.html">June 16, 2024</a>
-                                        <a href="blog.html">10 min read</a>
+                                        <a href="blog.php">June 16, 2024</a>
+                                        <a href="blog.php">10 min read</a>
                                     </div>
-                                    <h3 class="box-title"><a href="blog-details.html">The workplace tells and screams for more top story bloggers.</a></h3>
-                                    <a href="blog-details.html" class="th-btn style-border2 th-btn-icon">Read More</a>
+                                    <h3 class="box-title"><a href="blog-details.php">The workplace tells and screams for more top story bloggers.</a></h3>
+                                    <a href="blog-details.php" class="th-btn style-border2 th-btn-icon">Read More</a>
                                 </div>
                             </div>
                         </div>
@@ -1940,11 +1940,11 @@ Blog Area
                                 </div>
                                 <div class="blog-content">
                                     <div class="blog-meta">
-                                        <a href="blog.html">April 22, 2024</a>
-                                        <a href="blog.html">08 min read</a>
+                                        <a href="blog.php">April 22, 2024</a>
+                                        <a href="blog.php">08 min read</a>
                                     </div>
-                                    <h3 class="box-title"><a href="blog-details.html">Innovative structures rise, blending Construction and project</a></h3>
-                                    <a href="blog-details.html" class="th-btn style-border2 th-btn-icon">Read More</a>
+                                    <h3 class="box-title"><a href="blog-details.php">Innovative structures rise, blending Construction and project</a></h3>
+                                    <a href="blog-details.php" class="th-btn style-border2 th-btn-icon">Read More</a>
                                 </div>
                             </div>
                         </div>
@@ -1956,11 +1956,11 @@ Blog Area
                                 </div>
                                 <div class="blog-content">
                                     <div class="blog-meta">
-                                        <a href="blog.html">June 16, 2024</a>
-                                        <a href="blog.html">10 min read</a>
+                                        <a href="blog.php">June 16, 2024</a>
+                                        <a href="blog.php">10 min read</a>
                                     </div>
-                                    <h3 class="box-title"><a href="blog-details.html">What trends do we expect to start growing in the coming future?</a></h3>
-                                    <a href="blog-details.html" class="th-btn style-border2 th-btn-icon">Read More</a>
+                                    <h3 class="box-title"><a href="blog-details.php">What trends do we expect to start growing in the coming future?</a></h3>
+                                    <a href="blog-details.php" class="th-btn style-border2 th-btn-icon">Read More</a>
                                 </div>
                             </div>
                         </div>
@@ -1972,11 +1972,11 @@ Blog Area
                                 </div>
                                 <div class="blog-content">
                                     <div class="blog-meta">
-                                        <a href="blog.html">April 22, 2024</a>
-                                        <a href="blog.html">08 min read</a>
+                                        <a href="blog.php">April 22, 2024</a>
+                                        <a href="blog.php">08 min read</a>
                                     </div>
-                                    <h3 class="box-title"><a href="blog-details.html">Living sustainability: A day in the life at realar residence</a></h3>
-                                    <a href="blog-details.html" class="th-btn style-border2 th-btn-icon">Read More</a>
+                                    <h3 class="box-title"><a href="blog-details.php">Living sustainability: A day in the life at realar residence</a></h3>
+                                    <a href="blog-details.php" class="th-btn style-border2 th-btn-icon">Read More</a>
                                 </div>
                             </div>
                         </div>
@@ -1988,11 +1988,11 @@ Blog Area
                                 </div>
                                 <div class="blog-content">
                                     <div class="blog-meta">
-                                        <a href="blog.html">June 16, 2024</a>
-                                        <a href="blog.html">10 min read</a>
+                                        <a href="blog.php">June 16, 2024</a>
+                                        <a href="blog.php">10 min read</a>
                                     </div>
-                                    <h3 class="box-title"><a href="blog-details.html">The workplace tells and screams for more top story bloggers.</a></h3>
-                                    <a href="blog-details.html" class="th-btn style-border2 th-btn-icon">Read More</a>
+                                    <h3 class="box-title"><a href="blog-details.php">The workplace tells and screams for more top story bloggers.</a></h3>
+                                    <a href="blog-details.php" class="th-btn style-border2 th-btn-icon">Read More</a>
                                 </div>
                             </div>
                         </div>
@@ -2004,108 +2004,7 @@ Blog Area
     </section><!--==============================
 	Footer Area
 ==============================-->
-    <footer class="footer-wrapper footer-layout3 bg-light">
-        <div class="container th-container2">
-            <div class="widget-area bg-theme">
-                <div class="footer-container">
-                    <div class="row justify-content-between">
-                        <div class="col-md-6 col-xl-auto">
-                            <div class="widget footer-widget">
-                                <div class="th-widget-about">
-                                    <div class="about-logo">
-                                        <a href="index.html"><img src="assets/img/logo-white2.svg" alt="Realar"></a>
-                                    </div>
-                                    <p class="about-text"> Rapidiously myocardinate cross-platform intellectual capital model. Appropriately create interactive infrastructures</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-xl-auto">
-                            <div class="widget footer-widget">
-                                <h3 class="widget_title">Get In Touch</h3>
-                                <div class="th-widget-contact">
-                                    <div class="info-box_text">
-                                        <div class="icon"><img src="assets/img/icon/location-dot.svg" alt="img"></div>
-                                        <div class="details">
-                                            <p>789 Inner Lane, Holy park,</p>
-                                            <p>California, USA</p>
-                                        </div>
-                                    </div>
-                                    <div class="info-box_text">
-                                        <div class="icon">
-                                            <img src="assets/img/icon/phone.svg" alt="img">
-                                        </div>
-                                        <div class="details">
-                                            <p><a href="tel:+0123456789" class="info-box_link">+01 234 567 890</a></p>
-                                            <p><a href="tel:+09876543210" class="info-box_link">+09 876 543 210</a></p>
-                                        </div>
-                                    </div>
-                                    <div class="info-box_text">
-                                        <div class="icon">
-                                            <img src="assets/img/icon/envelope.svg" alt="img">
-                                        </div>
-                                        <div class="details">
-                                            <p><a href="mailto:mailinfo00@realar.com" class="info-box_link">mailinfo00@realar.com</a></p>
-                                            <p><a href="mailto:support24@realar.com" class="info-box_link">support24@realar.com</a></p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-xl-auto">
-                            <div class="widget widget_nav_menu footer-widget">
-                                <h3 class="widget_title">Useful Link</h3>
-                                <div class="menu-all-pages-container">
-                                    <ul class="menu">
-                                        <li><a href="about.html">About us</a></li>
-                                        <li><a href="property.html">Featured Properties</a></li>
-                                        <li><a href="service.html">Our Best Services</a></li>
-                                        <li><a href="contact.html">Request Visit</a></li>
-                                        <li><a href="contact.html">FAQ</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-xl-auto">
-                            <div class="widget widget_nav_menu footer-widget">
-                                <h3 class="widget_title">Explore</h3>
-                                <div class="menu-all-pages-container">
-                                    <ul class="menu">
-                                        <li><a href="property.html">All Properties</a></li>
-                                        <li><a href="team.html">Our Agents</a></li>
-                                        <li><a href="property.html">All Projects</a></li>
-                                        <li><a href="about.html">Our Process</a></li>
-                                        <li><a href="contact.html">Neighborhood</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="copyright-area" data-bg-src="assets/img/bg/footer-bg-3-1.png">
-            <div class="container th-container2">
-                <div class="copyright-wrap bg-light">
-                    <div class="footer-container">
-                        <div class="row gy-3 align-items-center">
-                            <div class="col-lg-6">
-                                <p class="copyright-text">
-                                    Copyright <i class="fal fa-copyright"></i> 2024 <a href="index.html">Realar</a>, All rights reserved.</p>
-                            </div>
-                            <div class="col-lg-6">
-                                <div class="th-social justify-content-lg-end justify-content-center">
-                                    <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
-                                    <a href="https://www.twitter.com/"><i class="fab fa-twitter"></i></a>
-                                    <a href="https://www.instagram.com/"><i class="fab fa-youtube"></i></a>
-                                    <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
+<?php include "include/footer.php"; ?>
 
     <!--********************************
 			Code End  Here 

@@ -109,7 +109,7 @@ Product Lightbox
                         <h2 class="product-title">French Velvet Sofa</h2>
                         <div class="product-rating">
                             <div class="star-rating text-theme" role="img" aria-label="Rated 5.00 out of 5"><span style="width:100%">Rated <strong class="rating">5.00</strong> out of 5 based on <span class="rating">1</span> customer rating</span></div>
-                            <a href="shop-details.html" class="woocommerce-review-link">(<span class="count">4</span> customer reviews)</a>
+                            <a href="shop-details.php" class="woocommerce-review-link">(<span class="count">4</span> customer reviews)</a>
                         </div>
                         <p class="text text-theme">Syndicate customized growth strategies prospective human capital leverage other's optimal e-markets without transparent catalysts for change. Credibly coordinate highly efficient methods of empowerment cross unit solutions.</p>
                         <div class="mt-2 link-inherit">
@@ -125,12 +125,12 @@ Product Lightbox
                                 <button class="quantity-minus qty-btn"><i class="far fa-chevron-down"></i></button>
                             </div>
                             <button class="th-btn">Add to Cart</button>
-                            <a href="wishlist.html" class="icon-btn"><i class="far fa-heart"></i></a>
+                            <a href="wishlist.php" class="icon-btn"><i class="far fa-heart"></i></a>
                         </div>
                         <div class="product_meta">
                             <span class="sku_wrapper">SKU: <span class="sku">Wheel-fits-chevy-camaro</span></span>
-                            <span class="posted_in">Category: <a href="shop.html">Interior</a><a href="shop.html">Vintage</a></span>
-                            <span>Tags: <a href="shop.html">Sofa</a><a href="shop.html">living furniture</a></span>
+                            <span class="posted_in">Category: <a href="shop.php">Interior</a><a href="shop.php">Vintage</a></span>
+                            <span>Tags: <a href="shop.php">Sofa</a><a href="shop.php">living furniture</a></span>
                         </div>
                     </div>
                 </div>
@@ -144,47 +144,47 @@ Product Lightbox
         <div class="th-menu-area text-center">
             <button class="th-menu-toggle"><i class="fal fa-times"></i></button>
             <div class="mobile-logo">
-                <a href="index.html">
+                <a href="index.php">
                     <img src="assets/img/logo-white.svg" alt="Realar">
                 </a>
             </div>
             <div class="th-mobile-menu">
                 <ul>
                     <li class="menu-item-has-children">
-                        <a href="index.html">
+                        <a href="index.php">
                             Home
                         </a>
                         <ul class="sub-menu">
-                            <li><a href="index.html">Home Luxury Apartment</a></li>
-                            <li><a href="home-2.html">Home Real Estate Agency</a></li>
-                            <li><a href="home-3.html">Home Commercial Real Estate</a></li>
+                            <li><a href="index.php">Home Luxury Apartment</a></li>
+                            <li><a href="home-2.php">Home Real Estate Agency</a></li>
+                            <li><a href="home-3.php">Home Commercial Real Estate</a></li>
                         </ul>
                     </li>
-                    <li><a href="about.html">
+                    <li><a href="about.php">
                             About Us
                         </a></li>
                     <li class="menu-item-has-children">
-                        <a href="property.html">
+                        <a href="property.php">
                             Properties
                         </a>
                         <ul class="sub-menu">
-                            <li><a href="property.html">
+                            <li><a href="property.php">
                                     Properties
                                 </a></li>
-                            <li><a href="property-details.html">
+                            <li><a href="property-details.php">
                                     Property Details
                                 </a></li>
                         </ul>
                     </li>
                     <li class="menu-item-has-children">
-                        <a href="agency.html">
+                        <a href="agency.php">
                             Agencies
                         </a>
                         <ul class="sub-menu">
-                            <li><a href="agency.html">
+                            <li><a href="agency.php">
                                     Agencies
                                 </a></li>
-                            <li><a href="agency-details.html">
+                            <li><a href="agency-details.php">
                                     Agencies Details
                                 </a></li>
                         </ul>
@@ -194,55 +194,55 @@ Product Lightbox
                             Pages
                         </a>
                         <ul class="sub-menu">
-                            <li><a href="team.html">
+                            <li><a href="team.php">
                                     Agent Page
                                 </a></li>
-                            <li><a href="team-details.html">
+                            <li><a href="team-details.php">
                                     Agent Details
                                 </a></li>
-                            <li><a href="pricing.html">
+                            <li><a href="pricing.php">
                                     Pricing Page
                                 </a></li>
-                            <li class="menu-item-has-children"><a href="shop.html">
+                            <li class="menu-item-has-children"><a href="shop.php">
                                     Shop Page
                                 </a>
                                 <ul class="sub-menu">
-                                    <li><a href="shop.html">
+                                    <li><a href="shop.php">
                                             Shop Page
                                         </a></li>
-                                    <li><a href="shop-details.html">
+                                    <li><a href="shop-details.php">
                                             Shop Details
                                         </a></li>
-                                    <li><a href="cart.html">
+                                    <li><a href="cart.php">
                                             Cart Page
                                         </a></li>
-                                    <li><a href="checkout.html">
+                                    <li><a href="checkout.php">
                                             Checkout Page
                                         </a></li>
-                                    <li><a href="wishlist.html">
+                                    <li><a href="wishlist.php">
                                             Wistlist Page
                                         </a></li>
                                 </ul>
                             </li>
-                            <li><a href="error.html">
+                            <li><a href="error.php">
                                     Error Page
                                 </a></li>
                         </ul>
                     </li>
                     <li class="menu-item-has-children">
-                        <a href="blog.html">
+                        <a href="blog.php">
                             Blog
                         </a>
                         <ul class="sub-menu">
-                            <li><a href="blog.html">
+                            <li><a href="blog.php">
                                     Blog Page
                                 </a></li>
-                            <li><a href="blog-details.html">
+                            <li><a href="blog-details.php">
                                     Blog Details
                                 </a></li>
                         </ul>
                     </li>
-                    <li><a href="contact.html">
+                    <li><a href="contact.php">
                             Contact Us
                         </a></li>
                 </ul>
@@ -257,7 +257,7 @@ Product Lightbox
             <div class="widget  ">
                 <div class="th-widget-about">
                     <div class="about-logo">
-                        <a href="index.html"><img src="assets/img/logo.svg" alt="Realar"></a>
+                        <a href="index.php"><img src="assets/img/logo.svg" alt="Realar"></a>
                     </div>
                     <p class="about-text"> Rapidiously myocardinate cross-platform intellectual capital model. Appropriately create interactive infrastructures</p>
                 </div>
@@ -320,7 +320,7 @@ Product Lightbox
                     <div class="row align-items-center justify-content-between">
                         <div class="col-auto">
                             <div class="header-logo">
-                                <a href="index.html">
+                                <a href="index.php">
                                     <img src="assets/img/logo-white2.svg" alt="Realar">
                                 </a>
                             </div>
@@ -329,40 +329,40 @@ Product Lightbox
                             <nav class="main-menu d-none d-lg-inline-block">
                                 <ul>
                                     <li class="menu-item-has-children">
-                                        <a href="index.html">
+                                        <a href="index.php">
                                             Home
                                         </a>
                                         <ul class="sub-menu">
-                                            <li><a href="index.html">Home Luxury Apartment</a></li>
-                                            <li><a href="home-2.html">Home Real Estate Agency</a></li>
-                                            <li><a href="home-3.html">Home Commercial Real Estate</a></li>
+                                            <li><a href="index.php">Home Luxury Apartment</a></li>
+                                            <li><a href="home-2.php">Home Real Estate Agency</a></li>
+                                            <li><a href="home-3.php">Home Commercial Real Estate</a></li>
                                         </ul>
                                     </li>
-                                    <li><a href="about.html">
+                                    <li><a href="about.php">
                                             About Us
                                         </a></li>
                                     <li class="menu-item-has-children">
-                                        <a href="property.html">
+                                        <a href="property.php">
                                             Properties
                                         </a>
                                         <ul class="sub-menu">
-                                            <li><a href="property.html">
+                                            <li><a href="property.php">
                                                     Properties
                                                 </a></li>
-                                            <li><a href="property-details.html">
+                                            <li><a href="property-details.php">
                                                     Property Details
                                                 </a></li>
                                         </ul>
                                     </li>
                                     <li class="menu-item-has-children">
-                                        <a href="agency.html">
+                                        <a href="agency.php">
                                             Agencies
                                         </a>
                                         <ul class="sub-menu">
-                                            <li><a href="agency.html">
+                                            <li><a href="agency.php">
                                                     Agencies
                                                 </a></li>
-                                            <li><a href="agency-details.html">
+                                            <li><a href="agency-details.php">
                                                     Agencies Details
                                                 </a></li>
                                         </ul>
@@ -372,55 +372,55 @@ Product Lightbox
                                             Pages
                                         </a>
                                         <ul class="sub-menu">
-                                            <li><a href="team.html">
+                                            <li><a href="team.php">
                                                     Agent Page
                                                 </a></li>
-                                            <li><a href="team-details.html">
+                                            <li><a href="team-details.php">
                                                     Agent Details
                                                 </a></li>
-                                            <li><a href="pricing.html">
+                                            <li><a href="pricing.php">
                                                     Pricing Page
                                                 </a></li>
-                                            <li class="menu-item-has-children"><a href="shop.html">
+                                            <li class="menu-item-has-children"><a href="shop.php">
                                                     Shop Page
                                                 </a>
                                                 <ul class="sub-menu">
-                                                    <li><a href="shop.html">
+                                                    <li><a href="shop.php">
                                                             Shop Page
                                                         </a></li>
-                                                    <li><a href="shop-details.html">
+                                                    <li><a href="shop-details.php">
                                                             Shop Details
                                                         </a></li>
-                                                    <li><a href="cart.html">
+                                                    <li><a href="cart.php">
                                                             Cart Page
                                                         </a></li>
-                                                    <li><a href="checkout.html">
+                                                    <li><a href="checkout.php">
                                                             Checkout Page
                                                         </a></li>
-                                                    <li><a href="wishlist.html">
+                                                    <li><a href="wishlist.php">
                                                             Wistlist Page
                                                         </a></li>
                                                 </ul>
                                             </li>
-                                            <li><a href="error.html">
+                                            <li><a href="error.php">
                                                     Error Page
                                                 </a></li>
                                         </ul>
                                     </li>
                                     <li class="menu-item-has-children">
-                                        <a href="blog.html">
+                                        <a href="blog.php">
                                             Blog
                                         </a>
                                         <ul class="sub-menu">
-                                            <li><a href="blog.html">
+                                            <li><a href="blog.php">
                                                     Blog Page
                                                 </a></li>
-                                            <li><a href="blog-details.html">
+                                            <li><a href="blog-details.php">
                                                     Blog Details
                                                 </a></li>
                                         </ul>
                                     </li>
-                                    <li><a href="contact.html">
+                                    <li><a href="contact.php">
                                             Contact Us
                                         </a></li>
                                 </ul>
@@ -435,7 +435,7 @@ Product Lightbox
                         </div>
                         <div class="col-auto d-none d-xxl-block">
                             <div class="header-button">
-                                <a href="contact.html" class="th-btn style-border th-btn-icon">Request A Visit</a>
+                                <a href="contact.php" class="th-btn style-border th-btn-icon">Request A Visit</a>
                                 <button type="button" class="simple-icon sideMenuInfo sidebar-btn style2">
                                     <span class="line"></span>
                                     <span class="line"></span>
@@ -460,7 +460,7 @@ Product Lightbox
                     <div class="breadcumb-content">
                         <h1 class="breadcumb-title">Shop Details</h1>
                         <ul class="breadcumb-menu">
-                            <li><a href="index.html">Home</a></li>
+                            <li><a href="index.php">Home</a></li>
                             <li>Shop Details</li>
                         </ul>
                     </div>
@@ -484,7 +484,7 @@ Product Lightbox
                         <h2 class="product-title">French Velvet Sofa</h2>
                         <div class="product-rating">
                             <div class="star-rating" role="img" aria-label="Rated 5.00 out of 5"><span style="width:100%">Rated <strong class="rating">5.00</strong> out of 5 based on <span class="rating">1</span> customer rating</span></div>
-                            <a href="shop-details.html" class="woocommerce-review-link">(<span class="count">4</span> customer reviews)</a>
+                            <a href="shop-details.php" class="woocommerce-review-link">(<span class="count">4</span> customer reviews)</a>
                         </div>
                         <p class="text text-theme">Prepare to embark on a sensory journey with the Bosco Apple, a fruit that transcends the ordinary and promises an unparalleled taste experience. These apples are nothing short of nature’s masterpiece, celebrated for their distinctive blend of flavors and their captivating visual allure.</p>
                         <div class="mt-2 link-inherit">
@@ -500,12 +500,12 @@ Product Lightbox
                                 <button class="quantity-minus qty-btn"><i class="far fa-chevron-down"></i></button>
                             </div>
                             <button class="th-btn">Add to Cart</button>
-                            <a href="wishlist.html" class="icon-btn"><i class="far fa-heart"></i></a>
+                            <a href="wishlist.php" class="icon-btn"><i class="far fa-heart"></i></a>
                         </div>
                         <div class="product_meta">
                             <span class="sku_wrapper">SKU: <span class="sku">Wheel-fits-chevy-camaro</span></span>
-                            <span class="posted_in">Category: <a href="shop.html">Interior</a><a href="shop.html">Vintage</a></span>
-                            <span>Tags: <a href="shop.html">Sofa</a><a href="shop.html">living furniture</a></span>
+                            <span class="posted_in">Category: <a href="shop.php">Interior</a><a href="shop.php">Vintage</a></span>
+                            <span>Tags: <a href="shop.php">Sofa</a><a href="shop.php">living furniture</a></span>
                         </div>
                     </div>
                 </div>
@@ -661,17 +661,17 @@ Product Lightbox
                                     <span class="product-tag">Hot</span>
                                     <div class="actions">
                                         <a href="#QuickView" class="icon-btn popup-content"><i class="far fa-eye"></i></a>
-                                        <a href="cart.html" class="icon-btn"><i class="far fa-cart-plus"></i></a>
-                                        <a href="wishlist.html" class="icon-btn"><i class="far fa-heart"></i></a>
+                                        <a href="cart.php" class="icon-btn"><i class="far fa-cart-plus"></i></a>
+                                        <a href="wishlist.php" class="icon-btn"><i class="far fa-heart"></i></a>
                                     </div>
                                 </div>
                                 <div class="product-content">
-                                    <!-- <a href="shop-details.html" class="product-category"><br />
+                                    <!-- <a href="shop-details.php" class="product-category"><br />
 <b>Warning</b>:  Undefined variable $cat in <b>A:\Angfuz_soft\HTML\Realer\realar-html\build\inc\sections\product-grid.php</b> on line <b>88</b><br />
 <br />
 <b>Warning</b>:  Trying to access array offset on value of type null in <b>A:\Angfuz_soft\HTML\Realer\realar-html\build\inc\sections\product-grid.php</b> on line <b>88</b><br />
 </a> -->
-                                    <h3 class="product-title"><a href="shop-details.html">French Velvet Sofa</a></h3>
+                                    <h3 class="product-title"><a href="shop-details.php">French Velvet Sofa</a></h3>
                                     <span class="price">$177.85</span>
                                     <div class="woocommerce-product-rating">
                                         <span class="count">(120 Reviews)</span>
@@ -691,17 +691,17 @@ Product Lightbox
                                     <span class="product-tag">New</span>
                                     <div class="actions">
                                         <a href="#QuickView" class="icon-btn popup-content"><i class="far fa-eye"></i></a>
-                                        <a href="cart.html" class="icon-btn"><i class="far fa-cart-plus"></i></a>
-                                        <a href="wishlist.html" class="icon-btn"><i class="far fa-heart"></i></a>
+                                        <a href="cart.php" class="icon-btn"><i class="far fa-cart-plus"></i></a>
+                                        <a href="wishlist.php" class="icon-btn"><i class="far fa-heart"></i></a>
                                     </div>
                                 </div>
                                 <div class="product-content">
-                                    <!-- <a href="shop-details.html" class="product-category"><br />
+                                    <!-- <a href="shop-details.php" class="product-category"><br />
 <b>Warning</b>:  Undefined variable $cat in <b>A:\Angfuz_soft\HTML\Realer\realar-html\build\inc\sections\product-grid.php</b> on line <b>88</b><br />
 <br />
 <b>Warning</b>:  Trying to access array offset on value of type null in <b>A:\Angfuz_soft\HTML\Realer\realar-html\build\inc\sections\product-grid.php</b> on line <b>88</b><br />
 </a> -->
-                                    <h3 class="product-title"><a href="shop-details.html">Ceramic Vase</a></h3>
+                                    <h3 class="product-title"><a href="shop-details.php">Ceramic Vase</a></h3>
                                     <span class="price">$39.85</span>
                                     <div class="woocommerce-product-rating">
                                         <span class="count">(120 Reviews)</span>
@@ -721,17 +721,17 @@ Product Lightbox
                                     <span class="product-tag">Hot</span>
                                     <div class="actions">
                                         <a href="#QuickView" class="icon-btn popup-content"><i class="far fa-eye"></i></a>
-                                        <a href="cart.html" class="icon-btn"><i class="far fa-cart-plus"></i></a>
-                                        <a href="wishlist.html" class="icon-btn"><i class="far fa-heart"></i></a>
+                                        <a href="cart.php" class="icon-btn"><i class="far fa-cart-plus"></i></a>
+                                        <a href="wishlist.php" class="icon-btn"><i class="far fa-heart"></i></a>
                                     </div>
                                 </div>
                                 <div class="product-content">
-                                    <!-- <a href="shop-details.html" class="product-category"><br />
+                                    <!-- <a href="shop-details.php" class="product-category"><br />
 <b>Warning</b>:  Undefined variable $cat in <b>A:\Angfuz_soft\HTML\Realer\realar-html\build\inc\sections\product-grid.php</b> on line <b>88</b><br />
 <br />
 <b>Warning</b>:  Trying to access array offset on value of type null in <b>A:\Angfuz_soft\HTML\Realer\realar-html\build\inc\sections\product-grid.php</b> on line <b>88</b><br />
 </a> -->
-                                    <h3 class="product-title"><a href="shop-details.html">Vintage Ceramic Vase</a></h3>
+                                    <h3 class="product-title"><a href="shop-details.php">Vintage Ceramic Vase</a></h3>
                                     <span class="price">$96.85</span>
                                     <div class="woocommerce-product-rating">
                                         <span class="count">(120 Reviews)</span>
@@ -751,17 +751,17 @@ Product Lightbox
                                     <span class="product-tag">Sale</span>
                                     <div class="actions">
                                         <a href="#QuickView" class="icon-btn popup-content"><i class="far fa-eye"></i></a>
-                                        <a href="cart.html" class="icon-btn"><i class="far fa-cart-plus"></i></a>
-                                        <a href="wishlist.html" class="icon-btn"><i class="far fa-heart"></i></a>
+                                        <a href="cart.php" class="icon-btn"><i class="far fa-cart-plus"></i></a>
+                                        <a href="wishlist.php" class="icon-btn"><i class="far fa-heart"></i></a>
                                     </div>
                                 </div>
                                 <div class="product-content">
-                                    <!-- <a href="shop-details.html" class="product-category"><br />
+                                    <!-- <a href="shop-details.php" class="product-category"><br />
 <b>Warning</b>:  Undefined variable $cat in <b>A:\Angfuz_soft\HTML\Realer\realar-html\build\inc\sections\product-grid.php</b> on line <b>88</b><br />
 <br />
 <b>Warning</b>:  Trying to access array offset on value of type null in <b>A:\Angfuz_soft\HTML\Realer\realar-html\build\inc\sections\product-grid.php</b> on line <b>88</b><br />
 </a> -->
-                                    <h3 class="product-title"><a href="shop-details.html">Sofa with Cabriole Leg</a></h3>
+                                    <h3 class="product-title"><a href="shop-details.php">Sofa with Cabriole Leg</a></h3>
                                     <span class="price">$08.85<del>$06.99</del></span>
                                     <div class="woocommerce-product-rating">
                                         <span class="count">(120 Reviews)</span>
@@ -781,17 +781,17 @@ Product Lightbox
                                     <span class="product-tag">New</span>
                                     <div class="actions">
                                         <a href="#QuickView" class="icon-btn popup-content"><i class="far fa-eye"></i></a>
-                                        <a href="cart.html" class="icon-btn"><i class="far fa-cart-plus"></i></a>
-                                        <a href="wishlist.html" class="icon-btn"><i class="far fa-heart"></i></a>
+                                        <a href="cart.php" class="icon-btn"><i class="far fa-cart-plus"></i></a>
+                                        <a href="wishlist.php" class="icon-btn"><i class="far fa-heart"></i></a>
                                     </div>
                                 </div>
                                 <div class="product-content">
-                                    <!-- <a href="shop-details.html" class="product-category"><br />
+                                    <!-- <a href="shop-details.php" class="product-category"><br />
 <b>Warning</b>:  Undefined variable $cat in <b>A:\Angfuz_soft\HTML\Realer\realar-html\build\inc\sections\product-grid.php</b> on line <b>88</b><br />
 <br />
 <b>Warning</b>:  Trying to access array offset on value of type null in <b>A:\Angfuz_soft\HTML\Realer\realar-html\build\inc\sections\product-grid.php</b> on line <b>88</b><br />
 </a> -->
-                                    <h3 class="product-title"><a href="shop-details.html">Chesterfield Sofa</a></h3>
+                                    <h3 class="product-title"><a href="shop-details.php">Chesterfield Sofa</a></h3>
                                     <span class="price">$32.85</span>
                                     <div class="woocommerce-product-rating">
                                         <span class="count">(120 Reviews)</span>
@@ -811,17 +811,17 @@ Product Lightbox
                                     <span class="product-tag">Hot</span>
                                     <div class="actions">
                                         <a href="#QuickView" class="icon-btn popup-content"><i class="far fa-eye"></i></a>
-                                        <a href="cart.html" class="icon-btn"><i class="far fa-cart-plus"></i></a>
-                                        <a href="wishlist.html" class="icon-btn"><i class="far fa-heart"></i></a>
+                                        <a href="cart.php" class="icon-btn"><i class="far fa-cart-plus"></i></a>
+                                        <a href="wishlist.php" class="icon-btn"><i class="far fa-heart"></i></a>
                                     </div>
                                 </div>
                                 <div class="product-content">
-                                    <!-- <a href="shop-details.html" class="product-category"><br />
+                                    <!-- <a href="shop-details.php" class="product-category"><br />
 <b>Warning</b>:  Undefined variable $cat in <b>A:\Angfuz_soft\HTML\Realer\realar-html\build\inc\sections\product-grid.php</b> on line <b>88</b><br />
 <br />
 <b>Warning</b>:  Trying to access array offset on value of type null in <b>A:\Angfuz_soft\HTML\Realer\realar-html\build\inc\sections\product-grid.php</b> on line <b>88</b><br />
 </a> -->
-                                    <h3 class="product-title"><a href="shop-details.html">Serpentine Sofa</a></h3>
+                                    <h3 class="product-title"><a href="shop-details.php">Serpentine Sofa</a></h3>
                                     <span class="price">$30.85</span>
                                     <div class="woocommerce-product-rating">
                                         <span class="count">(120 Reviews)</span>
@@ -841,17 +841,17 @@ Product Lightbox
                                     <span class="product-tag">New</span>
                                     <div class="actions">
                                         <a href="#QuickView" class="icon-btn popup-content"><i class="far fa-eye"></i></a>
-                                        <a href="cart.html" class="icon-btn"><i class="far fa-cart-plus"></i></a>
-                                        <a href="wishlist.html" class="icon-btn"><i class="far fa-heart"></i></a>
+                                        <a href="cart.php" class="icon-btn"><i class="far fa-cart-plus"></i></a>
+                                        <a href="wishlist.php" class="icon-btn"><i class="far fa-heart"></i></a>
                                     </div>
                                 </div>
                                 <div class="product-content">
-                                    <!-- <a href="shop-details.html" class="product-category"><br />
+                                    <!-- <a href="shop-details.php" class="product-category"><br />
 <b>Warning</b>:  Undefined variable $cat in <b>A:\Angfuz_soft\HTML\Realer\realar-html\build\inc\sections\product-grid.php</b> on line <b>88</b><br />
 <br />
 <b>Warning</b>:  Trying to access array offset on value of type null in <b>A:\Angfuz_soft\HTML\Realer\realar-html\build\inc\sections\product-grid.php</b> on line <b>88</b><br />
 </a> -->
-                                    <h3 class="product-title"><a href="shop-details.html">Laris Settee</a></h3>
+                                    <h3 class="product-title"><a href="shop-details.php">Laris Settee</a></h3>
                                     <span class="price">$232.85</span>
                                     <div class="woocommerce-product-rating">
                                         <span class="count">(120 Reviews)</span>
@@ -871,17 +871,17 @@ Product Lightbox
                                     <span class="product-tag">Hot</span>
                                     <div class="actions">
                                         <a href="#QuickView" class="icon-btn popup-content"><i class="far fa-eye"></i></a>
-                                        <a href="cart.html" class="icon-btn"><i class="far fa-cart-plus"></i></a>
-                                        <a href="wishlist.html" class="icon-btn"><i class="far fa-heart"></i></a>
+                                        <a href="cart.php" class="icon-btn"><i class="far fa-cart-plus"></i></a>
+                                        <a href="wishlist.php" class="icon-btn"><i class="far fa-heart"></i></a>
                                     </div>
                                 </div>
                                 <div class="product-content">
-                                    <!-- <a href="shop-details.html" class="product-category"><br />
+                                    <!-- <a href="shop-details.php" class="product-category"><br />
 <b>Warning</b>:  Undefined variable $cat in <b>A:\Angfuz_soft\HTML\Realer\realar-html\build\inc\sections\product-grid.php</b> on line <b>88</b><br />
 <br />
 <b>Warning</b>:  Trying to access array offset on value of type null in <b>A:\Angfuz_soft\HTML\Realer\realar-html\build\inc\sections\product-grid.php</b> on line <b>88</b><br />
 </a> -->
-                                    <h3 class="product-title"><a href="shop-details.html">Murphy Bed</a></h3>
+                                    <h3 class="product-title"><a href="shop-details.php">Murphy Bed</a></h3>
                                     <span class="price">$30.85</span>
                                     <div class="woocommerce-product-rating">
                                         <span class="count">(120 Reviews)</span>
@@ -906,102 +906,7 @@ Product Lightbox
     </section><!--==============================
 	Footer Area
 ==============================-->
-    <footer class="footer-wrapper footer-default bg-theme">
-        <div class="widget-area">
-            <div class="container">
-                <div class="row justify-content-between">
-                    <div class="col-md-6 col-xl-auto">
-                        <div class="widget footer-widget">
-                            <div class="th-widget-about">
-                                <div class="about-logo">
-                                    <a href="index.html"><img src="assets/img/logo-white2.svg" alt="Realar"></a>
-                                </div>
-                                <p class="about-text"> Rapidiously myocardinate cross-platform intellectual capital model. Appropriately create interactive infrastructures</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-xl-auto">
-                        <div class="widget footer-widget">
-                            <h3 class="widget_title">Get In Touch</h3>
-                            <div class="th-widget-contact">
-                                <div class="info-box_text">
-                                    <div class="icon"><img src="assets/img/icon/location-dot.svg" alt="img"></div>
-                                    <div class="details">
-                                        <p>789 Inner Lane, Holy park,</p>
-                                        <p>California, USA</p>
-                                    </div>
-                                </div>
-                                <div class="info-box_text">
-                                    <div class="icon">
-                                        <img src="assets/img/icon/phone.svg" alt="img">
-                                    </div>
-                                    <div class="details">
-                                        <p><a href="tel:+0123456789" class="info-box_link">+01 234 567 890</a></p>
-                                        <p><a href="tel:+09876543210" class="info-box_link">+09 876 543 210</a></p>
-                                    </div>
-                                </div>
-                                <div class="info-box_text">
-                                    <div class="icon">
-                                        <img src="assets/img/icon/envelope.svg" alt="img">
-                                    </div>
-                                    <div class="details">
-                                        <p><a href="mailto:mailinfo00@realar.com" class="info-box_link">mailinfo00@realar.com</a></p>
-                                        <p><a href="mailto:support24@realar.com" class="info-box_link">support24@realar.com</a></p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-xl-auto">
-                        <div class="widget widget_nav_menu footer-widget">
-                            <h3 class="widget_title">Useful Link</h3>
-                            <div class="menu-all-pages-container">
-                                <ul class="menu">
-                                    <li><a href="about.html">About us</a></li>
-                                    <li><a href="property.html">Featured Properties</a></li>
-                                    <li><a href="service.html">Our Best Services</a></li>
-                                    <li><a href="contact.html">Request Visit</a></li>
-                                    <li><a href="contact.html">FAQ</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-xl-auto">
-                        <div class="widget widget_nav_menu footer-widget">
-                            <h3 class="widget_title">Explore</h3>
-                            <div class="menu-all-pages-container">
-                                <ul class="menu">
-                                    <li><a href="property.html">All Properties</a></li>
-                                    <li><a href="team.html">Our Agents</a></li>
-                                    <li><a href="property.html">All Projects</a></li>
-                                    <li><a href="about.html">Our Process</a></li>
-                                    <li><a href="contact.html">Neighborhood</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="copyright-wrap bg-light">
-            <div class="container">
-                <div class="row gy-3 align-items-center">
-                    <div class="col-lg-6">
-                        <p class="copyright-text">
-                            Copyright <i class="fal fa-copyright"></i> 2024 <a href="index.html">Realar</a>, All rights reserved.</p>
-                    </div>
-                    <div class="col-lg-6">
-                        <div class="th-social justify-content-lg-end justify-content-center">
-                            <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
-                            <a href="https://www.twitter.com/"><i class="fab fa-twitter"></i></a>
-                            <a href="https://www.instagram.com/"><i class="fab fa-youtube"></i></a>
-                            <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
+<?php include "include/footer.php"; ?>
 
     <!--********************************
 			Code End  Here 

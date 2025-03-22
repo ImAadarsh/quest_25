@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Eduace Quest 2025 - Agent Details</title>
+    <title>Eduace Quest 2025 - Cart</title>
     <meta name="author" content="Realar">
     <meta name="description" content="Eduace Quest 2025">
     <meta name="keywords" content="Eduace Quest 2025, Endeavour Digital">
@@ -99,47 +99,47 @@
         <div class="th-menu-area text-center">
             <button class="th-menu-toggle"><i class="fal fa-times"></i></button>
             <div class="mobile-logo">
-                <a href="index.html">
+                <a href="index.php">
                     <img src="assets/img/logo-white.svg" alt="Realar">
                 </a>
             </div>
             <div class="th-mobile-menu">
                 <ul>
                     <li class="menu-item-has-children">
-                        <a href="index.html">
+                        <a href="index.php">
                             Home
                         </a>
                         <ul class="sub-menu">
-                            <li><a href="index.html">Home Luxury Apartment</a></li>
-                            <li><a href="home-2.html">Home Real Estate Agency</a></li>
-                            <li><a href="home-3.html">Home Commercial Real Estate</a></li>
+                            <li><a href="index.php">Home Luxury Apartment</a></li>
+                            <li><a href="home-2.php">Home Real Estate Agency</a></li>
+                            <li><a href="home-3.php">Home Commercial Real Estate</a></li>
                         </ul>
                     </li>
-                    <li><a href="about.html">
+                    <li><a href="about.php">
                             About Us
                         </a></li>
                     <li class="menu-item-has-children">
-                        <a href="property.html">
+                        <a href="property.php">
                             Properties
                         </a>
                         <ul class="sub-menu">
-                            <li><a href="property.html">
+                            <li><a href="property.php">
                                     Properties
                                 </a></li>
-                            <li><a href="property-details.html">
+                            <li><a href="property-details.php">
                                     Property Details
                                 </a></li>
                         </ul>
                     </li>
                     <li class="menu-item-has-children">
-                        <a href="agency.html">
+                        <a href="agency.php">
                             Agencies
                         </a>
                         <ul class="sub-menu">
-                            <li><a href="agency.html">
+                            <li><a href="agency.php">
                                     Agencies
                                 </a></li>
-                            <li><a href="agency-details.html">
+                            <li><a href="agency-details.php">
                                     Agencies Details
                                 </a></li>
                         </ul>
@@ -149,55 +149,55 @@
                             Pages
                         </a>
                         <ul class="sub-menu">
-                            <li><a href="team.html">
+                            <li><a href="team.php">
                                     Agent Page
                                 </a></li>
-                            <li><a href="team-details.html">
+                            <li><a href="team-details.php">
                                     Agent Details
                                 </a></li>
-                            <li><a href="pricing.html">
+                            <li><a href="pricing.php">
                                     Pricing Page
                                 </a></li>
-                            <li class="menu-item-has-children"><a href="shop.html">
+                            <li class="menu-item-has-children"><a href="shop.php">
                                     Shop Page
                                 </a>
                                 <ul class="sub-menu">
-                                    <li><a href="shop.html">
+                                    <li><a href="shop.php">
                                             Shop Page
                                         </a></li>
-                                    <li><a href="shop-details.html">
+                                    <li><a href="shop-details.php">
                                             Shop Details
                                         </a></li>
-                                    <li><a href="cart.html">
+                                    <li><a href="cart.php">
                                             Cart Page
                                         </a></li>
-                                    <li><a href="checkout.html">
+                                    <li><a href="checkout.php">
                                             Checkout Page
                                         </a></li>
-                                    <li><a href="wishlist.html">
+                                    <li><a href="wishlist.php">
                                             Wistlist Page
                                         </a></li>
                                 </ul>
                             </li>
-                            <li><a href="error.html">
+                            <li><a href="error.php">
                                     Error Page
                                 </a></li>
                         </ul>
                     </li>
                     <li class="menu-item-has-children">
-                        <a href="blog.html">
+                        <a href="blog.php">
                             Blog
                         </a>
                         <ul class="sub-menu">
-                            <li><a href="blog.html">
+                            <li><a href="blog.php">
                                     Blog Page
                                 </a></li>
-                            <li><a href="blog-details.html">
+                            <li><a href="blog-details.php">
                                     Blog Details
                                 </a></li>
                         </ul>
                     </li>
-                    <li><a href="contact.html">
+                    <li><a href="contact.php">
                             Contact Us
                         </a></li>
                 </ul>
@@ -212,7 +212,7 @@
             <div class="widget  ">
                 <div class="th-widget-about">
                     <div class="about-logo">
-                        <a href="index.html"><img src="assets/img/logo.svg" alt="Realar"></a>
+                        <a href="index.php"><img src="assets/img/logo.svg" alt="Realar"></a>
                     </div>
                     <p class="about-text"> Rapidiously myocardinate cross-platform intellectual capital model. Appropriately create interactive infrastructures</p>
                 </div>
@@ -275,7 +275,7 @@
                     <div class="row align-items-center justify-content-between">
                         <div class="col-auto">
                             <div class="header-logo">
-                                <a href="index.html">
+                                <a href="index.php">
                                     <img src="assets/img/logo-white2.svg" alt="Realar">
                                 </a>
                             </div>
@@ -284,40 +284,40 @@
                             <nav class="main-menu d-none d-lg-inline-block">
                                 <ul>
                                     <li class="menu-item-has-children">
-                                        <a href="index.html">
+                                        <a href="index.php">
                                             Home
                                         </a>
                                         <ul class="sub-menu">
-                                            <li><a href="index.html">Home Luxury Apartment</a></li>
-                                            <li><a href="home-2.html">Home Real Estate Agency</a></li>
-                                            <li><a href="home-3.html">Home Commercial Real Estate</a></li>
+                                            <li><a href="index.php">Home Luxury Apartment</a></li>
+                                            <li><a href="home-2.php">Home Real Estate Agency</a></li>
+                                            <li><a href="home-3.php">Home Commercial Real Estate</a></li>
                                         </ul>
                                     </li>
-                                    <li><a href="about.html">
+                                    <li><a href="about.php">
                                             About Us
                                         </a></li>
                                     <li class="menu-item-has-children">
-                                        <a href="property.html">
+                                        <a href="property.php">
                                             Properties
                                         </a>
                                         <ul class="sub-menu">
-                                            <li><a href="property.html">
+                                            <li><a href="property.php">
                                                     Properties
                                                 </a></li>
-                                            <li><a href="property-details.html">
+                                            <li><a href="property-details.php">
                                                     Property Details
                                                 </a></li>
                                         </ul>
                                     </li>
                                     <li class="menu-item-has-children">
-                                        <a href="agency.html">
+                                        <a href="agency.php">
                                             Agencies
                                         </a>
                                         <ul class="sub-menu">
-                                            <li><a href="agency.html">
+                                            <li><a href="agency.php">
                                                     Agencies
                                                 </a></li>
-                                            <li><a href="agency-details.html">
+                                            <li><a href="agency-details.php">
                                                     Agencies Details
                                                 </a></li>
                                         </ul>
@@ -327,55 +327,55 @@
                                             Pages
                                         </a>
                                         <ul class="sub-menu">
-                                            <li><a href="team.html">
+                                            <li><a href="team.php">
                                                     Agent Page
                                                 </a></li>
-                                            <li><a href="team-details.html">
+                                            <li><a href="team-details.php">
                                                     Agent Details
                                                 </a></li>
-                                            <li><a href="pricing.html">
+                                            <li><a href="pricing.php">
                                                     Pricing Page
                                                 </a></li>
-                                            <li class="menu-item-has-children"><a href="shop.html">
+                                            <li class="menu-item-has-children"><a href="shop.php">
                                                     Shop Page
                                                 </a>
                                                 <ul class="sub-menu">
-                                                    <li><a href="shop.html">
+                                                    <li><a href="shop.php">
                                                             Shop Page
                                                         </a></li>
-                                                    <li><a href="shop-details.html">
+                                                    <li><a href="shop-details.php">
                                                             Shop Details
                                                         </a></li>
-                                                    <li><a href="cart.html">
+                                                    <li><a href="cart.php">
                                                             Cart Page
                                                         </a></li>
-                                                    <li><a href="checkout.html">
+                                                    <li><a href="checkout.php">
                                                             Checkout Page
                                                         </a></li>
-                                                    <li><a href="wishlist.html">
+                                                    <li><a href="wishlist.php">
                                                             Wistlist Page
                                                         </a></li>
                                                 </ul>
                                             </li>
-                                            <li><a href="error.html">
+                                            <li><a href="error.php">
                                                     Error Page
                                                 </a></li>
                                         </ul>
                                     </li>
                                     <li class="menu-item-has-children">
-                                        <a href="blog.html">
+                                        <a href="blog.php">
                                             Blog
                                         </a>
                                         <ul class="sub-menu">
-                                            <li><a href="blog.html">
+                                            <li><a href="blog.php">
                                                     Blog Page
                                                 </a></li>
-                                            <li><a href="blog-details.html">
+                                            <li><a href="blog-details.php">
                                                     Blog Details
                                                 </a></li>
                                         </ul>
                                     </li>
-                                    <li><a href="contact.html">
+                                    <li><a href="contact.php">
                                             Contact Us
                                         </a></li>
                                 </ul>
@@ -390,7 +390,7 @@
                         </div>
                         <div class="col-auto d-none d-xxl-block">
                             <div class="header-button">
-                                <a href="contact.html" class="th-btn style-border th-btn-icon">Request A Visit</a>
+                                <a href="contact.php" class="th-btn style-border th-btn-icon">Request A Visit</a>
                                 <button type="button" class="simple-icon sideMenuInfo sidebar-btn style2">
                                     <span class="line"></span>
                                     <span class="line"></span>
@@ -413,207 +413,200 @@
             <div class="row justify-content-center">
                 <div class="col-xl-9">
                     <div class="breadcumb-content">
-                        <h1 class="breadcumb-title">Agent Details</h1>
+                        <h1 class="breadcumb-title">Cart Page</h1>
                         <ul class="breadcumb-menu">
-                            <li><a href="index.html">Home</a></li>
-                            <li>Agent Details</li>
+                            <li><a href="index.php">Home</a></li>
+                            <li>Cart Page</li>
                         </ul>
                     </div>
                 </div>
             </div>
         </div>
     </div><!--==============================
-Team Area  
+Cart Area
 ==============================-->
-    <section class="space">
+    <div class="th-cart-wrapper  space-top space-extra-bottom">
         <div class="container">
-            <div class="row gx-40 gy-40">
-                <div class="col-xl-4 col-lg-5 col-md-8">
-                    <div class="th-team team-card style4">
-                        <div class="img-wrap">
-                            <div class="team-img">
-                                <img src="assets/img/team/team_2_5.png" alt="Team">
-                            </div>
-                            <div class="th-social-wrap">
-                                <div class="th-social">
-                                    <a target="_blank" href="https://facebook.com/"><i class="fab fa-facebook-f"></i></a>
-                                    <a target="_blank" href="https://twitter.com/"><i class="fab fa-twitter"></i></a>
-                                    <a target="_blank" href="https://linkedin.com/"><i class="fab fa-linkedin-in"></i></a>
-                                    <a target="_blank" href="https://youtube.com/"><i class="fab fa-youtube"></i></a>
-                                    <a target="_blank" href="https://instagram.com/"><i class="fab fa-instagram"></i></a>
+            <div class="woocommerce-notices-wrapper">
+                <div class="woocommerce-message">Shipping costs updated.</div>
+            </div>
+            <form action="#" class="woocommerce-cart-form">
+                <table class="cart_table">
+                    <thead>
+                        <tr>
+                            <th class="cart-col-image">Image</th>
+                            <th class="cart-col-productname">Product Name</th>
+                            <th class="cart-col-price">Price</th>
+                            <th class="cart-col-quantity">Quantity</th>
+                            <th class="cart-col-total">Total</th>
+                            <th class="cart-col-remove">Remove</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="cart_item">
+                            <td data-title="Product">
+                                <a class="cart-productimage" href="shop-details.php"><img width="91" height="91" src="assets/img/product/product_thumb_1_1.png" alt="Image"></a>
+                            </td>
+                            <td data-title="Name">
+                                <a class="cart-productname" href="shop-details.php">French Velvet Sofa</a>
+                            </td>
+                            <td data-title="Price">
+                                <span class="amount"><bdi><span>$</span>18</bdi></span>
+                            </td>
+                            <td data-title="Quantity">
+                                <div class="quantity">
+                                    <button class="quantity-minus qty-btn"><i class="far fa-minus"></i></button>
+                                    <input type="number" class="qty-input" value="1" min="1" max="99">
+                                    <button class="quantity-plus qty-btn"><i class="far fa-plus"></i></button>
                                 </div>
-                                <a class="icon-btn" href="team-details.html"><img src="assets/img/icon/arrow-right.svg" alt="img"></a>
-                            </div>
-                        </div>
-                        <div class="team-card-content">
-                            <div class="media-left">
-                                <h3 class="box-title"><a href="team-details.html">William Morgan</a></h3>
-                                <span class="team-desig">Property Expert</span>
-                            </div>
-                            <a class="icon-btn" href="tel:09876543210"><img src="assets/img/icon/phone.svg" alt="img"></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-8 col-lg-7">
-                    <div class="about-card">
-                        <h2 class="about-card_title text-theme mb-45">Building lasting relationships based on trust and integrity is at the core of Scarlett Gray's practice. He takes pride in providing exceptional service.</h2>
-                        <div class="row gy-3">
-                            <div class="col-md-6">
-                                <ul class="team-about-list">
-                                    <li><strong>Position: </strong>Rental Property Expert</li>
-                                    <li><strong>Experience: </strong>15+ Years</li>
-                                    <li><strong>Locatotion: </strong>New Jersy, New York</li>
-                                    <li><strong>Practice Area: </strong>Property Seller</li>
-                                </ul>
-                            </div>
-                            <div class="col-md-6">
-                                <ul class="team-about-list">
-                                    <li><strong>Project Done: </strong>200+ Property</li>
-                                    <li><strong>Phone: </strong>+0123- 456 789</li>
-                                    <li><strong>Locatotion: </strong>New Jersy, New York</li>
-                                    <li><strong>Email: </strong>example@realar.com</li>
-                                </ul>
-                            </div>
-                        </div>
-                        <p class="sec-text text-theme mt-30">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, </p>
-                        <p class="sec-text text-theme mb-0">Realar rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequu ntur magni dolores eos qui ratione voluptatem sequi nesciunt. </p>
-                        <div class="title-area mb-35 mt-45">
-                            <h3 class="about-card_title text-theme mb-40">Book Business Solutions</h3>
-                        </div>
-                        <form action="mail.php" method="POST" class="appointment-form ajax-contact me-xl-5">
-                            <div class="row">
-                                <div class="form-group style-border style-radius col-md-6">
-                                    <input type="text" class="form-control" name="name" id="name" placeholder="Your Name*">
-                                    <i class="fal fa-user"></i>
+                            </td>
+                            <td data-title="Total">
+                                <span class="amount"><bdi><span>$</span>18</bdi></span>
+                            </td>
+                            <td data-title="Remove">
+                                <a href="#" class="remove"><i class="fal fa-trash-alt"></i></a>
+                            </td>
+                        </tr>
+                        <tr class="cart_item">
+                            <td data-title="Product">
+                                <a class="cart-productimage" href="shop-details.php"><img width="91" height="91" src="assets/img/product/product_thumb_1_2.png" alt="Image"></a>
+                            </td>
+                            <td data-title="Name">
+                                <a class="cart-productname" href="shop-details.php">Ceramic Vase</a>
+                            </td>
+                            <td data-title="Price">
+                                <span class="amount"><bdi><span>$</span>18</bdi></span>
+                            </td>
+                            <td data-title="Quantity">
+                                <div class="quantity">
+                                    <button class="quantity-minus qty-btn"><i class="far fa-minus"></i></button>
+                                    <input type="number" class="qty-input" value="1" min="1" max="99">
+                                    <button class="quantity-plus qty-btn"><i class="far fa-plus"></i></button>
                                 </div>
-                                <div class="form-group style-border style-radius col-md-6">
-                                    <input type="email" class="form-control" name="email" id="email" placeholder="Your Email*">
-                                    <i class="fal fa-envelope"></i>
+                            </td>
+                            <td data-title="Total">
+                                <span class="amount"><bdi><span>$</span>18</bdi></span>
+                            </td>
+                            <td data-title="Remove">
+                                <a href="#" class="remove"><i class="fal fa-trash-alt"></i></a>
+                            </td>
+                        </tr>
+                        <tr class="cart_item">
+                            <td data-title="Product">
+                                <a class="cart-productimage" href="shop-details.php"><img width="91" height="91" src="assets/img/product/product_thumb_1_3.png" alt="Image"></a>
+                            </td>
+                            <td data-title="Name">
+                                <a class="cart-productname" href="shop-details.php">Vintage Ceramic Vase</a>
+                            </td>
+                            <td data-title="Price">
+                                <span class="amount"><bdi><span>$</span>18</bdi></span>
+                            </td>
+                            <td data-title="Quantity">
+                                <div class="quantity">
+                                    <button class="quantity-minus qty-btn"><i class="far fa-minus"></i></button>
+                                    <input type="number" class="qty-input" value="1" min="1" max="99">
+                                    <button class="quantity-plus qty-btn"><i class="far fa-plus"></i></button>
                                 </div>
-                                <div class="form-group style-border style-radius col-md-12">
-                                    <select name="subject" id="subject" class="form-select">
-                                        <option value="" disabled selected hidden>Select Service Type</option>
-                                        <option value="Real Estate">Real Estate</option>
-                                        <option value="Apartment">Apartment</option>
-                                        <option value="Residencial">Residencial</option>
-                                        <option value="Deluxe">Deluxe</option>
-                                    </select>
-                                    <i class="fal fa-angle-down"></i>
+                            </td>
+                            <td data-title="Total">
+                                <span class="amount"><bdi><span>$</span>18</bdi></span>
+                            </td>
+                            <td data-title="Remove">
+                                <a href="#" class="remove"><i class="fal fa-trash-alt"></i></a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="6" class="actions">
+                                <div class="th-cart-coupon">
+                                    <input type="text" class="form-control" placeholder="Coupon Code...">
+                                    <button type="submit" class="th-btn">Apply Coupon</button>
                                 </div>
-                                <div class="col-12 form-group style-border style-radius">
-                                    <i class="far fa-comments"></i>
-                                    <textarea placeholder="Type Your Message" class="form-control"></textarea>
-                                </div>
-                                <div class="col-12 form-btn mt-4">
-                                    <button class="th-btn">Submit Message <span class="btn-icon"><img src="assets/img/icon/paper-plane.svg" alt="img"></span></button>
-                                </div>
-                            </div>
-                            <p class="form-messages mb-0 mt-3"></p>
-                        </form>
+                                <button type="submit" class="th-btn">Update cart</button>
+                                <a href="shop.php" class="th-btn">Continue Shopping</a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </form>
+            <div class="row justify-content-end">
+                <div class="col-md-8 col-lg-7 col-xl-6">
+                    <h2 class="h4 summary-title">Cart Totals</h2>
+                    <table class="cart_totals">
+                        <tbody>
+                            <tr>
+                                <td>Cart Subtotal</td>
+                                <td data-title="Cart Subtotal">
+                                    <span class="amount"><bdi><span>$</span>47</bdi></span>
+                                </td>
+                            </tr>
+                            <tr class="shipping">
+                                <th>Shipping and Handling</th>
+                                <td data-title="Shipping and Handling">
+                                    <ul class="woocommerce-shipping-methods list-unstyled">
+                                        <li>
+                                            <input type="radio" id="free_shipping" name="shipping_method" class="shipping_method">
+                                            <label for="free_shipping">Free shipping</label>
+                                        </li>
+                                        <li>
+                                            <input type="radio" id="flat_rate" name="shipping_method" class="shipping_method" checked="checked">
+                                            <label for="flat_rate">Flat rate</label>
+                                        </li>
+                                    </ul>
+                                    <p class="woocommerce-shipping-destination">
+                                        Shipping options will be updated during checkout.
+                                    </p>
+                                    <form action="#" method="post">
+                                        <a href="#" class="shipping-calculator-button">Change address</a>
+                                        <div class="shipping-calculator-form">
+                                            <p class="form-row">
+                                                <select class="form-select">
+                                                    <option value="AR">Argentina</option>
+                                                    <option value="AM">Armenia</option>
+                                                    <option value="BD" selected="selected">Bangladesh</option>
+                                                </select>
+                                            </p>
+                                            <p>
+                                                <select class="form-select">
+                                                    <option value="">Select an option…</option>
+                                                    <option value="BD-05">Bagerhat</option>
+                                                    <option value="BD-01">Bandarban</option>
+                                                    <option value="BD-02">Barguna</option>
+                                                    <option value="BD-06">Barishal</option>
+                                                </select>
+                                            </p>
+                                            <p class="form-row">
+                                                <input type="text" class="form-control" placeholder="Town / City">
+                                            </p>
+                                            <p class="form-row">
+                                                <input type="text" class="form-control" placeholder="Postcode / ZIP">
+                                            </p>
+                                            <p>
+                                                <button class="th-btn">Update</button>
+                                            </p>
+                                        </div>
+                                    </form>
+                                </td>
+                            </tr>
+                        </tbody>
+                        <tfoot>
+                            <tr class="order-total">
+                                <td>Order Total</td>
+                                <td data-title="Total">
+                                    <strong><span class="amount"><bdi><span>$</span>47</bdi></span></strong>
+                                </td>
+                            </tr>
+                        </tfoot>
+                    </table>
+                    <div class="wc-proceed-to-checkout mb-30">
+                        <a href="checkout.php" class="th-btn">Proceed to checkout</a>
                     </div>
                 </div>
             </div>
         </div>
-
-    </section><!--==============================
+    </div><!--==============================
 	Footer Area
 ==============================-->
-    <footer class="footer-wrapper footer-default bg-theme">
-        <div class="widget-area">
-            <div class="container">
-                <div class="row justify-content-between">
-                    <div class="col-md-6 col-xl-auto">
-                        <div class="widget footer-widget">
-                            <div class="th-widget-about">
-                                <div class="about-logo">
-                                    <a href="index.html"><img src="assets/img/logo-white2.svg" alt="Realar"></a>
-                                </div>
-                                <p class="about-text"> Rapidiously myocardinate cross-platform intellectual capital model. Appropriately create interactive infrastructures</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-xl-auto">
-                        <div class="widget footer-widget">
-                            <h3 class="widget_title">Get In Touch</h3>
-                            <div class="th-widget-contact">
-                                <div class="info-box_text">
-                                    <div class="icon"><img src="assets/img/icon/location-dot.svg" alt="img"></div>
-                                    <div class="details">
-                                        <p>789 Inner Lane, Holy park,</p>
-                                        <p>California, USA</p>
-                                    </div>
-                                </div>
-                                <div class="info-box_text">
-                                    <div class="icon">
-                                        <img src="assets/img/icon/phone.svg" alt="img">
-                                    </div>
-                                    <div class="details">
-                                        <p><a href="tel:+0123456789" class="info-box_link">+01 234 567 890</a></p>
-                                        <p><a href="tel:+09876543210" class="info-box_link">+09 876 543 210</a></p>
-                                    </div>
-                                </div>
-                                <div class="info-box_text">
-                                    <div class="icon">
-                                        <img src="assets/img/icon/envelope.svg" alt="img">
-                                    </div>
-                                    <div class="details">
-                                        <p><a href="mailto:mailinfo00@realar.com" class="info-box_link">mailinfo00@realar.com</a></p>
-                                        <p><a href="mailto:support24@realar.com" class="info-box_link">support24@realar.com</a></p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-xl-auto">
-                        <div class="widget widget_nav_menu footer-widget">
-                            <h3 class="widget_title">Useful Link</h3>
-                            <div class="menu-all-pages-container">
-                                <ul class="menu">
-                                    <li><a href="about.html">About us</a></li>
-                                    <li><a href="property.html">Featured Properties</a></li>
-                                    <li><a href="service.html">Our Best Services</a></li>
-                                    <li><a href="contact.html">Request Visit</a></li>
-                                    <li><a href="contact.html">FAQ</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-xl-auto">
-                        <div class="widget widget_nav_menu footer-widget">
-                            <h3 class="widget_title">Explore</h3>
-                            <div class="menu-all-pages-container">
-                                <ul class="menu">
-                                    <li><a href="property.html">All Properties</a></li>
-                                    <li><a href="team.html">Our Agents</a></li>
-                                    <li><a href="property.html">All Projects</a></li>
-                                    <li><a href="about.html">Our Process</a></li>
-                                    <li><a href="contact.html">Neighborhood</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="copyright-wrap bg-light">
-            <div class="container">
-                <div class="row gy-3 align-items-center">
-                    <div class="col-lg-6">
-                        <p class="copyright-text">
-                            Copyright <i class="fal fa-copyright"></i> 2024 <a href="index.html">Realar</a>, All rights reserved.</p>
-                    </div>
-                    <div class="col-lg-6">
-                        <div class="th-social justify-content-lg-end justify-content-center">
-                            <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
-                            <a href="https://www.twitter.com/"><i class="fab fa-twitter"></i></a>
-                            <a href="https://www.instagram.com/"><i class="fab fa-youtube"></i></a>
-                            <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
+<?php include "include/footer.php"; ?>
 
     <!--********************************
 			Code End  Here 

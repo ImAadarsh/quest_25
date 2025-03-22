@@ -99,47 +99,47 @@
         <div class="th-menu-area text-center">
             <button class="th-menu-toggle"><i class="fal fa-times"></i></button>
             <div class="mobile-logo">
-                <a href="index.html">
+                <a href="index.php">
                     <img src="assets/img/logo-white.svg" alt="Realar">
                 </a>
             </div>
             <div class="th-mobile-menu">
                 <ul>
                     <li class="menu-item-has-children">
-                        <a href="index.html">
+                        <a href="index.php">
                             Home
                         </a>
                         <ul class="sub-menu">
-                            <li><a href="index.html">Home Luxury Apartment</a></li>
-                            <li><a href="home-2.html">Home Real Estate Agency</a></li>
-                            <li><a href="home-3.html">Home Commercial Real Estate</a></li>
+                            <li><a href="index.php">Home Luxury Apartment</a></li>
+                            <li><a href="home-2.php">Home Real Estate Agency</a></li>
+                            <li><a href="home-3.php">Home Commercial Real Estate</a></li>
                         </ul>
                     </li>
-                    <li><a href="about.html">
+                    <li><a href="about.php">
                             About Us
                         </a></li>
                     <li class="menu-item-has-children">
-                        <a href="property.html">
+                        <a href="property.php">
                             Properties
                         </a>
                         <ul class="sub-menu">
-                            <li><a href="property.html">
+                            <li><a href="property.php">
                                     Properties
                                 </a></li>
-                            <li><a href="property-details.html">
+                            <li><a href="property-details.php">
                                     Property Details
                                 </a></li>
                         </ul>
                     </li>
                     <li class="menu-item-has-children">
-                        <a href="agency.html">
+                        <a href="agency.php">
                             Agencies
                         </a>
                         <ul class="sub-menu">
-                            <li><a href="agency.html">
+                            <li><a href="agency.php">
                                     Agencies
                                 </a></li>
-                            <li><a href="agency-details.html">
+                            <li><a href="agency-details.php">
                                     Agencies Details
                                 </a></li>
                         </ul>
@@ -149,55 +149,55 @@
                             Pages
                         </a>
                         <ul class="sub-menu">
-                            <li><a href="team.html">
+                            <li><a href="team.php">
                                     Agent Page
                                 </a></li>
-                            <li><a href="team-details.html">
+                            <li><a href="team-details.php">
                                     Agent Details
                                 </a></li>
-                            <li><a href="pricing.html">
+                            <li><a href="pricing.php">
                                     Pricing Page
                                 </a></li>
-                            <li class="menu-item-has-children"><a href="shop.html">
+                            <li class="menu-item-has-children"><a href="shop.php">
                                     Shop Page
                                 </a>
                                 <ul class="sub-menu">
-                                    <li><a href="shop.html">
+                                    <li><a href="shop.php">
                                             Shop Page
                                         </a></li>
-                                    <li><a href="shop-details.html">
+                                    <li><a href="shop-details.php">
                                             Shop Details
                                         </a></li>
-                                    <li><a href="cart.html">
+                                    <li><a href="cart.php">
                                             Cart Page
                                         </a></li>
-                                    <li><a href="checkout.html">
+                                    <li><a href="checkout.php">
                                             Checkout Page
                                         </a></li>
-                                    <li><a href="wishlist.html">
+                                    <li><a href="wishlist.php">
                                             Wistlist Page
                                         </a></li>
                                 </ul>
                             </li>
-                            <li><a href="error.html">
+                            <li><a href="error.php">
                                     Error Page
                                 </a></li>
                         </ul>
                     </li>
                     <li class="menu-item-has-children">
-                        <a href="blog.html">
+                        <a href="blog.php">
                             Blog
                         </a>
                         <ul class="sub-menu">
-                            <li><a href="blog.html">
+                            <li><a href="blog.php">
                                     Blog Page
                                 </a></li>
-                            <li><a href="blog-details.html">
+                            <li><a href="blog-details.php">
                                     Blog Details
                                 </a></li>
                         </ul>
                     </li>
-                    <li><a href="contact.html">
+                    <li><a href="contact.php">
                             Contact Us
                         </a></li>
                 </ul>
@@ -212,7 +212,7 @@
             <div class="widget  ">
                 <div class="th-widget-about">
                     <div class="about-logo">
-                        <a href="index.html"><img src="assets/img/logo.svg" alt="Realar"></a>
+                        <a href="index.php"><img src="assets/img/logo.svg" alt="Realar"></a>
                     </div>
                     <p class="about-text"> Rapidiously myocardinate cross-platform intellectual capital model. Appropriately create interactive infrastructures</p>
                 </div>
@@ -275,7 +275,7 @@
                     <div class="row align-items-center justify-content-between">
                         <div class="col-auto">
                             <div class="header-logo">
-                                <a href="index.html">
+                                <a href="index.php">
                                     <img src="assets/img/logo-white2.svg" alt="Realar">
                                 </a>
                             </div>
@@ -284,40 +284,40 @@
                             <nav class="main-menu d-none d-lg-inline-block">
                                 <ul>
                                     <li class="menu-item-has-children">
-                                        <a href="index.html">
+                                        <a href="index.php">
                                             Home
                                         </a>
                                         <ul class="sub-menu">
-                                            <li><a href="index.html">Home Luxury Apartment</a></li>
-                                            <li><a href="home-2.html">Home Real Estate Agency</a></li>
-                                            <li><a href="home-3.html">Home Commercial Real Estate</a></li>
+                                            <li><a href="index.php">Home Luxury Apartment</a></li>
+                                            <li><a href="home-2.php">Home Real Estate Agency</a></li>
+                                            <li><a href="home-3.php">Home Commercial Real Estate</a></li>
                                         </ul>
                                     </li>
-                                    <li><a href="about.html">
+                                    <li><a href="about.php">
                                             About Us
                                         </a></li>
                                     <li class="menu-item-has-children">
-                                        <a href="property.html">
+                                        <a href="property.php">
                                             Properties
                                         </a>
                                         <ul class="sub-menu">
-                                            <li><a href="property.html">
+                                            <li><a href="property.php">
                                                     Properties
                                                 </a></li>
-                                            <li><a href="property-details.html">
+                                            <li><a href="property-details.php">
                                                     Property Details
                                                 </a></li>
                                         </ul>
                                     </li>
                                     <li class="menu-item-has-children">
-                                        <a href="agency.html">
+                                        <a href="agency.php">
                                             Agencies
                                         </a>
                                         <ul class="sub-menu">
-                                            <li><a href="agency.html">
+                                            <li><a href="agency.php">
                                                     Agencies
                                                 </a></li>
-                                            <li><a href="agency-details.html">
+                                            <li><a href="agency-details.php">
                                                     Agencies Details
                                                 </a></li>
                                         </ul>
@@ -327,55 +327,55 @@
                                             Pages
                                         </a>
                                         <ul class="sub-menu">
-                                            <li><a href="team.html">
+                                            <li><a href="team.php">
                                                     Agent Page
                                                 </a></li>
-                                            <li><a href="team-details.html">
+                                            <li><a href="team-details.php">
                                                     Agent Details
                                                 </a></li>
-                                            <li><a href="pricing.html">
+                                            <li><a href="pricing.php">
                                                     Pricing Page
                                                 </a></li>
-                                            <li class="menu-item-has-children"><a href="shop.html">
+                                            <li class="menu-item-has-children"><a href="shop.php">
                                                     Shop Page
                                                 </a>
                                                 <ul class="sub-menu">
-                                                    <li><a href="shop.html">
+                                                    <li><a href="shop.php">
                                                             Shop Page
                                                         </a></li>
-                                                    <li><a href="shop-details.html">
+                                                    <li><a href="shop-details.php">
                                                             Shop Details
                                                         </a></li>
-                                                    <li><a href="cart.html">
+                                                    <li><a href="cart.php">
                                                             Cart Page
                                                         </a></li>
-                                                    <li><a href="checkout.html">
+                                                    <li><a href="checkout.php">
                                                             Checkout Page
                                                         </a></li>
-                                                    <li><a href="wishlist.html">
+                                                    <li><a href="wishlist.php">
                                                             Wistlist Page
                                                         </a></li>
                                                 </ul>
                                             </li>
-                                            <li><a href="error.html">
+                                            <li><a href="error.php">
                                                     Error Page
                                                 </a></li>
                                         </ul>
                                     </li>
                                     <li class="menu-item-has-children">
-                                        <a href="blog.html">
+                                        <a href="blog.php">
                                             Blog
                                         </a>
                                         <ul class="sub-menu">
-                                            <li><a href="blog.html">
+                                            <li><a href="blog.php">
                                                     Blog Page
                                                 </a></li>
-                                            <li><a href="blog-details.html">
+                                            <li><a href="blog-details.php">
                                                     Blog Details
                                                 </a></li>
                                         </ul>
                                     </li>
-                                    <li><a href="contact.html">
+                                    <li><a href="contact.php">
                                             Contact Us
                                         </a></li>
                                 </ul>
@@ -390,7 +390,7 @@
                         </div>
                         <div class="col-auto d-none d-xxl-block">
                             <div class="header-button">
-                                <a href="contact.html" class="th-btn style-border th-btn-icon">Request A Visit</a>
+                                <a href="contact.php" class="th-btn style-border th-btn-icon">Request A Visit</a>
                                 <button type="button" class="simple-icon sideMenuInfo sidebar-btn style2">
                                     <span class="line"></span>
                                     <span class="line"></span>
@@ -415,7 +415,7 @@
                     <div class="breadcumb-content">
                         <h1 class="breadcumb-title">About Us</h1>
                         <ul class="breadcumb-menu">
-                            <li><a href="index.html">Home</a></li>
+                            <li><a href="index.php">Home</a></li>
                             <li>About Us</li>
                         </ul>
                     </div>
@@ -518,7 +518,7 @@ Why Choose Us Area
                 </div>
                 <div class="col-auto">
                     <div class="sec-btn">
-                        <a href="contact.html" class="th-btn style-border th-btn-icon">Contact Us</a>
+                        <a href="contact.php" class="th-btn style-border th-btn-icon">Contact Us</a>
                     </div>
                 </div>
             </div>
@@ -529,7 +529,7 @@ Why Choose Us Area
                             <div class="service-card-icon">
                                 <img src="assets/img/icon/service-icon4-1.svg" alt="Icon">
                             </div>
-                            <h3 class="box-title"><a href="property-details.html">Property Valuation</a></h3>
+                            <h3 class="box-title"><a href="property-details.php">Property Valuation</a></h3>
                             <p class="box-text">Generous amounts of south facing glazing maximize the solar gains for most of the year.</p>
                             <div class="service-img img-shine">
                                 <img src="assets/img/service/1-1.png" alt="img">
@@ -541,7 +541,7 @@ Why Choose Us Area
                             <div class="service-card-icon">
                                 <img src="assets/img/icon/service-icon4-2.svg" alt="Icon">
                             </div>
-                            <h3 class="box-title"><a href="property-details.html">Property Management</a></h3>
+                            <h3 class="box-title"><a href="property-details.php">Property Management</a></h3>
                             <p class="box-text">All living, dining, kitchen and play areas were devised by attached to the home.</p>
                             <div class="service-img img-shine">
                                 <img src="assets/img/service/1-2.png" alt="img">
@@ -553,7 +553,7 @@ Why Choose Us Area
                             <div class="service-card-icon">
                                 <img src="assets/img/icon/service-icon4-1.svg" alt="Icon">
                             </div>
-                            <h3 class="box-title"><a href="property-details.html">Invest Opportunities</a></h3>
+                            <h3 class="box-title"><a href="property-details.php">Invest Opportunities</a></h3>
                             <p class="box-text">All-inclusive real estate services to facilitate the easy management of your properties.</p>
                             <div class="service-img img-shine">
                                 <img src="assets/img/service/1-3.png" alt="img">
@@ -720,7 +720,7 @@ Team Area
                 </div>
                 <div class="col-auto">
                     <div class="sec-btn">
-                        <a href="team.html" class="th-btn style-border th-btn-icon">View All Team</a>
+                        <a href="team.php" class="th-btn style-border th-btn-icon">View All Team</a>
                     </div>
                 </div>
             </div>
@@ -742,12 +742,12 @@ Team Area
                                             <a target="_blank" href="https://youtube.com/"><i class="fab fa-youtube"></i></a>
                                             <a target="_blank" href="https://instagram.com/"><i class="fab fa-instagram"></i></a>
                                         </div>
-                                        <a class="icon-btn" href="team-details.html"><img src="assets/img/icon/arrow-right.svg" alt="img"></a>
+                                        <a class="icon-btn" href="team-details.php"><img src="assets/img/icon/arrow-right.svg" alt="img"></a>
                                     </div>
                                 </div>
                                 <div class="team-card-content">
                                     <div class="media-left">
-                                        <h3 class="box-title"><a href="team-details.html">Janny Wilson</a></h3>
+                                        <h3 class="box-title"><a href="team-details.php">Janny Wilson</a></h3>
                                         <span class="team-desig">Property Expert</span>
                                     </div>
                                     <a class="icon-btn" href="tel:09876543210"><img src="assets/img/icon/phone.svg" alt="img"></a>
@@ -770,12 +770,12 @@ Team Area
                                             <a target="_blank" href="https://youtube.com/"><i class="fab fa-youtube"></i></a>
                                             <a target="_blank" href="https://instagram.com/"><i class="fab fa-instagram"></i></a>
                                         </div>
-                                        <a class="icon-btn" href="team-details.html"><img src="assets/img/icon/arrow-right.svg" alt="img"></a>
+                                        <a class="icon-btn" href="team-details.php"><img src="assets/img/icon/arrow-right.svg" alt="img"></a>
                                     </div>
                                 </div>
                                 <div class="team-card-content">
                                     <div class="media-left">
-                                        <h3 class="box-title"><a href="team-details.html">Andrew Richard</a></h3>
+                                        <h3 class="box-title"><a href="team-details.php">Andrew Richard</a></h3>
                                         <span class="team-desig">Property Expert</span>
                                     </div>
                                     <a class="icon-btn" href="tel:09876543210"><img src="assets/img/icon/phone.svg" alt="img"></a>
@@ -798,12 +798,12 @@ Team Area
                                             <a target="_blank" href="https://youtube.com/"><i class="fab fa-youtube"></i></a>
                                             <a target="_blank" href="https://instagram.com/"><i class="fab fa-instagram"></i></a>
                                         </div>
-                                        <a class="icon-btn" href="team-details.html"><img src="assets/img/icon/arrow-right.svg" alt="img"></a>
+                                        <a class="icon-btn" href="team-details.php"><img src="assets/img/icon/arrow-right.svg" alt="img"></a>
                                     </div>
                                 </div>
                                 <div class="team-card-content">
                                     <div class="media-left">
-                                        <h3 class="box-title"><a href="team-details.html">Zarin Wilson</a></h3>
+                                        <h3 class="box-title"><a href="team-details.php">Zarin Wilson</a></h3>
                                         <span class="team-desig">Property Expert</span>
                                     </div>
                                     <a class="icon-btn" href="tel:09876543210"><img src="assets/img/icon/phone.svg" alt="img"></a>
@@ -826,12 +826,12 @@ Team Area
                                             <a target="_blank" href="https://youtube.com/"><i class="fab fa-youtube"></i></a>
                                             <a target="_blank" href="https://instagram.com/"><i class="fab fa-instagram"></i></a>
                                         </div>
-                                        <a class="icon-btn" href="team-details.html"><img src="assets/img/icon/arrow-right.svg" alt="img"></a>
+                                        <a class="icon-btn" href="team-details.php"><img src="assets/img/icon/arrow-right.svg" alt="img"></a>
                                     </div>
                                 </div>
                                 <div class="team-card-content">
                                     <div class="media-left">
-                                        <h3 class="box-title"><a href="team-details.html">Michel Smith</a></h3>
+                                        <h3 class="box-title"><a href="team-details.php">Michel Smith</a></h3>
                                         <span class="team-desig">Property Expert</span>
                                     </div>
                                     <a class="icon-btn" href="tel:09876543210"><img src="assets/img/icon/phone.svg" alt="img"></a>
@@ -854,12 +854,12 @@ Team Area
                                             <a target="_blank" href="https://youtube.com/"><i class="fab fa-youtube"></i></a>
                                             <a target="_blank" href="https://instagram.com/"><i class="fab fa-instagram"></i></a>
                                         </div>
-                                        <a class="icon-btn" href="team-details.html"><img src="assets/img/icon/arrow-right.svg" alt="img"></a>
+                                        <a class="icon-btn" href="team-details.php"><img src="assets/img/icon/arrow-right.svg" alt="img"></a>
                                     </div>
                                 </div>
                                 <div class="team-card-content">
                                     <div class="media-left">
-                                        <h3 class="box-title"><a href="team-details.html">Janny Wilson</a></h3>
+                                        <h3 class="box-title"><a href="team-details.php">Janny Wilson</a></h3>
                                         <span class="team-desig">Property Expert</span>
                                     </div>
                                     <a class="icon-btn" href="tel:09876543210"><img src="assets/img/icon/phone.svg" alt="img"></a>
@@ -882,12 +882,12 @@ Team Area
                                             <a target="_blank" href="https://youtube.com/"><i class="fab fa-youtube"></i></a>
                                             <a target="_blank" href="https://instagram.com/"><i class="fab fa-instagram"></i></a>
                                         </div>
-                                        <a class="icon-btn" href="team-details.html"><img src="assets/img/icon/arrow-right.svg" alt="img"></a>
+                                        <a class="icon-btn" href="team-details.php"><img src="assets/img/icon/arrow-right.svg" alt="img"></a>
                                     </div>
                                 </div>
                                 <div class="team-card-content">
                                     <div class="media-left">
-                                        <h3 class="box-title"><a href="team-details.html">Andrew Richard</a></h3>
+                                        <h3 class="box-title"><a href="team-details.php">Andrew Richard</a></h3>
                                         <span class="team-desig">Property Expert</span>
                                     </div>
                                     <a class="icon-btn" href="tel:09876543210"><img src="assets/img/icon/phone.svg" alt="img"></a>
@@ -910,12 +910,12 @@ Team Area
                                             <a target="_blank" href="https://youtube.com/"><i class="fab fa-youtube"></i></a>
                                             <a target="_blank" href="https://instagram.com/"><i class="fab fa-instagram"></i></a>
                                         </div>
-                                        <a class="icon-btn" href="team-details.html"><img src="assets/img/icon/arrow-right.svg" alt="img"></a>
+                                        <a class="icon-btn" href="team-details.php"><img src="assets/img/icon/arrow-right.svg" alt="img"></a>
                                     </div>
                                 </div>
                                 <div class="team-card-content">
                                     <div class="media-left">
-                                        <h3 class="box-title"><a href="team-details.html">Zarin Wilson</a></h3>
+                                        <h3 class="box-title"><a href="team-details.php">Zarin Wilson</a></h3>
                                         <span class="team-desig">Property Expert</span>
                                     </div>
                                     <a class="icon-btn" href="tel:09876543210"><img src="assets/img/icon/phone.svg" alt="img"></a>
@@ -938,12 +938,12 @@ Team Area
                                             <a target="_blank" href="https://youtube.com/"><i class="fab fa-youtube"></i></a>
                                             <a target="_blank" href="https://instagram.com/"><i class="fab fa-instagram"></i></a>
                                         </div>
-                                        <a class="icon-btn" href="team-details.html"><img src="assets/img/icon/arrow-right.svg" alt="img"></a>
+                                        <a class="icon-btn" href="team-details.php"><img src="assets/img/icon/arrow-right.svg" alt="img"></a>
                                     </div>
                                 </div>
                                 <div class="team-card-content">
                                     <div class="media-left">
-                                        <h3 class="box-title"><a href="team-details.html">Michel Smith</a></h3>
+                                        <h3 class="box-title"><a href="team-details.php">Michel Smith</a></h3>
                                         <span class="team-desig">Property Expert</span>
                                     </div>
                                     <a class="icon-btn" href="tel:09876543210"><img src="assets/img/icon/phone.svg" alt="img"></a>
@@ -1048,102 +1048,7 @@ Client Area
     </div><!--==============================
 	Footer Area
 ==============================-->
-    <footer class="footer-wrapper footer-default bg-theme">
-        <div class="widget-area">
-            <div class="container">
-                <div class="row justify-content-between">
-                    <div class="col-md-6 col-xl-auto">
-                        <div class="widget footer-widget">
-                            <div class="th-widget-about">
-                                <div class="about-logo">
-                                    <a href="index.html"><img src="assets/img/logo-white2.svg" alt="Realar"></a>
-                                </div>
-                                <p class="about-text"> Rapidiously myocardinate cross-platform intellectual capital model. Appropriately create interactive infrastructures</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-xl-auto">
-                        <div class="widget footer-widget">
-                            <h3 class="widget_title">Get In Touch</h3>
-                            <div class="th-widget-contact">
-                                <div class="info-box_text">
-                                    <div class="icon"><img src="assets/img/icon/location-dot.svg" alt="img"></div>
-                                    <div class="details">
-                                        <p>789 Inner Lane, Holy park,</p>
-                                        <p>California, USA</p>
-                                    </div>
-                                </div>
-                                <div class="info-box_text">
-                                    <div class="icon">
-                                        <img src="assets/img/icon/phone.svg" alt="img">
-                                    </div>
-                                    <div class="details">
-                                        <p><a href="tel:+0123456789" class="info-box_link">+01 234 567 890</a></p>
-                                        <p><a href="tel:+09876543210" class="info-box_link">+09 876 543 210</a></p>
-                                    </div>
-                                </div>
-                                <div class="info-box_text">
-                                    <div class="icon">
-                                        <img src="assets/img/icon/envelope.svg" alt="img">
-                                    </div>
-                                    <div class="details">
-                                        <p><a href="mailto:mailinfo00@realar.com" class="info-box_link">mailinfo00@realar.com</a></p>
-                                        <p><a href="mailto:support24@realar.com" class="info-box_link">support24@realar.com</a></p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-xl-auto">
-                        <div class="widget widget_nav_menu footer-widget">
-                            <h3 class="widget_title">Useful Link</h3>
-                            <div class="menu-all-pages-container">
-                                <ul class="menu">
-                                    <li><a href="about.html">About us</a></li>
-                                    <li><a href="property.html">Featured Properties</a></li>
-                                    <li><a href="service.html">Our Best Services</a></li>
-                                    <li><a href="contact.html">Request Visit</a></li>
-                                    <li><a href="contact.html">FAQ</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-xl-auto">
-                        <div class="widget widget_nav_menu footer-widget">
-                            <h3 class="widget_title">Explore</h3>
-                            <div class="menu-all-pages-container">
-                                <ul class="menu">
-                                    <li><a href="property.html">All Properties</a></li>
-                                    <li><a href="team.html">Our Agents</a></li>
-                                    <li><a href="property.html">All Projects</a></li>
-                                    <li><a href="about.html">Our Process</a></li>
-                                    <li><a href="contact.html">Neighborhood</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="copyright-wrap bg-light">
-            <div class="container">
-                <div class="row gy-3 align-items-center">
-                    <div class="col-lg-6">
-                        <p class="copyright-text">
-                            Copyright <i class="fal fa-copyright"></i> 2024 <a href="index.html">Realar</a>, All rights reserved.</p>
-                    </div>
-                    <div class="col-lg-6">
-                        <div class="th-social justify-content-lg-end justify-content-center">
-                            <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
-                            <a href="https://www.twitter.com/"><i class="fab fa-twitter"></i></a>
-                            <a href="https://www.instagram.com/"><i class="fab fa-youtube"></i></a>
-                            <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
+<?php include "include/footer.php"; ?>
 
     <!--********************************
 			Code End  Here 

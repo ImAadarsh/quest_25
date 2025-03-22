@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Eduace Quest 2025 - Contact</title>
+    <title>Eduace Quest 2025 - Wishlist</title>
     <meta name="author" content="Realar">
     <meta name="description" content="Eduace Quest 2025">
     <meta name="keywords" content="Eduace Quest 2025, Endeavour Digital">
@@ -99,47 +99,47 @@
         <div class="th-menu-area text-center">
             <button class="th-menu-toggle"><i class="fal fa-times"></i></button>
             <div class="mobile-logo">
-                <a href="index.html">
+                <a href="index.php">
                     <img src="assets/img/logo-white.svg" alt="Realar">
                 </a>
             </div>
             <div class="th-mobile-menu">
                 <ul>
                     <li class="menu-item-has-children">
-                        <a href="index.html">
+                        <a href="index.php">
                             Home
                         </a>
                         <ul class="sub-menu">
-                            <li><a href="index.html">Home Luxury Apartment</a></li>
-                            <li><a href="home-2.html">Home Real Estate Agency</a></li>
-                            <li><a href="home-3.html">Home Commercial Real Estate</a></li>
+                            <li><a href="index.php">Home Luxury Apartment</a></li>
+                            <li><a href="home-2.php">Home Real Estate Agency</a></li>
+                            <li><a href="home-3.php">Home Commercial Real Estate</a></li>
                         </ul>
                     </li>
-                    <li><a href="about.html">
+                    <li><a href="about.php">
                             About Us
                         </a></li>
                     <li class="menu-item-has-children">
-                        <a href="property.html">
+                        <a href="property.php">
                             Properties
                         </a>
                         <ul class="sub-menu">
-                            <li><a href="property.html">
+                            <li><a href="property.php">
                                     Properties
                                 </a></li>
-                            <li><a href="property-details.html">
+                            <li><a href="property-details.php">
                                     Property Details
                                 </a></li>
                         </ul>
                     </li>
                     <li class="menu-item-has-children">
-                        <a href="agency.html">
+                        <a href="agency.php">
                             Agencies
                         </a>
                         <ul class="sub-menu">
-                            <li><a href="agency.html">
+                            <li><a href="agency.php">
                                     Agencies
                                 </a></li>
-                            <li><a href="agency-details.html">
+                            <li><a href="agency-details.php">
                                     Agencies Details
                                 </a></li>
                         </ul>
@@ -149,55 +149,55 @@
                             Pages
                         </a>
                         <ul class="sub-menu">
-                            <li><a href="team.html">
+                            <li><a href="team.php">
                                     Agent Page
                                 </a></li>
-                            <li><a href="team-details.html">
+                            <li><a href="team-details.php">
                                     Agent Details
                                 </a></li>
-                            <li><a href="pricing.html">
+                            <li><a href="pricing.php">
                                     Pricing Page
                                 </a></li>
-                            <li class="menu-item-has-children"><a href="shop.html">
+                            <li class="menu-item-has-children"><a href="shop.php">
                                     Shop Page
                                 </a>
                                 <ul class="sub-menu">
-                                    <li><a href="shop.html">
+                                    <li><a href="shop.php">
                                             Shop Page
                                         </a></li>
-                                    <li><a href="shop-details.html">
+                                    <li><a href="shop-details.php">
                                             Shop Details
                                         </a></li>
-                                    <li><a href="cart.html">
+                                    <li><a href="cart.php">
                                             Cart Page
                                         </a></li>
-                                    <li><a href="checkout.html">
+                                    <li><a href="checkout.php">
                                             Checkout Page
                                         </a></li>
-                                    <li><a href="wishlist.html">
+                                    <li><a href="wishlist.php">
                                             Wistlist Page
                                         </a></li>
                                 </ul>
                             </li>
-                            <li><a href="error.html">
+                            <li><a href="error.php">
                                     Error Page
                                 </a></li>
                         </ul>
                     </li>
                     <li class="menu-item-has-children">
-                        <a href="blog.html">
+                        <a href="blog.php">
                             Blog
                         </a>
                         <ul class="sub-menu">
-                            <li><a href="blog.html">
+                            <li><a href="blog.php">
                                     Blog Page
                                 </a></li>
-                            <li><a href="blog-details.html">
+                            <li><a href="blog-details.php">
                                     Blog Details
                                 </a></li>
                         </ul>
                     </li>
-                    <li><a href="contact.html">
+                    <li><a href="contact.php">
                             Contact Us
                         </a></li>
                 </ul>
@@ -212,7 +212,7 @@
             <div class="widget  ">
                 <div class="th-widget-about">
                     <div class="about-logo">
-                        <a href="index.html"><img src="assets/img/logo.svg" alt="Realar"></a>
+                        <a href="index.php"><img src="assets/img/logo.svg" alt="Realar"></a>
                     </div>
                     <p class="about-text"> Rapidiously myocardinate cross-platform intellectual capital model. Appropriately create interactive infrastructures</p>
                 </div>
@@ -275,7 +275,7 @@
                     <div class="row align-items-center justify-content-between">
                         <div class="col-auto">
                             <div class="header-logo">
-                                <a href="index.html">
+                                <a href="index.php">
                                     <img src="assets/img/logo-white2.svg" alt="Realar">
                                 </a>
                             </div>
@@ -284,40 +284,40 @@
                             <nav class="main-menu d-none d-lg-inline-block">
                                 <ul>
                                     <li class="menu-item-has-children">
-                                        <a href="index.html">
+                                        <a href="index.php">
                                             Home
                                         </a>
                                         <ul class="sub-menu">
-                                            <li><a href="index.html">Home Luxury Apartment</a></li>
-                                            <li><a href="home-2.html">Home Real Estate Agency</a></li>
-                                            <li><a href="home-3.html">Home Commercial Real Estate</a></li>
+                                            <li><a href="index.php">Home Luxury Apartment</a></li>
+                                            <li><a href="home-2.php">Home Real Estate Agency</a></li>
+                                            <li><a href="home-3.php">Home Commercial Real Estate</a></li>
                                         </ul>
                                     </li>
-                                    <li><a href="about.html">
+                                    <li><a href="about.php">
                                             About Us
                                         </a></li>
                                     <li class="menu-item-has-children">
-                                        <a href="property.html">
+                                        <a href="property.php">
                                             Properties
                                         </a>
                                         <ul class="sub-menu">
-                                            <li><a href="property.html">
+                                            <li><a href="property.php">
                                                     Properties
                                                 </a></li>
-                                            <li><a href="property-details.html">
+                                            <li><a href="property-details.php">
                                                     Property Details
                                                 </a></li>
                                         </ul>
                                     </li>
                                     <li class="menu-item-has-children">
-                                        <a href="agency.html">
+                                        <a href="agency.php">
                                             Agencies
                                         </a>
                                         <ul class="sub-menu">
-                                            <li><a href="agency.html">
+                                            <li><a href="agency.php">
                                                     Agencies
                                                 </a></li>
-                                            <li><a href="agency-details.html">
+                                            <li><a href="agency-details.php">
                                                     Agencies Details
                                                 </a></li>
                                         </ul>
@@ -327,55 +327,55 @@
                                             Pages
                                         </a>
                                         <ul class="sub-menu">
-                                            <li><a href="team.html">
+                                            <li><a href="team.php">
                                                     Agent Page
                                                 </a></li>
-                                            <li><a href="team-details.html">
+                                            <li><a href="team-details.php">
                                                     Agent Details
                                                 </a></li>
-                                            <li><a href="pricing.html">
+                                            <li><a href="pricing.php">
                                                     Pricing Page
                                                 </a></li>
-                                            <li class="menu-item-has-children"><a href="shop.html">
+                                            <li class="menu-item-has-children"><a href="shop.php">
                                                     Shop Page
                                                 </a>
                                                 <ul class="sub-menu">
-                                                    <li><a href="shop.html">
+                                                    <li><a href="shop.php">
                                                             Shop Page
                                                         </a></li>
-                                                    <li><a href="shop-details.html">
+                                                    <li><a href="shop-details.php">
                                                             Shop Details
                                                         </a></li>
-                                                    <li><a href="cart.html">
+                                                    <li><a href="cart.php">
                                                             Cart Page
                                                         </a></li>
-                                                    <li><a href="checkout.html">
+                                                    <li><a href="checkout.php">
                                                             Checkout Page
                                                         </a></li>
-                                                    <li><a href="wishlist.html">
+                                                    <li><a href="wishlist.php">
                                                             Wistlist Page
                                                         </a></li>
                                                 </ul>
                                             </li>
-                                            <li><a href="error.html">
+                                            <li><a href="error.php">
                                                     Error Page
                                                 </a></li>
                                         </ul>
                                     </li>
                                     <li class="menu-item-has-children">
-                                        <a href="blog.html">
+                                        <a href="blog.php">
                                             Blog
                                         </a>
                                         <ul class="sub-menu">
-                                            <li><a href="blog.html">
+                                            <li><a href="blog.php">
                                                     Blog Page
                                                 </a></li>
-                                            <li><a href="blog-details.html">
+                                            <li><a href="blog-details.php">
                                                     Blog Details
                                                 </a></li>
                                         </ul>
                                     </li>
-                                    <li><a href="contact.html">
+                                    <li><a href="contact.php">
                                             Contact Us
                                         </a></li>
                                 </ul>
@@ -390,7 +390,7 @@
                         </div>
                         <div class="col-auto d-none d-xxl-block">
                             <div class="header-button">
-                                <a href="contact.html" class="th-btn style-border th-btn-icon">Request A Visit</a>
+                                <a href="contact.php" class="th-btn style-border th-btn-icon">Request A Visit</a>
                                 <button type="button" class="simple-icon sideMenuInfo sidebar-btn style2">
                                     <span class="line"></span>
                                     <span class="line"></span>
@@ -413,224 +413,156 @@
             <div class="row justify-content-center">
                 <div class="col-xl-9">
                     <div class="breadcumb-content">
-                        <h1 class="breadcumb-title">Contact</h1>
+                        <h1 class="breadcumb-title">Wishlist</h1>
                         <ul class="breadcumb-menu">
-                            <li><a href="index.html">Home</a></li>
-                            <li>Contact</li>
+                            <li><a href="index.php">Home</a></li>
+                            <li>Wishlist</li>
                         </ul>
                     </div>
                 </div>
             </div>
         </div>
     </div><!--==============================
-Contact Area  
+Checkout Area
 ==============================-->
     <div class="space">
         <div class="container">
-            <div class="title-area text-center">
-                <span class="sub-title">Get In Touch</span>
-                <h2 class="sec-title text-theme">Our Contact Information</h2>
-            </div>
-            <div class="row gy-4 justify-content-center">
-                <div class="col-xl-4 col-lg-6">
-                    <div class="about-contact-grid style2">
-                        <div class="about-contact-icon">
-                            <i class="fal fa-location-dot"></i>
-                        </div>
-                        <div class="about-contact-details">
-                            <h6 class="about-contact-details-title">Our Address</h6>
-                            <p class="about-contact-details-text">2690 Hiltona Street Victoria</p>
-                            <p class="about-contact-details-text">Road, New York, Canada</p>
-                        </div>
-                    </div>
+            <div class="tinv-wishlist woocommerce tinv-wishlist-clear">
+                <div class="tinv-header">
+                    <h2 class="mb-30">Wishlist</h2>
                 </div>
-                <div class="col-xl-4 col-lg-6">
-                    <div class="about-contact-grid style2">
-                        <div class="about-contact-icon">
-                            <i class="fal fa-phone"></i>
-                        </div>
-                        <div class="about-contact-details">
-                            <h6 class="about-contact-details-title">Phone Number</h6>
-                            <p class="about-contact-details-text"><a href="tel:01234567890">+01 234 567 890</a></p>
-                            <p class="about-contact-details-text"><a href="tel:01234567890">+09 876 543 210</a></p>
-                        </div>
-                    </div>
+                <form action="#" method="post" autocomplete="off">
+                    <table class="tinvwl-table-manage-list">
+                        <thead>
+                            <tr>
+                                <th class="product-cb">
+                                    <input type="checkbox" class="global-cb" title="Select all for bulk action">
+                                </th>
+                                <th class="product-remove"></th>
+                                <th class="product-thumbnail">&nbsp;</th>
+                                <th class="product-name">
+                                    <span class="tinvwl-full">Product Name</span><span class="tinvwl-mobile">Product</span>
+                                </th>
+                                <th class="product-price">Unit Price</th>
+                                <th class="product-date">Date Added</th>
+                                <th class="product-stock">Stock Status</th>
+                                <th class="product-action">&nbsp;</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="wishlist_item">
+                                <td class="product-cb">
+                                    <input type="checkbox" name="wishlist_pr[]" value="58" title="Select for bulk action">
+                                </td>
+                                <td class="product-remove">
+                                    <button type="submit" name="tinvwl-remove" value="58" title="Remove"><i class="fal fa-times"></i>
+                                    </button>
+                                </td>
+                                <td class="product-thumbnail">
+                                    <a href="shop-details.php"><img src="assets/img/product/product_thumb_1_1.png" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="image"></a>
+                                </td>
+                                <td class="product-name">
+                                    <a href="shop-details.php">French Velvet Sofa</a>
+                                </td>
+                                <td class="product-price">
+                                    <span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">$</span>45.00</bdi></span>
+                                </td>
+                                <td class="product-date">
+                                    <time class="entry-date" datetime="2021-11-21 03:54:24">November 21, 2021</time>
+                                </td>
+                                <td class="product-stock">
+                                    <p class="stock in-stock">
+                                        <span><i class="fas fa-check"></i></span><span class="tinvwl-txt">In stock</span>
+                                    </p>
+                                </td>
+                                <td class="product-action">
+                                    <button class="button icon-btn" name="tinvwl-add-to-cart" value="58" title="Add to Cart">
+                                        <i class="fal fa-shopping-cart"></i><span class="tinvwl-txt">Add to Cart</span>
+                                    </button>
+                                </td>
+                            </tr>
+                            <tr class="wishlist_item">
+                                <td class="product-cb">
+                                    <input type="checkbox" name="wishlist_pr[]" value="60" title="Select for bulk action">
+                                </td>
+                                <td class="product-remove">
+                                    <button type="submit" name="tinvwl-remove" value="60" title="Remove"><i class="fal fa-times"></i>
+                                    </button>
+                                </td>
+                                <td class="product-thumbnail">
+                                    <a href="shop-details.php"><img src="assets/img/product/product_thumb_1_2.png" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="image"></a>
+                                </td>
+                                <td class="product-name">
+                                    <a href="shop-details.php">Ceramic Vase</a>
+                                </td>
+                                <td class="product-price">
+                                    <ins><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">$</span>18.00</bdi></span></ins>
+                                    <del><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">$</span>20.00</bdi></span></del>
+                                </td>
+                                <td class="product-date">
+                                    <time class="entry-date" datetime="2021-11-21 03:54:24">November 21, 2021</time>
+                                </td>
+                                <td class="product-stock">
+                                    <p class="stock in-stock"><span><i class="fas fa-check"></i></span><span class="tinvwl-txt">In stock</span></p>
+                                </td>
+                                <td class="product-action">
+                                    <button class="button icon-btn" name="tinvwl-add-to-cart" value="60" title="Add to Cart">
+                                        <i class="fal fa-shopping-cart"></i><span class="tinvwl-txt">Add to Cart</span>
+                                    </button>
+                                </td>
+                            </tr>
+                            <tr class="wishlist_item">
+                                <td class="product-cb">
+                                    <input type="checkbox" name="wishlist_pr[]" value="60" title="Select for bulk action">
+                                </td>
+                                <td class="product-remove">
+                                    <button type="submit" name="tinvwl-remove" value="60" title="Remove"><i class="fal fa-times"></i>
+                                    </button>
+                                </td>
+                                <td class="product-thumbnail">
+                                    <a href="shop-details.php"><img src="assets/img/product/product_thumb_1_3.png" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="image"></a>
+                                </td>
+                                <td class="product-name">
+                                    <a href="shop-details.php">Vintage Ceramic Vase</a>
+                                </td>
+                                <td class="product-price">
+                                    <ins><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">$</span>18.00</bdi></span></ins>
+                                    <del><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">$</span>20.00</bdi></span></del>
+                                </td>
+                                <td class="product-date">
+                                    <time class="entry-date" datetime="2021-11-21 03:54:24">November 21, 2021</time>
+                                </td>
+                                <td class="product-stock">
+                                    <p class="stock in-stock"><span><i class="fas fa-check"></i></span><span class="tinvwl-txt">In stock</span></p>
+                                </td>
+                                <td class="product-action">
+                                    <button class="button icon-btn" name="tinvwl-add-to-cart" value="60" title="Add to Cart">
+                                        <i class="fal fa-shopping-cart"></i>
+                                        <span class="tinvwl-txt">Add to Cart</span>
+                                    </button>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </form>
+                <div class="social-buttons">
+                    <span>Share on</span>
+                    <ul>
+                        <li><a href="https://www.facebook.com/sharer/sharer.php?u=permalink" class="social social-facebook" title="Facebook"><i class="fab fa-facebook-f"></i></a></li>
+                        <li><a href="https://twitter.com/share?url=permalink" class="social social-twitter " title="Twitter"><i class="fab fa-twitter"></i></a></li>
+                        <li><a href="http://pinterest.com/pin/create/button/?url=permalink" class="social social-pinterest " title="Pinterest"><i class="fab fa-pinterest-p"></i></a></li>
+                        <li><a href="https://api.whatsapp.com/send?text=permalink" class="social social-whatsapp " title="WhatsApp"><i class="fab fa-whatsapp"></i></a></li>
+                        <li><a href="http://vecurosoft.com/products/wordpress/foodelio/wishlist/974b61/" class="social social-clipboard " title="Clipboard"><i class="far fa-clipboard"></i></a></li>
+                        <li><a href="mailto:?body=permalink" class="social social-email " title="Email"><i class="far fa-envelope"></i></a></li>
+                    </ul>
                 </div>
-                <div class="col-xl-4 col-lg-6">
-                    <div class="about-contact-grid style2">
-                        <div class="about-contact-icon">
-                            <i class="fal fa-envelope"></i>
-                        </div>
-                        <div class="about-contact-details">
-                            <h6 class="about-contact-details-title">Email Address</h6>
-                            <p class="about-contact-details-text"><a href="mailto:mailinfo00@realar.com">mailinfo00@realar.com</a></p>
-                            <p class="about-contact-details-text"><a href="mailto:support24@realar.com">support24@realar.com</a></p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div><!--==============================
-Contact Area   
-==============================-->
-    <div class="space contact-area-3 z-index-common" data-bg-src="assets/img/bg/contact-bg-1-1.png" data-overlay="title" data-opacity="3">
-        <div class="contact-bg-shape3-1 spin shape-mockup " data-bottom="5%" data-left="12%">
-            <img src="assets/img/shape/section_shape_2_1.jpg" alt="img">
-        </div>
-        <div class="container">
-            <div class="row gx-35">
-                <div class="col-lg-6">
-                    <div class="appointment-wrap2 bg-white me-xxl-5">
-                        <h2 class="form-title text-theme">Schedule a visit</h2>
-                        <form action="mail.php" method="POST" class="appointment-form ajax-contact">
-                            <div class="row">
-                                <div class="form-group style-border style-radius col-12">
-                                    <input type="text" class="form-control" name="name" id="name" placeholder="Your Name*">
-                                    <i class="fal fa-user"></i>
-                                </div>
-                                <div class="form-group style-border style-radius col-12">
-                                    <input type="email" class="form-control" name="email" id="email" placeholder="Your Email*">
-                                    <i class="fal fa-envelope"></i>
-                                </div>
-                                <div class="form-group style-border style-radius col-md-12">
-                                    <select name="subject" id="subject" class="form-select">
-                                        <option value="" disabled selected hidden>Select Service Type</option>
-                                        <option value="Real Estate">Real Estate</option>
-                                        <option value="Apartment">Apartment</option>
-                                        <option value="Residencial">Residencial</option>
-                                        <option value="Deluxe">Deluxe</option>
-                                    </select>
-                                    <i class="fal fa-angle-down"></i>
-                                </div>
-                                <div class="col-12 form-group style-border style-radius">
-                                    <i class="far fa-comments"></i>
-                                    <textarea placeholder="Type Your Message" class="form-control"></textarea>
-                                </div>
-                                <div class="col-12 form-btn mt-4">
-                                    <button class="th-btn">Submit Message <span class="btn-icon"><img src="assets/img/icon/paper-plane.svg" alt="img"></span></button>
-                                </div>
-                            </div>
-                            <p class="form-messages mb-0 mt-3"></p>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="location-map contact-sec-map z-index-common">
-            <div class="contact-map">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3644.7310056272386!2d89.2286059153658!3d24.00527418490799!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39fe9b97badc6151%3A0x30b048c9fb2129bc!2sAngfuztheme!5e0!3m2!1sen!2sbd!4v1651028958211!5m2!1sen!2sbd" allowfullscreen="" loading="lazy"></iframe>
-            </div>
-            <div class="location-map-address bg-theme">
-                <div class="thumb">
-                    <img src="assets/img/property/property_inner_1.jpg" alt="img">
-                </div>
-                <div class="media-body">
-                    <h4 class="title">Address:</h4>
-                    <p class="text">Brooklyn, New York 11233, United States</p>
-                    <h4 class="title">Post Code:</h4>
-                    <p class="text">12345</p>
-                </div>
+
             </div>
         </div>
     </div><!--==============================
 	Footer Area
 ==============================-->
-    <footer class="footer-wrapper footer-default bg-theme">
-        <div class="widget-area">
-            <div class="container">
-                <div class="row justify-content-between">
-                    <div class="col-md-6 col-xl-auto">
-                        <div class="widget footer-widget">
-                            <div class="th-widget-about">
-                                <div class="about-logo">
-                                    <a href="index.html"><img src="assets/img/logo-white2.svg" alt="Realar"></a>
-                                </div>
-                                <p class="about-text"> Rapidiously myocardinate cross-platform intellectual capital model. Appropriately create interactive infrastructures</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-xl-auto">
-                        <div class="widget footer-widget">
-                            <h3 class="widget_title">Get In Touch</h3>
-                            <div class="th-widget-contact">
-                                <div class="info-box_text">
-                                    <div class="icon"><img src="assets/img/icon/location-dot.svg" alt="img"></div>
-                                    <div class="details">
-                                        <p>789 Inner Lane, Holy park,</p>
-                                        <p>California, USA</p>
-                                    </div>
-                                </div>
-                                <div class="info-box_text">
-                                    <div class="icon">
-                                        <img src="assets/img/icon/phone.svg" alt="img">
-                                    </div>
-                                    <div class="details">
-                                        <p><a href="tel:+0123456789" class="info-box_link">+01 234 567 890</a></p>
-                                        <p><a href="tel:+09876543210" class="info-box_link">+09 876 543 210</a></p>
-                                    </div>
-                                </div>
-                                <div class="info-box_text">
-                                    <div class="icon">
-                                        <img src="assets/img/icon/envelope.svg" alt="img">
-                                    </div>
-                                    <div class="details">
-                                        <p><a href="mailto:mailinfo00@realar.com" class="info-box_link">mailinfo00@realar.com</a></p>
-                                        <p><a href="mailto:support24@realar.com" class="info-box_link">support24@realar.com</a></p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-xl-auto">
-                        <div class="widget widget_nav_menu footer-widget">
-                            <h3 class="widget_title">Useful Link</h3>
-                            <div class="menu-all-pages-container">
-                                <ul class="menu">
-                                    <li><a href="about.html">About us</a></li>
-                                    <li><a href="property.html">Featured Properties</a></li>
-                                    <li><a href="service.html">Our Best Services</a></li>
-                                    <li><a href="contact.html">Request Visit</a></li>
-                                    <li><a href="contact.html">FAQ</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-xl-auto">
-                        <div class="widget widget_nav_menu footer-widget">
-                            <h3 class="widget_title">Explore</h3>
-                            <div class="menu-all-pages-container">
-                                <ul class="menu">
-                                    <li><a href="property.html">All Properties</a></li>
-                                    <li><a href="team.html">Our Agents</a></li>
-                                    <li><a href="property.html">All Projects</a></li>
-                                    <li><a href="about.html">Our Process</a></li>
-                                    <li><a href="contact.html">Neighborhood</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="copyright-wrap bg-light">
-            <div class="container">
-                <div class="row gy-3 align-items-center">
-                    <div class="col-lg-6">
-                        <p class="copyright-text">
-                            Copyright <i class="fal fa-copyright"></i> 2024 <a href="index.html">Realar</a>, All rights reserved.</p>
-                    </div>
-                    <div class="col-lg-6">
-                        <div class="th-social justify-content-lg-end justify-content-center">
-                            <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
-                            <a href="https://www.twitter.com/"><i class="fab fa-twitter"></i></a>
-                            <a href="https://www.instagram.com/"><i class="fab fa-youtube"></i></a>
-                            <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
+<?php include "include/footer.php"; ?>
 
     <!--********************************
 			Code End  Here 

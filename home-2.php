@@ -99,47 +99,47 @@
         <div class="th-menu-area text-center">
             <button class="th-menu-toggle"><i class="fal fa-times"></i></button>
             <div class="mobile-logo">
-                <a href="index.html">
+                <a href="index.php">
                     <img src="assets/img/logo-white.svg" alt="Realar">
                 </a>
             </div>
             <div class="th-mobile-menu">
                 <ul>
                     <li class="menu-item-has-children">
-                        <a href="index.html">
+                        <a href="index.php">
                             Home
                         </a>
                         <ul class="sub-menu">
-                            <li><a href="index.html">Home Luxury Apartment</a></li>
-                            <li><a href="home-2.html">Home Real Estate Agency</a></li>
-                            <li><a href="home-3.html">Home Commercial Real Estate</a></li>
+                            <li><a href="index.php">Home Luxury Apartment</a></li>
+                            <li><a href="home-2.php">Home Real Estate Agency</a></li>
+                            <li><a href="home-3.php">Home Commercial Real Estate</a></li>
                         </ul>
                     </li>
-                    <li><a href="about.html">
+                    <li><a href="about.php">
                             About Us
                         </a></li>
                     <li class="menu-item-has-children">
-                        <a href="property.html">
+                        <a href="property.php">
                             Properties
                         </a>
                         <ul class="sub-menu">
-                            <li><a href="property.html">
+                            <li><a href="property.php">
                                     Properties
                                 </a></li>
-                            <li><a href="property-details.html">
+                            <li><a href="property-details.php">
                                     Property Details
                                 </a></li>
                         </ul>
                     </li>
                     <li class="menu-item-has-children">
-                        <a href="agency.html">
+                        <a href="agency.php">
                             Agencies
                         </a>
                         <ul class="sub-menu">
-                            <li><a href="agency.html">
+                            <li><a href="agency.php">
                                     Agencies
                                 </a></li>
-                            <li><a href="agency-details.html">
+                            <li><a href="agency-details.php">
                                     Agencies Details
                                 </a></li>
                         </ul>
@@ -149,55 +149,55 @@
                             Pages
                         </a>
                         <ul class="sub-menu">
-                            <li><a href="team.html">
+                            <li><a href="team.php">
                                     Agent Page
                                 </a></li>
-                            <li><a href="team-details.html">
+                            <li><a href="team-details.php">
                                     Agent Details
                                 </a></li>
-                            <li><a href="pricing.html">
+                            <li><a href="pricing.php">
                                     Pricing Page
                                 </a></li>
-                            <li class="menu-item-has-children"><a href="shop.html">
+                            <li class="menu-item-has-children"><a href="shop.php">
                                     Shop Page
                                 </a>
                                 <ul class="sub-menu">
-                                    <li><a href="shop.html">
+                                    <li><a href="shop.php">
                                             Shop Page
                                         </a></li>
-                                    <li><a href="shop-details.html">
+                                    <li><a href="shop-details.php">
                                             Shop Details
                                         </a></li>
-                                    <li><a href="cart.html">
+                                    <li><a href="cart.php">
                                             Cart Page
                                         </a></li>
-                                    <li><a href="checkout.html">
+                                    <li><a href="checkout.php">
                                             Checkout Page
                                         </a></li>
-                                    <li><a href="wishlist.html">
+                                    <li><a href="wishlist.php">
                                             Wistlist Page
                                         </a></li>
                                 </ul>
                             </li>
-                            <li><a href="error.html">
+                            <li><a href="error.php">
                                     Error Page
                                 </a></li>
                         </ul>
                     </li>
                     <li class="menu-item-has-children">
-                        <a href="blog.html">
+                        <a href="blog.php">
                             Blog
                         </a>
                         <ul class="sub-menu">
-                            <li><a href="blog.html">
+                            <li><a href="blog.php">
                                     Blog Page
                                 </a></li>
-                            <li><a href="blog-details.html">
+                            <li><a href="blog-details.php">
                                     Blog Details
                                 </a></li>
                         </ul>
                     </li>
-                    <li><a href="contact.html">
+                    <li><a href="contact.php">
                             Contact Us
                         </a></li>
                 </ul>
@@ -214,7 +214,7 @@
                     <div class="row align-items-center justify-content-between">
                         <div class="col-auto">
                             <div class="header-logo">
-                                <a href="index.html">
+                                <a href="index.php">
                                     <img src="assets/img/logo.svg" alt="Realar">
                                 </a>
                             </div>
@@ -223,40 +223,40 @@
                             <nav class="main-menu d-none d-lg-inline-block">
                                 <ul>
                                     <li class="menu-item-has-children">
-                                        <a href="index.html">
+                                        <a href="index.php">
                                             Home
                                         </a>
                                         <ul class="sub-menu">
-                                            <li><a href="index.html">Home Luxury Apartment</a></li>
-                                            <li><a href="home-2.html">Home Real Estate Agency</a></li>
-                                            <li><a href="home-3.html">Home Commercial Real Estate</a></li>
+                                            <li><a href="index.php">Home Luxury Apartment</a></li>
+                                            <li><a href="home-2.php">Home Real Estate Agency</a></li>
+                                            <li><a href="home-3.php">Home Commercial Real Estate</a></li>
                                         </ul>
                                     </li>
-                                    <li><a href="about.html">
+                                    <li><a href="about.php">
                                             About Us
                                         </a></li>
                                     <li class="menu-item-has-children">
-                                        <a href="property.html">
+                                        <a href="property.php">
                                             Properties
                                         </a>
                                         <ul class="sub-menu">
-                                            <li><a href="property.html">
+                                            <li><a href="property.php">
                                                     Properties
                                                 </a></li>
-                                            <li><a href="property-details.html">
+                                            <li><a href="property-details.php">
                                                     Property Details
                                                 </a></li>
                                         </ul>
                                     </li>
                                     <li class="menu-item-has-children">
-                                        <a href="agency.html">
+                                        <a href="agency.php">
                                             Agencies
                                         </a>
                                         <ul class="sub-menu">
-                                            <li><a href="agency.html">
+                                            <li><a href="agency.php">
                                                     Agencies
                                                 </a></li>
-                                            <li><a href="agency-details.html">
+                                            <li><a href="agency-details.php">
                                                     Agencies Details
                                                 </a></li>
                                         </ul>
@@ -266,55 +266,55 @@
                                             Pages
                                         </a>
                                         <ul class="sub-menu">
-                                            <li><a href="team.html">
+                                            <li><a href="team.php">
                                                     Agent Page
                                                 </a></li>
-                                            <li><a href="team-details.html">
+                                            <li><a href="team-details.php">
                                                     Agent Details
                                                 </a></li>
-                                            <li><a href="pricing.html">
+                                            <li><a href="pricing.php">
                                                     Pricing Page
                                                 </a></li>
-                                            <li class="menu-item-has-children"><a href="shop.html">
+                                            <li class="menu-item-has-children"><a href="shop.php">
                                                     Shop Page
                                                 </a>
                                                 <ul class="sub-menu">
-                                                    <li><a href="shop.html">
+                                                    <li><a href="shop.php">
                                                             Shop Page
                                                         </a></li>
-                                                    <li><a href="shop-details.html">
+                                                    <li><a href="shop-details.php">
                                                             Shop Details
                                                         </a></li>
-                                                    <li><a href="cart.html">
+                                                    <li><a href="cart.php">
                                                             Cart Page
                                                         </a></li>
-                                                    <li><a href="checkout.html">
+                                                    <li><a href="checkout.php">
                                                             Checkout Page
                                                         </a></li>
-                                                    <li><a href="wishlist.html">
+                                                    <li><a href="wishlist.php">
                                                             Wistlist Page
                                                         </a></li>
                                                 </ul>
                                             </li>
-                                            <li><a href="error.html">
+                                            <li><a href="error.php">
                                                     Error Page
                                                 </a></li>
                                         </ul>
                                     </li>
                                     <li class="menu-item-has-children">
-                                        <a href="blog.html">
+                                        <a href="blog.php">
                                             Blog
                                         </a>
                                         <ul class="sub-menu">
-                                            <li><a href="blog.html">
+                                            <li><a href="blog.php">
                                                     Blog Page
                                                 </a></li>
-                                            <li><a href="blog-details.html">
+                                            <li><a href="blog-details.php">
                                                     Blog Details
                                                 </a></li>
                                         </ul>
                                     </li>
-                                    <li><a href="contact.html">
+                                    <li><a href="contact.php">
                                             Contact Us
                                         </a></li>
                                 </ul>
@@ -329,7 +329,7 @@
                         </div>
                         <div class="col-auto d-none d-xxl-block">
                             <div class="header-button">
-                                <a href="contact.html" class="th-btn style2 th-btn-icon">Request A Visit</a>
+                                <a href="contact.php" class="th-btn style2 th-btn-icon">Request A Visit</a>
                             </div>
                         </div>
                     </div>
@@ -347,169 +347,34 @@ Hero Area
     <div class="th-hero-wrapper hero-2" id="hero">
         <div class="container">
             <div class="swiper th-slider hero-slider1" id="heroSlide1" data-slider-options='{"effect":"fade","loop":false,"thumbs":{"swiper":".hero-grid-thumb"}}'>
-                <div class="swiper-wrapper">
+                <div class="swiper-wrapper">    
                     <div class="swiper-slide">
                         <div class="hero-inner">
                             <div class="row gx-60 gy-50">
                                 <div class="col-xl-5">
                                     <div class="hero-thumb2-1">
-                                        <img src="assets/img/hero/hero_thumb_2_1.jpg" alt="img">
+                                        <img src="quest/quest_hero.svg" alt="img">
                                     </div>
                                 </div>
                                 <div class="col-xl-7">
                                     <div class="hero-style2">
                                         <h1 class="hero-title">
                                             <span class="title1" data-ani="slideinup" data-ani-delay="0.4s">
-                                                Discover Quality </span>
+                                                Eduace Quest 2025 </span>
                                             <span class="title1" data-ani="slideinup" data-ani-delay="0.5s">
-                                                Living Space </span>
+                                                Season 03 </span>
                                         </h1>
-                                        <p class="hero-text" data-ani="slideinup" data-ani-delay="0.6s">We aim to build contemporary homes whose beauty perishes in the delicate touches of minutiae lines and shapes. Within our plan, we endowed Villa with interestingly high-contrast spatial experiences.</p>
+                                        <p class="hero-text" data-ani="slideinup" data-ani-delay="0.6s">South Asia’s LARGEST STEAM QUIZ for School Students, Quiz based on STEAM for students of grade 06th till 12th standard. Major centres spread across Asian Region- India(13 Centres).</p>
                                         <div class="btn-wrap" data-ani="slideinup" data-ani-delay="0.7s">
-                                            <a href="contact.html" class="th-btn style2 th-btn-icon">Request A Visit</a>
+                                            <a href="contact.php" class="th-btn style2 th-btn-icon">Register Now</a>
 
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-
                     </div>
-                    <div class="swiper-slide">
-                        <div class="hero-inner">
-                            <div class="row gx-60 gy-50">
-                                <div class="col-xl-5">
-                                    <div class="hero-thumb2-1">
-                                        <img src="assets/img/hero/hero_thumb_2_2.jpg" alt="img">
-                                    </div>
-                                </div>
-                                <div class="col-xl-7">
-                                    <div class="hero-style2">
-                                        <h1 class="hero-title">
-                                            <span class="title1" data-ani="slideinup" data-ani-delay="0.4s">
-                                                Make Dream </span>
-                                            <span class="title1" data-ani="slideinup" data-ani-delay="0.5s">
-                                                For Better Living </span>
-                                        </h1>
-                                        <p class="hero-text" data-ani="slideinup" data-ani-delay="0.6s">We aim to build contemporary homes whose beauty perishes in the delicate touches of minutiae lines and shapes. Within our plan, we endowed Villa with interestingly high-contrast spatial experiences.</p>
-                                        <div class="btn-wrap" data-ani="slideinup" data-ani-delay="0.7s">
-                                            <a href="contact.html" class="th-btn style2 th-btn-icon">Request A Visit</a>
-
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="hero-inner">
-                            <div class="row gx-60 gy-50">
-                                <div class="col-xl-5">
-                                    <div class="hero-thumb2-1">
-                                        <img src="assets/img/hero/hero_thumb_2_3.jpg" alt="img">
-                                    </div>
-                                </div>
-                                <div class="col-xl-7">
-                                    <div class="hero-style2">
-                                        <h1 class="hero-title">
-                                            <span class="title1" data-ani="slideinup" data-ani-delay="0.4s">
-                                                We Craft The </span>
-                                            <span class="title1" data-ani="slideinup" data-ani-delay="0.5s">
-                                                Future Dewelling </span>
-                                        </h1>
-                                        <p class="hero-text" data-ani="slideinup" data-ani-delay="0.6s">We aim to build contemporary homes whose beauty perishes in the delicate touches of minutiae lines and shapes. Within our plan, we endowed Villa with interestingly high-contrast spatial experiences.</p>
-                                        <div class="btn-wrap" data-ani="slideinup" data-ani-delay="0.7s">
-                                            <a href="contact.html" class="th-btn style2 th-btn-icon">Request A Visit</a>
-
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="hero-inner">
-                            <div class="row gx-60 gy-50">
-                                <div class="col-xl-5">
-                                    <div class="hero-thumb2-1">
-                                        <img src="assets/img/hero/hero_thumb_2_1.jpg" alt="img">
-                                    </div>
-                                </div>
-                                <div class="col-xl-7">
-                                    <div class="hero-style2">
-                                        <h1 class="hero-title">
-                                            <span class="title1" data-ani="slideinup" data-ani-delay="0.4s">
-                                                Discover Quality </span>
-                                            <span class="title1" data-ani="slideinup" data-ani-delay="0.5s">
-                                                Living Space </span>
-                                        </h1>
-                                        <p class="hero-text" data-ani="slideinup" data-ani-delay="0.6s">We aim to build contemporary homes whose beauty perishes in the delicate touches of minutiae lines and shapes. Within our plan, we endowed Villa with interestingly high-contrast spatial experiences.</p>
-                                        <div class="btn-wrap" data-ani="slideinup" data-ani-delay="0.7s">
-                                            <a href="contact.html" class="th-btn style2 th-btn-icon">Request A Visit</a>
-
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="hero-inner">
-                            <div class="row gx-60 gy-50">
-                                <div class="col-xl-5">
-                                    <div class="hero-thumb2-1">
-                                        <img src="assets/img/hero/hero_thumb_2_2.jpg" alt="img">
-                                    </div>
-                                </div>
-                                <div class="col-xl-7">
-                                    <div class="hero-style2">
-                                        <h1 class="hero-title">
-                                            <span class="title1" data-ani="slideinup" data-ani-delay="0.4s">
-                                                Make Dream </span>
-                                            <span class="title1" data-ani="slideinup" data-ani-delay="0.5s">
-                                                For Better Living </span>
-                                        </h1>
-                                        <p class="hero-text" data-ani="slideinup" data-ani-delay="0.6s">We aim to build contemporary homes whose beauty perishes in the delicate touches of minutiae lines and shapes. Within our plan, we endowed Villa with interestingly high-contrast spatial experiences.</p>
-                                        <div class="btn-wrap" data-ani="slideinup" data-ani-delay="0.7s">
-                                            <a href="contact.html" class="th-btn style2 th-btn-icon">Request A Visit</a>
-
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="hero-inner">
-                            <div class="row gx-60 gy-50">
-                                <div class="col-xl-5">
-                                    <div class="hero-thumb2-1">
-                                        <img src="assets/img/hero/hero_thumb_2_3.jpg" alt="img">
-                                    </div>
-                                </div>
-                                <div class="col-xl-7">
-                                    <div class="hero-style2">
-                                        <h1 class="hero-title">
-                                            <span class="title1" data-ani="slideinup" data-ani-delay="0.4s">
-                                                We Craft The </span>
-                                            <span class="title1" data-ani="slideinup" data-ani-delay="0.5s">
-                                                Future Dewelling </span>
-                                        </h1>
-                                        <p class="hero-text" data-ani="slideinup" data-ani-delay="0.6s">We aim to build contemporary homes whose beauty perishes in the delicate touches of minutiae lines and shapes. Within our plan, we endowed Villa with interestingly high-contrast spatial experiences.</p>
-                                        <div class="btn-wrap" data-ani="slideinup" data-ani-delay="0.7s">
-                                            <a href="contact.html" class="th-btn style2 th-btn-icon">Request A Visit</a>
-
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
+                   
                 </div>
             </div>
 
@@ -518,42 +383,74 @@ Hero Area
                     <div class="slider-area hero-slider-thumb-wrap">
                         <div class="swiper th-slider hero-grid-thumb" data-slider-options='{"effect":"slide","loop":false,"slidesPerView":"3"}'>
                             <div class="swiper-wrapper">
+
                                 <div class="swiper-slide">
                                     <div class="box-img">
-                                        <img src="assets/img/hero/hero_thumb_2_1.jpg" alt="Image">
-                                        <span class="slider-number">01</span>
+                                        <img src="cities/1.png" alt="Chennai">
                                     </div>
                                 </div>
                                 <div class="swiper-slide">
                                     <div class="box-img">
-                                        <img src="assets/img/hero/hero_thumb_2_2.jpg" alt="Image">
-                                        <span class="slider-number">02</span>
+                                        <img src="cities/2.png" alt="Bangalore">
                                     </div>
                                 </div>
                                 <div class="swiper-slide">
                                     <div class="box-img">
-                                        <img src="assets/img/hero/hero_thumb_2_3.jpg" alt="Image">
-                                        <span class="slider-number">03</span>
+                                        <img src="cities/3.png" alt="Delhi">
                                     </div>
                                 </div>
                                 <div class="swiper-slide">
                                     <div class="box-img">
-                                        <img src="assets/img/hero/hero_thumb_2_1.jpg" alt="Image">
-                                        <span class="slider-number">04</span>
+                                        <img src="cities/4.png" alt="Dehardun">
                                     </div>
                                 </div>
                                 <div class="swiper-slide">
                                     <div class="box-img">
-                                        <img src="assets/img/hero/hero_thumb_2_2.jpg" alt="Image">
-                                        <span class="slider-number">05</span>
+                                        <img src="cities/5.png" alt="Ghaziabad">
                                     </div>
                                 </div>
                                 <div class="swiper-slide">
                                     <div class="box-img">
-                                        <img src="assets/img/hero/hero_thumb_2_3.jpg" alt="Image">
-                                        <span class="slider-number">06</span>
+                                        <img src="cities/6.png" alt="Gurgaon">
                                     </div>
                                 </div>
+                                <div class="swiper-slide">
+                                    <div class="box-img">
+                                        <img src="cities/7.png" alt="Hydrabad">
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="box-img">
+                                        <img src="cities/8.png" alt="Indore">
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="box-img">
+                                        <img src="cities/9.png" alt="Jaipur">
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="box-img">
+                                        <img src="cities/10.png" alt="Lucknow">
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="box-img">
+                                        <img src="cities/11.png" alt="Gr. Noida">
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="box-img">
+                                        <img src="cities/12.png" alt="Varanasi">
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="box-img">
+                                        <img src="cities/13.png" alt="Vishakhapatam">
+                                    </div>
+                                </div>
+
+                                
                             </div>
                         </div>
                         <button data-slider-prev="#heroSlide1" class="slider-arrow style2"><img src="assets/img/icon/arrow-left.svg" alt="img"></button>
@@ -564,10 +461,10 @@ Hero Area
         </div>
         <div class="about-tag">
             <div class="about-experience-tag">
-                <span class="circle-title-anime">Realar Agent * Realar Living Solutions</span>
+                <span class="circle-title-anime">Amrita Vishwa Vidyapeetham Present's </span>
             </div>
             <div class="about-tag-thumb">
-                <img src="assets/img/normal/about_1_3.png" alt="img">
+                <img src="quest/amirta.svg" alt="img">
             </div>
         </div>
         <div class="hero-bg-shape2-1 spin shape-mockup" data-top="14%" data-left="1%">
@@ -694,7 +591,7 @@ About Area
                         </div>
                     </div>
                     <div class="btn-wrap mt-5">
-                        <a href="about.html" class="th-btn style2 th-btn-icon">More About Realar</a>
+                        <a href="about.php" class="th-btn style2 th-btn-icon">More About Realar</a>
                     </div>
                 </div>
             </div>
@@ -724,7 +621,7 @@ Service Area
                 </div>
                 <div class="col-auto">
                     <div class="sec-btn">
-                        <a href="service.html" class="th-btn style2 th-btn-icon">Browse All Services</a>
+                        <a href="service.php" class="th-btn style2 th-btn-icon">Browse All Services</a>
                     </div>
                 </div>
             </div>
@@ -735,7 +632,7 @@ Service Area
                             <div class="service-card-icon">
                                 <img src="assets/img/icon/service-icon2-1.svg" alt="Icon">
                             </div>
-                            <h3 class="box-title"><a href="property-details.html">Property Valuation</a></h3>
+                            <h3 class="box-title"><a href="property-details.php">Property Valuation</a></h3>
                             <p class="box-text">All-inclusive real estate services to facilitate the easy and confident purchase, sale, and management of your properties.</p>
                             <div class="service-img img-shine">
                                 <img src="assets/img/service/1-1.png" alt="img">
@@ -747,7 +644,7 @@ Service Area
                             <div class="service-card-icon">
                                 <img src="assets/img/icon/service-icon2-2.svg" alt="Icon">
                             </div>
-                            <h3 class="box-title"><a href="property-details.html">Property Management</a></h3>
+                            <h3 class="box-title"><a href="property-details.php">Property Management</a></h3>
                             <p class="box-text">All-inclusive real estate services to facilitate the easy and confident purchase, sale, and management of your properties.</p>
                             <div class="service-img img-shine">
                                 <img src="assets/img/service/1-2.png" alt="img">
@@ -759,7 +656,7 @@ Service Area
                             <div class="service-card-icon">
                                 <img src="assets/img/icon/service-icon2-3.svg" alt="Icon">
                             </div>
-                            <h3 class="box-title"><a href="property-details.html">Invest Opportunities</a></h3>
+                            <h3 class="box-title"><a href="property-details.php">Invest Opportunities</a></h3>
                             <p class="box-text">All-inclusive real estate services to facilitate the easy and confident purchase, sale, and management of your properties.</p>
                             <div class="service-img img-shine">
                                 <img src="assets/img/service/1-3.png" alt="img">
@@ -788,7 +685,7 @@ Portfolio Area
                 </div>
                 <div class="col-auto">
                     <div class="sec-btn">
-                        <a href="project.html" class="th-btn style-border3 th-btn-icon">Browse All Project</a>
+                        <a href="project.php" class="th-btn style-border3 th-btn-icon">Browse All Project</a>
                     </div>
                 </div>
             </div>
@@ -806,7 +703,7 @@ Portfolio Area
                                     </div>
                                 </div>
                                 <div class="portfolio-content">
-                                    <h3 class="portfolio-title"><a href="property-details.html">Villa Vroondal</a></h3>
+                                    <h3 class="portfolio-title"><a href="property-details.php">Villa Vroondal</a></h3>
                                     <p class="portfolio-text">We are a real estate firm with over 20 years of expertise, and our main goal is to provide amazing locations to our partners and clients.</p>
                                 </div>
                             </div>
@@ -821,7 +718,7 @@ Portfolio Area
                                     </div>
                                 </div>
                                 <div class="portfolio-content">
-                                    <h3 class="portfolio-title"><a href="property-details.html">Villa Sakura</a></h3>
+                                    <h3 class="portfolio-title"><a href="property-details.php">Villa Sakura</a></h3>
                                     <p class="portfolio-text">We are a real estate firm with over 20 years of expertise, and our main goal is to provide amazing locations to our partners and clients.</p>
                                 </div>
                             </div>
@@ -836,7 +733,7 @@ Portfolio Area
                                     </div>
                                 </div>
                                 <div class="portfolio-content">
-                                    <h3 class="portfolio-title"><a href="property-details.html">Villa Zuiderpark</a></h3>
+                                    <h3 class="portfolio-title"><a href="property-details.php">Villa Zuiderpark</a></h3>
                                     <p class="portfolio-text">We are a real estate firm with over 20 years of expertise, and our main goal is to provide amazing locations to our partners and clients.</p>
                                 </div>
                             </div>
@@ -851,7 +748,7 @@ Portfolio Area
                                     </div>
                                 </div>
                                 <div class="portfolio-content">
-                                    <h3 class="portfolio-title"><a href="property-details.html">Villa Vroondal</a></h3>
+                                    <h3 class="portfolio-title"><a href="property-details.php">Villa Vroondal</a></h3>
                                     <p class="portfolio-text">We are a real estate firm with over 20 years of expertise, and our main goal is to provide amazing locations to our partners and clients.</p>
                                 </div>
                             </div>
@@ -866,7 +763,7 @@ Portfolio Area
                                     </div>
                                 </div>
                                 <div class="portfolio-content">
-                                    <h3 class="portfolio-title"><a href="property-details.html">Villa Sakura</a></h3>
+                                    <h3 class="portfolio-title"><a href="property-details.php">Villa Sakura</a></h3>
                                     <p class="portfolio-text">We are a real estate firm with over 20 years of expertise, and our main goal is to provide amazing locations to our partners and clients.</p>
                                 </div>
                             </div>
@@ -881,7 +778,7 @@ Portfolio Area
                                     </div>
                                 </div>
                                 <div class="portfolio-content">
-                                    <h3 class="portfolio-title"><a href="property-details.html">Villa Zuiderpark</a></h3>
+                                    <h3 class="portfolio-title"><a href="property-details.php">Villa Zuiderpark</a></h3>
                                     <p class="portfolio-text">We are a real estate firm with over 20 years of expertise, and our main goal is to provide amazing locations to our partners and clients.</p>
                                 </div>
                             </div>
@@ -916,7 +813,7 @@ Gallery Area
                             <div class="title-area mb-md-0 text-center">
                                 <h2 class="sec-title">Get In Touch Today To Get A Free Project Quote</h2>
                                 <div class="btn-wrap mt-4 justify-content-center">
-                                    <a href="contact.html" class="th-btn mb-0 style2 th-btn-icon">Get In Touch</a>
+                                    <a href="contact.php" class="th-btn mb-0 style2 th-btn-icon">Get In Touch</a>
                                 </div>
                             </div>
                         </div>
@@ -988,7 +885,7 @@ Team Area
                 </div>
                 <div class="col-auto">
                     <div class="sec-btn">
-                        <a href="team.html" class="th-btn style-border3 th-btn-icon">View All Team</a>
+                        <a href="team.php" class="th-btn style-border3 th-btn-icon">View All Team</a>
                     </div>
                 </div>
             </div>
@@ -1010,12 +907,12 @@ Team Area
                                             <a target="_blank" href="https://youtube.com/"><i class="fab fa-youtube"></i></a>
                                             <a target="_blank" href="https://instagram.com/"><i class="fab fa-instagram"></i></a>
                                         </div>
-                                        <a class="icon-btn" href="team-details.html"><img src="assets/img/icon/arrow-right.svg" alt="img"></a>
+                                        <a class="icon-btn" href="team-details.php"><img src="assets/img/icon/arrow-right.svg" alt="img"></a>
                                     </div>
                                 </div>
                                 <div class="team-card-content">
                                     <div class="media-left">
-                                        <h3 class="box-title"><a href="team-details.html">Janny Wilson</a></h3>
+                                        <h3 class="box-title"><a href="team-details.php">Janny Wilson</a></h3>
                                         <span class="team-desig">Property Expert</span>
                                     </div>
                                     <a class="icon-btn" href="tel:09876543210"><img src="assets/img/icon/phone.svg" alt="img"></a>
@@ -1038,12 +935,12 @@ Team Area
                                             <a target="_blank" href="https://youtube.com/"><i class="fab fa-youtube"></i></a>
                                             <a target="_blank" href="https://instagram.com/"><i class="fab fa-instagram"></i></a>
                                         </div>
-                                        <a class="icon-btn" href="team-details.html"><img src="assets/img/icon/arrow-right.svg" alt="img"></a>
+                                        <a class="icon-btn" href="team-details.php"><img src="assets/img/icon/arrow-right.svg" alt="img"></a>
                                     </div>
                                 </div>
                                 <div class="team-card-content">
                                     <div class="media-left">
-                                        <h3 class="box-title"><a href="team-details.html">Andrew Richard</a></h3>
+                                        <h3 class="box-title"><a href="team-details.php">Andrew Richard</a></h3>
                                         <span class="team-desig">Property Expert</span>
                                     </div>
                                     <a class="icon-btn" href="tel:09876543210"><img src="assets/img/icon/phone.svg" alt="img"></a>
@@ -1066,12 +963,12 @@ Team Area
                                             <a target="_blank" href="https://youtube.com/"><i class="fab fa-youtube"></i></a>
                                             <a target="_blank" href="https://instagram.com/"><i class="fab fa-instagram"></i></a>
                                         </div>
-                                        <a class="icon-btn" href="team-details.html"><img src="assets/img/icon/arrow-right.svg" alt="img"></a>
+                                        <a class="icon-btn" href="team-details.php"><img src="assets/img/icon/arrow-right.svg" alt="img"></a>
                                     </div>
                                 </div>
                                 <div class="team-card-content">
                                     <div class="media-left">
-                                        <h3 class="box-title"><a href="team-details.html">Maria Prova</a></h3>
+                                        <h3 class="box-title"><a href="team-details.php">Maria Prova</a></h3>
                                         <span class="team-desig">Property Expert</span>
                                     </div>
                                     <a class="icon-btn" href="tel:09876543210"><img src="assets/img/icon/phone.svg" alt="img"></a>
@@ -1094,12 +991,12 @@ Team Area
                                             <a target="_blank" href="https://youtube.com/"><i class="fab fa-youtube"></i></a>
                                             <a target="_blank" href="https://instagram.com/"><i class="fab fa-instagram"></i></a>
                                         </div>
-                                        <a class="icon-btn" href="team-details.html"><img src="assets/img/icon/arrow-right.svg" alt="img"></a>
+                                        <a class="icon-btn" href="team-details.php"><img src="assets/img/icon/arrow-right.svg" alt="img"></a>
                                     </div>
                                 </div>
                                 <div class="team-card-content">
                                     <div class="media-left">
-                                        <h3 class="box-title"><a href="team-details.html">Janny Wilson</a></h3>
+                                        <h3 class="box-title"><a href="team-details.php">Janny Wilson</a></h3>
                                         <span class="team-desig">Property Expert</span>
                                     </div>
                                     <a class="icon-btn" href="tel:09876543210"><img src="assets/img/icon/phone.svg" alt="img"></a>
@@ -1122,12 +1019,12 @@ Team Area
                                             <a target="_blank" href="https://youtube.com/"><i class="fab fa-youtube"></i></a>
                                             <a target="_blank" href="https://instagram.com/"><i class="fab fa-instagram"></i></a>
                                         </div>
-                                        <a class="icon-btn" href="team-details.html"><img src="assets/img/icon/arrow-right.svg" alt="img"></a>
+                                        <a class="icon-btn" href="team-details.php"><img src="assets/img/icon/arrow-right.svg" alt="img"></a>
                                     </div>
                                 </div>
                                 <div class="team-card-content">
                                     <div class="media-left">
-                                        <h3 class="box-title"><a href="team-details.html">Andrew Richard</a></h3>
+                                        <h3 class="box-title"><a href="team-details.php">Andrew Richard</a></h3>
                                         <span class="team-desig">Property Expert</span>
                                     </div>
                                     <a class="icon-btn" href="tel:09876543210"><img src="assets/img/icon/phone.svg" alt="img"></a>
@@ -1150,12 +1047,12 @@ Team Area
                                             <a target="_blank" href="https://youtube.com/"><i class="fab fa-youtube"></i></a>
                                             <a target="_blank" href="https://instagram.com/"><i class="fab fa-instagram"></i></a>
                                         </div>
-                                        <a class="icon-btn" href="team-details.html"><img src="assets/img/icon/arrow-right.svg" alt="img"></a>
+                                        <a class="icon-btn" href="team-details.php"><img src="assets/img/icon/arrow-right.svg" alt="img"></a>
                                     </div>
                                 </div>
                                 <div class="team-card-content">
                                     <div class="media-left">
-                                        <h3 class="box-title"><a href="team-details.html">Maria Prova</a></h3>
+                                        <h3 class="box-title"><a href="team-details.php">Maria Prova</a></h3>
                                         <span class="team-desig">Property Expert</span>
                                     </div>
                                     <a class="icon-btn" href="tel:09876543210"><img src="assets/img/icon/phone.svg" alt="img"></a>
@@ -1538,7 +1435,7 @@ Blog Area
                 </div>
                 <div class="col-lg-auto">
                     <div class="sec-btn">
-                        <a href="blog.html" class="th-btn style-border3 th-btn-icon">Browse All Blog</a>
+                        <a href="blog.php" class="th-btn style-border3 th-btn-icon">Browse All Blog</a>
                     </div>
                 </div>
             </div>
@@ -1548,17 +1445,17 @@ Blog Area
                         <div class="swiper-slide">
                             <div class="blog-card style2">
                                 <div class="blog-img">
-                                    <a href="blog-details.html">
+                                    <a href="blog-details.php">
                                         <img src="assets/img/blog/blog_2_1.jpg" alt="blog image">
                                     </a>
                                 </div>
                                 <div class="blog-content">
                                     <div class="blog-meta">
-                                        <a href="blog.html">April 22, 2024</a>
-                                        <a href="blog.html">08 min read</a>
+                                        <a href="blog.php">April 22, 2024</a>
+                                        <a href="blog.php">08 min read</a>
                                     </div>
-                                    <h3 class="box-title"><a href="blog-details.html">What trends do we expect to start growing in the coming future journey?</a></h3>
-                                    <a href="blog-details.html" class="th-btn style-border th-btn-icon">Read More</a>
+                                    <h3 class="box-title"><a href="blog-details.php">What trends do we expect to start growing in the coming future journey?</a></h3>
+                                    <a href="blog-details.php" class="th-btn style-border th-btn-icon">Read More</a>
                                 </div>
                             </div>
                         </div>
@@ -1566,17 +1463,17 @@ Blog Area
                         <div class="swiper-slide">
                             <div class="blog-card style2">
                                 <div class="blog-img">
-                                    <a href="blog-details.html">
+                                    <a href="blog-details.php">
                                         <img src="assets/img/blog/blog_2_2.jpg" alt="blog image">
                                     </a>
                                 </div>
                                 <div class="blog-content">
                                     <div class="blog-meta">
-                                        <a href="blog.html">June 16, 2024</a>
-                                        <a href="blog.html">10 min read</a>
+                                        <a href="blog.php">June 16, 2024</a>
+                                        <a href="blog.php">10 min read</a>
                                     </div>
-                                    <h3 class="box-title"><a href="blog-details.html">The workplace tells and screams for more top story bloggers already be following</a></h3>
-                                    <a href="blog-details.html" class="th-btn style-border th-btn-icon">Read More</a>
+                                    <h3 class="box-title"><a href="blog-details.php">The workplace tells and screams for more top story bloggers already be following</a></h3>
+                                    <a href="blog-details.php" class="th-btn style-border th-btn-icon">Read More</a>
                                 </div>
                             </div>
                         </div>
@@ -1584,17 +1481,17 @@ Blog Area
                         <div class="swiper-slide">
                             <div class="blog-card style2">
                                 <div class="blog-img">
-                                    <a href="blog-details.html">
+                                    <a href="blog-details.php">
                                         <img src="assets/img/blog/blog_2_1.jpg" alt="blog image">
                                     </a>
                                 </div>
                                 <div class="blog-content">
                                     <div class="blog-meta">
-                                        <a href="blog.html">April 22, 2024</a>
-                                        <a href="blog.html">08 min read</a>
+                                        <a href="blog.php">April 22, 2024</a>
+                                        <a href="blog.php">08 min read</a>
                                     </div>
-                                    <h3 class="box-title"><a href="blog-details.html">What trends do we expect to start growing in the coming future journey?</a></h3>
-                                    <a href="blog-details.html" class="th-btn style-border th-btn-icon">Read More</a>
+                                    <h3 class="box-title"><a href="blog-details.php">What trends do we expect to start growing in the coming future journey?</a></h3>
+                                    <a href="blog-details.php" class="th-btn style-border th-btn-icon">Read More</a>
                                 </div>
                             </div>
                         </div>
@@ -1602,17 +1499,17 @@ Blog Area
                         <div class="swiper-slide">
                             <div class="blog-card style2">
                                 <div class="blog-img">
-                                    <a href="blog-details.html">
+                                    <a href="blog-details.php">
                                         <img src="assets/img/blog/blog_2_2.jpg" alt="blog image">
                                     </a>
                                 </div>
                                 <div class="blog-content">
                                     <div class="blog-meta">
-                                        <a href="blog.html">June 16, 2024</a>
-                                        <a href="blog.html">10 min read</a>
+                                        <a href="blog.php">June 16, 2024</a>
+                                        <a href="blog.php">10 min read</a>
                                     </div>
-                                    <h3 class="box-title"><a href="blog-details.html">The workplace tells and screams for more top story bloggers already be following</a></h3>
-                                    <a href="blog-details.html" class="th-btn style-border th-btn-icon">Read More</a>
+                                    <h3 class="box-title"><a href="blog-details.php">The workplace tells and screams for more top story bloggers already be following</a></h3>
+                                    <a href="blog-details.php" class="th-btn style-border th-btn-icon">Read More</a>
                                 </div>
                             </div>
                         </div>
@@ -1753,122 +1650,7 @@ Blog Area
     </div><!--==============================
 	Footer Area
 ==============================-->
-    <footer class="footer-wrapper footer-layout2 bg-white">
-        <div class="container">
-            <div class="footer-wrap space-top">
-                <div class="newsletter-wrap">
-                    <h5 class="newsletter-title">Newsletter To Get Updated The Latest News</h5>
-                    <form action="#" class="newsletter-form">
-                        <div class="form-group">
-                            <input type="text" class="form-control" placeholder="Enter Email">
-                        </div>
-                        <button class="th-btn style3">Subscribe Now <i class="far fa-paper-plane"></i></button>
-                    </form>
-                </div>
-                <div class="widget-area">
-                    <div class="row justify-content-between">
-                        <div class="col-md-6 col-xl-4">
-                            <div class="widget footer-widget">
-                                <div class="th-widget-about">
-                                    <div class="about-logo">
-                                        <a href="index.html"><img src="assets/img/logo.svg" alt="Realar"></a>
-                                    </div>
-                                    <p class="about-text">Rapidiously myocardinate cross-platform intellectual capital model. Appropriately create interactive infrastructures</p>
-                                    <div class="th-social style3">
-                                        <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
-                                        <a href="https://www.twitter.com/"><i class="fab fa-twitter"></i></a>
-                                        <a href="https://www.linkedin.com/"><i class="fab fa-linkedin-in"></i></a>
-                                        <a href="https://www.youtube.com/"><i class="fab fa-youtube"></i></a>
-                                        <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-xl-auto">
-                            <div class="widget footer-widget">
-                                <h3 class="widget_title">Get In Touch</h3>
-                                <div class="th-widget-contact">
-                                    <div class="info-box_text">
-                                        <div class="icon"><img src="assets/img/icon/location-dot.svg" alt="img"></div>
-                                        <div class="details">
-                                            <p>789 Inner Lane, Holy park,</p>
-                                            <p>California, USA</p>
-                                        </div>
-                                    </div>
-                                    <div class="info-box_text">
-                                        <div class="icon">
-                                            <img src="assets/img/icon/phone.svg" alt="img">
-                                        </div>
-                                        <div class="details">
-                                            <p><a href="tel:+0123456789" class="info-box_link">+01 234 567 890</a></p>
-                                            <p><a href="tel:+09876543210" class="info-box_link">+09 876 543 210</a></p>
-                                        </div>
-                                    </div>
-                                    <div class="info-box_text">
-                                        <div class="icon">
-                                            <img src="assets/img/icon/envelope.svg" alt="img">
-                                        </div>
-                                        <div class="details">
-                                            <p><a href="mailto:mailinfo00@realar.com" class="info-box_link">mailinfo00@realar.com</a></p>
-                                            <p><a href="mailto:support24@realar.com" class="info-box_link">support24@realar.com</a></p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-xl-auto">
-                            <div class="widget widget_nav_menu footer-widget">
-                                <h3 class="widget_title">Useful Link</h3>
-                                <div class="menu-all-pages-container">
-                                    <ul class="menu">
-                                        <li><a href="about.html">About us</a></li>
-                                        <li><a href="property.html">Featured Properties</a></li>
-                                        <li><a href="service.html">Our Best Services</a></li>
-                                        <li><a href="contact.html">Request Visit</a></li>
-                                        <li><a href="contact.html">FAQ</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-xl-auto">
-                            <div class="widget widget_nav_menu footer-widget">
-                                <h3 class="widget_title">Explore</h3>
-                                <div class="menu-all-pages-container">
-                                    <ul class="menu">
-                                        <li><a href="property.html">All Properties</a></li>
-                                        <li><a href="team.html">Our Agents</a></li>
-                                        <li><a href="property.html">All Projects</a></li>
-                                        <li><a href="about.html">Our Process</a></li>
-                                        <li><a href="contact.html">Neighborhood</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </div>
-        <div class="copyright-wrap bg-title-dark">
-            <div class="container">
-                <div class="row gy-2 align-items-center">
-                    <div class="col-lg-6">
-                        <p class="copyright-text">
-                            Copyright <i class="fal fa-copyright"></i> 2024 <a href="index.html">Realar</a>, All rights reserved.</p>
-                    </div>
-                    <div class="col-lg-6 text-center text-lg-end">
-                        <div class="footer-links">
-                            <ul>
-                                <li><a href="contact.html">Terms of service</a></li>
-                                <li><a href="contact.html">Privacy policy</a></li>
-                                <li><a href="contact.html">Cookies</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
+<?php include "include/footer.php"; ?>
 
     <!--********************************
 			Code End  Here 
