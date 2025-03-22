@@ -672,11 +672,11 @@ Team Area
                                     </div>
                                     <div class="th-social-wrap">
                                         <div class="th-social">
-                                            <a target="_blank" href="https://facebook.com/"><i class="fab fa-facebook-f"></i></a>
-                                            <a target="_blank" href="https://twitter.com/"><i class="fab fa-twitter"></i></a>
-                                            <a target="_blank" href="https://linkedin.com/"><i class="fab fa-linkedin-in"></i></a>
-                                            <a target="_blank" href="https://youtube.com/"><i class="fab fa-youtube"></i></a>
-                                            <a target="_blank" href="https://instagram.com/"><i class="fab fa-instagram"></i></a>
+                                        <a href="https://www.facebook.com/EduAceGroup#"><i class="fab fa-facebook-f"></i></a>
+                                        <a href="https://twitter.com/eduaceindia"><i class="fab fa-twitter"></i></a>
+                                        <a href="https://www.linkedin.com/company/eduace-services/"><i class="fab fa-linkedin-in"></i></a>
+                                        <a href="https://www.youtube.com/@IPNAcademy"><i class="fab fa-youtube"></i></a>
+                                        <a href="http://instagram.com/quest.eduace"><i class="fab fa-instagram"></i></a>
                                         </div>
                                         <a class="icon-btn" href="team-details.php"><img src="assets/img/icon/arrow-right.svg" alt="img"></a>
                                     </div>
@@ -1043,7 +1043,67 @@ Contact Area
     <!--==============================
 Blog Area  
 ==============================-->
+<div class="space bg-gray overflow-hidden">
+        <div class="sec-bg-shape2-1 spin shape-mockup d-xl-block d-none" data-top="7%" data-right="15%">
+            <img src="assets/img/shape/section_shape_2_1.jpg" alt="img">
+        </div>
+        <div class="container-fluid">
+            <div class="swiper th-slider instagram-slider1" id="instaSlider1" data-slider-options='{"breakpoints":{"0":{"slidesPerView":1},"576":{"slidesPerView":"2"},"768":{"slidesPerView":"3"},"992":{"slidesPerView":"4"},"1200":{"slidesPerView":"5"}}}'>
+                <div class="swiper-wrapper">
 
+                    <div class="col-auto swiper-slide">
+                        <div class="insta-box">
+                            <img src="insta/1.png" alt="Instagram">
+                            <a target="_blank" href="https://www.instagram.com/quest.eduace" class="icon-btn"><i class="fa-brands fa-instagram"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-auto swiper-slide">
+                        <div class="insta-box">
+                            <img src="insta/2.png" alt="Instagram">
+                            <a target="_blank" href="https://www.instagram.com/quest.eduace" class="icon-btn"><i class="fa-brands fa-instagram"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-auto swiper-slide">
+                        <div class="insta-box">
+                            <img src="insta/3.png" alt="Instagram">
+                            <a target="_blank" href="https://www.instagram.com/quest.eduace" class="icon-btn"><i class="fa-brands fa-instagram"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-auto swiper-slide">
+                        <div class="insta-box">
+                            <img src="insta/4.png" alt="Instagram">
+                            <a target="_blank" href="https://www.instagram.com/quest.eduace" class="icon-btn"><i class="fa-brands fa-instagram"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-auto swiper-slide">
+                        <div class="insta-box">
+                            <img src="insta/5.png" alt="Instagram">
+                            <a target="_blank" href="https://www.instagram.com/quest.eduace" class="icon-btn"><i class="fa-brands fa-instagram"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-auto swiper-slide">
+                        <div class="insta-box">
+                            <img src="insta/6.png" alt="Instagram">
+                            <a target="_blank" href="https://www.instagram.com/quest.eduace" class="icon-btn"><i class="fa-brands fa-instagram"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-auto swiper-slide">
+                        <div class="insta-box">
+                            <img src="insta/7.png" alt="Instagram">
+                            <a target="_blank" href="https://www.instagram.com/quest.eduace" class="icon-btn"><i class="fa-brands fa-instagram"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-auto swiper-slide">
+                        <div class="insta-box">
+                            <img src="insta/8.png" alt="Instagram">
+                            <a target="_blank" href="https://www.instagram.com/quest.eduace" class="icon-btn"><i class="fa-brands fa-instagram"></i></a>
+                        </div>
+                    </div>
+  
+                </div>
+            </div>
+        </div>
+    </div>
     
     <!--==============================
     Popup Modal v1

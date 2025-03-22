@@ -11,11 +11,11 @@
                                     </div>
                                     <p style="text-align: justify;" class="about-text">India's top knowledge company, empowering students in Tier-1, 2, and 3 towns. Enhancing life skills and general awareness through engaging quizzes.</p>
                                     <div class="th-social style3">
-                                        <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
-                                        <a href="https://www.twitter.com/"><i class="fab fa-twitter"></i></a>
-                                        <a href="https://www.linkedin.com/"><i class="fab fa-linkedin-in"></i></a>
-                                        <a href="https://www.youtube.com/"><i class="fab fa-youtube"></i></a>
-                                        <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+                                        <a href="https://www.facebook.com/EduAceGroup#"><i class="fab fa-facebook-f"></i></a>
+                                        <a href="https://twitter.com/eduaceindia"><i class="fab fa-twitter"></i></a>
+                                        <a href="https://www.linkedin.com/company/eduace-services/"><i class="fab fa-linkedin-in"></i></a>
+                                        <a href="https://www.youtube.com/@IPNAcademy"><i class="fab fa-youtube"></i></a>
+                                        <a href="http://instagram.com/quest.eduace"><i class="fab fa-instagram"></i></a>
                                     </div>
                                 </div>
                             </div>
