@@ -74,21 +74,22 @@
      Preloader
   ==============================-->
     <div id="preloader" class="preloader ">
-        <button class="th-btn style2 preloaderCls">Cancel Preloader </button>
         <div id="loader" class="th-preloader">
             <div class="animation-preloader">
                 <div class="txt-loading">
-                    <span preloader-text="R" class="characters">R</span>
+                    <span preloader-text="S" class="characters">S</span>
 
                     <span preloader-text="E" class="characters">E</span>
 
                     <span preloader-text="A" class="characters">A</span>
 
-                    <span preloader-text="L" class="characters">L</span>
+                    <span preloader-text="S" class="characters">S</span>
 
-                    <span preloader-text="A" class="characters">A</span>
+                    <span preloader-text="O" class="characters">O</span>
 
-                    <span preloader-text="R" class="characters">R</span>
+                    <span preloader-text="N" class="characters">N</span>
+
+                    <span preloader-text="3" class="characters">3</span>
                 </div>
             </div>
         </div>
