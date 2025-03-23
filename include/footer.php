@@ -57,11 +57,13 @@
                                 <h3 class="widget_title">Useful Link</h3>
                                 <div class="menu-all-pages-container">
                                     <ul class="menu">
+                                        <li><a href="index.php">Home</a></li>
                                         <li><a href="about.php">About us</a></li>
-                                        <li><a href="property.php">Featured Properties</a></li>
-                                        <li><a href="service.php">Our Best Services</a></li>
-                                        <li><a href="contact.php">Request Visit</a></li>
-                                        <li><a href="contact.php">FAQ</a></li>
+                                        <li><a href="rules_2025.php">Rules</a></li>
+                                        <li><a href="partners.php">Our Partners</a></li>
+                                        <li><a href="contact.php">Participating Schools</a></li>
+                                        <li><a href="faq.php">FAQ</a></li>
+                                        <li><a href="contact.php">Contact Us</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -71,11 +73,13 @@
                                 <h3 class="widget_title">Explore</h3>
                                 <div class="menu-all-pages-container">
                                     <ul class="menu">
-                                        <li><a href="property.php">All Properties</a></li>
-                                        <li><a href="team.php">Our Agents</a></li>
-                                        <li><a href="property.php">All Projects</a></li>
-                                        <li><a href="about.php">Our Process</a></li>
-                                        <li><a href="contact.php">Neighborhood</a></li>
+                                        <li><a href="https://www.eduace.in/">EduAce</a></li>
+                                        <li><a href="https://www.ipnfoundation.org/">IPN Foundation</a></li>
+                                        <li><a href="https://www.ipnindia.in/">IPN India</a></li>
+                                        <li><a href="https://www.campuscoach.in/">Campus Coach</a></li>
+                                        <li><a href="https://ipnacademy.in/">IPN Academy</a></li>
+                                        <li><a href="https://magicofskills.com/">Magic of Skills</a></li>
+                                        <li><a href="https://global.ipnfoundation.org/">Global IPN Foundation</a></li>
                                     </ul>
                                 </div>
                             </div>

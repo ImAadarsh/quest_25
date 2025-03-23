@@ -474,8 +474,8 @@ Portfolio Area
                                     </div>
                                 </div>
                                 <div class="portfolio-content">
-                                    <h3 class="portfolio-title"><a href="property-details.php">Sunbeam English School, Bhagwanpur, Varanasi</a></h3>
-                                    <p class="portfolio-text">We are a real estate firm with over 20 years of expertise, and our main goal is to provide amazing locations to our partners and clients.</p>
+                                    <h3 class="portfolio-title"><a href="property-details.php">Sunbeam English School, Varanasi</a></h3>
+                                    <p class="portfolio-text">Igniting young minds through innovation and leadership at QUEST 2024.</p>
                                 </div>
                             </div>
                         </div>
@@ -489,8 +489,8 @@ Portfolio Area
                                     </div>
                                 </div>
                                 <div class="portfolio-content">
-                                    <h3 class="portfolio-title"><a href="property-details.php">Villa Sakura</a></h3>
-                                    <p class="portfolio-text">We are a real estate firm with over 20 years of expertise, and our main goal is to provide amazing locations to our partners and clients.</p>
+                                    <h3 class="portfolio-title"><a href="property-details.php">Nurture International School, Kanpur</a></h3>
+                                    <p class="portfolio-text">Fostering creativity and excellence in education with QUEST 2024.</p>
                                 </div>
                             </div>
                         </div>
@@ -504,8 +504,8 @@ Portfolio Area
                                     </div>
                                 </div>
                                 <div class="portfolio-content">
-                                    <h3 class="portfolio-title"><a href="property-details.php">Villa Zuiderpark</a></h3>
-                                    <p class="portfolio-text">We are a real estate firm with over 20 years of expertise, and our main goal is to provide amazing locations to our partners and clients.</p>
+                                    <h3 class="portfolio-title"><a href="property-details.php">Sri Sri Academy, Kolkata</a></h3>
+                                    <p class="portfolio-text">Empowering future leaders through collaboration and learning at QUEST 2024.</p>
                                 </div>
                             </div>
                         </div>
@@ -519,12 +519,11 @@ Portfolio Area
                                     </div>
                                 </div>
                                 <div class="portfolio-content">
-                                    <h3 class="portfolio-title"><a href="property-details.php">Villa Vroondal</a></h3>
-                                    <p class="portfolio-text">We are a real estate firm with over 20 years of expertise, and our main goal is to provide amazing locations to our partners and clients.</p>
+                                    <h3 class="portfolio-title"><a href="property-details.php">Aster Public School</a></h3>
+                                    <p class="portfolio-text">Empowering future leaders through collaboration and learning at QUEST 2024.</p>
                                 </div>
                             </div>
                         </div>
-
                         <div class="swiper-slide">
                             <div class="portfolio-card style2">
                                 <div class="portfolio-img img-shine" data-bs-toggle="modal" data-bs-target="#portfolioModal">
@@ -534,23 +533,8 @@ Portfolio Area
                                     </div>
                                 </div>
                                 <div class="portfolio-content">
-                                    <h3 class="portfolio-title"><a href="property-details.php">Villa Sakura</a></h3>
-                                    <p class="portfolio-text">We are a real estate firm with over 20 years of expertise, and our main goal is to provide amazing locations to our partners and clients.</p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="swiper-slide">
-                            <div class="portfolio-card style2">
-                                <div class="portfolio-img img-shine" data-bs-toggle="modal" data-bs-target="#portfolioModal">
-                                    <img src="assets/img/school_images/6.png" alt="project image">
-                                    <div class="portfolio-card-shape">
-                                        <img src="assets/img/school_inner_images/6.png" alt="img">
-                                    </div>
-                                </div>
-                                <div class="portfolio-content">
-                                    <h3 class="portfolio-title"><a href="property-details.php">Villa Zuiderpark</a></h3>
-                                    <p class="portfolio-text">We are a real estate firm with over 20 years of expertise, and our main goal is to provide amazing locations to our partners and clients.</p>
+                                    <h3 class="portfolio-title"><a href="property-details.php">The Tonesbridge School, Dehradun</a></h3>
+                                    <p class="portfolio-text">Empowering future leaders through collaboration and learning at QUEST 2024.</p>
                                 </div>
                             </div>
                         </div>

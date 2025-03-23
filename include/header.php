@@ -27,7 +27,7 @@
                                             Rules
                                         </a></li>
                                         <li><a href="#partner">
-                                            Partner
+                                            Partners
                                         </a></li>
                                         <li><a href="school.php">
                                             Participating Schools
