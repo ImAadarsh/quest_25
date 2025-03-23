@@ -591,20 +591,20 @@ Gallery Area
                         <div class="col-12 order-md-1">
                             <ul class="gallery-list-1">
                                 <li class="gallery-card">
-                                    <a class="popup-image" href="assets/img/gallery/2-1.png">
-                                        <img src="assets/img/gallery/2-1.png" alt="img">
+                                    <a class="popup-image" href="assets/img/winners/1.png">
+                                        <img src="assets/img/winners/1.png" alt="img">
                                         <i class="fal fa-plus"></i>
                                     </a>
                                 </li>
                                 <li class="gallery-card">
-                                    <a class="popup-image" href="assets/img/gallery/2-2.png">
-                                        <img src="assets/img/gallery/2-2.png" alt="img">
+                                    <a class="popup-image" href="assets/img/winners/2.png">
+                                        <img src="assets/img/winners/2.png" alt="img">
                                         <i class="fal fa-plus"></i>
                                     </a>
                                 </li>
                                 <li class="gallery-card">
-                                    <a class="popup-image" href="assets/img/gallery/2-3.png">
-                                        <img src="assets/img/gallery/2-3.png" alt="img">
+                                    <a class="popup-image" href="assets/img/winners/3.png">
+                                        <img src="assets/img/winners/3.png" alt="img">
                                         <i class="fal fa-plus"></i>
                                     </a>
                                 </li>
@@ -613,20 +613,20 @@ Gallery Area
                         <div class="col-12 order-md-3">
                             <ul class="gallery-list-2">
                                 <li class="gallery-card">
-                                    <a class="popup-image" href="assets/img/gallery/2-4.png">
-                                        <img src="assets/img/gallery/2-4.png" alt="img">
+                                    <a class="popup-image" href="assets/img/winners/4.png">
+                                        <img src="assets/img/winners/4.png" alt="img">
                                         <i class="fal fa-plus"></i>
                                     </a>
                                 </li>
                                 <li class="gallery-card">
-                                    <a class="popup-image" href="assets/img/gallery/2-5.png">
-                                        <img src="assets/img/gallery/2-5.png" alt="img">
+                                    <a class="popup-image" href="assets/img/winners/5.png">
+                                        <img src="assets/img/winners/5.png" alt="img">
                                         <i class="fal fa-plus"></i>
                                     </a>
                                 </li>
                                 <li class="gallery-card">
-                                    <a class="popup-image" href="assets/img/gallery/2-6.png">
-                                        <img src="assets/img/gallery/2-6.png" alt="img">
+                                    <a class="popup-image" href="assets/img/winners/6.png">
+                                        <img src="assets/img/winners/6.png" alt="img">
                                         <i class="fal fa-plus"></i>
                                     </a>
                                 </li>
