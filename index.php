@@ -468,13 +468,13 @@ Portfolio Area
                         <div class="swiper-slide">
                             <div class="portfolio-card style2">
                                 <div class="portfolio-img img-shine" data-bs-toggle="modal" data-bs-target="#portfolioModal">
-                                    <img src="assets/img/project/project_2_1.png" alt="project image">
+                                    <img src="assets/img/school_images/1.png" alt="project image">
                                     <div class="portfolio-card-shape">
-                                        <img src="assets/img/project/project_shape1_1.png" alt="img">
+                                        <img src="assets/img/school_inner_images/1.png" alt="img">
                                     </div>
                                 </div>
                                 <div class="portfolio-content">
-                                    <h3 class="portfolio-title"><a href="property-details.php">Villa Vroondal</a></h3>
+                                    <h3 class="portfolio-title"><a href="property-details.php">Sunbeam English School, Bhagwanpur, Varanasi</a></h3>
                                     <p class="portfolio-text">We are a real estate firm with over 20 years of expertise, and our main goal is to provide amazing locations to our partners and clients.</p>
                                 </div>
                             </div>
@@ -483,9 +483,9 @@ Portfolio Area
                         <div class="swiper-slide">
                             <div class="portfolio-card style2">
                                 <div class="portfolio-img img-shine" data-bs-toggle="modal" data-bs-target="#portfolioModal">
-                                    <img src="assets/img/project/project_2_2.png" alt="project image">
+                                    <img src="assets/img/school_images/2.png" alt="project image">
                                     <div class="portfolio-card-shape">
-                                        <img src="assets/img/project/project_shape1_1.png" alt="img">
+                                        <img src="assets/img/school_inner_images/2.png" alt="img">
                                     </div>
                                 </div>
                                 <div class="portfolio-content">
@@ -498,9 +498,9 @@ Portfolio Area
                         <div class="swiper-slide">
                             <div class="portfolio-card style2">
                                 <div class="portfolio-img img-shine" data-bs-toggle="modal" data-bs-target="#portfolioModal">
-                                    <img src="assets/img/project/project_2_3.png" alt="project image">
+                                    <img src="assets/img/school_images/3.png" alt="project image">
                                     <div class="portfolio-card-shape">
-                                        <img src="assets/img/project/project_shape1_1.png" alt="img">
+                                        <img src="assets/img/school_inner_images/3.png" alt="img">
                                     </div>
                                 </div>
                                 <div class="portfolio-content">
@@ -513,9 +513,9 @@ Portfolio Area
                         <div class="swiper-slide">
                             <div class="portfolio-card style2">
                                 <div class="portfolio-img img-shine" data-bs-toggle="modal" data-bs-target="#portfolioModal">
-                                    <img src="assets/img/project/project_2_1.png" alt="project image">
+                                    <img src="assets/img/school_images/4.png" alt="project image">
                                     <div class="portfolio-card-shape">
-                                        <img src="assets/img/project/project_shape1_1.png" alt="img">
+                                        <img src="assets/img/school_inner_images/4.png" alt="img">
                                     </div>
                                 </div>
                                 <div class="portfolio-content">
@@ -528,9 +528,9 @@ Portfolio Area
                         <div class="swiper-slide">
                             <div class="portfolio-card style2">
                                 <div class="portfolio-img img-shine" data-bs-toggle="modal" data-bs-target="#portfolioModal">
-                                    <img src="assets/img/project/project_2_2.png" alt="project image">
+                                    <img src="assets/img/school_images/5.png" alt="project image">
                                     <div class="portfolio-card-shape">
-                                        <img src="assets/img/project/project_shape1_1.png" alt="img">
+                                        <img src="assets/img/school_inner_images/5.png" alt="img">
                                     </div>
                                 </div>
                                 <div class="portfolio-content">
@@ -543,9 +543,9 @@ Portfolio Area
                         <div class="swiper-slide">
                             <div class="portfolio-card style2">
                                 <div class="portfolio-img img-shine" data-bs-toggle="modal" data-bs-target="#portfolioModal">
-                                    <img src="assets/img/project/project_2_3.png" alt="project image">
+                                    <img src="assets/img/school_images/6.png" alt="project image">
                                     <div class="portfolio-card-shape">
-                                        <img src="assets/img/project/project_shape1_1.png" alt="img">
+                                        <img src="assets/img/school_inner_images/6.png" alt="img">
                                     </div>
                                 </div>
                                 <div class="portfolio-content">
@@ -582,7 +582,7 @@ Gallery Area
 
                         <div class="col-lg-6 col-md-8 order-md-2">
                             <div class="title-area mb-md-0 text-center">
-                                <h2 class="sec-title">Join Our Winers. Register Now</h2>
+                                <h2 class="sec-title">Join Our Winners. Register Now</h2>
                                 <div class="btn-wrap mt-4 justify-content-center">
                                     <a href="contact.php" class="th-btn mb-0 style2 th-btn-icon">Eduace Quest 2025</a>
                                 </div>
