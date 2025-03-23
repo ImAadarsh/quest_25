@@ -362,8 +362,8 @@ Service Area
             <div class="row justify-content-between align-items-center">
                 <div class="col-lg-6">
                     <div class="title-area">
-                        <h2 class="sec-title">Take A Look At Our Services</h2>
-                        <p class="sec-text">We are a real estate firm with over 20 years of expertise, and our main goal is to provide amazing locations to our partners and clients. Within the luxury real estate market, our agency offers customized solutions.</p>
+                        <h2 class="sec-title">Explore India’s Rich STEAM Heritage with QUEST 2025</h2>
+                        <p class="sec-text">Our quiz offers a unique educational experience, delving into India’s rich STEAM heritage. Students will embark on an exciting journey, Get ready to inspire young minds through knowledge and discovery!</p>
                     </div>
                 </div>
                 <div class="col-auto">
@@ -379,8 +379,8 @@ Service Area
                             <div class="service-card-icon">
                                 <img src="assets/img/icon/service-icon2-1.svg" alt="Icon">
                             </div>
-                            <h3 class="box-title"><a href="property-details.php">Property Valuation</a></h3>
-                            <p class="box-text">All-inclusive real estate services to facilitate the easy and confident purchase, sale, and management of your properties.</p>
+                            <h3 class="box-title"><a href="property-details.php">STEAM Education</a></h3>
+                            <p class="box-text">Enhance your understanding of Science, Technology, Engineering, Arts, and Mathematics with a focus on India's contributions.</p>
                             <div class="service-img img-shine">
                                 <img src="assets/img/service/1-1.png" alt="img">
                             </div>
@@ -391,8 +391,8 @@ Service Area
                             <div class="service-card-icon">
                                 <img src="assets/img/icon/service-icon2-2.svg" alt="Icon">
                             </div>
-                            <h3 class="box-title"><a href="property-details.php">Property Management</a></h3>
-                            <p class="box-text">All-inclusive real estate services to facilitate the easy and confident purchase, sale, and management of your properties.</p>
+                            <h3 class="box-title"><a href="property-details.php">Inspirational Stories</a></h3>
+                            <p class="box-text"><p class="box-text">Discover the inspiring stories of Indian STEAM pioneers who have shaped the nation's scientific and artistic landscape.</p></p>
                             <div class="service-img img-shine">
                                 <img src="assets/img/service/1-2.png" alt="img">
                             </div>
@@ -403,8 +403,8 @@ Service Area
                             <div class="service-card-icon">
                                 <img src="assets/img/icon/service-icon2-3.svg" alt="Icon">
                             </div>
-                            <h3 class="box-title"><a href="property-details.php">Invest Opportunities</a></h3>
-                            <p class="box-text">All-inclusive real estate services to facilitate the easy and confident purchase, sale, and management of your properties.</p>
+                            <h3 class="box-title"><a href="property-details.php">Competitive Advantage</a></h3>
+                            <p class="box-text">A<p class="box-text">Participate in a competitive yet engaging environment that fosters learning and teamwork all the among students.</p></p>
                             <div class="service-img img-shine">
                                 <img src="assets/img/service/1-3.png" alt="img">
                             </div>
@@ -680,7 +680,7 @@ Team Area
                             <div class="th-team team-card style2">
                                 <div class="img-wrap">
                                     <div class="team-img">
-                                        <img src="assets/img/team/team_2_2.png" alt="Team">
+                                        <img src="assets/img/profiles.png" alt="Team">
                                     </div>
                                     <div class="th-social-wrap">
                                         <div class="th-social">
@@ -695,20 +695,19 @@ Team Area
                                 </div>
                                 <div class="team-card-content">
                                     <div class="media-left">
-                                        <h3 class="box-title"><a href="team-details.php">Andrew Richard</a></h3>
-                                        <span class="team-desig">Property Expert</span>
+                                        <h3 class="box-title"><a href="team-details.php">Mr. Gaurava Yadav</a></h3>
+                                        <span class="team-desig">Head, IPN<br> Eduace Services PVT. LTD.</span>
                                     </div>
                                     <a class="icon-btn" href="tel:09876543210"><img src="assets/img/icon/phone.svg" alt="img"></a>
                                 </div>
                             </div>
                         </div>
-
                         <!-- Single Item -->
                         <div class="swiper-slide">
                             <div class="th-team team-card style2">
                                 <div class="img-wrap">
                                     <div class="team-img">
-                                        <img src="assets/img/team/team_2_3.png" alt="Team">
+                                        <img src="assets/img/profiles.png" alt="Team">
                                     </div>
                                     <div class="th-social-wrap">
                                         <div class="th-social">
@@ -723,20 +722,19 @@ Team Area
                                 </div>
                                 <div class="team-card-content">
                                     <div class="media-left">
-                                        <h3 class="box-title"><a href="team-details.php">Maria Prova</a></h3>
-                                        <span class="team-desig">Property Expert</span>
+                                        <h3 class="box-title"><a href="team-details.php">Mr. Gaurava Yadav</a></h3>
+                                        <span class="team-desig">Head, IPN<br> Eduace Services PVT. LTD.</span>
                                     </div>
                                     <a class="icon-btn" href="tel:09876543210"><img src="assets/img/icon/phone.svg" alt="img"></a>
                                 </div>
                             </div>
                         </div>
-
                         <!-- Single Item -->
                         <div class="swiper-slide">
                             <div class="th-team team-card style2">
                                 <div class="img-wrap">
                                     <div class="team-img">
-                                        <img src="assets/img/team/team_2_1.png" alt="Team">
+                                        <img src="assets/img/profiles.png" alt="Team">
                                     </div>
                                     <div class="th-social-wrap">
                                         <div class="th-social">
@@ -751,70 +749,14 @@ Team Area
                                 </div>
                                 <div class="team-card-content">
                                     <div class="media-left">
-                                        <h3 class="box-title"><a href="team-details.php">Janny Wilson</a></h3>
-                                        <span class="team-desig">Property Expert</span>
+                                        <h3 class="box-title"><a href="team-details.php">Mr. Gaurava Yadav</a></h3>
+                                        <span class="team-desig">Head, IPN<br> Eduace Services PVT. LTD.</span>
                                     </div>
                                     <a class="icon-btn" href="tel:09876543210"><img src="assets/img/icon/phone.svg" alt="img"></a>
                                 </div>
                             </div>
                         </div>
-
-                        <!-- Single Item -->
-                        <div class="swiper-slide">
-                            <div class="th-team team-card style2">
-                                <div class="img-wrap">
-                                    <div class="team-img">
-                                        <img src="assets/img/team/team_2_2.png" alt="Team">
-                                    </div>
-                                    <div class="th-social-wrap">
-                                        <div class="th-social">
-                                            <a target="_blank" href="https://facebook.com/"><i class="fab fa-facebook-f"></i></a>
-                                            <a target="_blank" href="https://twitter.com/"><i class="fab fa-twitter"></i></a>
-                                            <a target="_blank" href="https://linkedin.com/"><i class="fab fa-linkedin-in"></i></a>
-                                            <a target="_blank" href="https://youtube.com/"><i class="fab fa-youtube"></i></a>
-                                            <a target="_blank" href="https://instagram.com/"><i class="fab fa-instagram"></i></a>
-                                        </div>
-                                        <a class="icon-btn" href="team-details.php"><img src="assets/img/icon/arrow-right.svg" alt="img"></a>
-                                    </div>
-                                </div>
-                                <div class="team-card-content">
-                                    <div class="media-left">
-                                        <h3 class="box-title"><a href="team-details.php">Andrew Richard</a></h3>
-                                        <span class="team-desig">Property Expert</span>
-                                    </div>
-                                    <a class="icon-btn" href="tel:09876543210"><img src="assets/img/icon/phone.svg" alt="img"></a>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- Single Item -->
-                        <div class="swiper-slide">
-                            <div class="th-team team-card style2">
-                                <div class="img-wrap">
-                                    <div class="team-img">
-                                        <img src="assets/img/team/team_2_3.png" alt="Team">
-                                    </div>
-                                    <div class="th-social-wrap">
-                                        <div class="th-social">
-                                            <a target="_blank" href="https://facebook.com/"><i class="fab fa-facebook-f"></i></a>
-                                            <a target="_blank" href="https://twitter.com/"><i class="fab fa-twitter"></i></a>
-                                            <a target="_blank" href="https://linkedin.com/"><i class="fab fa-linkedin-in"></i></a>
-                                            <a target="_blank" href="https://youtube.com/"><i class="fab fa-youtube"></i></a>
-                                            <a target="_blank" href="https://instagram.com/"><i class="fab fa-instagram"></i></a>
-                                        </div>
-                                        <a class="icon-btn" href="team-details.php"><img src="assets/img/icon/arrow-right.svg" alt="img"></a>
-                                    </div>
-                                </div>
-                                <div class="team-card-content">
-                                    <div class="media-left">
-                                        <h3 class="box-title"><a href="team-details.php">Maria Prova</a></h3>
-                                        <span class="team-desig">Property Expert</span>
-                                    </div>
-                                    <a class="icon-btn" href="tel:09876543210"><img src="assets/img/icon/phone.svg" alt="img"></a>
-                                </div>
-                            </div>
-                        </div>
-
+                        
                     </div>
                 </div>
                 <button data-slider-prev="#teamSlider2" class="slider-arrow slider-prev"><img src="assets/img/icon/arrow-left.svg" alt=""></button>
@@ -988,7 +930,7 @@ Contact Area
                 <div class="col-lg-12">
                     <div class="title-area">
                         <h2 class="sec-title">Get In Touch</h2>
-                        <p>Quest help you easily create a real estate trading website. With the function Register, Login, Post real estate news.</p>
+                        <p>Have questions or want to collaborate? We'd love to hear from you! Connect with us to learn more about QUEST 2025, hosting opportunities, and how your school can be part of this exciting journey.</p>
                     </div>
                     <div class="about-contact-grid">
                         <div class="about-contact-icon text-white">
