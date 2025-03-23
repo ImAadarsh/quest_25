@@ -996,8 +996,8 @@ Contact Area
                         </div>
                         <div class="about-contact-details">
                             <h6 class="about-contact-details-title">Location:</h6>
-                            <p class="about-contact-details-text">1403 Washington Ave, New</p>
-                            <p class="about-contact-details-text">ns, LA 70130 United States</p>
+                            <p class="about-contact-details-text">101, Mahendrapuri Colony, Near Kali mata mandir,</p>
+                            <p class="about-contact-details-text">Gwalior road, Jhansi- 284003</p>
                         </div>
                     </div>
                     <div class="about-contact-grid">
@@ -1006,8 +1006,7 @@ Contact Area
                         </div>
                         <div class="about-contact-details">
                             <h6 class="about-contact-details-title">Phone:</h6>
-                            <p class="about-contact-details-text"><a href="tel:001234567890">+00 123 456 7890</a></p>
-                            <p class="about-contact-details-text"><a href="tel:001234567890">+00 987 654 3210</a></p>
+                            <p class="about-contact-details-text"><a href="tel:+917753888063">+917753888063</a></p>
                         </div>
                     </div>
                     <div class="about-contact-grid">
@@ -1016,8 +1015,7 @@ Contact Area
                         </div>
                         <div class="about-contact-details">
                             <h6 class="about-contact-details-title">Email:</h6>
-                            <p class="about-contact-details-text"><a href="mailto:infomailQuest@gmail.com">infomailQuest@gmail.com</a></p>
-                            <p class="about-contact-details-text"><a href="mailto:supportmail01@gmail.com">supportmail01@gmail.com</a></p>
+                            <p class="about-contact-details-text"><a href="mailto:info@eduace.in">info@eduace.in</a></p>
                         </div>
                     </div>
                 </div>
