@@ -442,7 +442,7 @@ Service Area
     <!--==============================
 Portfolio Area  
 ==============================-->
-    <section class="space bg-title-dark overflow-hidden">
+    <section class="space bg-theme overflow-hidden">
         <div class="project-bg-shape2-1 sec-bg-shape2-1 text-white jump shape-mockup" data-bottom="9%" data-left="3%">
             <img src="assets/img/shape/section_shape_2_3.jpg" alt="img">
         </div>
@@ -563,7 +563,7 @@ Portfolio Area
     </section><!--==============================
 Gallery Area  
 ==============================-->
-    <div class="bg-title-dark">
+    <div class=" bg-theme">
         <div class="bg-gray rounded-80 space">
             <div class="gallery-bg-shape2-1 spin shape-mockup d-xl-block d-none" data-top="32%" data-right="37%">
                 <img src="assets/img/shape/section_shape_2_1.jpg" alt="img">
@@ -639,7 +639,7 @@ Gallery Area
     </div><!--==============================
 Team Area  
 ==============================-->
-<section class="space bg-title-dark">
+<section class="space  bg-theme">
         <div class="sec-bg-shape2-3 jump shape-mockup d-xxl-block d-none text-white" data-top="10%" data-right="2%">
             <img src="assets/img/shape/section_shape_2_3.jpg" alt="img">
         </div>
@@ -843,7 +843,7 @@ Team Area
     <!--==============================
 Testimonial Area  
 ==============================-->
-    <section class="overflow-hidden  bg-title-dark">
+    <section class="overflow-hidden   bg-theme">
         <div class="bg-gray rounded-80 space">
             <div class="sec-bg-shape2-1 spin shape-mockup d-xxl-block d-none" data-bottom="8%" data-right="30%">
                 <img src="assets/img/shape/section_shape_2_1.jpg" alt="img">
