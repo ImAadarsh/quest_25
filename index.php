@@ -450,13 +450,13 @@ Portfolio Area
             <div class="row justify-content-lg-between justify-content-center align-items-center">
                 <div class="col-xxl-6 col-xl-7 col-lg-6">
                     <div class="title-area text-lg-start text-center">
-                        <h2 class="sec-title text-white">Browse Our Latest Projects</h2>
-                        <p class="sec-text text-white">We are a real estate firm with over 20 years of expertise, and our main goal is to provide amazing locations to our partners and clients. </p>
+                        <h2 class="sec-title text-white">Browse Our QUEST Regional Finale Events!</h2>
+                        <p class="sec-text text-white">Experience the power of collaboration and innovation as QUEST 2025 brings together educators, leaders, and changemakers from across India. Our Regional Finale Events serve as dynamic hubs where ideas meet action, fostering meaningful discussions, workshops, and networking opportunities. </p>
                     </div>
                 </div>
                 <div class="col-auto">
                     <div class="sec-btn">
-                        <a href="project.php" class="th-btn style-border3 th-btn-icon">Browse All Project</a>
+                        <a href="project.php" class="th-btn style-border3 th-btn-icon">Quest Regional Finale Events</a>
                     </div>
                 </div>
             </div>
