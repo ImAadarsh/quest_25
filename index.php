@@ -582,9 +582,9 @@ Gallery Area
 
                         <div class="col-lg-6 col-md-8 order-md-2">
                             <div class="title-area mb-md-0 text-center">
-                                <h2 class="sec-title">Get In Touch Today To Get A Free Project Quote</h2>
+                                <h2 class="sec-title">Join Our Winers. Register Now</h2>
                                 <div class="btn-wrap mt-4 justify-content-center">
-                                    <a href="contact.php" class="th-btn mb-0 style2 th-btn-icon">Get In Touch</a>
+                                    <a href="contact.php" class="th-btn mb-0 style2 th-btn-icon">Eduace Quest 2025</a>
                                 </div>
                             </div>
                         </div>
