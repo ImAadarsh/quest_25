@@ -131,11 +131,13 @@ Faq Area
 
                         <div class="accordion-card">
                             <div class="accordion-header" id="collapse-item-1">
-                                <button class="accordion-button " type="button" data-bs-toggle="collapse" data-bs-target="#collapse-1" aria-expanded="true" aria-controls="collapse-1">1. How do I start the process of buying a home?</button>
+                                <button class="accordion-button " type="button" data-bs-toggle="collapse" data-bs-target="#collapse-1" aria-expanded="true" aria-controls="collapse-1">1. What is the registration cost for QUEST? </button>
                             </div>
                             <div id="collapse-1" class="accordion-collapse collapse show" aria-labelledby="collapse-item-1" data-bs-parent="#faqAccordion">
                                 <div class="accordion-body">
-                                    <p class="faq-text">The open-concept layout seamlessly connects the living room with the fully equipped kitchen, boasting top-of-the-line appliances and all the essentials for preparing delicious meals.</p>
+                                    <p class="faq-text">The QUEST STEAM Quiz is free for all participating students.
+
+</p>
                                 </div>
                             </div>
                         </div>
@@ -143,11 +145,11 @@ Faq Area
 
                         <div class="accordion-card">
                             <div class="accordion-header" id="collapse-item-2">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-2" aria-expanded="false" aria-controls="collapse-2">2. What factors should I consider when choosing a neighborhood?</button>
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-2" aria-expanded="false" aria-controls="collapse-2">2. How many players are allowed in a team?</button>
                             </div>
                             <div id="collapse-2" class="accordion-collapse collapse " aria-labelledby="collapse-item-2" data-bs-parent="#faqAccordion">
                                 <div class="accordion-body">
-                                    <p class="faq-text">The open-concept layout seamlessly connects the living room with the fully equipped kitchen, boasting top-of-the-line appliances and all the essentials for preparing delicious meals.</p>
+                                    <p class="faq-text">Each team can have two players.</p>
                                 </div>
                             </div>
                         </div>
@@ -155,11 +157,11 @@ Faq Area
 
                         <div class="accordion-card">
                             <div class="accordion-header" id="collapse-item-3">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-3" aria-expanded="false" aria-controls="collapse-3">3. How can I determine the right price for selling my property?</button>
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-3" aria-expanded="false" aria-controls="collapse-3">3. How many students can register?</button>
                             </div>
                             <div id="collapse-3" class="accordion-collapse collapse " aria-labelledby="collapse-item-3" data-bs-parent="#faqAccordion">
                                 <div class="accordion-body">
-                                    <p class="faq-text">The open-concept layout seamlessly connects the living room with the fully equipped kitchen, boasting top-of-the-line appliances and all the essentials for preparing delicious meals.</p>
+                                    <p class="faq-text">There is no restriction on the number of students who can register from a school.</p>
                                 </div>
                             </div>
                         </div>
@@ -167,11 +169,11 @@ Faq Area
 
                         <div class="accordion-card">
                             <div class="accordion-header" id="collapse-item-4">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-4" aria-expanded="false" aria-controls="collapse-4">4. What are closing costs and who is responsible for paying them?</button>
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-4" aria-expanded="false" aria-controls="collapse-4">4. Is there a registration process or deadline to participate in the quiz?</button>
                             </div>
                             <div id="collapse-4" class="accordion-collapse collapse " aria-labelledby="collapse-item-4" data-bs-parent="#faqAccordion">
                                 <div class="accordion-body">
-                                    <p class="faq-text">The open-concept layout seamlessly connects the living room with the fully equipped kitchen, boasting top-of-the-line appliances and all the essentials for preparing delicious meals.</p>
+                                    <p class="faq-text">Yes, students must register before the specified deadline. The exact dates and process will be communicated through official channels.</p>
                                 </div>
                             </div>
                         </div>
@@ -179,11 +181,11 @@ Faq Area
 
                         <div class="accordion-card">
                             <div class="accordion-header" id="collapse-item-5">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-5" aria-expanded="false" aria-controls="collapse-5">5. How can I negotiate the best price when buying a property?</button>
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-5" aria-expanded="false" aria-controls="collapse-5">5. Can the students register themselves, or must the school share the list?</button>
                             </div>
                             <div id="collapse-5" class="accordion-collapse collapse " aria-labelledby="collapse-item-5" data-bs-parent="#faqAccordion">
                                 <div class="accordion-body">
-                                    <p class="faq-text">The open-concept layout seamlessly connects the living room with the fully equipped kitchen, boasting top-of-the-line appliances and all the essentials for preparing delicious meals.</p>
+                                    <p class="faq-text">Students can register individually, but schools are encouraged to facilitate team registrations.</p>
                                 </div>
                             </div>
                         </div>

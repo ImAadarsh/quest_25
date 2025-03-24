@@ -382,7 +382,7 @@ Service Area
                             <h3 class="box-title"><a href="property-details.php">STEAM Education</a></h3>
                             <p class="box-text">Enhance your understanding of Science, Technology, Engineering, Arts, and Mathematics with a focus on India's contributions.</p>
                             <div class="service-img img-shine">
-                                <img src="assets/img/service/1-1.png" alt="img">
+                                <img src="assets/img/participates/1.png" alt="img">
                             </div>
                         </div>
                     </div>
@@ -394,7 +394,7 @@ Service Area
                             <h3 class="box-title"><a href="property-details.php">Inspirational Stories</a></h3>
                             <p class="box-text"><p class="box-text">Discover the inspiring stories of Indian STEAM pioneers who have shaped the nation's scientific and artistic landscape.</p></p>
                             <div class="service-img img-shine">
-                                <img src="assets/img/service/1-2.png" alt="img">
+                                <img src="assets/img/participates/2.png" alt="img">
                             </div>
                         </div>
                     </div>
@@ -406,7 +406,7 @@ Service Area
                             <h3 class="box-title"><a href="property-details.php">Competitive Advantage</a></h3>
                             <p class="box-text">A<p class="box-text">Participate in a competitive yet engaging environment that fosters learning and teamwork all the among students.</p></p>
                             <div class="service-img img-shine">
-                                <img src="assets/img/service/1-3.png" alt="img">
+                                <img src="assets/img/participates/3.png" alt="img">
                             </div>
                         </div>
                     </div>
@@ -647,34 +647,6 @@ Team Area
             <div class="slider-area team-slider2">
                 <div class="swiper th-slider" id="teamSlider2" data-slider-options='{"breakpoints":{"0":{"slidesPerView":1},"576":{"slidesPerView":"1"},"768":{"slidesPerView":"2"},"992":{"slidesPerView":"3"},"1200":{"slidesPerView":"3"}}}'>
                     <div class="swiper-wrapper">
-                        <!-- Single Item -->
-                        <div class="swiper-slide">
-                            <div class="th-team team-card style2">
-                                <div class="img-wrap">
-                                    <div class="team-img">
-                                        <img src="assets/img/team/team_2_1.png" alt="Team">
-                                    </div>
-                                    <div class="th-social-wrap">
-                                        <div class="th-social">
-                                        <a href="https://www.facebook.com/EduAceGroup#"><i class="fab fa-facebook-f"></i></a>
-                                        <a href="https://twitter.com/eduaceindia"><i class="fab fa-twitter"></i></a>
-                                        <a href="https://www.linkedin.com/company/eduace-services/"><i class="fab fa-linkedin-in"></i></a>
-                                        <a href="https://www.youtube.com/@IPNAcademy"><i class="fab fa-youtube"></i></a>
-                                        <a href="http://instagram.com/quest.eduace"><i class="fab fa-instagram"></i></a>
-                                        </div>
-                                        <a class="icon-btn" href="team-details.php"><img src="assets/img/icon/arrow-right.svg" alt="img"></a>
-                                    </div>
-                                </div>
-                                <div class="team-card-content">
-                                    <div class="media-left">
-                                        <h3 class="box-title"><a href="team-details.php">Janny Wilson</a></h3>
-                                        <span class="team-desig">Property Expert</span>
-                                    </div>
-                                    <a class="icon-btn" href="tel:09876543210"><img src="assets/img/icon/phone.svg" alt="img"></a>
-                                </div>
-                            </div>
-                        </div>
-
                         <!-- Single Item -->
                         <div class="swiper-slide">
                             <div class="th-team team-card style2">
