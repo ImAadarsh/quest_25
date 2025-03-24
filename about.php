@@ -131,7 +131,7 @@ About Area
                     <div class="col-lg-5">
                         <div class="img-box3">
                             <div class="img1">
-                                <img src="assets/img/normal/about_3_1.png" alt="About">
+                                <img src="assets/img/about/a.png" alt="About">
                             </div>
                             <div class="about-tag">
                                 <div class="about-experience-tag">
@@ -144,7 +144,7 @@ About Area
                     <div class="col-lg-5">
                         <div class="img-box3">
                             <div class="img1">
-                                <img src="assets/img/normal/about_3_2.png" alt="About">
+                                <img src="assets/img/about/b.png" alt="About">
                             </div>
                         </div>
                     </div>
@@ -155,10 +155,12 @@ About Area
                         <div class="about-wrap2 style-theme mt-50">
                             <div class="checklist style4">
                                 <ul>
-                                    <li><img src="assets/img/icon/checkmark.svg" alt="img">Quality real estate services</li>
-                                    <li><img src="assets/img/icon/checkmark.svg" alt="img">100% Satisfaction guarantee</li>
-                                    <li><img src="assets/img/icon/checkmark.svg" alt="img">Highly professional team</li>
-                                    <li><img src="assets/img/icon/checkmark.svg" alt="img">Dealing always on time</li>
+                                    <li><img src="assets/img/icon/checkmark.svg" alt="img">Exciting STEAM Quiz for School Students</li>
+                                    <li><img src="assets/img/icon/checkmark.svg" alt="img">Organized by EDUACE & Amrita Vishwa Vidyapeetham</li>
+                                    <li><img src="assets/img/icon/checkmark.svg" alt="img">Emphasizing India's STEAM Contributions</li>
+                                    <li><img src="assets/img/icon/checkmark.svg" alt="img">Celebrating Indian STEAM Pioneers</li>
+                                    <li><img src="assets/img/icon/checkmark.svg" alt="img">More Than Just a Quiz</li>
+                                    <li><img src="assets/img/icon/checkmark.svg" alt="img">Encouraging Learning & Exploration</li>
                                 </ul>
                             </div>
                             <div class="call-btn">
@@ -166,8 +168,10 @@ About Area
                                     <img src="assets/img/icon/phone.svg" alt="img">
                                 </div>
                                 <div class="btn-content">
-                                    <h6 class="btn-title text-theme">Call Us 24/7</h6>
-                                    <span class="btn-text"><a class="text-theme" href="tel:0123456789">+01 234 56789</a></span>
+                                    <h6 class="btn-title text-theme">Monday - Saturday: 09:00 - 18:00</h6>
+                                    <h6 class="btn-title text-theme">Sunday : Off</h6>
+                                    <span class="btn-text"><a class="text-theme" href="tel:+917753888063">+91 7753888063</a></span>
+                                    <span class="btn-text"><a class="text-theme" href="mailto:info@eduace.in">info@eduace.in</a></span>
                                 </div>
                             </div>
                         </div>
@@ -175,7 +179,7 @@ About Area
                     <div class="col-lg-6">
                         <div class="img-box3">
                             <div class="img1">
-                                <img src="assets/img/normal/about_3_3.png" alt="About">
+                                <img src="assets/img/about/c.pngg" alt="About">
                             </div>
                         </div>
                     </div>
@@ -216,7 +220,7 @@ Why Choose Us Area
                             <h3 class="box-title"><a href="#">STEAM Education</a></h3>
                             <p class="box-text">Enhance your understanding of Science, Technology, Engineering, Arts, and Mathematics with a focus on India's contributions.</p>
                             <div class="service-img img-shine">
-                                <img src="assets/img/service/1-1.png" alt="img">
+                                <img src="assets/img/participants/1.png" alt="img">
                             </div>
                         </div>
                     </div>
@@ -228,7 +232,7 @@ Why Choose Us Area
                             <h3 class="box-title"><a href="#">Inspirational Stories</a></h3>
                             <p class="box-text">Discover the inspiring stories of Indian STEAM pioneers who have shaped the nation's scientific and artistic landscape.</p>
                             <div class="service-img img-shine">
-                                <img src="assets/img/service/1-2.png" alt="img">
+                                <img src="assets/img/participants/2.png" alt="img">
                             </div>
                         </div>
                     </div>
@@ -240,7 +244,7 @@ Why Choose Us Area
                             <h3 class="box-title"><a href="#">Competitive Advantage</a></h3>
                             <p class="box-text">Participate in a competitive yet engaging environment that fosters learning and teamwork all the among students.</p>
                             <div class="service-img img-shine">
-                                <img src="assets/img/service/1-3.png" alt="img">
+                                <img src="assets/img/participants/3.png" alt="img">
                             </div>
                         </div>
                     </div>
