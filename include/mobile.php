@@ -3,7 +3,7 @@
             <button class="th-menu-toggle"><i class="fal fa-times"></i></button>
             <div class="mobile-logo">
                 <a href="index.php">
-                    <img src="assets/img/logo-white.svg" alt="Quest">
+                    <img src="assets/img/logo-white_quest.svg" alt="Quest">
                 </a>
             </div>
             <div class="th-mobile-menu">
