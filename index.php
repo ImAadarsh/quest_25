@@ -738,141 +738,190 @@ Team Area
     </section>
 
 
-    <!--==============================
-Testimonial Area  
+ 
+      <!--==============================
+Feedback Area  
 ==============================-->
-    <section class="overflow-hidden   bg-theme">
-        <div class="bg-gray rounded-80 space">
-            <div class="sec-bg-shape2-1 spin shape-mockup d-xxl-block d-none" data-bottom="8%" data-right="30%">
-                <img src="assets/img/shape/section_shape_2_1.jpg" alt="img">
-            </div>
-            <div class="sec-bg-shape2-3 jump shape-mockup d-xxl-block d-none" data-top="35%" data-left="0%">
-                <img src="assets/img/shape/section_shape_2_3.jpg" alt="img">
-            </div>
-            <div class="container">
-                <div class="row justify-content-lg-between justify-content-center align-items-center">
-                    <div class="col-xxl-6 col-lg-7">
-                        <div class="title-area text-lg-start text-center">
-                            <h2 class="sec-title">What Our Customers Says</h2>
-                            <p class="sec-text">Quest help you easily create a real estate trading website. With the function Register, Login, Post real estate news.</p>
-                        </div>
+<section class="overflow-hidden space">
+        <div class="sec-bg-shape2-1 spin shape-mockup d-xxl-block d-none" data-bottom="8%" data-left="8%">
+            <img src="assets/img/shape/section_shape_2_1.jpg" alt="img">
+        </div>
+        <div class="container">
+            <div class="row justify-content-lg-between justify-content-center align-items-center">
+                <div class="col-xxl-6 col-lg-7">
+                    <div class="title-area text-lg-start text-center">
+                        <h2 class="sec-title text-theme">What Our Participants Say</h2>
+                        <p class="sec-text text-theme">The QUEST STEAM Quiz has been an enriching experience for our students, inspiring them to explore India's rich STEAM heritage.</p>
                     </div>
-                    <div class="col-auto">
-                        <div class="sec-btn">
-                            <div class="icon-box">
-                                <button data-slider-prev="#testiSlider2" class="slider-arrow style4 default slider-prev"><img src="assets/img/icon/arrow-left.svg" alt=""></button>
-                                <button data-slider-next="#testiSlider2" class="slider-arrow style4 default slider-next"><img src="assets/img/icon/arrow-right.svg" alt=""></button>
-                            </div>
+                </div>
+                <div class="col-auto">
+                    <div class="sec-btn">
+                        <div class="icon-box">
+                            <button data-slider-prev="#testiSlider2" class="slider-arrow style5 default slider-prev"><img src="assets/img/icon/arrow-left.svg" alt=""></button>
+                            <button data-slider-next="#testiSlider2" class="slider-arrow style5 default slider-next"><img src="assets/img/icon/arrow-right.svg" alt=""></button>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="container-fluid">
-                <div class="testi-wrap2">
-                    <div class="swiper th-slider testi-slider2" id="testiSlider2" data-slider-options='{"spaceBetween":"48","breakpoints":{"0":{"slidesPerView":1},"576":{"slidesPerView":"1"},"768":{"slidesPerView":"1"},"992":{"slidesPerView":"1"},"1200":{"slidesPerView":"2"}}}'>
-                        <div class="swiper-wrapper">
-                            <div class="swiper-slide">
-                                <div class="testi-grid-wrap2">
-                                    <div class="testi-grid-thumb">
-                                        <img src="assets/img/testimonial/testi_thumb_2_1.png" alt="img">
+        </div>
+        <div class="container-fluid">
+            <div class="testi-wrap2">
+                <div class="swiper th-slider testi-slider2" id="testiSlider2" data-slider-options='{"spaceBetween":"48","breakpoints":{"0":{"slidesPerView":1},"576":{"slidesPerView":"1"},"768":{"slidesPerView":"1"},"992":{"slidesPerView":"1"},"1200":{"slidesPerView":"2"}}}'>
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="testi-grid-wrap2">
+                                <div class="testi-grid-thumb">
+                                    <img src="assets/img/review_profile_images/review_image.png" alt="img">
+                                </div>
+                                <div class="testi-card style2">
+                                    <div class="testi-grid_review">
+                                        <i class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-solid fa-star"></i>
                                     </div>
-                                    <div class="testi-card style2">
-                                        <div class="testi-grid_review">
-                                            <i class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-solid fa-star"></i>
+                                    <p class="testi-card_text">"The QUEST STEAM Quiz has been an eye-opening experience for our students. It has not only tested their knowledge but also inspired them to learn more about India's scientific and artistic achievements."</p>
+                                    <div class="testi-card_profile">
+                                        <div class="quote-icon">
+                                            <img src="assets/img/icon/qoute2.svg" alt="icon">
                                         </div>
-                                        <p class="testi-card_text">"Home is where love resides, memories are created, and dreams are nurtured. I have found my sanctuary in this beautiful property. Finding the perfect that resonates with your own"</p>
-                                        <div class="testi-card_profile">
-                                            <div class="quote-icon">
-                                                <img src="assets/img/icon/qoute2.svg" alt="icon">
-                                            </div>
-                                            <div class="avatar">
-                                                <img src="assets/img/testimonial/testi_2_1.png" alt="avatar">
-                                            </div>
-                                            <div class="testi-card_profile-details">
-                                                <h3 class="testi-card_name">Andrew Simon</h3>
-                                                <span class="testi-card_desig">Property Expert</span>
-                                            </div>
+                                        <div class="avatar">
+                                            <img src="assets/img/review_profile_images/1.png" alt="avatar">
                                         </div>
+                                        <div class="testi-card_profile-details">
+                                            <h3 class="testi-card_name">Maanav V</h3>
+                                            <span class="testi-card_desig">Birla Open Minds, Kollur Branch</span>
+                                        </div>
+                                    </div>
 
-                                    </div>
                                 </div>
                             </div>
-                            <div class="swiper-slide">
-                                <div class="testi-grid-wrap2">
-                                    <div class="testi-grid-thumb">
-                                        <img src="assets/img/testimonial/testi_thumb_2_2.png" alt="img">
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="testi-grid-wrap2">
+                                <div class="testi-grid-thumb">
+                                    <img src="assets/img/review_profile_images/review_image.png" alt="img">
+                                </div>
+                                <div class="testi-card style2">
+                                    <div class="testi-grid_review">
+                                        <i class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-solid fa-star"></i>
                                     </div>
-                                    <div class="testi-card style2">
-                                        <div class="testi-grid_review">
-                                            <i class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-solid fa-star"></i>
+                                    <p class="testi-card_text">"The quiz has helped our students appreciate the contributions of Indian pioneers in STEAM fields, motivating them to pursue careers in these areas."</p>
+                                    <div class="testi-card_profile">
+                                        <div class="quote-icon">
+                                            <img src="assets/img/icon/qoute2.svg" alt="icon">
                                         </div>
-                                        <p class="testi-card_text">"Home is where love resides, memories are created, and dreams are nurtured. I have found my sanctuary in this beautiful property. Finding the perfect that resonates with your own"</p>
-                                        <div class="testi-card_profile">
-                                            <div class="quote-icon">
-                                                <img src="assets/img/icon/qoute2.svg" alt="icon">
-                                            </div>
-                                            <div class="avatar">
-                                                <img src="assets/img/testimonial/testi_2_2.png" alt="avatar">
-                                            </div>
-                                            <div class="testi-card_profile-details">
-                                                <h3 class="testi-card_name">Ralph Edwards</h3>
-                                                <span class="testi-card_desig">Property Expert</span>
-                                            </div>
+                                        <div class="avatar">
+                                            <img src="assets/img/review_profile_images/2.png" alt="avatar">
                                         </div>
+                                        <div class="testi-card_profile-details">
+                                            <h3 class="testi-card_name">Veer Raghav Jaiswal and Aditya Gupta</h3>
+                                            <span class="testi-card_desig">Sri Sri Academy, Kolkata</span>
+                                        </div>
+                                    </div>
 
-                                    </div>
                                 </div>
                             </div>
-                            <div class="swiper-slide">
-                                <div class="testi-grid-wrap2">
-                                    <div class="testi-grid-thumb">
-                                        <img src="assets/img/testimonial/testi_thumb_2_1.png" alt="img">
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="testi-grid-wrap2">
+                                <div class="testi-grid-thumb">
+                                    <img src="assets/img/review_profile_images/review_image.png" alt="img">
+                                </div>
+                                <div class="testi-card style2">
+                                    <div class="testi-grid_review">
+                                        <i class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-solid fa-star"></i>
                                     </div>
-                                    <div class="testi-card style2">
-                                        <div class="testi-grid_review">
-                                            <i class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-solid fa-star"></i>
+                                    <p class="testi-card_text">"Home is where love resides, memories are created, and dreams are nurtured. I have found my sanctuary in this beautiful property. Finding the perfect that resonates with your own"</p>
+                                    <div class="testi-card_profile">
+                                        <div class="quote-icon">
+                                            <img src="assets/img/icon/qoute2.svg" alt="icon">
                                         </div>
-                                        <p class="testi-card_text">"Home is where love resides, memories are created, and dreams are nurtured. I have found my sanctuary in this beautiful property. Finding the perfect that resonates with your own"</p>
-                                        <div class="testi-card_profile">
-                                            <div class="quote-icon">
-                                                <img src="assets/img/icon/qoute2.svg" alt="icon">
-                                            </div>
-                                            <div class="avatar">
-                                                <img src="assets/img/testimonial/testi_2_1.png" alt="avatar">
-                                            </div>
-                                            <div class="testi-card_profile-details">
-                                                <h3 class="testi-card_name">Andrew Simon</h3>
-                                                <span class="testi-card_desig">Property Expert</span>
-                                            </div>
+                                        <div class="avatar">
+                                            <img src="assets/img/review_profile_images/3.png" alt="avatar">
                                         </div>
+                                        <div class="testi-card_profile-details">
+                                            <h3 class="testi-card_name">Aditi Pariyar </h3>
+                                            <span class="testi-card_desig">Sri Sri Academy, Kolkata</span>
+                                        </div>
+                                    </div>
 
-                                    </div>
                                 </div>
                             </div>
-                            <div class="swiper-slide">
-                                <div class="testi-grid-wrap2">
-                                    <div class="testi-grid-thumb">
-                                        <img src="assets/img/testimonial/testi_thumb_2_2.png" alt="img">
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="testi-grid-wrap2">
+                                <div class="testi-grid-thumb">
+                                    <img src="assets/img/review_profile_images/review_image.png" alt="img">
+                                </div>
+                                <div class="testi-card style2">
+                                    <div class="testi-grid_review">
+                                        <i class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-solid fa-star"></i>
                                     </div>
-                                    <div class="testi-card style2">
-                                        <div class="testi-grid_review">
-                                            <i class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-solid fa-star"></i>
+                                    <p class="testi-card_text">"Home is where love resides, memories are created, and dreams are nurtured. I have found my sanctuary in this beautiful property. Finding the perfect that resonates with your own"</p>
+                                    <div class="testi-card_profile">
+                                        <div class="quote-icon">
+                                            <img src="assets/img/icon/qoute2.svg" alt="icon">
                                         </div>
-                                        <p class="testi-card_text">"Home is where love resides, memories are created, and dreams are nurtured. I have found my sanctuary in this beautiful property. Finding the perfect that resonates with your own"</p>
-                                        <div class="testi-card_profile">
-                                            <div class="quote-icon">
-                                                <img src="assets/img/icon/qoute2.svg" alt="icon">
-                                            </div>
-                                            <div class="avatar">
-                                                <img src="assets/img/testimonial/testi_2_2.png" alt="avatar">
-                                            </div>
-                                            <div class="testi-card_profile-details">
-                                                <h3 class="testi-card_name">Ralph Edwards</h3>
-                                                <span class="testi-card_desig">Property Expert</span>
-                                            </div>
+                                        <div class="avatar">
+                                            <img src="assets/img/review_profile_images/4.png" alt="avatar">
                                         </div>
+                                        <div class="testi-card_profile-details">
+                                            <h3 class="testi-card_name">Siddhant Chovishya</h3>
+                                            <span class="testi-card_desig">Emerald Heights International School</span>
+                                        </div>
+                                    </div>
 
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="testi-grid-wrap2">
+                                <div class="testi-grid-thumb">
+                                    <img src="assets/img/review_profile_images/review_image.png" alt="img">
+                                </div>
+                                <div class="testi-card style2">
+                                    <div class="testi-grid_review">
+                                        <i class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-solid fa-star"></i>
                                     </div>
+                                    <p class="testi-card_text">"Home is where love resides, memories are created, and dreams are nurtured. I have found my sanctuary in this beautiful property. Finding the perfect that resonates with your own"</p>
+                                    <div class="testi-card_profile">
+                                        <div class="quote-icon">
+                                            <img src="assets/img/icon/qoute2.svg" alt="icon">
+                                        </div>
+                                        <div class="avatar">
+                                            <img src="assets/img/review_profile_images/5.png" alt="avatar">
+                                        </div>
+                                        <div class="testi-card_profile-details">
+                                            <h3 class="testi-card_name">Sreesh Nandan</h3>
+                                            <span class="testi-card_desig">Insignis Transnational School</span>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="swiper-slide">
+                            <div class="testi-grid-wrap2">
+                                <div class="testi-grid-thumb">
+                                    <img src="assets/img/review_profile_images/review_image.png" alt="img">
+                                </div>
+                                <div class="testi-card style2">
+                                    <div class="testi-grid_review">
+                                        <i class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-solid fa-star"></i>
+                                    </div>
+                                    <p class="testi-card_text">"Home is where love resides, memories are created, and dreams are nurtured. I have found my sanctuary in this beautiful property. Finding the perfect that resonates with your own"</p>
+                                    <div class="testi-card_profile">
+                                        <div class="quote-icon">
+                                            <img src="assets/img/icon/qoute2.svg" alt="icon">
+                                        </div>
+                                        <div class="avatar">
+                                            <img src="assets/img/review_profile_images/6.png" alt="avatar">
+                                        </div>
+                                        <div class="testi-card_profile-details">
+                                            <h3 class="testi-card_name">Eshaan B Swamy</h3>
+                                            <span class="testi-card_desig">Insignis Transnational School</span>
+                                        </div>
+                                    </div>
+
                                 </div>
                             </div>
                         </div>

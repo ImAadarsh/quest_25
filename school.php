@@ -120,14 +120,14 @@ Property Page Area
                     <div class="col-md-auto">
                         <div class="sorting-filter-wrap">
                             <form class="woocommerce-ordering" method="get">
-                                <select name="orderby" class="orderby" aria-label="Shop order">
+                                <!--==========<<select name="orderby" class="orderby" aria-label="Shop order">
                                     <option value="menu_order" selected="selected">Default Sorting</option>
                                     <option value="popularity">Sort by popularity</option>
                                     <option value="rating">Sort by average rating</option>
                                     <option value="date">Sort by latest</option>
                                     <option value="price">Sort by price: low to high</option>
                                     <option value="price-desc">Sort by price: high to low</option>
-                                </select>
+                                </select> -->
                             </form>
                             <div class="nav" role=tablist>
                                 <a class="active" href="#" id="tab-shop-list" data-bs-toggle="tab" data-bs-target="#tab-list" role="tab" aria-controls="tab-grid" aria-selected="false"><i class="fa-light fa-grid-2"></i></a>
@@ -145,9 +145,9 @@ Property Page Area
                                 <div class="col-md-6">
                                     <div class="agency-card">
                                         <div class="agency-card-img">
-                                            <img src="assets/img/agency/1-1.png" alt="img">
+                                            <img src="assets/img/participating_schools/1.svg" alt="img">
                                             <div class="agency-card-brand">
-                                                <img src="assets/img/brand/brand_1_1.svg" alt="">
+                                                <img src="assets/img/participating_schools/quest_icon.png" alt="">
                                             </div>
                                         </div>
                                         <div class="agency-card-details">
@@ -155,11 +155,11 @@ Property Page Area
                                             <p class="agency-card-text">Bhagwanpur, Varanasi, Uttar Pradesh 221005</p>
                                             <div class="agency-card-meta">
                                                 <div class="media-left">
-                                                    <p class="agency-card-text"><i class="far fa-browser"></i><strong><a href="https://sunbeamschools.com/home">www.sunbeamschools.com<</a></strong></p>
+                                                    <p class="agency-card-text"><i class="far fa-browser"></i><strong><a href="https://sunbeamschools.com/home">www.sunbeamschools.com</a></strong></p>
                                                 </div>
-                                                <div class="btn-wrap">
+                                               <!--==========   <div class="btn-wrap">
                                                     <a href="property-details.php" class="th-btn style-border2 th-btn-icon">Details</a>
-                                                </div>
+                                                </div>-->
                                             </div>
                                         </div>
                                     </div>
@@ -167,9 +167,9 @@ Property Page Area
                                 <div class="col-md-6">
                                     <div class="agency-card">
                                         <div class="agency-card-img">
-                                            <img src="assets/img/agency/1-1.png" alt="img">
+                                            <img src="aassets/img/participating_schools/2.svg" alt="img">
                                             <div class="agency-card-brand">
-                                                <img src="assets/img/brand/brand_1_1.svg" alt="">
+                                                <img src="assets/img/participating_schools/quest_icon.png" alt="">
                                             </div>
                                         </div>
                                         <div class="agency-card-details">
@@ -177,11 +177,11 @@ Property Page Area
                                             <p class="agency-card-text">Prem Nagar, Dehradun, Shahpur Santore, Uttarakhand 248001</p>
                                             <div class="agency-card-meta">
                                                 <div class="media-left">
-                                                    <p class="agency-card-text"><i class="far fa-browser"></i><strong><a href="https://www.thetonsbridge.com/">wwww.thetonsbridge.com<</a></strong></p>
+                                                    <p class="agency-card-text"><i class="far fa-browser"></i><strong><a href="https://www.thetonsbridge.com/">wwww.thetonsbridge.com</a></strong></p>
                                                 </div>
-                                                <div class="btn-wrap">
+                                                 <!--========== <div class="btn-wrap">
                                                     <a href="property-details.php" class="th-btn style-border2 th-btn-icon">Details</a>
-                                                </div>
+                                                </div> -->
                                             </div>
                                         </div>
                                     </div>
@@ -189,9 +189,9 @@ Property Page Area
                                 <div class="col-md-6">
                                     <div class="agency-card">
                                         <div class="agency-card-img">
-                                            <img src="assets/img/agency/1-1.png" alt="img">
+                                            <img src="assets/img/participating_schools/3.svg" alt="img">
                                             <div class="agency-card-brand">
-                                                <img src="assets/img/brand/brand_1_1.svg" alt="">
+                                                <img src="assets/img/participating_schools/quest_icon.png" alt="">
                                             </div>
                                         </div>
                                         <div class="agency-card-details">
@@ -199,11 +199,11 @@ Property Page Area
                                             <p class="agency-card-text">Singhpur, Kanpur, Uttar Pradesh 208017</p>
                                             <div class="agency-card-meta">
                                                 <div class="media-left">
-                                                    <p class="agency-card-text"><i class="far fa-browser"></i><strong><a href="https://niskalyanpur.in/">www.niskalyanpur.in<</a></strong></p>
+                                                    <p class="agency-card-text"><i class="far fa-browser"></i><strong><a href="https://niskalyanpur.in/">www.niskalyanpur.in</a></strong></p>
                                                 </div>
-                                                <div class="btn-wrap">
+                                                 <!--========== <div class="btn-wrap">
                                                     <a href="property-details.php" class="th-btn style-border2 th-btn-icon">Details</a>
-                                                </div>
+                                                </div> -->
                                             </div>
                                         </div>
                                     </div>
@@ -211,9 +211,9 @@ Property Page Area
                                 <div class="col-md-6">
                                     <div class="agency-card">
                                         <div class="agency-card-img">
-                                            <img src="assets/img/agency/1-1.png" alt="img">
+                                            <img src="aassets/img/participating_schools/4.svg" alt="img">
                                             <div class="agency-card-brand">
-                                                <img src="assets/img/brand/brand_1_1.svg" alt="">
+                                                <img src="assets/img/participating_schools/quest_icon.png" alt="">
                                             </div>
                                         </div>
                                         <div class="agency-card-details">
@@ -223,9 +223,9 @@ Property Page Area
                                                 <div class="media-left">
                                                     <p class="agency-card-text"><i class="far fa-browser"></i><strong><a href="https://kolkata.ssa.org.in/">www.kolkata.ssa.org.in</a></strong></p>
                                                 </div>
-                                                <div class="btn-wrap">
+                                                 <!--========== <div class="btn-wrap">
                                                     <a href="property-details.php" class="th-btn style-border2 th-btn-icon">Details</a>
-                                                </div>
+                                                </div> -->
                                             </div>
                                         </div>
                                     </div>
@@ -233,9 +233,9 @@ Property Page Area
                                 <div class="col-md-6">
                                     <div class="agency-card">
                                         <div class="agency-card-img">
-                                            <img src="assets/img/agency/1-1.png" alt="img">
+                                            <img src="assets/img/participating_schools/5.svg" alt="img">
                                             <div class="agency-card-brand">
-                                                <img src="assets/img/brand/brand_1_1.svg" alt="">
+                                                <img src="assets/img/participating_schools/quest_icon.png" alt="">
                                             </div>
                                         </div>
                                         <div class="agency-card-details">
@@ -245,145 +245,18 @@ Property Page Area
                                                 <div class="media-left">
                                                     <p class="agency-card-text"><i class="far fa-browser"></i><strong><a href="https://grnoida.asterinstitutions.com/">www.grnoida.asterinstitutions.in</a></strong></p>
                                                 </div>
-                                                <div class="btn-wrap">
+                                                  <!--==========<div class="btn-wrap">
                                                     <a href="property-details.php" class="th-btn style-border2 th-btn-icon">Details</a>
-                                                </div>
+                                                </div> -->
                                             </div>
                                         </div>
                                     </div>
-                                </div>
-
-                               
-                            </div>
-                            <div class="mt-60">
-                                <div class="th-pagination ">
-                                    <ul>
-                                        <!-- <li><a class="prev-page" href="blog.php"><i class="far fa-arrow-left me-2"></i>Previous</a></li> -->
-                                        <li><a class="active" href="blog.php">1</a></li>
-                                        <li><a href="blog.php">2</a></li>
-                                        <li><a href="blog.php">3</a></li>
-                                        <li><a class="next-page" href="blog.php">Next<i class="far fa-arrow-right ms-2"></i></a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="tab-pane fade" id="tab-grid" role="tabpanel" aria-labelledby="tab-shop-grid">
-                            <div class="row gy-30">
-                                <div class="">
-                                    <div class="agency-card style-flex">
-                                        <div class="agency-card-img">
-                                            <img src="assets/img/agency/1-1.png" alt="img">
-                                            <div class="agency-card-brand">
-                                                <img src="assets/img/brand/brand_1_1.svg" alt="">
-                                            </div>
-                                        </div>
-                                        <div class="agency-card-details">
-                                            <h4 class="agency-card-title"><a href="property-details.php">House in NY</a></h4>
-                                            <p class="agency-card-text">Welcome to our stylish and spacious property. This gem offers a modern and comfortable retreat for up to four guests. Upon entering, you'll be greeted by a tastefully furnished living room, featuring a cozy sofa, a large TV, and a dining area with seating for four.</p>
-                                            <div class="agency-card-meta">
-                                                <div class="media-left">
-                                                    <p class="agency-card-text"><i class="far fa-phone"></i><strong>0123456789</strong></p>
-                                                    <p class="agency-card-text"><i class="far fa-envelope"></i><strong>exampleinfo@Quest.com</strong></p>
-                                                </div>
-                                                <div class="btn-wrap">
-                                                    <a href="property-details.php" class="th-btn style-border2 th-btn-icon">Details</a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="">
-                                    <div class="agency-card style-flex">
-                                        <div class="agency-card-img">
-                                            <img src="assets/img/agency/1-2.png" alt="img">
-                                            <div class="agency-card-brand">
-                                                <img src="assets/img/brand/brand_1_2.svg" alt="">
-                                            </div>
-                                        </div>
-                                        <div class="agency-card-details">
-                                            <h4 class="agency-card-title"><a href="property-details.php">House in Broklyn</a></h4>
-                                            <p class="agency-card-text">Welcome to our stylish and spacious property. This gem offers a modern and comfortable retreat for up to four guests. Upon entering, you'll be greeted by a tastefully furnished living room, featuring a cozy sofa, a large TV, and a dining area with seating for four.</p>
-                                            <div class="agency-card-meta">
-                                                <div class="media-left">
-                                                    <p class="agency-card-text"><i class="far fa-phone"></i><strong>0123456789</strong></p>
-                                                    <p class="agency-card-text"><i class="far fa-envelope"></i><strong>exampleinfo@Quest.com</strong></p>
-                                                </div>
-                                                <div class="btn-wrap">
-                                                    <a href="property-details.php" class="th-btn style-border2 th-btn-icon">Details</a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="">
-                                    <div class="agency-card style-flex">
-                                        <div class="agency-card-img">
-                                            <img src="assets/img/agency/1-3.png" alt="img">
-                                            <div class="agency-card-brand">
-                                                <img src="assets/img/brand/brand_1_3.svg" alt="">
-                                            </div>
-                                        </div>
-                                        <div class="agency-card-details">
-                                            <h4 class="agency-card-title"><a href="property-details.php">House in Brickhall</a></h4>
-                                            <p class="agency-card-text">Welcome to our stylish and spacious property. This gem offers a modern and comfortable retreat for up to four guests. Upon entering, you'll be greeted by a tastefully furnished living room, featuring a cozy sofa, a large TV, and a dining area with seating for four.</p>
-                                            <div class="agency-card-meta">
-                                                <div class="media-left">
-                                                    <p class="agency-card-text"><i class="far fa-phone"></i><strong>0123456789</strong></p>
-                                                    <p class="agency-card-text"><i class="far fa-envelope"></i><strong>exampleinfo@Quest.com</strong></p>
-                                                </div>
-                                                <div class="btn-wrap">
-                                                    <a href="property-details.php" class="th-btn style-border2 th-btn-icon">Details</a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="">
-                                    <div class="agency-card style-flex">
-                                        <div class="agency-card-img">
-                                            <img src="assets/img/agency/1-4.png" alt="img">
-                                            <div class="agency-card-brand">
-                                                <img src="assets/img/brand/brand_1_4.svg" alt="">
-                                            </div>
-                                        </div>
-                                        <div class="agency-card-details">
-                                            <h4 class="agency-card-title"><a href="property-details.php">Town House</a></h4>
-                                            <p class="agency-card-text">Welcome to our stylish and spacious property. This gem offers a modern and comfortable retreat for up to four guests. Upon entering, you'll be greeted by a tastefully furnished living room, featuring a cozy sofa, a large TV, and a dining area with seating for four.</p>
-                                            <div class="agency-card-meta">
-                                                <div class="media-left">
-                                                    <p class="agency-card-text"><i class="far fa-phone"></i><strong>0123456789</strong></p>
-                                                    <p class="agency-card-text"><i class="far fa-envelope"></i><strong>exampleinfo@Quest.com</strong></p>
-                                                </div>
-                                                <div class="btn-wrap">
-                                                    <a href="property-details.php" class="th-btn style-border2 th-btn-icon">Details</a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                            </div>
-                            <div class="mt-60">
-                                <div class="th-pagination ">
-                                    <ul>
-                                        <!-- <li><a class="prev-page" href="blog.php"><i class="far fa-arrow-left me-2"></i>Previous</a></li> -->
-                                        <li><a class="active" href="blog.php">1</a></li>
-                                        <li><a href="blog.php">2</a></li>
-                                        <li><a href="blog.php">3</a></li>
-                                        <li><a class="next-page" href="blog.php">Next<i class="far fa-arrow-right ms-2"></i></a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-
+                                </div>                              
+                            </div>                         
+                        </div>                  
                     </div>
                 </div>
-
             </div>
-
         </div>
     </section><!--==============================
 	Footer Area

@@ -252,7 +252,7 @@ Why Choose Us Area
         </div>
     </div>
     <!--==============================
-Testimonial Area  
+Feedback Area  
 ==============================-->
     <section class="overflow-hidden space">
         <div class="sec-bg-shape2-1 spin shape-mockup d-xxl-block d-none" data-bottom="8%" data-left="8%">
