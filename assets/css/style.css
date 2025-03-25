@@ -8647,7 +8647,9 @@ ol.wp-block-rss {
 
 @media (max-width: 1399px) {
   .footer-layout1 .footer-wrap {
+    /* increase the footer  */
     margin: 45px 20px 20px;
+
   }
 }
 
