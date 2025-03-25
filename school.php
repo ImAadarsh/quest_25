@@ -15,6 +15,7 @@
 
     <!-- Favicons - Place favicon.ico in the root directory -->
 <?php include "include/meta_images.php"; ?>
+<!-- Endeavour Digital -->
 
     <!--==============================
 	  Google Fonts
