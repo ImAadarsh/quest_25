@@ -219,7 +219,7 @@ Why Choose Us Area
                             <h3 class="box-title"><a href="#">STEAM Education</a></h3>
                             <p class="box-text">Enhance your understanding of Science, Technology, Engineering, Arts, and Mathematics with a focus on India's contributions.</p>
                             <div class="service-img img-shine">
-                                <img src="assets/img/participates/1.png" alt="img">
+                                <img src="assets/img/Participates/1.png" alt="img">
                             </div>
                         </div>
                     </div>
@@ -231,7 +231,7 @@ Why Choose Us Area
                             <h3 class="box-title"><a href="#">Inspirational Stories</a></h3>
                             <p class="box-text">Discover the inspiring stories of Indian STEAM pioneers who have shaped the nation's scientific and artistic landscape.</p>
                             <div class="service-img img-shine">
-                                <img src="assets/img/participates/2.png" alt="img">
+                                <img src="assets/img/Participates/2.png" alt="img">
                             </div>
                         </div>
                     </div>
@@ -243,7 +243,7 @@ Why Choose Us Area
                             <h3 class="box-title"><a href="#">Competitive Advantage</a></h3>
                             <p class="box-text">Participate in a competitive yet engaging environment that fosters learning and teamwork all the among students.</p>
                             <div class="service-img img-shine">
-                                <img src="assets/img/participates/3.png" alt="img">
+                                <img src="assets/img/Participates/3.png" alt="img">
                             </div>
                         </div>
                     </div>
