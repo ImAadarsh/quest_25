@@ -135,7 +135,7 @@ About Area
                             </div>
                             <div class="about-tag">
                                 <div class="about-experience-tag">
-                                    <span class="circle-title-anime">Quest Living Solutions</span>
+                                    <span class="circle-title-anime">Eduace Quest 2025</span>
                                 </div>
                                 <a href="https://www.youtube.com/watch?v=C7-5kkSayl8" class="play-btn popup-video"><i class="fa-sharp fa-solid fa-play"></i></a>
                             </div>
@@ -214,7 +214,7 @@ Why Choose Us Area
                     <div class="swiper-slide">
                         <div class="service-card style4">
                             <div class="service-card-icon">
-                                <img src="assets/img/icon/service-icon4-1.svg" alt="Icon">
+                                <img src="assets/img/icon/service-icon3-2.svg" alt="Icon">
                             </div>
                             <h3 class="box-title"><a href="#">STEAM Education</a></h3>
                             <p class="box-text">Enhance your understanding of Science, Technology, Engineering, Arts, and Mathematics with a focus on India's contributions.</p>

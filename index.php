@@ -377,7 +377,7 @@ Service Area
                     <div class="swiper-slide">
                         <div class="service-card style2">
                             <div class="service-card-icon">
-                                <img src="assets/img/icon/service-icon2-1.svg" alt="Icon">
+                                <img src="assets/img/icon/service-icon3-2.svg" alt="Icon">
                             </div>
                             <h3 class="box-title"><a href="#">STEAM Education</a></h3>
                             <p class="box-text">Enhance your understanding of Science, Technology, Engineering, Arts, and Mathematics with a focus on India's contributions.</p>
