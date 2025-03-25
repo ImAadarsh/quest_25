@@ -177,16 +177,11 @@ Contact Area
                                     <input type="email" class="form-control" name="email" id="email" placeholder="Your Email*">
                                     <i class="fal fa-envelope"></i>
                                 </div>
-                                <div class="form-group style-border style-radius col-md-12">
-                                    <select name="subject" id="subject" class="form-select">
-                                        <option value="" disabled selected hidden>Select Service Type</option>
-                                        <option value="Real Estate">Real Estate</option>
-                                        <option value="Apartment">Apartment</option>
-                                        <option value="Residencial">Residencial</option>
-                                        <option value="Deluxe">Deluxe</option>
-                                    </select>
-                                    <i class="fal fa-angle-down"></i>
+                                <div class="form-group style-border style-radius col-12">
+                                    <input type="tel" class="form-control" name="phone" id="phone" placeholder="Your phone*">
+                                    <i class="fal fa-phone"></i>
                                 </div>
+
                                 <div class="col-12 form-group style-border style-radius">
                                     <i class="far fa-comments"></i>
                                     <textarea placeholder="Type Your Message" class="form-control"></textarea>
