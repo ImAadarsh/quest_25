@@ -323,7 +323,7 @@ About Area
                 </div>
                 <div class="col-xl-5">
                     <div class="title-area mb-32">
-                        <span class="shadow-title">Team</span>
+                        <span style="color: black !important;" class="shadow-title style2">About</span>
                         <h2 class="sec-title style2">Quest 2025</h2>
                         <p class="sec-text">Welcome to the QUEST STEAM Quiz, an exhilarating challenge crafted exclusively for school students in India! Brought to you by EDUACE Group in association with Amrita Vishwa Vidyapeetham, this quiz immerses participants in the captivating realm of Science, Technology, Engineering, Arts, and Mathematics (STEAM), with a distinct focus on India's rich contributions.</p>
                     </div>
@@ -368,7 +368,7 @@ Service Area
                 </div>
                 <div class="col-auto">
                     <div class="sec-btn">
-                        <a href="service.php" class="th-btn style2 th-btn-icon">Browse All Services</a>
+                        <a href="about.php" class="th-btn style2 th-btn-icon">Know More About Us</a>
                     </div>
                 </div>
             </div>
@@ -379,7 +379,7 @@ Service Area
                             <div class="service-card-icon">
                                 <img src="assets/img/icon/service-icon2-1.svg" alt="Icon">
                             </div>
-                            <h3 class="box-title"><a href="property-details.php">STEAM Education</a></h3>
+                            <h3 class="box-title"><a href="#">STEAM Education</a></h3>
                             <p class="box-text">Enhance your understanding of Science, Technology, Engineering, Arts, and Mathematics with a focus on India's contributions.</p>
                             <div class="service-img img-shine">
                                 <img src="assets/img/participates/1.png" alt="img">
@@ -391,7 +391,7 @@ Service Area
                             <div class="service-card-icon">
                                 <img src="assets/img/icon/service-icon2-2.svg" alt="Icon">
                             </div>
-                            <h3 class="box-title"><a href="property-details.php">Inspirational Stories</a></h3>
+                            <h3 class="box-title"><a href="#">Inspirational Stories</a></h3>
                             <p class="box-text"><p class="box-text">Discover the inspiring stories of Indian STEAM pioneers who have shaped the nation's scientific and artistic landscape.</p></p>
                             <div class="service-img img-shine">
                                 <img src="assets/img/participates/2.png" alt="img">
@@ -403,8 +403,8 @@ Service Area
                             <div class="service-card-icon">
                                 <img src="assets/img/icon/service-icon2-3.svg" alt="Icon">
                             </div>
-                            <h3 class="box-title"><a href="property-details.php">Competitive Advantage</a></h3>
-                            <p class="box-text">A<p class="box-text">Participate in a competitive yet engaging environment that fosters learning and teamwork all the among students.</p></p>
+                            <h3 class="box-title"><a href="#">Competitive Advantage</a></h3>
+                            <p class="box-text"><p class="box-text">Participate in a competitive yet engaging environment that fosters learning and teamwork all the among students.</p></p>
                             <div class="service-img img-shine">
                                 <img src="assets/img/participates/3.png" alt="img">
                             </div>
@@ -456,7 +456,7 @@ Portfolio Area
                 </div>
                 <div class="col-auto">
                     <div class="sec-btn">
-                        <a href="project.php" class="th-btn style-border3 th-btn-icon">Quest Regional Finale Events</a>
+                        <a href="#" class="th-btn style-border3 th-btn-icon">Quest Regional Finale Events</a>
                     </div>
                 </div>
             </div>
@@ -474,7 +474,7 @@ Portfolio Area
                                     </div>
                                 </div>
                                 <div class="portfolio-content">
-                                    <h3 class="portfolio-title"><a href="property-details.php">Sunbeam English School, Varanasi</a></h3>
+                                    <h3 class="portfolio-title"><a href="#">Sunbeam English School, Varanasi</a></h3>
                                     <p class="portfolio-text">Igniting young minds through innovation and leadership at QUEST 2024.</p>
                                 </div>
                             </div>
@@ -489,7 +489,7 @@ Portfolio Area
                                     </div>
                                 </div>
                                 <div class="portfolio-content">
-                                    <h3 class="portfolio-title"><a href="property-details.php">Nurture International School, Kanpur</a></h3>
+                                    <h3 class="portfolio-title"><a href="#">Nurture International School, Kanpur</a></h3>
                                     <p class="portfolio-text">Fostering creativity and excellence in education with QUEST 2024.</p>
                                 </div>
                             </div>
@@ -504,7 +504,7 @@ Portfolio Area
                                     </div>
                                 </div>
                                 <div class="portfolio-content">
-                                    <h3 class="portfolio-title"><a href="property-details.php">Sri Sri Academy, Kolkata</a></h3>
+                                    <h3 class="portfolio-title"><a href="#">Sri Sri Academy, Kolkata</a></h3>
                                     <p class="portfolio-text">Empowering future leaders through collaboration and learning at QUEST 2024.</p>
                                 </div>
                             </div>
@@ -519,7 +519,7 @@ Portfolio Area
                                     </div>
                                 </div>
                                 <div class="portfolio-content">
-                                    <h3 class="portfolio-title"><a href="property-details.php">Aster Public School</a></h3>
+                                    <h3 class="portfolio-title"><a href="#">Aster Public School</a></h3>
                                     <p class="portfolio-text">Empowering future leaders through collaboration and learning at QUEST 2024.</p>
                                 </div>
                             </div>
@@ -533,7 +533,7 @@ Portfolio Area
                                     </div>
                                 </div>
                                 <div class="portfolio-content">
-                                    <h3 class="portfolio-title"><a href="property-details.php">The Tonesbridge School, Dehradun</a></h3>
+                                    <h3 class="portfolio-title"><a href="#">The Tonesbridge School, Dehradun</a></h3>
                                     <p class="portfolio-text">Empowering future leaders through collaboration and learning at QUEST 2024.</p>
                                 </div>
                             </div>
@@ -634,15 +634,15 @@ Team Area
             <div class="row justify-content-lg-between justify-content-center align-items-center">
                 <div class="col-xxl-6 col-lg-7">
                     <div class="title-area text-lg-start text-center">
-                        <h2 class="sec-title text-white">Meet The Awesome Team</h2>
-                        <p class="sec-text text-white">Quest help you easily create a real estate trading website. With the function Register, Login, Post real estate news.</p>
+                        <h2 class="sec-title text-white">Our Leaders</h2>
+                        <p class="sec-text text-white">Meet our quest leaders</p>
                     </div>
                 </div>
-                <div class="col-auto">
+                <!-- <div class="col-auto">
                     <div class="sec-btn">
-                        <a href="team.php" class="th-btn style-border3 th-btn-icon">View All Team</a>
+                        <a href="#" class="th-btn style-border3 th-btn-icon">View All Team</a>
                     </div>
-                </div>
+                </div> -->
             </div>
             <div class="slider-area team-slider2">
                 <div class="swiper th-slider" id="teamSlider2" data-slider-options='{"breakpoints":{"0":{"slidesPerView":1},"576":{"slidesPerView":"1"},"768":{"slidesPerView":"2"},"992":{"slidesPerView":"3"},"1200":{"slidesPerView":"3"}}}'>
@@ -662,15 +662,15 @@ Team Area
                                             <a target="_blank" href="https://youtube.com/"><i class="fab fa-youtube"></i></a>
                                             <a target="_blank" href="https://instagram.com/"><i class="fab fa-instagram"></i></a>
                                         </div>
-                                        <a class="icon-btn" href="team-details.php"><img src="assets/img/icon/arrow-right.svg" alt="img"></a>
+                                        <a class="icon-btn" href="#"><img src="assets/img/icon/arrow-right.svg" alt="img"></a>
                                     </div>
                                 </div>
                                 <div class="team-card-content">
                                     <div class="media-left">
-                                        <h3 class="box-title"><a href="team-details.php">Mr. Gaurava Yadav</a></h3>
-                                        <span class="team-desig">Head, IPN<br> Eduace Services PVT. LTD.</span>
+                                        <h3 class="box-title"><a style="color: black;"  href="#">Mr. Gaurava Yadav</a></h3>
+                                        <span style="color: black;"  class="team-desig">Head, IPN<br> Eduace Services PVT. LTD.</span>
                                     </div>
-                                    <a class="icon-btn" href="tel:09876543210"><img src="assets/img/icon/phone.svg" alt="img"></a>
+                                    <a class="icon-btn" href="tel:+91 84007 00199"><img src="assets/img/icon/phone.svg" alt="img"></a>
                                 </div>
                             </div>
                         </div>
@@ -689,15 +689,15 @@ Team Area
                                             <a target="_blank" href="https://youtube.com/"><i class="fab fa-youtube"></i></a>
                                             <a target="_blank" href="https://instagram.com/"><i class="fab fa-instagram"></i></a>
                                         </div>
-                                        <a class="icon-btn" href="team-details.php"><img src="assets/img/icon/arrow-right.svg" alt="img"></a>
+                                        <a class="icon-btn" href="#"><img src="assets/img/icon/arrow-right.svg" alt="img"></a>
                                     </div>
                                 </div>
                                 <div class="team-card-content">
                                     <div class="media-left">
-                                        <h3 class="box-title"><a href="team-details.php">Mr. Gaurava Yadav</a></h3>
-                                        <span class="team-desig">Head, IPN<br> Eduace Services PVT. LTD.</span>
+                                        <h3 class="box-title"><a style="color: black;"  href="#">Mr. Gaurava Yadav</a></h3>
+                                        <span style="color: black;"  class="team-desig">Head, IPN<br> Eduace Services PVT. LTD.</span>
                                     </div>
-                                    <a class="icon-btn" href="tel:09876543210"><img src="assets/img/icon/phone.svg" alt="img"></a>
+                                    <a class="icon-btn" href="tel:+91 84007 00199"><img src="assets/img/icon/phone.svg" alt="img"></a>
                                 </div>
                             </div>
                         </div>
@@ -716,15 +716,15 @@ Team Area
                                             <a target="_blank" href="https://youtube.com/"><i class="fab fa-youtube"></i></a>
                                             <a target="_blank" href="https://instagram.com/"><i class="fab fa-instagram"></i></a>
                                         </div>
-                                        <a class="icon-btn" href="team-details.php"><img src="assets/img/icon/arrow-right.svg" alt="img"></a>
+                                        <a class="icon-btn" href="#"><img  src="assets/img/icon/arrow-right.svg" alt="img"></a>
                                     </div>
                                 </div>
                                 <div class="team-card-content">
                                     <div class="media-left">
-                                        <h3 class="box-title"><a href="team-details.php">Mr. Gaurava Yadav</a></h3>
-                                        <span class="team-desig">Head, IPN<br> Eduace Services PVT. LTD.</span>
+                                        <h3 class="box-title"><a style="color: black;"  href="#">Mr. Gaurava Yadav</a></h3>
+                                        <span style="color: black;"  class="team-desig">Head, IPN<br> Eduace Services PVT. LTD.</span>
                                     </div>
-                                    <a class="icon-btn" href="tel:09876543210"><img src="assets/img/icon/phone.svg" alt="img"></a>
+                                    <a class="icon-btn" href="tel:+91 84007 00199"><img src="assets/img/icon/phone.svg" alt="img"></a>
                                 </div>
                             </div>
                         </div>
@@ -750,8 +750,8 @@ Feedback Area
             <div class="row justify-content-lg-between justify-content-center align-items-center">
                 <div class="col-xxl-6 col-lg-7">
                     <div class="title-area text-lg-start text-center">
-                        <h2 class="sec-title text-theme">What Our Participants Say</h2>
-                        <p class="sec-text text-theme">The QUEST STEAM Quiz has been an enriching experience for our students, inspiring them to explore India's rich STEAM heritage.</p>
+                        <h2 class="sec-title ">What Our Participants Say</h2>
+                        <p class="sec-text ">The QUEST STEAM Quiz has been an enriching experience for our students, inspiring them to explore India's rich STEAM heritage.</p>
                     </div>
                 </div>
                 <div class="col-auto">
@@ -969,7 +969,7 @@ Contact Area
                         </div>
                         <div class="about-contact-details">
                             <h6 class="about-contact-details-title">Phone:</h6>
-                            <p class="about-contact-details-text"><a href="tel:+917753888063">+917753888063</a></p>
+                            <p class="about-contact-details-text"><a style="color: black;"  href="tel:+917753888063">+917753888063</a></p>
                         </div>
                     </div>
                     <div class="about-contact-grid">
@@ -978,7 +978,7 @@ Contact Area
                         </div>
                         <div class="about-contact-details">
                             <h6 class="about-contact-details-title">Email:</h6>
-                            <p class="about-contact-details-text"><a href="mailto:info@eduace.in">info@eduace.in</a></p>
+                            <p class="about-contact-details-text"><a style="color: black;"  href="mailto:info@eduace.in">info@eduace.in</a></p>
                         </div>
                     </div>
                 </div>

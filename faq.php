@@ -122,9 +122,9 @@ Faq Area
             <div class="row justify-content-center">
                 <div class="col-xl-10">
                     <div class="title-area text-center">
-                        <span class="sub-title">FAQ</span>
-                        <h2 class="sec-title text-theme">Frequently Asked Questions</h2>
-                        <p class="sec-text text-theme">Have questions you want answers to?</p>
+                        <span  class="sub-title">FAQ</span>
+                        <h2 class="sec-title ">Frequently Asked Questions</h2>
+                        <p class="sec-text">Have questions you want answers to?</p>
                     </div>
                     <div class="accordion" id="faqAccordion">
 

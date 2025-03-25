@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Eduace Quest 2025 - Agencies</title>
+    <title>Eduace Quest 2025 - Participating Schools</title>
     <meta name="author" content="Quest">
     <meta name="description" content="Eduace Quest 2025">
     <meta name="keywords" content="Eduace Quest 2025, Endeavour Digital">
@@ -151,14 +151,14 @@ Property Page Area
                                             </div>
                                         </div>
                                         <div class="agency-card-details">
-                                            <h4 class="agency-card-title"><a href="property-details.php">Sunbeam English School, Varanasi</a></h4>
+                                            <h4 class="agency-card-title"><a href="#">Sunbeam English School, Varanasi</a></h4>
                                             <p class="agency-card-text">Bhagwanpur, Varanasi, Uttar Pradesh 221005</p>
                                             <div class="agency-card-meta">
                                                 <div class="media-left">
                                                     <p class="agency-card-text"><i class="far fa-browser"></i><strong><a href="https://sunbeamschools.com/home">www.sunbeamschools.com</a></strong></p>
                                                 </div>
                                                <!--==========   <div class="btn-wrap">
-                                                    <a href="property-details.php" class="th-btn style-border2 th-btn-icon">Details</a>
+                                                    <a href="#" class="th-btn style-border2 th-btn-icon">Details</a>
                                                 </div>-->
                                             </div>
                                         </div>
@@ -167,20 +167,20 @@ Property Page Area
                                 <div class="col-md-6">
                                     <div class="agency-card">
                                         <div class="agency-card-img">
-                                            <img src="aassets/img/participating_schools/2.svg" alt="img">
+                                            <img src="assets/img/participating_schools/2.svg" alt="img">
                                             <div class="agency-card-brand">
                                                 <img src="assets/img/participating_schools/quest_icon.png" alt="">
                                             </div>
                                         </div>
                                         <div class="agency-card-details">
-                                            <h4 class="agency-card-title"><a href="property-details.php">The Tonsbridge School, Dehradun</a></h4>
+                                            <h4 class="agency-card-title"><a href="#">The Tonsbridge School, Dehradun</a></h4>
                                             <p class="agency-card-text">Prem Nagar, Dehradun, Shahpur Santore, Uttarakhand 248001</p>
                                             <div class="agency-card-meta">
                                                 <div class="media-left">
                                                     <p class="agency-card-text"><i class="far fa-browser"></i><strong><a href="https://www.thetonsbridge.com/">wwww.thetonsbridge.com</a></strong></p>
                                                 </div>
                                                  <!--========== <div class="btn-wrap">
-                                                    <a href="property-details.php" class="th-btn style-border2 th-btn-icon">Details</a>
+                                                    <a href="#" class="th-btn style-border2 th-btn-icon">Details</a>
                                                 </div> -->
                                             </div>
                                         </div>
@@ -195,14 +195,14 @@ Property Page Area
                                             </div>
                                         </div>
                                         <div class="agency-card-details">
-                                            <h4 class="agency-card-title"><a href="property-details.php">Nurture International School, Kanpur</a></h4>
+                                            <h4 class="agency-card-title"><a href="#">Nurture International School, Kanpur</a></h4>
                                             <p class="agency-card-text">Singhpur, Kanpur, Uttar Pradesh 208017</p>
                                             <div class="agency-card-meta">
                                                 <div class="media-left">
                                                     <p class="agency-card-text"><i class="far fa-browser"></i><strong><a href="https://niskalyanpur.in/">www.niskalyanpur.in</a></strong></p>
                                                 </div>
                                                  <!--========== <div class="btn-wrap">
-                                                    <a href="property-details.php" class="th-btn style-border2 th-btn-icon">Details</a>
+                                                    <a href="#" class="th-btn style-border2 th-btn-icon">Details</a>
                                                 </div> -->
                                             </div>
                                         </div>
@@ -211,20 +211,20 @@ Property Page Area
                                 <div class="col-md-6">
                                     <div class="agency-card">
                                         <div class="agency-card-img">
-                                            <img src="aassets/img/participating_schools/4.svg" alt="img">
+                                            <img src="assets/img/participating_schools/4.svg" alt="img">
                                             <div class="agency-card-brand">
                                                 <img src="assets/img/participating_schools/quest_icon.png" alt="">
                                             </div>
                                         </div>
                                         <div class="agency-card-details">
-                                            <h4 class="agency-card-title"><a href="property-details.php">Sri Sri Academy, Kolkata</a></h4>
+                                            <h4 class="agency-card-title"><a href="#">Sri Sri Academy, Kolkata</a></h4>
                                             <p class="agency-card-text"> Alipore Rd, Alipore, Kolkata, West Bengal 700027</p>
                                             <div class="agency-card-meta">
                                                 <div class="media-left">
                                                     <p class="agency-card-text"><i class="far fa-browser"></i><strong><a href="https://kolkata.ssa.org.in/">www.kolkata.ssa.org.in</a></strong></p>
                                                 </div>
                                                  <!--========== <div class="btn-wrap">
-                                                    <a href="property-details.php" class="th-btn style-border2 th-btn-icon">Details</a>
+                                                    <a href="#" class="th-btn style-border2 th-btn-icon">Details</a>
                                                 </div> -->
                                             </div>
                                         </div>
@@ -239,14 +239,14 @@ Property Page Area
                                             </div>
                                         </div>
                                         <div class="agency-card-details">
-                                            <h4 class="agency-card-title"><a href="property-details.php">Aster Public School, Greater Noida</a></h4>
+                                            <h4 class="agency-card-title"><a href="#">Aster Public School, Greater Noida</a></h4>
                                             <p class="agency-card-text"> Greater Noida, Uttar Pradesh 201306</p>
                                             <div class="agency-card-meta">
                                                 <div class="media-left">
                                                     <p class="agency-card-text"><i class="far fa-browser"></i><strong><a href="https://grnoida.asterinstitutions.com/">www.grnoida.asterinstitutions.in</a></strong></p>
                                                 </div>
                                                   <!--==========<div class="btn-wrap">
-                                                    <a href="property-details.php" class="th-btn style-border2 th-btn-icon">Details</a>
+                                                    <a href="#" class="th-btn style-border2 th-btn-icon">Details</a>
                                                 </div> -->
                                             </div>
                                         </div>

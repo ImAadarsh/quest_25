@@ -123,8 +123,8 @@ About Area
                 <div class="row gy-40 justify-content-between align-items-center">
                     <div class="col-lg-6">
                         <div class="title-area mb-0">
-                            <h2 class="sec-title text-theme mb-2">Quest STEAM Vision & Mission</h2>
-                            <p class="mb-0 text-theme">Our mission is to inspire school students across India by celebrating the country's remarkable contributions to Science, Technology, Engineering, Arts, and Mathematics. We aim to create an engaging platform that not only tests knowledge but also introduces participants to the incredible minds who have shaped India's STEAM legacy.</p>
+                            <h2 class="sec-title  mb-2">Quest STEAM Vision & Mission</h2>
+                            <p class="mb-0 ">Our mission is to inspire school students across India by celebrating the country's remarkable contributions to Science, Technology, Engineering, Arts, and Mathematics. We aim to create an engaging platform that not only tests knowledge but also introduces participants to the incredible minds who have shaped India's STEAM legacy.</p>
                          
                         </div>
                     </div>
@@ -149,7 +149,7 @@ About Area
                         </div>
                     </div>
                     <div class="col-lg-6">
-                        <p class="text-theme">India has a rich legacy of scientific discoveries, technological innovations, artistic brilliance, and mathematical prowess. From ancient scholars like Aryabhata to contemporary visionaries like Dr. APJ Abdul Kalam, India has left an indelible mark on the global STEAM landscape.</p>
+                        <p class="">India has a rich legacy of scientific discoveries, technological innovations, artistic brilliance, and mathematical prowess. From ancient scholars like Aryabhata to contemporary visionaries like Dr. APJ Abdul Kalam, India has left an indelible mark on the global STEAM landscape.</p>
                     </div>
                     <div class="col-lg-6">
                         <div class="about-wrap2 style-theme mt-50">
@@ -167,10 +167,10 @@ About Area
                                     <img src="assets/img/icon/phone.svg" alt="img">
                                 </div>
                                 <div class="btn-content">
-                                    <h6 class="btn-title text-theme">Mon- Sat: 09:00 - 18:00</h6>
-                                    <h6 class="btn-title text-theme">Sun : Off</h6>
-                                    <span class="btn-text"><a class="text-theme" href="tel:+917753888063">+91 7753888063</a></span>
-                                    <span class="btn-text"><a class="text-theme" href="mailto:info@eduace.in">info@eduace.in</a></span>
+                                    <h6 class="btn-title ">Mon- Sat: 09:00 - 18:00</h6>
+                                    <h6 class="btn-title ">Sun : Off</h6>
+                                    <span class="btn-text"><a class="" href="tel:+917753888063">+91 7753888063</a></span>
+                                    <span class="btn-text"><a class="" href="mailto:info@eduace.in">info@eduace.in</a></span>
                                 </div>
                             </div>
                         </div>
@@ -262,8 +262,8 @@ Feedback Area
             <div class="row justify-content-lg-between justify-content-center align-items-center">
                 <div class="col-xxl-6 col-lg-7">
                     <div class="title-area text-lg-start text-center">
-                        <h2 class="sec-title text-theme">What Our Participants Say</h2>
-                        <p class="sec-text text-theme">The QUEST STEAM Quiz has been an enriching experience for our students, inspiring them to explore India's rich STEAM heritage.</p>
+                        <h2 class="sec-title ">What Our Participants Say</h2>
+                        <p class="sec-text ">The QUEST STEAM Quiz has been an enriching experience for our students, inspiring them to explore India's rich STEAM heritage.</p>
                     </div>
                 </div>
                 <div class="col-auto">
