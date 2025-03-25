@@ -151,12 +151,11 @@ Property Page Area
                                             </div>
                                         </div>
                                         <div class="agency-card-details">
-                                            <h4 class="agency-card-title"><a href="property-details.php">House in NY</a></h4>
-                                            <p class="agency-card-text">Brooklyn, New York 11233, United States</p>
+                                            <h4 class="agency-card-title"><a href="property-details.php">Sunbeam English School, Varanasi</a></h4>
+                                            <p class="agency-card-text">Bhagwanpur, Varanasi, Uttar Pradesh 221005</p>
                                             <div class="agency-card-meta">
                                                 <div class="media-left">
-                                                    <p class="agency-card-text"><i class="far fa-phone"></i><strong>0123456789</strong></p>
-                                                    <p class="agency-card-text"><i class="far fa-envelope"></i><strong>exampleinfo@Quest.com</strong></p>
+                                                    <p class="agency-card-text"><i class="far fa-browser"></i><strong><a href="https://sunbeamschools.com/home">www.sunbeamschools.com<</a></strong></p>
                                                 </div>
                                                 <div class="btn-wrap">
                                                     <a href="property-details.php" class="th-btn style-border2 th-btn-icon">Details</a>
@@ -165,22 +164,20 @@ Property Page Area
                                         </div>
                                     </div>
                                 </div>
-
                                 <div class="col-md-6">
                                     <div class="agency-card">
                                         <div class="agency-card-img">
-                                            <img src="assets/img/agency/1-2.png" alt="img">
+                                            <img src="assets/img/agency/1-1.png" alt="img">
                                             <div class="agency-card-brand">
-                                                <img src="assets/img/brand/brand_1_2.svg" alt="">
+                                                <img src="assets/img/brand/brand_1_1.svg" alt="">
                                             </div>
                                         </div>
                                         <div class="agency-card-details">
-                                            <h4 class="agency-card-title"><a href="property-details.php">House in Broklyn</a></h4>
-                                            <p class="agency-card-text">4321 Maple Drive, Autumnville, FL 98765</p>
+                                            <h4 class="agency-card-title"><a href="property-details.php">The Tonsbridge School, Dehradun</a></h4>
+                                            <p class="agency-card-text">Prem Nagar, Dehradun, Shahpur Santore, Uttarakhand 248001</p>
                                             <div class="agency-card-meta">
                                                 <div class="media-left">
-                                                    <p class="agency-card-text"><i class="far fa-phone"></i><strong>0123456789</strong></p>
-                                                    <p class="agency-card-text"><i class="far fa-envelope"></i><strong>exampleinfo@Quest.com</strong></p>
+                                                    <p class="agency-card-text"><i class="far fa-browser"></i><strong><a href="https://www.thetonsbridge.com/">wwww.thetonsbridge.com<</a></strong></p>
                                                 </div>
                                                 <div class="btn-wrap">
                                                     <a href="property-details.php" class="th-btn style-border2 th-btn-icon">Details</a>
@@ -189,22 +186,20 @@ Property Page Area
                                         </div>
                                     </div>
                                 </div>
-
                                 <div class="col-md-6">
                                     <div class="agency-card">
                                         <div class="agency-card-img">
-                                            <img src="assets/img/agency/1-3.png" alt="img">
+                                            <img src="assets/img/agency/1-1.png" alt="img">
                                             <div class="agency-card-brand">
-                                                <img src="assets/img/brand/brand_1_3.svg" alt="">
+                                                <img src="assets/img/brand/brand_1_1.svg" alt="">
                                             </div>
                                         </div>
                                         <div class="agency-card-details">
-                                            <h4 class="agency-card-title"><a href="property-details.php">House in Brickhall</a></h4>
-                                            <p class="agency-card-text">8023 Willow Lane, Whispering Pines, GA 97531</p>
+                                            <h4 class="agency-card-title"><a href="property-details.php">Nurture International School, Kanpur</a></h4>
+                                            <p class="agency-card-text">Singhpur, Kanpur, Uttar Pradesh 208017</p>
                                             <div class="agency-card-meta">
                                                 <div class="media-left">
-                                                    <p class="agency-card-text"><i class="far fa-phone"></i><strong>0123456789</strong></p>
-                                                    <p class="agency-card-text"><i class="far fa-envelope"></i><strong>exampleinfo@Quest.com</strong></p>
+                                                    <p class="agency-card-text"><i class="far fa-browser"></i><strong><a href="https://niskalyanpur.in/">www.niskalyanpur.in<</a></strong></p>
                                                 </div>
                                                 <div class="btn-wrap">
                                                     <a href="property-details.php" class="th-btn style-border2 th-btn-icon">Details</a>
@@ -212,23 +207,21 @@ Property Page Area
                                             </div>
                                         </div>
                                     </div>
-                                </div>
-
+                                </div>                           
                                 <div class="col-md-6">
                                     <div class="agency-card">
                                         <div class="agency-card-img">
-                                            <img src="assets/img/agency/1-4.png" alt="img">
+                                            <img src="assets/img/agency/1-1.png" alt="img">
                                             <div class="agency-card-brand">
-                                                <img src="assets/img/brand/brand_1_4.svg" alt="">
+                                                <img src="assets/img/brand/brand_1_1.svg" alt="">
                                             </div>
                                         </div>
                                         <div class="agency-card-details">
-                                            <h4 class="agency-card-title"><a href="property-details.php">Town House</a></h4>
-                                            <p class="agency-card-text">7531 Elm Court, Serenityville, AZ 86420</p>
+                                            <h4 class="agency-card-title"><a href="property-details.php">Sri Sri Academy, Kolkata</a></h4>
+                                            <p class="agency-card-text"> Alipore Rd, Alipore, Kolkata, West Bengal 700027</p>
                                             <div class="agency-card-meta">
                                                 <div class="media-left">
-                                                    <p class="agency-card-text"><i class="far fa-phone"></i><strong>0123456789</strong></p>
-                                                    <p class="agency-card-text"><i class="far fa-envelope"></i><strong>exampleinfo@Quest.com</strong></p>
+                                                    <p class="agency-card-text"><i class="far fa-browser"></i><strong><a href="https://kolkata.ssa.org.in/">www.kolkata.ssa.org.in</a></strong></p>
                                                 </div>
                                                 <div class="btn-wrap">
                                                     <a href="property-details.php" class="th-btn style-border2 th-btn-icon">Details</a>
@@ -237,22 +230,20 @@ Property Page Area
                                         </div>
                                     </div>
                                 </div>
-
                                 <div class="col-md-6">
                                     <div class="agency-card">
                                         <div class="agency-card-img">
-                                            <img src="assets/img/agency/1-5.png" alt="img">
+                                            <img src="assets/img/agency/1-1.png" alt="img">
                                             <div class="agency-card-brand">
-                                                <img src="assets/img/brand/brand_1_5.svg" alt="">
+                                                <img src="assets/img/brand/brand_1_1.svg" alt="">
                                             </div>
                                         </div>
                                         <div class="agency-card-details">
-                                            <h4 class="agency-card-title"><a href="property-details.php">Serenity Villa</a></h4>
-                                            <p class="agency-card-text">1357 Rose Avenue, Tranquility, NC 86420</p>
+                                            <h4 class="agency-card-title"><a href="property-details.php">Aster Public School, Greater Noida</a></h4>
+                                            <p class="agency-card-text"> Greater Noida, Uttar Pradesh 201306</p>
                                             <div class="agency-card-meta">
                                                 <div class="media-left">
-                                                    <p class="agency-card-text"><i class="far fa-phone"></i><strong>0123456789</strong></p>
-                                                    <p class="agency-card-text"><i class="far fa-envelope"></i><strong>exampleinfo@Quest.com</strong></p>
+                                                    <p class="agency-card-text"><i class="far fa-browser"></i><strong><a href="https://grnoida.asterinstitutions.com/">www.grnoida.asterinstitutions.in</a></strong></p>
                                                 </div>
                                                 <div class="btn-wrap">
                                                     <a href="property-details.php" class="th-btn style-border2 th-btn-icon">Details</a>
@@ -262,30 +253,7 @@ Property Page Area
                                     </div>
                                 </div>
 
-                                <div class="col-md-6">
-                                    <div class="agency-card">
-                                        <div class="agency-card-img">
-                                            <img src="assets/img/agency/1-6.png" alt="img">
-                                            <div class="agency-card-brand">
-                                                <img src="assets/img/brand/brand_1_6.svg" alt="">
-                                            </div>
-                                        </div>
-                                        <div class="agency-card-details">
-                                            <h4 class="agency-card-title"><a href="property-details.php">Emma House</a></h4>
-                                            <p class="agency-card-text">8642 Magnolia Drive, Sunsetville, OR 75319</p>
-                                            <div class="agency-card-meta">
-                                                <div class="media-left">
-                                                    <p class="agency-card-text"><i class="far fa-phone"></i><strong>0123456789</strong></p>
-                                                    <p class="agency-card-text"><i class="far fa-envelope"></i><strong>exampleinfo@Quest.com</strong></p>
-                                                </div>
-                                                <div class="btn-wrap">
-                                                    <a href="property-details.php" class="th-btn style-border2 th-btn-icon">Details</a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
+                               
                             </div>
                             <div class="mt-60">
                                 <div class="th-pagination ">

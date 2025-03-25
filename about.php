@@ -283,7 +283,7 @@ Testimonial Area
                         <div class="swiper-slide">
                             <div class="testi-grid-wrap2">
                                 <div class="testi-grid-thumb">
-                                    <img src="assets/img/testimonial/testi_thumb_2_1.png" alt="img">
+                                    <img src="assets/img/review_profile_images/review_image.png" alt="img">
                                 </div>
                                 <div class="testi-card style2">
                                     <div class="testi-grid_review">
@@ -295,11 +295,11 @@ Testimonial Area
                                             <img src="assets/img/icon/qoute2.svg" alt="icon">
                                         </div>
                                         <div class="avatar">
-                                            <img src="assets/img/testimonial/testi_2_1.png" alt="avatar">
+                                            <img src="assets/img/review_profile_images/1.png" alt="avatar">
                                         </div>
                                         <div class="testi-card_profile-details">
-                                            <h3 class="testi-card_name">Rajesh Kumar</h3>
-                                            <span class="testi-card_desig">Principal</span>
+                                            <h3 class="testi-card_name">Maanav V</h3>
+                                            <span class="testi-card_desig">Birla Open Minds, Kollur Branch</span>
                                         </div>
                                     </div>
 
@@ -309,7 +309,7 @@ Testimonial Area
                         <div class="swiper-slide">
                             <div class="testi-grid-wrap2">
                                 <div class="testi-grid-thumb">
-                                    <img src="assets/img/testimonial/testi_thumb_2_2.png" alt="img">
+                                    <img src="assets/img/review_profile_images/review_image.png" alt="img">
                                 </div>
                                 <div class="testi-card style2">
                                     <div class="testi-grid_review">
@@ -321,11 +321,11 @@ Testimonial Area
                                             <img src="assets/img/icon/qoute2.svg" alt="icon">
                                         </div>
                                         <div class="avatar">
-                                            <img src="assets/img/testimonial/testi_2_2.png" alt="avatar">
+                                            <img src="assets/img/review_profile_images/2.png" alt="avatar">
                                         </div>
                                         <div class="testi-card_profile-details">
-                                            <h3 class="testi-card_name">Sumita Patel</h3>
-                                            <span class="testi-card_desig">Principal</span>
+                                            <h3 class="testi-card_name">Veer Raghav Jaiswal and Aditya Gupta</h3>
+                                            <span class="testi-card_desig">Sri Sri Academy, Kolkata</span>
                                         </div>
                                     </div>
 
@@ -335,7 +335,7 @@ Testimonial Area
                         <div class="swiper-slide">
                             <div class="testi-grid-wrap2">
                                 <div class="testi-grid-thumb">
-                                    <img src="assets/img/testimonial/testi_thumb_2_1.png" alt="img">
+                                    <img src="assets/img/review_profile_images/review_image.png" alt="img">
                                 </div>
                                 <div class="testi-card style2">
                                     <div class="testi-grid_review">
@@ -347,11 +347,11 @@ Testimonial Area
                                             <img src="assets/img/icon/qoute2.svg" alt="icon">
                                         </div>
                                         <div class="avatar">
-                                            <img src="assets/img/testimonial/testi_2_1.png" alt="avatar">
+                                            <img src="assets/img/review_profile_images/3.png" alt="avatar">
                                         </div>
                                         <div class="testi-card_profile-details">
-                                            <h3 class="testi-card_name">Andrew Simon</h3>
-                                            <span class="testi-card_desig">Property Expert</span>
+                                            <h3 class="testi-card_name">Aditi Pariyar </h3>
+                                            <span class="testi-card_desig">Sri Sri Academy, Kolkata</span>
                                         </div>
                                     </div>
 
@@ -361,7 +361,7 @@ Testimonial Area
                         <div class="swiper-slide">
                             <div class="testi-grid-wrap2">
                                 <div class="testi-grid-thumb">
-                                    <img src="assets/img/testimonial/testi_thumb_2_2.png" alt="img">
+                                    <img src="assets/img/review_profile_images/review_image.png" alt="img">
                                 </div>
                                 <div class="testi-card style2">
                                     <div class="testi-grid_review">
@@ -373,11 +373,64 @@ Testimonial Area
                                             <img src="assets/img/icon/qoute2.svg" alt="icon">
                                         </div>
                                         <div class="avatar">
-                                            <img src="assets/img/testimonial/testi_2_2.png" alt="avatar">
+                                            <img src="assets/img/review_profile_images/4.png" alt="avatar">
                                         </div>
                                         <div class="testi-card_profile-details">
-                                            <h3 class="testi-card_name">Ralph Edwards</h3>
-                                            <span class="testi-card_desig">Property Expert</span>
+                                            <h3 class="testi-card_name">Siddhant Chovishya</h3>
+                                            <span class="testi-card_desig">Emerald Heights International School</span>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="testi-grid-wrap2">
+                                <div class="testi-grid-thumb">
+                                    <img src="assets/img/review_profile_images/review_image.png" alt="img">
+                                </div>
+                                <div class="testi-card style2">
+                                    <div class="testi-grid_review">
+                                        <i class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-solid fa-star"></i>
+                                    </div>
+                                    <p class="testi-card_text">"Home is where love resides, memories are created, and dreams are nurtured. I have found my sanctuary in this beautiful property. Finding the perfect that resonates with your own"</p>
+                                    <div class="testi-card_profile">
+                                        <div class="quote-icon">
+                                            <img src="assets/img/icon/qoute2.svg" alt="icon">
+                                        </div>
+                                        <div class="avatar">
+                                            <img src="assets/img/review_profile_images/5.png" alt="avatar">
+                                        </div>
+                                        <div class="testi-card_profile-details">
+                                            <h3 class="testi-card_name">Sreesh Nandan</h3>
+                                            <span class="testi-card_desig">Insignis Transnational School</span>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="swiper-slide">
+                            <div class="testi-grid-wrap2">
+                                <div class="testi-grid-thumb">
+                                    <img src="assets/img/review_profile_images/review_image.png" alt="img">
+                                </div>
+                                <div class="testi-card style2">
+                                    <div class="testi-grid_review">
+                                        <i class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-solid fa-star"></i>
+                                    </div>
+                                    <p class="testi-card_text">"Home is where love resides, memories are created, and dreams are nurtured. I have found my sanctuary in this beautiful property. Finding the perfect that resonates with your own"</p>
+                                    <div class="testi-card_profile">
+                                        <div class="quote-icon">
+                                            <img src="assets/img/icon/qoute2.svg" alt="icon">
+                                        </div>
+                                        <div class="avatar">
+                                            <img src="assets/img/review_profile_images/6.png" alt="avatar">
+                                        </div>
+                                        <div class="testi-card_profile-details">
+                                            <h3 class="testi-card_name">Eshaan B Swamy</h3>
+                                            <span class="testi-card_desig">Insignis Transnational School</span>
                                         </div>
                                     </div>
 
