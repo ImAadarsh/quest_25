@@ -115,43 +115,91 @@ Appointment Area
             <div class="row gx-60 align-items-center">
                 <div class="col-lg-5">
                     <div class="appointment-thumb text-xl-end mb-lg-0 mb-50">
-                        <img src="assets/img/normal/booking_1_1.png" alt="img">
+                        <img src="quest/Register.png" alt="img">
                     </div>
                 </div>
                 <div class="col-lg-7">
                     <div class="title-area mb-35">
-                        <h2 class="sec-title">Book Business Solutions</h2>
+                        <h2 class="sec-title">Get Your School Enrolled</h2>
                     </div>
-                    <form action="mail.php" method="POST" class="appointment-form ajax-contact me-xl-5">
-                        <div class="row">
-                            <div class="form-group style-border style-radius col-md-6">
-                                <input type="text" class="form-control" name="name" id="name" placeholder="Your Name*">
-                                <i class="fal fa-user"></i>
-                            </div>
-                            <div class="form-group style-border style-radius col-md-6">
-                                <input type="email" class="form-control" name="email" id="email" placeholder="Your Email*">
-                                <i class="fal fa-envelope"></i>
-                            </div>
-                            <div class="form-group style-border style-radius col-md-12">
-                                <select name="subject" id="subject" class="form-select">
-                                    <option value="" disabled selected hidden>Select Service Type</option>
-                                    <option value="Real Estate">Real Estate</option>
-                                    <option value="Apartment">Apartment</option>
-                                    <option value="Residencial">Residencial</option>
-                                    <option value="Deluxe">Deluxe</option>
-                                </select>
-                                <i class="fal fa-angle-down"></i>
-                            </div>
-                            <div class="col-12 form-group style-border style-radius">
-                                <i class="far fa-comments"></i>
-                                <textarea placeholder="Type Your Message" class="form-control"></textarea>
-                            </div>
-                            <div class="col-12 form-btn mt-4">
-                                <button class="th-btn style-border2">Submit Message <span class="btn-icon"><img src="assets/img/icon/paper-plane.svg" alt="img"></span></button>
-                            </div>
-                        </div>
-                        <p class="form-messages mb-0 mt-3"></p>
-                    </form>
+                    <form action="controllers/school_register.php" method="POST" class="appointment-form ajax-contact me-xl-5">
+    <div class="row">
+        <div class="login-top">
+            <h3>School Registration Form</h3>
+        </div>
+        <div class="form-group style-border style-radius col-md-6">
+            <input type="text" class="form-control" name="name" id="name" placeholder="Contact Person Name*" required>
+            <i class="fal fa-user"></i>
+        </div>
+        <div class="form-group style-border style-radius col-md-6">
+            <input type="email" class="form-control" name="email" id="email" placeholder="Email*" required>
+            <i class="fal fa-envelope"></i>
+        </div>
+        <div class="form-group style-border style-radius col-md-6">
+            <input type="text" class="form-control" name="designation" id="designation" placeholder="Contact Person Designation*" required>
+            <i class="fal fa-briefcase"></i>
+        </div>
+        <div class="form-group style-border style-radius col-md-6">
+            <input type="tel" class="form-control" name="mobile" id="mobile" placeholder="Mobile Number*" required>
+            <i class="fal fa-phone"></i>
+        </div>
+        <div class="form-group style-border style-radius col-md-6">
+            <input type="text" class="form-control" name="principal_name" id="principal_name" placeholder="School's Principal Name*" required>
+            <i class="fal fa-user-tie"></i>
+        </div>
+        <div class="form-group style-border style-radius col-md-6">
+            <input type="text" class="form-control" name="school_name" id="school_name" placeholder="School Name*" required>
+            <i class="fal fa-school"></i>
+        </div>
+        <div class="form-group style-border style-radius col-md-12">
+            <input type="text" class="form-control" name="city" id="city" placeholder="City*" required>
+            <i class="fal fa-city"></i>
+        </div>
+        <div class="col-12 form-group style-border style-radius">
+            <div class="back-check-box">
+                <input type="checkbox" id="box-1" required> I agree to the <em>Terms & Conditions</em>
+            </div>
+        </div>
+        <div class="col-12 form-btn mt-4">
+            <div id="loader" style="display:none; text-align:center; margin-bottom:15px;">
+                <div class="spinner"></div>
+                <p>Processing your registration, please wait...</p>
+            </div>
+            <button type="submit" id="button" name="submit" class="th-btn style-border2">Register <span class="btn-icon"><img src="assets/img/icon/paper-plane.svg" alt="img"></span></button>
+        </div>
+    </div>
+    <p class="form-messages mb-0 mt-3"></p>
+</form>
+
+<style>
+    .spinner {
+        border: 4px solid rgba(0, 0, 0, 0.1);
+        border-radius: 50%;
+        border-top: 4px solid #3498db;
+        width: 40px;
+        height: 40px;
+        animation: spin 1s linear infinite;
+        margin: 0 auto;
+    }
+    
+    @keyframes spin {
+        0% { transform: rotate(0deg); }
+        100% { transform: rotate(360deg); }
+    }
+</style>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    document.querySelector('form').addEventListener('submit', function() {
+        // Show the loader
+        document.getElementById('loader').style.display = 'block';
+        
+        // Disable the submit button to prevent multiple submissions
+        document.getElementById('button').disabled = true;
+    });
+});
+</script>
+
                 </div>
 
             </div>
