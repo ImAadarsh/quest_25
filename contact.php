@@ -1,3 +1,28 @@
+<?php include "include/connect.php"; 
+if (!$connect) {
+    die("Connection failed: " . mysqli_connect_error());
+}
+
+$message = "";
+
+if (isset($_POST['submit'])) {
+    $name = mysqli_real_escape_string($connect, $_POST['name']);
+    $email = mysqli_real_escape_string($connect, $_POST['email']);
+    $mobile = mysqli_real_escape_string($connect, $_POST['mobile']);
+    $message_text = mysqli_real_escape_string($connect, $_POST['message']);
+    $created_at = date('Y-m-d H:i:s');
+
+    $sql = "INSERT INTO contacts (name, email, mobile, message, created_at, updated_at) VALUES ('$name', '$email', '$mobile', '$message_text', '$created_at', '$created_at')";
+
+    if (mysqli_query($connect, $sql)) {
+        $message = "<div class='alert alert-success'>Your message has been sent successfully!</div>";
+    } else {
+        $message = "<div class='alert alert-danger'>Sorry, there was an error sending your message. Please try again later.</div>";
+    }
+}
+
+mysqli_close($connect);
+?>
 <!doctype html>
 <html class="no-js" lang="zxx">
 
@@ -166,32 +191,33 @@ Contact Area
             <div class="row gx-35">
                 <div class="col-lg-6">
                     <div class="appointment-wrap2 bg-white me-xxl-5">
-                        <h2 class="form-title ">Schedule a visit</h2>
-                        <form action="mail.php" method="POST" class="appointment-form ajax-contact">
-                            <div class="row">
-                                <div class="form-group style-border style-radius col-12">
-                                    <input type="text" class="form-control" name="name" id="name" placeholder="Your Name*">
-                                    <i class="fal fa-user"></i>
-                                </div>
-                                <div class="form-group style-border style-radius col-12">
-                                    <input type="email" class="form-control" name="email" id="email" placeholder="Your Email*">
-                                    <i class="fal fa-envelope"></i>
-                                </div>
-                                <div class="form-group style-border style-radius col-12">
-                                    <input type="tel" class="form-control" name="phone" id="phone" placeholder="Your phone*">
-                                    <i class="fal fa-phone"></i>
-                                </div>
+                        <h2 class="form-title ">Contact Us</h2>
+                        <?php echo $message; ?>
+                        <form action="contact.php" method="POST" class="appointment-form ajax-contact">
+    <div class="row">
+        <div class="form-group style-border style-radius col-12">
+            <input type="text" class="form-control" name="name" id="name" placeholder="Your Name*" required>
+            <i class="fal fa-user"></i>
+        </div>
+        <div class="form-group style-border style-radius col-12">
+            <input type="email" class="form-control" name="email" id="email" placeholder="Your Email*" required>
+            <i class="fal fa-envelope"></i>
+        </div>
+        <div class="form-group style-border style-radius col-12">
+            <input type="tel" class="form-control" name="mobile" id="mobile" placeholder="Your phone*" required>
+            <i class="fal fa-phone"></i>
+        </div>
+        <div class="col-12 form-group style-border style-radius">
+            <i class="far fa-comments"></i>
+            <textarea name="message" placeholder="Type Your Message" class="form-control" required></textarea>
+        </div>
+        <div class="col-12 form-btn mt-4">
+            <button type="submit" name="submit" class="th-btn">Submit Message <span class="btn-icon"><img src="assets/img/icon/paper-plane.svg" alt="img"></span></button>
+        </div>
+    </div>
+    <!-- <p class="form-messages mb-0 mt-3"></p> -->
+</form>
 
-                                <div class="col-12 form-group style-border style-radius">
-                                    <i class="far fa-comments"></i>
-                                    <textarea placeholder="Type Your Message" class="form-control"></textarea>
-                                </div>
-                                <div class="col-12 form-btn mt-4">
-                                    <button class="th-btn">Submit Message <span class="btn-icon"><img src="assets/img/icon/paper-plane.svg" alt="img"></span></button>
-                                </div>
-                            </div>
-                            <p class="form-messages mb-0 mt-3"></p>
-                        </form>
                     </div>
                 </div>
             </div>
