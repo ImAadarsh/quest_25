@@ -14,7 +14,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Favicons - Place favicon.ico in the root directory -->
-<?php include "include/meta_images.php"; ?>
+    <?php include "include/meta_images.php"; ?>
 
     <!--==============================
 	  Google Fonts
@@ -36,6 +36,130 @@
     <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
     <!-- Theme Custom CSS -->
     <link rel="stylesheet" href="assets/css/style.css">
+    <style>
+        .hero-inner {
+            position: relative;
+            overflow: hidden;
+        }
+
+        .hero-content-wrapper {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .hero-content {
+            text-align: center;
+            padding: 2rem;
+            border-radius: 15px;
+            max-width: 80%;
+            transition: all 0.5s ease;
+        }
+
+        .glassmorphism {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(1.5px);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+        }
+
+        .hero-content h1 {
+            font-size: 3rem;
+            color: #ffffff;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+            margin-bottom: 1rem;
+            animation: fadeInUp 1s ease;
+        }
+
+        .hero-content p {
+            font-size: 1.8rem;
+            color: #ffffff;
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+            margin-bottom: 2rem;
+            animation: fadeInUp 1s ease 0.5s;
+            animation-fill-mode: both;
+        }
+
+        .cta-button {
+            padding: 1rem 2rem;
+            font-size: 1.2rem;
+            background: linear-gradient(45deg, #FF6B6B, #4ECDC4);
+            color: white;
+            border: none;
+            border-radius: 50px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            animation: pulse 2s infinite;
+        }
+
+        .cta-button:hover {
+            transform: scale(1.05);
+            box-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
+        }
+
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes pulse {
+            0% {
+                transform: scale(1);
+            }
+
+            50% {
+                transform: scale(1.05);
+            }
+
+            100% {
+                transform: scale(1);
+            }
+        }
+
+        .particles {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            pointer-events: none;
+        }
+
+        @media screen and (max-width: 768px) {
+            .hero-content {
+            text-align: center;
+            padding: 0.4rem;
+            border-radius: 13px;
+            max-width: 95%;
+        }
+
+            .hero-content h1 {
+            font-size: 1.5rem;
+        }
+        .header-button .th-btn {
+    padding: 10px 16px;
+  }
+    }
+
+    @media screen and (max-width: 480px) {
+        .hero-content h1 {
+            font-size: 1rem;
+        }
+    }
+    </style>
+
 
 </head>
 
@@ -77,15 +201,15 @@
                 </div>
             </div>
         </div>
-    </div> 
+    </div>
     <!--==============================
     Mobile Menu
   ============================== -->
-<?php include "include/mobile.php"; ?>
+    <?php include "include/mobile.php"; ?>
     <!--==============================
 	Header Area
 ==============================-->
-<?php include "include/header.php"; ?>
+    <?php include "include/header.php"; ?>
 
 
 
@@ -94,125 +218,155 @@ Hero Area
 ==============================-->
     <div class="th-hero-wrapper hero-2" id="hero">
         <div class="container">
-            <div class="swiper th-slider hero-slider1" id="heroSlide1" data-slider-options='{"effect":"fade","loop":false,"thumbs":{"swiper":".hero-grid-thumb"}}'>
-                <div class="swiper-wrapper">    
+            <div style="z-index: 1;" class="swiper th-slider hero-slider1" id="heroSlide1" data-slider-options='{"effect":"fade","loop":false,"thumbs":{"swiper":".hero-grid-thumb"}}'>
+                <div class="swiper-wrapper">
                     <div class="swiper-slide">
                         <div class="hero-inner">
                             <div class="row gx-60 gy-50">
-                                <div class="col-xl-5">
+                                <div class="col-xl-12 position-relative">
                                     <div class="hero-thumb2-1">
-                                        <img src="quest/quest_hero.svg" alt="img">
+                                        <img src="quest/hero_quest_25.png" alt="QUEST 2025 Background">
                                     </div>
-                                </div>
-                                <div class="col-xl-7">
-                                    <div class="hero-style2">
-                                        <h1 class="hero-title">
-                                            <span class="title1" data-ani="slideinup" data-ani-delay="0.4s">
-                                                Eduace Quest 2025 </span>
-                                            <span class="title1" data-ani="slideinup" data-ani-delay="0.5s">
-                                                Season 03 </span>
-                                        </h1>
-                                        <p class="hero-text" data-ani="slideinup" data-ani-delay="0.6s">South Asia’s LARGEST STEAM QUIZ for School Students, Quiz based on STEAM for students of grade 06th till 12th standard. Major centres spread across Asian Region- India(13 Centres).</p>
-                                        <div class="btn-wrap" data-ani="slideinup" data-ani-delay="0.7s">
-                                            <a href="contact.php" class="th-btn style2 th-btn-icon">Register Now</a>
+                                    <div class="hero-content-wrapper">
+                                        <div class="hero-content glassmorphism">
+                                            <h1>QUEST 2025:<br>Ignite Your STEAM Genius</h1>
+                                            <!-- <p>Unleash India's Innovation, Conquer Tomorrow's Challenges</p> -->
+                                            <div class="header-button" style="display: flex; justify-content: center;">
+    <a href="school_register.php" class="th-btn style3 th-btn-icon">Register Now</a>
+</div>
 
                                         </div>
                                     </div>
+                                    <div id="particles-js" class="particles"></div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                   
                 </div>
             </div>
 
-            <div class="row gx-60 justify-content-end">
-                <div class="col-xl-7">
-                    <div class="slider-area hero-slider-thumb-wrap">
-                        <div class="swiper th-slider hero-grid-thumb" data-slider-options='{"effect":"slide","loop":false,"slidesPerView":"3"}'>
-                            <div class="swiper-wrapper">
+            <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+            <script>
+                particlesJS("particles-js", {
+                    particles: {
+                        number: {
+                            value: 80,
+                            density: {
+                                enable: true,
+                                value_area: 800
+                            }
+                        },
+                        color: {
+                            value: "#ffffff"
+                        },
+                        shape: {
+                            type: "circle"
+                        },
+                        opacity: {
+                            value: 0.5,
+                            random: true
+                        },
+                        size: {
+                            value: 3,
+                            random: true
+                        },
+                        move: {
+                            enable: true,
+                            speed: 10,
+                            direction: "none",
+                            random: true,
+                            out_mode: "out"
+                        }
+                    }
+                });
+            </script>
 
-                                <div class="swiper-slide">
-                                    <div class="box-img">
-                                        <img src="cities/1.png" alt="Chennai">
-                                    </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="box-img">
-                                        <img src="cities/2.png" alt="Bangalore">
-                                    </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="box-img">
-                                        <img src="cities/3.png" alt="Delhi">
-                                    </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="box-img">
-                                        <img src="cities/4.png" alt="Dehardun">
-                                    </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="box-img">
-                                        <img src="cities/5.png" alt="Ghaziabad">
-                                    </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="box-img">
-                                        <img src="cities/6.png" alt="Gurgaon">
-                                    </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="box-img">
-                                        <img src="cities/7.png" alt="Hydrabad">
-                                    </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="box-img">
-                                        <img src="cities/8.png" alt="Indore">
-                                    </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="box-img">
-                                        <img src="cities/9.png" alt="Jaipur">
-                                    </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="box-img">
-                                        <img src="cities/10.png" alt="Lucknow">
-                                    </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="box-img">
-                                        <img src="cities/11.png" alt="Gr. Noida">
-                                    </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="box-img">
-                                        <img src="cities/12.png" alt="Varanasi">
-                                    </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="box-img">
-                                        <img src="cities/13.png" alt="Vishakhapatam">
-                                    </div>
-                                </div>
+       
+                <div class="row gx-60 justify-content-end">
+                    <div class="col-xl-12">
+                        <div class="slider-area hero-slider-thumb-wrap">
+                            <div class="swiper th-slider hero-grid-thumb" data-slider-options='{"effect":"slide","loop":true,"slidesPerView":"4"}'>
+                                <div class="swiper-wrapper">
 
-                                
+                                    <div class="swiper-slide">
+                                        <div class="box-img">
+                                            <img src="cities/1.png" alt="Chennai">
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="box-img">
+                                            <img src="cities/2.png" alt="Bangalore">
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="box-img">
+                                            <img src="cities/3.png" alt="Delhi">
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="box-img">
+                                            <img src="cities/4.png" alt="Dehardun">
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="box-img">
+                                            <img src="cities/5.png" alt="Ghaziabad">
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="box-img">
+                                            <img src="cities/6.png" alt="Gurgaon">
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="box-img">
+                                            <img src="cities/7.png" alt="Hydrabad">
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="box-img">
+                                            <img src="cities/8.png" alt="Indore">
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="box-img">
+                                            <img src="cities/9.png" alt="Jaipur">
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="box-img">
+                                            <img src="cities/10.png" alt="Lucknow">
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="box-img">
+                                            <img src="cities/11.png" alt="Gr. Noida">
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="box-img">
+                                            <img src="cities/12.png" alt="Varanasi">
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="box-img">
+                                            <img src="cities/13.png" alt="Vishakhapatam">
+                                        </div>
+                                    </div>
+
+
+                                </div>
                             </div>
+                            <button data-slider-prev="#heroSlide1" class="slider-arrow style2"><img src="assets/img/icon/arrow-left.svg" alt="img"></button>
+                            <button data-slider-next="#heroSlide1" class="slider-arrow style2 slider-next"><img src="assets/img/icon/arrow-right.svg" alt="img"></button>
                         </div>
-                        <button data-slider-prev="#heroSlide1" class="slider-arrow style2"><img src="assets/img/icon/arrow-left.svg" alt="img"></button>
-                        <button data-slider-next="#heroSlide1" class="slider-arrow style2 slider-next"><img src="assets/img/icon/arrow-right.svg" alt="img"></button>
                     </div>
                 </div>
-            </div>
+        
         </div>
         <div class="about-tag">
-            <div class="about-experience-tag">
-                <span class="circle-title-anime">Amrita Vishwa Vidyapeetham Present's </span>
-            </div>
             <div class="about-tag-thumb">
-                <img src="quest/amirta.svg" alt="img">
+                <img style="max-width: 150px;" src="quest/amirta.svg" alt="img">
             </div>
         </div>
         <div class="hero-bg-shape2-1 spin shape-mockup" data-top="14%" data-left="1%">
@@ -241,7 +395,7 @@ Counter Area
                     <div class="media-body">
                         <h2 class="box-number"><span class="counter-number">12</span>+</h2>
                         <p class="box-text">
-                        Regional Finale Centers</p>
+                            Regional Finale Centers</p>
                     </div>
                 </div>
                 <div class="counter-card style2">
@@ -327,16 +481,16 @@ About Area
                         <h2 class="sec-title style2">Quest 2025</h2>
                         <p class="sec-text">Welcome to the QUEST STEAM Quiz, an exhilarating challenge crafted exclusively for school students in India! Brought to you by EDUACE Group in association with Amrita Vishwa Vidyapeetham, this quiz immerses participants in the captivating realm of Science, Technology, Engineering, Arts, and Mathematics (STEAM), with a distinct focus on India's rich contributions.</p>
                     </div>
-                  
-                        <div class="checklist style2">
-                            <ul>
-                                <li><img src="assets/img/icon/checkmark.svg" alt="img"> Quiz based on STEAM for students of grade 06th till 12th standard.</li>
-                                <li><img src="assets/img/icon/checkmark.svg" alt="img">Major centres spread across Asian Region- India(12 Centres).</li>
-                                <li><img src="assets/img/icon/checkmark.svg" alt="img">1.25+ Lac students will take the quiz.</li>
-                                <!-- <li><img src="assets/img/icon/checkmark.svg" alt="img">Dealing always on time</li> -->
-                            </ul>
-                        </div>
-                
+
+                    <div class="checklist style2">
+                        <ul>
+                            <li><img src="assets/img/icon/checkmark.svg" alt="img"> Quiz based on STEAM for students of grade 06th till 12th standard.</li>
+                            <li><img src="assets/img/icon/checkmark.svg" alt="img">Major centres spread across Asian Region- India(12 Centres).</li>
+                            <li><img src="assets/img/icon/checkmark.svg" alt="img">1.25+ Lac students will take the quiz.</li>
+                            <!-- <li><img src="assets/img/icon/checkmark.svg" alt="img">Dealing always on time</li> -->
+                        </ul>
+                    </div>
+
                     <div class="btn-wrap mt-5">
                         <a href="about.php" class="th-btn style2 th-btn-icon">More About Quest</a>
                     </div>
@@ -392,7 +546,9 @@ Service Area
                                 <img src="assets/img/icon/service-icon2-2.svg" alt="Icon">
                             </div>
                             <h3 class="box-title"><a href="#">Inspirational Stories</a></h3>
-                            <p class="box-text"><p class="box-text">Discover the inspiring stories of Indian STEAM pioneers who have shaped the nation's scientific and artistic landscape.</p></p>
+                            <p class="box-text">
+                            <p class="box-text">Discover the inspiring stories of Indian STEAM pioneers who have shaped the nation's scientific and artistic landscape.</p>
+                            </p>
                             <div class="service-img img-shine">
                                 <img src="assets/img/Participates/2.png" alt="img">
                             </div>
@@ -404,7 +560,9 @@ Service Area
                                 <img src="assets/img/icon/service-icon2-3.svg" alt="Icon">
                             </div>
                             <h3 class="box-title"><a href="#">Competitive Advantage</a></h3>
-                            <p class="box-text"><p class="box-text">Participate in a competitive yet engaging environment that fosters learning and teamwork all the among students.</p></p>
+                            <p class="box-text">
+                            <p class="box-text">Participate in a competitive yet engaging environment that fosters learning and teamwork all the among students.</p>
+                            </p>
                             <div class="service-img img-shine">
                                 <img src="assets/img/Participates/3.png" alt="img">
                             </div>
@@ -623,7 +781,7 @@ Gallery Area
     </div><!--==============================
 Team Area  
 ==============================-->
-<section class="space  bg-theme">
+    <section class="space  bg-theme">
         <div class="sec-bg-shape2-3 jump shape-mockup d-xxl-block d-none text-white" data-top="10%" data-right="2%">
             <img src="assets/img/shape/section_shape_2_3.jpg" alt="img">
         </div>
@@ -667,8 +825,8 @@ Team Area
                                 </div>
                                 <div class="team-card-content">
                                     <div class="media-left">
-                                        <h3 class="box-title"><a style="color: black;"  href="#">Mr. Gaurava Yadav</a></h3>
-                                        <span style="color: black;"  class="team-desig">Head, IPN<br> Eduace Services PVT. LTD.</span>
+                                        <h3 class="box-title"><a style="color: black;" href="#">Mr. Gaurava Yadav</a></h3>
+                                        <span style="color: black;" class="team-desig">Head, IPN<br> Eduace Services PVT. LTD.</span>
                                     </div>
                                     <a class="icon-btn" href="tel:+91 84007 00199"><img src="assets/img/icon/phone.svg" alt="img"></a>
                                 </div>
@@ -694,8 +852,8 @@ Team Area
                                 </div>
                                 <div class="team-card-content">
                                     <div class="media-left">
-                                        <h3 class="box-title"><a style="color: black;"  href="#">Mr. Gaurava Yadav</a></h3>
-                                        <span style="color: black;"  class="team-desig">Head, IPN<br> Eduace Services PVT. LTD.</span>
+                                        <h3 class="box-title"><a style="color: black;" href="#">Mr. Gaurava Yadav</a></h3>
+                                        <span style="color: black;" class="team-desig">Head, IPN<br> Eduace Services PVT. LTD.</span>
                                     </div>
                                     <a class="icon-btn" href="tel:+91 84007 00199"><img src="assets/img/icon/phone.svg" alt="img"></a>
                                 </div>
@@ -716,19 +874,19 @@ Team Area
                                             <a target="_blank" href="https://youtube.com/"><i class="fab fa-youtube"></i></a>
                                             <a target="_blank" href="https://instagram.com/"><i class="fab fa-instagram"></i></a>
                                         </div>
-                                        <a class="icon-btn" href="#"><img  src="assets/img/icon/arrow-right.svg" alt="img"></a>
+                                        <a class="icon-btn" href="#"><img src="assets/img/icon/arrow-right.svg" alt="img"></a>
                                     </div>
                                 </div>
                                 <div class="team-card-content">
                                     <div class="media-left">
-                                        <h3 class="box-title"><a style="color: black;"  href="#">Mr. Gaurava Yadav</a></h3>
-                                        <span style="color: black;"  class="team-desig">Head, IPN<br> Eduace Services PVT. LTD.</span>
+                                        <h3 class="box-title"><a style="color: black;" href="#">Mr. Gaurava Yadav</a></h3>
+                                        <span style="color: black;" class="team-desig">Head, IPN<br> Eduace Services PVT. LTD.</span>
                                     </div>
                                     <a class="icon-btn" href="tel:+91 84007 00199"><img src="assets/img/icon/phone.svg" alt="img"></a>
                                 </div>
                             </div>
                         </div>
-                        
+
                     </div>
                 </div>
                 <button data-slider-prev="#teamSlider2" class="slider-arrow slider-prev"><img src="assets/img/icon/arrow-left.svg" alt=""></button>
@@ -738,11 +896,11 @@ Team Area
     </section>
 
 
- 
-      <!--==============================
+
+    <!--==============================
 Feedback Area  
 ==============================-->
-<section class="overflow-hidden space">
+    <section class="overflow-hidden space">
         <div class="sec-bg-shape2-1 spin shape-mockup d-xxl-block d-none" data-bottom="8%" data-left="8%">
             <img src="assets/img/shape/section_shape_2_1.jpg" alt="img">
         </div>
@@ -898,7 +1056,7 @@ Feedback Area
                                 </div>
                             </div>
                         </div>
-                        
+
                         <div class="swiper-slide">
                             <div class="testi-grid-wrap2">
                                 <div class="testi-grid-thumb">
@@ -939,7 +1097,7 @@ Client Area
     <!--==============================
 Appointment Area   
 ==============================-->
-   <!--==============================
+    <!--==============================
 Contact Area   
 ==============================-->
     <div class="space bg-gray position-relative overflow-hidden">
@@ -969,7 +1127,7 @@ Contact Area
                         </div>
                         <div class="about-contact-details">
                             <h6 class="about-contact-details-title">Phone:</h6>
-                            <p class="about-contact-details-text"><a style="color: black;"  href="tel:+917753888063">+917753888063</a></p>
+                            <p class="about-contact-details-text"><a style="color: black;" href="tel:+917753888063">+917753888063</a></p>
                         </div>
                     </div>
                     <div class="about-contact-grid">
@@ -978,7 +1136,7 @@ Contact Area
                         </div>
                         <div class="about-contact-details">
                             <h6 class="about-contact-details-title">Email:</h6>
-                            <p class="about-contact-details-text"><a style="color: black;"  href="mailto:info@eduace.in">info@eduace.in</a></p>
+                            <p class="about-contact-details-text"><a style="color: black;" href="mailto:info@eduace.in">info@eduace.in</a></p>
                         </div>
                     </div>
                 </div>
@@ -988,7 +1146,7 @@ Contact Area
     <!--==============================
 Blog Area  
 ==============================-->
-<div class="space bg-gray overflow-hidden">
+    <div class="space bg-gray overflow-hidden">
         <div class="sec-bg-shape2-1 spin shape-mockup d-xl-block d-none" data-top="7%" data-right="15%">
             <img src="assets/img/shape/section_shape_2_1.jpg" alt="img">
         </div>
@@ -1044,19 +1202,19 @@ Blog Area
                             <a target="_blank" href="https://www.instagram.com/quest.eduace" class="icon-btn"><i class="fa-brands fa-instagram"></i></a>
                         </div>
                     </div>
-  
+
                 </div>
             </div>
         </div>
     </div>
-    
+
     <!--==============================
     Popup Modal v1
 ============================== -->
-   <!--==============================
+    <!--==============================
 	Footer Area
 ==============================-->
-<?php include "include/footer.php"; ?>
+    <?php include "include/footer.php"; ?>
 
     <!--********************************
 			Code End  Here 
