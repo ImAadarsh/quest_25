@@ -122,7 +122,7 @@ Appointment Area
                     <div class="title-area mb-35">
                         <h2 class="sec-title">Get Your School Enrolled</h2>
                     </div>
-                    <form action="controllers/school_register.php" method="POST" class="appointment-form ajax-contact me-xl-5">
+                    <form action="https://questeduace.in/controllers/school_register.php" method="POST" class="appointment-form ajax-contact me-xl-5">
     <div class="row">
         <div class="login-top">
             <h3>School Registration Form</h3>
