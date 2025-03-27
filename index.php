@@ -364,7 +364,7 @@ Hero Area
                 </div>
         
         </div>
-        <div class="about-tag">
+        <div style="z-index: 999;" class="about-tag">
             <div class="about-tag-thumb">
                 <img style="max-width: 150px;" src="quest/amirta.svg" alt="img">
             </div>
