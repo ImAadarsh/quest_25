@@ -157,7 +157,7 @@ Appointment Area
         </div>
         <div class="col-12 form-group style-border style-radius">
             <div class="back-check-box">
-                <input type="checkbox" id="box-1" required> I agree to the <em>Terms & Conditions</em>
+                <input type="checkbox" id="box-1" > I agree to the <em>Terms & Conditions</em>
             </div>
         </div>
         <div class="col-12 form-btn mt-4">
