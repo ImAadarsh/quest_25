@@ -218,7 +218,7 @@ Hero Area
 ==============================-->
     <div class="th-hero-wrapper hero-2" id="hero">
         <div class="container">
-            <div style="z-index: 1;" class="swiper th-slider hero-slider1" id="heroSlide1" data-slider-options='{"effect":"fade","loop":false,"thumbs":{"swiper":".hero-grid-thumb"}}'>
+            <div style="z-index: -999;" class="swiper th-slider hero-slider1" id="heroSlide1" data-slider-options='{"effect":"fade","loop":false,"thumbs":{"swiper":".hero-grid-thumb"}}'>
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
                         <div class="hero-inner">
@@ -232,8 +232,8 @@ Hero Area
                                             <h1>QUEST 2025:<br>Ignite Your STEAM Genius</h1>
                                             <!-- <p>Unleash India's Innovation, Conquer Tomorrow's Challenges</p> -->
                                             <div class="header-button" style="display: flex; justify-content: center;">
-    <a href="school_register.php" class="th-btn style3 th-btn-icon">Register Now</a>
-</div>
+                                                <a href="school_register.php" class="th-btn style3 th-btn-icon">Register Now</a>
+                                            </div>
 
                                         </div>
                                     </div>
