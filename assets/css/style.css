@@ -10691,7 +10691,7 @@ ul.comment-list .th-comment-item:first-child > .th-post-comment {
     margin-right: 0;
   }
   .hero-2 .hero-grid-thumb {
-    display: none;
+    /* display: none; */
   }
   .hero-2 .hero-thumb2-1 img {
     /* height: 500px; */

@@ -320,7 +320,7 @@ Hero Area
                     <div class="col-xl-12">
                         <h3 class="mt-4 mb-2">Year 2025 Regional Final Centres :</h3>
                         <div class="slider-area hero-slider-thumb-wrap">
-                            <div class="swiper th-slider hero-grid-thumb" data-slider-options='{"effect":"slide","loop":true,"slidesPerView":"4"}'>
+                            <div class="swiper th-slider hero-grid-thumb" data-slider-options='{"effect":"slide","loop":true,"breakpoints":{"0":{"slidesPerView":1},"768":{"slidesPerView":2},"1024":{"slidesPerView":3},"1440":{"slidesPerView":4}}}'>
                                 <div class="swiper-wrapper">
 
                                     <div class="swiper-slide">
