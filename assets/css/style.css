@@ -10542,7 +10542,7 @@ ul.comment-list .th-comment-item:first-child > .th-post-comment {
 .hero-2 .about-tag {
   position: absolute;
   right: 62px;
-  top: 65%;
+  top: 60%;
   -webkit-transform: translate(0, calc(-50% - 60px));
       -ms-transform: translate(0, calc(-50% - 60px));
           transform: translate(0, calc(-50% - 60px));

@@ -218,7 +218,7 @@ Hero Area
 ==============================-->
     <div class="th-hero-wrapper hero-2" id="hero">
         <div class="container">
-            <div style="z-index: -999;" class="swiper th-slider hero-slider1" id="heroSlide1" data-slider-options='{"effect":"fade","loop":false,"thumbs":{"swiper":".hero-grid-thumb"}}'>
+            <div style="z-index: 1;" class="swiper th-slider hero-slider1" id="heroSlide1" data-slider-options='{"effect":"fade","loop":false,"thumbs":{"swiper":".hero-grid-thumb"}}'>
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
                         <div class="hero-inner">
@@ -226,6 +226,40 @@ Hero Area
                                 <div class="col-xl-12 position-relative">
                                     <div class="hero-thumb2-1">
                                         <img src="quest/hero_quest_25.png" alt="QUEST 2025 Background">
+                                    </div>
+                                    <div class="hero-content-wrapper">
+                                        <div class="hero-content glassmorphism">
+                                            <h1>QUEST 2025:<br>Ignite Your STEAM Genius</h1>
+                                            <!-- <p>Unleash India's Innovation, Conquer Tomorrow's Challenges</p> -->
+                                            <div class="header-button" style="display: flex; justify-content: center;">
+                                                <a href="school_register.php" class="th-btn style3 th-btn-icon">Register Now</a>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <div id="particles-js" class="particles"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="hero-inner">
+                            <div class="row gx-60 gy-50">
+                                <div class="col-xl-12 position-relative">
+                                    <div class="hero-thumb2-1">
+                                        <img src="quest/home_2.png" alt="QUEST 2025 Background">
+                                    </div>
+                                    <div id="particles-js" class="particles"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="hero-inner">
+                            <div class="row gx-60 gy-50">
+                                <div class="col-xl-12 position-relative">
+                                    <div class="hero-thumb2-1">
+                                        <img src="quest/home_3.png" alt="QUEST 2025 Background">
                                     </div>
                                     <div class="hero-content-wrapper">
                                         <div class="hero-content glassmorphism">
@@ -267,12 +301,12 @@ Hero Area
                             random: true
                         },
                         size: {
-                            value: 3,
+                            value: 5,
                             random: true
                         },
                         move: {
                             enable: true,
-                            speed: 10,
+                            speed: 2,
                             direction: "none",
                             random: true,
                             out_mode: "out"
@@ -284,6 +318,7 @@ Hero Area
        
                 <div class="row gx-60 justify-content-end">
                     <div class="col-xl-12">
+                        <h3 class="mt-4 mb-2">Year 2025 Regional Final Centres :</h3>
                         <div class="slider-area hero-slider-thumb-wrap">
                             <div class="swiper th-slider hero-grid-thumb" data-slider-options='{"effect":"slide","loop":true,"slidesPerView":"4"}'>
                                 <div class="swiper-wrapper">
@@ -369,7 +404,7 @@ Hero Area
                 <img style="max-width: 150px;" src="quest/amirta.svg" alt="img">
             </div>
         </div>
-        <div class="hero-bg-shape2-1 spin shape-mockup" data-top="14%" data-left="1%">
+        <div style="z-index: 2;" class="hero-bg-shape2-1 spin shape-mockup" data-top="14%" data-left="1%">
             <img src="assets/img/shape/section_shape_2_1.jpg" alt="img">
         </div>
     </div>
