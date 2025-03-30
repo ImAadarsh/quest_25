@@ -185,19 +185,19 @@
         <div id="loader" class="th-preloader">
             <div class="animation-preloader">
                 <div class="txt-loading">
+                    <span preloader-text="Q" class="characters">S</span>
+
+                    <span preloader-text="U" class="characters">E</span>
+
+                    <span preloader-text="E" class="characters">A</span>
+
                     <span preloader-text="S" class="characters">S</span>
 
-                    <span preloader-text="E" class="characters">E</span>
+                    <span preloader-text="T" class="characters">O</span>
 
-                    <span preloader-text="A" class="characters">A</span>
+                    <span preloader-text="2" class="characters">N</span>
 
-                    <span preloader-text="S" class="characters">S</span>
-
-                    <span preloader-text="O" class="characters">O</span>
-
-                    <span preloader-text="N" class="characters">N</span>
-
-                    <span preloader-text="3" class="characters">3</span>
+                    <span preloader-text="5" class="characters">3</span>
                 </div>
             </div>
         </div>
@@ -225,7 +225,7 @@ Hero Area
                             <div class="row gx-60 gy-50">
                                 <div class="col-xl-12 position-relative">
                                     <div class="hero-thumb2-1">
-                                        <img src="quest/hero_quest_25.png" alt="QUEST 2025 Background">
+                                        <img src="hero_img/1.png" alt="QUEST 2025 Background">
                                     </div>
                                     <div class="hero-content-wrapper">
                                         <div class="hero-content glassmorphism">
@@ -247,19 +247,7 @@ Hero Area
                             <div class="row gx-60 gy-50">
                                 <div class="col-xl-12 position-relative">
                                     <div class="hero-thumb2-1">
-                                        <img src="quest/home_2.png" alt="QUEST 2025 Background">
-                                    </div>
-                                    <div id="particles-js" class="particles"></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="hero-inner">
-                            <div class="row gx-60 gy-50">
-                                <div class="col-xl-12 position-relative">
-                                    <div class="hero-thumb2-1">
-                                        <img src="quest/home_3.png" alt="QUEST 2025 Background">
+                                        <img src="hero_img/2.png" alt="QUEST 2025 Background">
                                     </div>
                                     <div class="hero-content-wrapper">
                                         <div class="hero-content glassmorphism">
@@ -276,6 +264,129 @@ Hero Area
                             </div>
                         </div>
                     </div>
+                    <div class="swiper-slide">
+                        <div class="hero-inner">
+                            <div class="row gx-60 gy-50">
+                                <div class="col-xl-12 position-relative">
+                                    <div class="hero-thumb2-1">
+                                        <img src="hero_img/3.png" alt="QUEST 2025 Background">
+                                    </div>
+                                    <div class="hero-content-wrapper">
+                                        <div class="hero-content glassmorphism">
+                                            <h1>QUEST 2025:<br>Ignite Your STEAM Genius</h1>
+                                            <!-- <p>Unleash India's Innovation, Conquer Tomorrow's Challenges</p> -->
+                                            <div class="header-button" style="display: flex; justify-content: center;">
+                                                <a href="school_register.php" class="th-btn style3 th-btn-icon">Register Now</a>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <div id="particles-js" class="particles"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="hero-inner">
+                            <div class="row gx-60 gy-50">
+                                <div class="col-xl-12 position-relative">
+                                    <div class="hero-thumb2-1">
+                                        <img src="hero_img/4.png" alt="QUEST 2025 Background">
+                                    </div>
+                                    <div class="hero-content-wrapper">
+                                        <div class="hero-content glassmorphism">
+                                            <h1>QUEST 2025:<br>Ignite Your STEAM Genius</h1>
+                                            <!-- <p>Unleash India's Innovation, Conquer Tomorrow's Challenges</p> -->
+                                            <div class="header-button" style="display: flex; justify-content: center;">
+                                                <a href="school_register.php" class="th-btn style3 th-btn-icon">Register Now</a>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <div id="particles-js" class="particles"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="hero-inner">
+                            <div class="row gx-60 gy-50">
+                                <div class="col-xl-12 position-relative">
+                                    <div class="hero-thumb2-1">
+                                        <img src="hero_img/5.png" alt="QUEST 2025 Background">
+                                    </div>
+                                    <div class="hero-content-wrapper">
+                                        <div class="hero-content glassmorphism">
+                                            <h1>QUEST 2025:<br>Ignite Your STEAM Genius</h1>
+                                            <!-- <p>Unleash India's Innovation, Conquer Tomorrow's Challenges</p> -->
+                                            <div class="header-button" style="display: flex; justify-content: center;">
+                                                <a href="school_register.php" class="th-btn style3 th-btn-icon">Register Now</a>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <div id="particles-js" class="particles"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="hero-inner">
+                            <div class="row gx-60 gy-50">
+                                <div class="col-xl-12 position-relative">
+                                    <div class="hero-thumb2-1">
+                                        <img src="hero_img/6.png" alt="QUEST 2025 Background">
+                                    </div>
+                                    <div class="hero-content-wrapper">
+                                        <div class="hero-content glassmorphism">
+                                            <h1>QUEST 2025:<br>Ignite Your STEAM Genius</h1>
+                                            <!-- <p>Unleash India's Innovation, Conquer Tomorrow's Challenges</p> -->
+                                            <div class="header-button" style="display: flex; justify-content: center;">
+                                                <a href="school_register.php" class="th-btn style3 th-btn-icon">Register Now</a>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <div id="particles-js" class="particles"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="hero-inner">
+                            <div class="row gx-60 gy-50">
+                                <div class="col-xl-12 position-relative">
+                                    <div class="hero-thumb2-1">
+                                        <img src="hero_img/7.png" alt="QUEST 2025 Background">
+                                    </div>
+                                    <div class="hero-content-wrapper">
+                                        <div class="hero-content glassmorphism">
+                                            <h1>QUEST 2025:<br>Ignite Your STEAM Genius</h1>
+                                            <!-- <p>Unleash India's Innovation, Conquer Tomorrow's Challenges</p> -->
+                                            <div class="header-button" style="display: flex; justify-content: center;">
+                                                <a href="school_register.php" class="th-btn style3 th-btn-icon">Register Now</a>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <div id="particles-js" class="particles"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="hero-inner">
+                            <div class="row gx-60 gy-50">
+                                <div class="col-xl-12 position-relative">
+                                    <div class="hero-thumb2-1">
+                                        <img src="hero_img/8.png" alt="QUEST 2025 Background">
+                                    </div>
+                                    <div id="particles-js" class="particles"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
             </div>
 
@@ -1186,7 +1297,7 @@ Blog Area
             <img src="assets/img/shape/section_shape_2_1.jpg" alt="img">
         </div>
         <div class="container-fluid">
-            <div class="swiper th-slider instagram-slider1" id="instaSlider1" data-slider-options='{"breakpoints":{"0":{"slidesPerView":1},"576":{"slidesPerView":"2"},"768":{"slidesPerView":"3"},"992":{"slidesPerView":"4"},"1200":{"slidesPerView":"5"}}}'>
+            <div class="swiper th-slider instagram-slider1" id="instaSlider1" data-slider-options='{"effect":"slide","loop":true,"breakpoints":{"0":{"slidesPerView":1},"576":{"slidesPerView":"2"},"768":{"slidesPerView":"3"},"992":{"slidesPerView":"4"},"1200":{"slidesPerView":"5"}}}'>
                 <div class="swiper-wrapper">
 
                     <div class="col-auto swiper-slide">
