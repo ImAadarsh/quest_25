@@ -418,7 +418,7 @@ Hero Area
                 <img style="max-width: 150px;" src="QUEST/amirta.svg" alt="img">
             </div>
         </div>
-        <divclass="hero-bg-shape2-1 spin shape-mockup" data-top="14%" data-left="1%">
+        <div class="hero-bg-shape2-1 spin shape-mockup" data-top="14%" data-left="1%">
             <img src="assets/img/shape/section_shape_2_1.jpg" alt="img">
         </div>
     </div>
