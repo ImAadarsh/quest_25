@@ -24,13 +24,7 @@
                             <div class="widget footer-widget">
                                 <h3 class="widget_title">Get In Touch</h3>
                                 <div class="th-widget-contact">
-                                    <div class="info-box_text">
-                                        <div class="icon"><img src="assets/img/icon/location-dot.svg" alt="img"></div>
-                                        <div class="details">
-                                            <p>101, Mahendrapuri Colony,</p>
-                                            <p>Gwalior road, Jhansi- 284003</p>
-                                        </div>
-                                    </div>
+                                   
                                     <div class="info-box_text">
                                         <div class="icon">
                                             <img src="assets/img/icon/phone.svg" alt="img">

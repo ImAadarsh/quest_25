@@ -4,10 +4,10 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Eduace Quest 2025 - Season 03</title>
+    <title>QUEST 2025 - Season 03</title>
     <meta name="author" content="Endeavour Digital">
-    <meta name="description" content="Eduace Quest 2025">
-    <meta name="keywords" content="Eduace Quest 2025, Endeavour Digital">
+    <meta name="description" content=" QUEST 2025">
+    <meta name="keywords" content=" QUEST 2025, Endeavour Digital">
     <meta name="robots" content="INDEX,FOLLOW">
 
     <!-- Mobile Specific Metas -->
@@ -173,7 +173,7 @@
     <!--********************************
    		Code Start From Here 
 	******************************** -->
-    <div class="cursor-follower"></div>
+     
 
     <!-- slider drag cursor -->
     <div class="slider-drag-cursor"><i class="fas fa-angle-left me-2"></i> DRAG <i class="fas fa-angle-right ms-2"></i></div>
@@ -220,50 +220,8 @@ Hero Area
         <div class="container">
             <div style="z-index: 1;" class="swiper th-slider hero-slider1" id="heroSlide1" data-slider-options='{"effect":"fade","loop":false,"thumbs":{"swiper":".hero-grid-thumb"}}'>
                 <div class="swiper-wrapper">
-                    <div class="swiper-slide">
-                        <div class="hero-inner">
-                            <div class="row gx-60 gy-50">
-                                <div class="col-xl-12 position-relative">
-                                    <div class="hero-thumb2-1">
-                                        <img src="hero_img/1.png" alt="QUEST 2025 Background">
-                                    </div>
-                                    <div class="hero-content-wrapper">
-                                        <div class="hero-content glassmorphism">
-                                            <h1>QUEST 2025:<br>Ignite Your STEAM Genius</h1>
-                                            <!-- <p>Unleash India's Innovation, Conquer Tomorrow's Challenges</p> -->
-                                            <div class="header-button" style="display: flex; justify-content: center;">
-                                                <a href="school_register.php" class="th-btn style3 th-btn-icon">Register Now</a>
-                                            </div>
 
-                                        </div>
-                                    </div>
-                                    <div id="particles-js" class="particles"></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="hero-inner">
-                            <div class="row gx-60 gy-50">
-                                <div class="col-xl-12 position-relative">
-                                    <div class="hero-thumb2-1">
-                                        <img src="hero_img/2.png" alt="QUEST 2025 Background">
-                                    </div>
-                                    <div class="hero-content-wrapper">
-                                        <div class="hero-content glassmorphism">
-                                            <h1>QUEST 2025:<br>Ignite Your STEAM Genius</h1>
-                                            <!-- <p>Unleash India's Innovation, Conquer Tomorrow's Challenges</p> -->
-                                            <div class="header-button" style="display: flex; justify-content: center;">
-                                                <a href="school_register.php" class="th-btn style3 th-btn-icon">Register Now</a>
-                                            </div>
 
-                                        </div>
-                                    </div>
-                                    <div id="particles-js" class="particles"></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
                     <div class="swiper-slide">
                         <div class="hero-inner">
                             <div class="row gx-60 gy-50">
@@ -308,50 +266,7 @@ Hero Area
                             </div>
                         </div>
                     </div>
-                    <div class="swiper-slide">
-                        <div class="hero-inner">
-                            <div class="row gx-60 gy-50">
-                                <div class="col-xl-12 position-relative">
-                                    <div class="hero-thumb2-1">
-                                        <img src="hero_img/5.png" alt="QUEST 2025 Background">
-                                    </div>
-                                    <div class="hero-content-wrapper">
-                                        <div class="hero-content glassmorphism">
-                                            <h1>QUEST 2025:<br>Ignite Your STEAM Genius</h1>
-                                            <!-- <p>Unleash India's Innovation, Conquer Tomorrow's Challenges</p> -->
-                                            <div class="header-button" style="display: flex; justify-content: center;">
-                                                <a href="school_register.php" class="th-btn style3 th-btn-icon">Register Now</a>
-                                            </div>
 
-                                        </div>
-                                    </div>
-                                    <div id="particles-js" class="particles"></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="hero-inner">
-                            <div class="row gx-60 gy-50">
-                                <div class="col-xl-12 position-relative">
-                                    <div class="hero-thumb2-1">
-                                        <img src="hero_img/6.png" alt="QUEST 2025 Background">
-                                    </div>
-                                    <div class="hero-content-wrapper">
-                                        <div class="hero-content glassmorphism">
-                                            <h1>QUEST 2025:<br>Ignite Your STEAM Genius</h1>
-                                            <!-- <p>Unleash India's Innovation, Conquer Tomorrow's Challenges</p> -->
-                                            <div class="header-button" style="display: flex; justify-content: center;">
-                                                <a href="school_register.php" class="th-btn style3 th-btn-icon">Register Now</a>
-                                            </div>
-
-                                        </div>
-                                    </div>
-                                    <div id="particles-js" class="particles"></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
                     <div class="swiper-slide">
                         <div class="hero-inner">
                             <div class="row gx-60 gy-50">
@@ -368,18 +283,6 @@ Hero Area
                                             </div>
 
                                         </div>
-                                    </div>
-                                    <div id="particles-js" class="particles"></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="hero-inner">
-                            <div class="row gx-60 gy-50">
-                                <div class="col-xl-12 position-relative">
-                                    <div class="hero-thumb2-1">
-                                        <img src="hero_img/8.png" alt="QUEST 2025 Background">
                                     </div>
                                     <div id="particles-js" class="particles"></div>
                                 </div>
@@ -429,7 +332,7 @@ Hero Area
        
                 <div class="row gx-60 justify-content-end">
                     <div class="col-xl-12">
-                        <h3 class="mt-4 mb-2">Year 2025 Regional Final Centres :</h3>
+                        <center><h3 class="mt-4 mb-2">Year 2025 Regional Final Centres</h3></center>
                         <div class="slider-area hero-slider-thumb-wrap">
                             <div class="swiper th-slider hero-grid-thumb" data-slider-options='{"effect":"slide","loop":true,"breakpoints":{"0":{"slidesPerView":1},"768":{"slidesPerView":2},"992":{"slidesPerView":4},"1440":{"slidesPerView":4}}}'>
                                 <div class="swiper-wrapper">
@@ -512,7 +415,7 @@ Hero Area
         </div>
         <div style="z-index: 999;" class="about-tag">
             <div class="about-tag-thumb">
-                <img style="max-width: 150px;" src="quest/amirta.svg" alt="img">
+                <img style="max-width: 150px;" src="QUEST/amirta.svg" alt="img">
             </div>
         </div>
         <div style="z-index: 2;" class="hero-bg-shape2-1 spin shape-mockup" data-top="14%" data-left="1%">
@@ -534,7 +437,7 @@ Counter Area
                 <div class="counter-card style2">
                     <div class="media-body">
                         <h2 class="box-number"><span class="counter-number">03</span>rd</h2>
-                        <p class="box-text">Quest Season</p>
+                        <p class="box-text">QUEST Season</p>
                     </div>
                 </div>
                 <div class="counter-card style2">
@@ -546,7 +449,7 @@ Counter Area
                 </div>
                 <div class="counter-card style2">
                     <div class="media-body">
-                        <h2 class="box-number"><span class="counter-number">1000</span>+</h2>
+                        <h2 class="box-number"><span class="counter-number">1,000</span>+</h2>
                         <p class="box-text">Participating Schools</p>
                     </div>
                 </div>
@@ -615,7 +518,7 @@ About Area
                         </div>
                         <div class="about-tag">
                             <div class="about-experience-tag">
-                                <span class="circle-title-anime">Eduace Quest 2025 - Season 03</span>
+                                <span class="circle-title-anime">QUEST 2025 - Season 03</span>
                             </div>
                             <a href="https://www.youtube.com/watch?v=C7-5kkSayl8" class="play-btn popup-video"><i class="fa-sharp fa-solid fa-play"></i></a>
                         </div>
@@ -624,7 +527,7 @@ About Area
                 <div class="col-xl-5">
                     <div class="title-area mb-32">
                         <span style="color: black !important;" class="shadow-title style2">About</span>
-                        <h2 class="sec-title style2">Quest 2025</h2>
+                        <h2 class="sec-title style2">QUEST 2025 - Season 03</h2>
                         <p class="sec-text">Welcome to the QUEST STEAM Quiz, an exhilarating challenge crafted exclusively for school students in India! Brought to you by EDUACE Group in association with Amrita Vishwa Vidyapeetham, this quiz immerses participants in the captivating realm of Science, Technology, Engineering, Arts, and Mathematics (STEAM), with a distinct focus on India's rich contributions.</p>
                     </div>
 
@@ -638,7 +541,7 @@ About Area
                     </div>
 
                     <div class="btn-wrap mt-5">
-                        <a href="about.php" class="th-btn style2 th-btn-icon">More About Quest</a>
+                        <a href="about.php" class="th-btn style2 th-btn-icon">More About QUEST</a>
                     </div>
                 </div>
             </div>
@@ -724,7 +627,7 @@ Service Area
             <div class="row gy-80 gx-40 align-items-center">
                 <div class="col-xl-4">
                     <div class="cta-thumb img-shine" data-mask-src="assets/img/shape/cta_1_1-img-mask.png">
-                        <img src="quest/avv.png" alt="img">
+                        <img src="QUEST/avv.png" alt="img">
                     </div>
                 </div>
                 <div class="col-xl-8">
@@ -760,7 +663,7 @@ Portfolio Area
                 </div>
                 <div class="col-auto">
                     <div class="sec-btn">
-                        <a href="#" class="th-btn style-border3 th-btn-icon">Quest Regional Finale Events</a>
+                        <a href="#" class="th-btn style-border3 th-btn-icon">QUEST Regional Finale Events</a>
                     </div>
                 </div>
             </div>
@@ -872,7 +775,7 @@ Gallery Area
                             <div class="title-area mb-md-0 text-center">
                                 <h2 class="sec-title">Join Our Winners. Register Now</h2>
                                 <div class="btn-wrap mt-4 justify-content-center">
-                                    <a href="contact.php" class="th-btn mb-0 style2 th-btn-icon">Eduace Quest 2025</a>
+                                    <a href="contact.php" class="th-btn mb-0 style2 th-btn-icon">QUEST 2025</a>
                                 </div>
                             </div>
                         </div>
@@ -938,8 +841,8 @@ Team Area
             <div class="row justify-content-lg-between justify-content-center align-items-center">
                 <div class="col-xxl-6 col-lg-7">
                     <div class="title-area text-lg-start text-center">
-                        <h2 class="sec-title text-white">Our Leaders</h2>
-                        <p class="sec-text text-white">Meet our quest leaders</p>
+                        <h2 class="sec-title text-white">Quiz Master</h2>
+                        <p class="sec-text text-white">Meet our QUEST Quiz Master</p>
                     </div>
                 </div>
                 <!-- <div class="col-auto">
@@ -1255,17 +1158,7 @@ Contact Area
                 <div class="col-lg-12">
                     <div class="title-area">
                         <h2 class="sec-title">Get In Touch</h2>
-                        <p>Have questions or want to collaborate? We'd love to hear from you! Connect with us to learn more about QUEST 2025, hosting opportunities, and how your school can be part of this exciting journey.</p>
-                    </div>
-                    <div class="about-contact-grid">
-                        <div class="about-contact-icon text-white">
-                            <img src="assets/img/icon/location-dot.svg" alt="icon">
-                        </div>
-                        <div class="about-contact-details">
-                            <h6 class="about-contact-details-title">Location:</h6>
-                            <p class="about-contact-details-text">101, Mahendrapuri Colony, Near Kali mata mandir,</p>
-                            <p class="about-contact-details-text">Gwalior road, Jhansi- 284003</p>
-                        </div>
+                        <p>Have QUESTions or want to collaborate? We'd love to hear from you! Connect with us to learn more about QUEST 2025, hosting opportunities, and how your school can be part of this exciting journey.</p>
                     </div>
                     <div class="about-contact-grid">
                         <div class="about-contact-icon text-white">
@@ -1303,49 +1196,49 @@ Blog Area
                     <div class="col-auto swiper-slide">
                         <div class="insta-box">
                             <img src="insta/1.png" alt="Instagram">
-                            <a target="_blank" href="https://www.instagram.com/quest.eduace" class="icon-btn"><i class="fa-brands fa-instagram"></i></a>
+                            <a target="_blank" href="https://www.instagram.com/QUEST.eduace" class="icon-btn"><i class="fa-brands fa-instagram"></i></a>
                         </div>
                     </div>
                     <div class="col-auto swiper-slide">
                         <div class="insta-box">
                             <img src="insta/2.png" alt="Instagram">
-                            <a target="_blank" href="https://www.instagram.com/quest.eduace" class="icon-btn"><i class="fa-brands fa-instagram"></i></a>
+                            <a target="_blank" href="https://www.instagram.com/QUEST.eduace" class="icon-btn"><i class="fa-brands fa-instagram"></i></a>
                         </div>
                     </div>
                     <div class="col-auto swiper-slide">
                         <div class="insta-box">
                             <img src="insta/3.png" alt="Instagram">
-                            <a target="_blank" href="https://www.instagram.com/quest.eduace" class="icon-btn"><i class="fa-brands fa-instagram"></i></a>
+                            <a target="_blank" href="https://www.instagram.com/QUEST.eduace" class="icon-btn"><i class="fa-brands fa-instagram"></i></a>
                         </div>
                     </div>
                     <div class="col-auto swiper-slide">
                         <div class="insta-box">
                             <img src="insta/4.png" alt="Instagram">
-                            <a target="_blank" href="https://www.instagram.com/quest.eduace" class="icon-btn"><i class="fa-brands fa-instagram"></i></a>
+                            <a target="_blank" href="https://www.instagram.com/QUEST.eduace" class="icon-btn"><i class="fa-brands fa-instagram"></i></a>
                         </div>
                     </div>
                     <div class="col-auto swiper-slide">
                         <div class="insta-box">
                             <img src="insta/5.png" alt="Instagram">
-                            <a target="_blank" href="https://www.instagram.com/quest.eduace" class="icon-btn"><i class="fa-brands fa-instagram"></i></a>
+                            <a target="_blank" href="https://www.instagram.com/QUEST.eduace" class="icon-btn"><i class="fa-brands fa-instagram"></i></a>
                         </div>
                     </div>
                     <div class="col-auto swiper-slide">
                         <div class="insta-box">
                             <img src="insta/6.png" alt="Instagram">
-                            <a target="_blank" href="https://www.instagram.com/quest.eduace" class="icon-btn"><i class="fa-brands fa-instagram"></i></a>
+                            <a target="_blank" href="https://www.instagram.com/QUEST.eduace" class="icon-btn"><i class="fa-brands fa-instagram"></i></a>
                         </div>
                     </div>
                     <div class="col-auto swiper-slide">
                         <div class="insta-box">
                             <img src="insta/7.png" alt="Instagram">
-                            <a target="_blank" href="https://www.instagram.com/quest.eduace" class="icon-btn"><i class="fa-brands fa-instagram"></i></a>
+                            <a target="_blank" href="https://www.instagram.com/QUEST.eduace" class="icon-btn"><i class="fa-brands fa-instagram"></i></a>
                         </div>
                     </div>
                     <div class="col-auto swiper-slide">
                         <div class="insta-box">
                             <img src="insta/8.png" alt="Instagram">
-                            <a target="_blank" href="https://www.instagram.com/quest.eduace" class="icon-btn"><i class="fa-brands fa-instagram"></i></a>
+                            <a target="_blank" href="https://www.instagram.com/QUEST.eduace" class="icon-btn"><i class="fa-brands fa-instagram"></i></a>
                         </div>
                     </div>
 

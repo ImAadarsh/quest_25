@@ -14,20 +14,15 @@
                         <div class="col-auto">
                             <nav class="main-menu d-none d-lg-inline-block">
                                 <ul>
-                                    <li>
-                                        <a href="index.php">
-                                            Home
-                                        </a>
-                              
-                                    </li>
+
                                     <li><a href="about.php">
-                                            About Us
+                                            About QUEST 2025
                                         </a></li>
                                         <li><a href="rules_2025.pdf">
                                             Rules
                                         </a></li>
                                         <li><a href="#partner">
-                                            Partners
+                                            Partner
                                         </a></li>
                                         <li><a href="school.php">
                                             Participating Schools

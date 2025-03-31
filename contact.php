@@ -74,7 +74,7 @@ mysqli_close($connect);
     <!--********************************
    		Code Start From Here 
 	******************************** -->
-    <div class="cursor-follower"></div>
+     
 
     <!-- slider drag cursor -->
     <div class="slider-drag-cursor"><i class="fas fa-angle-left me-2"></i> DRAG <i class="fas fa-angle-right ms-2"></i></div>
