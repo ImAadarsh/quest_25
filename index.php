@@ -627,7 +627,7 @@ Service Area
             <div class="row gy-80 gx-40 align-items-center">
                 <div class="col-xl-4">
                     <div class="cta-thumb img-shine" data-mask-src="assets/img/shape/cta_1_1-img-mask.png">
-                        <img src="QUEST/avv.png" alt="img">
+                        <img src="quest/avv.png" alt="img">
                     </div>
                 </div>
                 <div class="col-xl-8">
