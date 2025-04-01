@@ -141,20 +141,8 @@ Contact Area
                 <h2 class="sec-title ">Our Contact Information</h2>
             </div>
             <div class="row gy-4 justify-content-center">
-                <div class="col-xl-4 col-lg-6">
-                    <div class="about-contact-grid style2">
-                        <div class="about-contact-icon">
-                            <i class="fal fa-location-dot"></i>
-                        </div>
-                        <div class="about-contact-details">
-                            <h6 class="about-contact-details-title">Our Address</h6>
-                           
-                            <p class="about-contact-details-text">101, Mahendrapuri Colony,</p>
-                                            <p class="about-contact-details-text">Gwalior road, Jhansi- 284003</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-4 col-lg-6">
+
+                <div class="col-xl-6 col-lg-6">
                     <div class="about-contact-grid style2">
                         <div class="about-contact-icon">
                             <i class="fal fa-phone"></i>
@@ -166,7 +154,7 @@ Contact Area
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-4 col-lg-6">
+                <div class="col-xl-6 col-lg-6">
                     <div class="about-contact-grid style2">
                         <div class="about-contact-icon">
                             <i class="fal fa-envelope"></i>
