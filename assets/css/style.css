@@ -15357,6 +15357,7 @@ span.select2-selection.select2-selection--single:focus {
 
 .th-team .team-img img {
   width: 100%;
+  max-height: 600px;
   -webkit-transition: 0.4s ease-in-out;
   transition: 0.4s ease-in-out;
 }
@@ -15495,7 +15496,7 @@ span.select2-selection.select2-selection--single:focus {
 
 .team-card .team-img img {
   height: 442px;
-  object-fit: cover;
+  object-fit: fit;
 }
 
 .team-card .team-card-content {
@@ -15673,7 +15674,8 @@ span.select2-selection.select2-selection--single:focus {
 }
 
 .team-card.style2 .team-img img {
-  height: auto;
+  max-height: 600px;
+
 }
 
 .team-card.style2 .team-card-content {

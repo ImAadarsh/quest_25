@@ -830,69 +830,69 @@ Gallery Area
     </div><!--==============================
 Team Area  
 ==============================-->
-    <section class="space  bg-theme">
-        <div class="sec-bg-shape2-3 jump shape-mockup d-xxl-block d-none text-white" data-top="10%" data-right="2%">
-            <img src="assets/img/shape/section_shape_2_3.jpg" alt="img">
-        </div>
-        <div class="sec-bg-shape2-1 spin shape-mockup d-xxl-block d-none text-white" data-bottom="5%" data-left="2%">
-            <img src="assets/img/shape/section_shape_2_1.jpg" alt="img">
-        </div>
-        <div class="container">
-            <div class="row justify-content-lg-between justify-content-center align-items-center">
-                <div class="col-xxl-6 col-lg-7">
-                    <div class="title-area text-lg-start text-center">
-                        <h2 class="sec-title text-white">Quiz Master</h2>
-                        <p class="sec-text text-white">Meet our QUEST Quiz Master</p>
-                    </div>
+<section class="space bg-theme">
+    <div class="sec-bg-shape2-3 jump shape-mockup d-xxl-block d-none text-white" data-top="10%" data-right="2%">
+        <img src="assets/img/shape/section_shape_2_3.jpg" alt="img">
+    </div>
+    <div class="sec-bg-shape2-1 spin shape-mockup d-xxl-block d-none text-white" data-bottom="5%" data-left="2%">
+        <img src="assets/img/shape/section_shape_2_1.jpg" alt="img">
+    </div>
+    <div class="container">
+        <div class="row justify-content-lg-between justify-content-center align-items-center">
+            <div class="col-xxl-6 col-lg-7">
+                <div class="title-area text-lg-start text-center">
+                    <h2 class="sec-title text-white">Quiz Master</h2>
+                    <p class="sec-text text-white">Meet our QUEST Quiz Master</p>
                 </div>
-                <!-- <div class="col-auto">
-                    <div class="sec-btn">
-                        <a href="#" class="th-btn style-border3 th-btn-icon">View All Team</a>
-                    </div>
-                </div> -->
             </div>
-            <div class="slider-area team-slider2">
-                <div class="swiper th-slider" id="teamSlider2" data-slider-options='{"breakpoints":{"0":{"slidesPerView":1},"576":{"slidesPerView":"1"},"768":{"slidesPerView":"1"},"992":{"slidesPerView":"1"},"1200":{"slidesPerView":"1"}}}'>
-                    <div class="swiper-wrapper">
-                        <!-- Single Item -->
-                        <div class="swiper-slide">
-                            <div class="th-team team-card style2">
-                                <div class="img-wrap">
-                                    <div class="team-img">
-                                        <img src="assets/img/profiles.png" alt="Team">
-                                    </div>
-                                    <div class="th-social-wrap">
-                                        <div class="th-social">
-                                            <a target="_blank" href="https://facebook.com/"><i class="fab fa-facebook-f"></i></a>
-                                            <a target="_blank" href="https://twitter.com/"><i class="fab fa-twitter"></i></a>
-                                            <a target="_blank" href="https://linkedin.com/"><i class="fab fa-linkedin-in"></i></a>
-                                            <a target="_blank" href="https://youtube.com/"><i class="fab fa-youtube"></i></a>
-                                            <a target="_blank" href="https://instagram.com/"><i class="fab fa-instagram"></i></a>
-                                        </div>
-                                        <a class="icon-btn" href="#"><img src="assets/img/icon/arrow-right.svg" alt="img"></a>
-                                    </div>
+            <!-- <div class="col-auto">
+                <div class="sec-btn">
+                    <a href="#" class="th-btn style-border3 th-btn-icon">View All Team</a>
+                </div>
+            </div> -->
+        </div>
+        <div class="slider-area team-slider2 d-flex justify-content-center">
+            <div class="swiper th-slider" id="teamSlider2" data-slider-options='{"breakpoints":{"0":{"slidesPerView":1},"576":{"slidesPerView":"1"},"768":{"slidesPerView":"1"},"992":{"slidesPerView":"1"},"1200":{"slidesPerView":"1"}}}'>
+                <div class="swiper-wrapper">
+                    <!-- Single Item -->
+                    <div style="max-height: 700px;" class="swiper-slide">
+                        <div class="th-team team-card style2 mx-auto" style="max-width: 400px;">
+                            <div class="img-wrap">
+                                <div class="team-img">
+                                    <img src="assets/img/profiles.png" alt="Team">
                                 </div>
-                                <div class="team-card-content">
-                                    <div class="media-left">
-                                        <h3 class="box-title"><a style="color: black;" href="#">Mr. Gaurava Yadav</a></h3>
-                                        <span style="color: black;" class="team-desig">Head, IPN<br> Eduace Services PVT. LTD.</span>
+                                <div class="th-social-wrap">
+                                    <p style="color: white; font-size: 10px; text-align: center; margin: 0 auto; max-width: 90%; line-height: 1.6; padding-bottom: 15px;">My team and I are deeply committed to transforming the global school education landscape, both for today and the future. We actively collaborate with all key stakeholders—including students, teachers, school leaders, founders, and managers—through our diverse brands, all united by a singular focus: empowering schools worldwide. By addressing current challenges and anticipating future needs, we strive to drive innovation, upskilling, and meaningful change in education at a global scale.</p>
+                                    <div class="th-social">
+                                        <a target="_blank" href="https://facebook.com/"><i class="fab fa-facebook-f"></i></a>
+                                        <a target="_blank" href="https://twitter.com/"><i class="fab fa-twitter"></i></a>
+                                        <a target="_blank" href="https://www.linkedin.com/in/gauravayadav/"><i class="fab fa-linkedin-in"></i></a>
+                                        <a target="_blank" href="https://youtube.com/"><i class="fab fa-youtube"></i></a>
+                                        <a target="_blank" href="https://instagram.com/"><i class="fab fa-instagram"></i></a>
                                     </div>
-                                    <a class="icon-btn" href="tel:+91 84007 00199"><img src="assets/img/icon/phone.svg" alt="img"></a>
+                                    <a class="icon-btn" href="#"><img src="assets/img/icon/arrow-right.svg" alt="img"></a>
                                 </div>
+
+                            </div>
+                            <div class="team-card-content">
+                                <div class="media-left">
+                                    <h3 class="box-title"><a style="color: black;" href="#">Mr. Gaurava Yadav</a></h3>
+                                    <span style="color: black;" class="team-desig">Head, IPN<br> Eduace Services PVT. LTD.</span>
+                                </div>
+                                <a class="icon-btn" href="tel:+91 84007 00199"><img src="assets/img/icon/phone.svg" alt="img"></a>
                             </div>
                         </div>
-                        <!-- Single Item -->
-
-                        <!-- Single Item -->
-
-
                     </div>
+                    <!-- Single Item -->
                 </div>
-                <button data-slider-prev="#teamSlider2" class="slider-arrow slider-prev"><img src="assets/img/icon/arrow-left.svg" alt=""></button>
-                <button data-slider-next="#teamSlider2" class="slider-arrow slider-next"><img src="assets/img/icon/arrow-right.svg" alt=""></button>
             </div>
+            <button data-slider-prev="#teamSlider2" class="slider-arrow slider-prev"><img src="assets/img/icon/arrow-left.svg" alt=""></button>
+            <button data-slider-next="#teamSlider2" class="slider-arrow slider-next"><img src="assets/img/icon/arrow-right.svg" alt=""></button>
         </div>
-    </section>
+    </div>
+</section>
+
+
 
 
 
