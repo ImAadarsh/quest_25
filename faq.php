@@ -97,7 +97,7 @@
             <div class="row justify-content-center">
                 <div class="col-xl-9">
                     <div class="breadcumb-content">
-                        <h1 class="breadcumb-title"> QUEST 2025 FAQ</h1>
+                        <h1 class="breadcumb-title">  FAQ</h1>
                         <ul class="breadcumb-menu">
                             <li><a href="index.php">Home</a></li>
                             <li>FAQ</li>
