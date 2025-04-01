@@ -227,33 +227,11 @@ Hero Area
                             <div class="row gx-60 gy-50">
                                 <div class="col-xl-12 position-relative">
                                     <div class="hero-thumb2-1">
-                                        <img src="hero_img/3.png" alt="QUEST 2025 Background">
-                                    </div>
-                                    <div class="hero-content-wrapper">
-                                        <div class="hero-content glassmorphism">
-                                            <h1>QUEST 2025:<br>Ignite Your STEAM Genius</h1>
-                                            <!-- <p>Unleash India's Innovation, Conquer Tomorrow's Challenges</p> -->
-                                            <div class="header-button" style="display: flex; justify-content: center;">
-                                                <a href="school_register.php" class="th-btn style3 th-btn-icon">Register Now</a>
-                                            </div>
-
-                                        </div>
-                                    </div>
-                                    <div id="particles-js" class="particles"></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="hero-inner">
-                            <div class="row gx-60 gy-50">
-                                <div class="col-xl-12 position-relative">
-                                    <div class="hero-thumb2-1">
                                         <img src="hero_img/4.png" alt="QUEST 2025 Background">
                                     </div>
                                     <div class="hero-content-wrapper">
                                         <div class="hero-content glassmorphism">
-                                            <h1>QUEST 2025:<br>Ignite Your STEAM Genius</h1>
+                                        <h1>QUEST 2025 | Season 03<br>South Asia's LARGEST STEAM QUIZ</h1>
                                             <!-- <p>Unleash India's Innovation, Conquer Tomorrow's Challenges</p> -->
                                             <div class="header-button" style="display: flex; justify-content: center;">
                                                 <a href="school_register.php" class="th-btn style3 th-btn-icon">Register Now</a>
@@ -266,13 +244,35 @@ Hero Area
                             </div>
                         </div>
                     </div>
-
                     <div class="swiper-slide">
                         <div class="hero-inner">
                             <div class="row gx-60 gy-50">
                                 <div class="col-xl-12 position-relative">
                                     <div class="hero-thumb2-1">
                                         <img src="hero_img/7.png" alt="QUEST 2025 Background">
+                                    </div>
+                                    <div class="hero-content-wrapper">
+                                        <div class="hero-content glassmorphism">
+                                            <h1>QUEST 2025 <br>Think, Solve, Conquer</h1>
+                                            <!-- <p>Unleash India's Innovation, Conquer Tomorrow's Challenges</p> -->
+                                            <div class="header-button" style="display: flex; justify-content: center;">
+                                                <a href="school_register.php" class="th-btn style3 th-btn-icon">Register Now</a>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <div id="particles-js" class="particles"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="hero-inner">
+                            <div class="row gx-60 gy-50">
+                                <div class="col-xl-12 position-relative">
+                                    <div class="hero-thumb2-1">
+                                        <img src="hero_img/3.png" alt="QUEST 2025 Background">
                                     </div>
                                     <div class="hero-content-wrapper">
                                         <div class="hero-content glassmorphism">
@@ -295,36 +295,62 @@ Hero Area
 
             <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
             <script>
-                particlesJS("particles-js", {
-                    particles: {
-                        number: {
-                            value: 80,
-                            density: {
+                document.addEventListener('DOMContentLoaded', function() {
+                    const particlesConfig = {
+                        particles: {
+                            number: {
+                                value: 80,
+                                density: {
+                                    enable: true,
+                                    value_area: 800
+                                }
+                            },
+                            color: {
+                                value: "#ffffff"
+                            },
+                            shape: {
+                                type: "circle"
+                            },
+                            opacity: {
+                                value: 0.5,
+                                random: true
+                            },
+                            size: {
+                                value: 5,
+                                random: true
+                            },
+                            move: {
                                 enable: true,
-                                value_area: 800
+                                speed: 2,
+                                direction: "none",
+                                random: true,
+                                out_mode: "out"
                             }
-                        },
-                        color: {
-                            value: "#ffffff"
-                        },
-                        shape: {
-                            type: "circle"
-                        },
-                        opacity: {
-                            value: 0.5,
-                            random: true
-                        },
-                        size: {
-                            value: 5,
-                            random: true
-                        },
-                        move: {
-                            enable: true,
-                            speed: 2,
-                            direction: "none",
-                            random: true,
-                            out_mode: "out"
                         }
+                    };
+
+                    // Initialize particles for each slide
+                    const particlesElements = document.querySelectorAll('.particles');
+                    particlesElements.forEach((element, index) => {
+                        element.id = `particles-js-${index}`;
+                        particlesJS(`particles-js-${index}`, particlesConfig);
+                    });
+
+                    // Reinitialize particles when slide changes
+                    const heroSlider = document.querySelector('#heroSlide1').swiper;
+                    if (heroSlider) {
+                        heroSlider.on('slideChange', function() {
+                            const activeIndex = heroSlider.activeIndex;
+                            const particlesElements = document.querySelectorAll('.particles');
+                            particlesElements.forEach((element, index) => {
+                                if (index === activeIndex) {
+                                    element.style.display = 'block';
+                                    particlesJS(`particles-js-${index}`, particlesConfig);
+                                } else {
+                                    element.style.display = 'none';
+                                }
+                            });
+                        });
                     }
                 });
             </script>
@@ -413,11 +439,6 @@ Hero Area
                 </div>
         
         </div>
-        <div style="z-index: 999;" class="about-tag">
-            <div class="about-tag-thumb">
-                <img style="max-width: 150px;" src="QUEST/amirta.svg" alt="img">
-            </div>
-        </div>
         <div class="hero-bg-shape2-1 spin shape-mockup" data-top="14%" data-left="1%">
             <img src="assets/img/shape/section_shape_2_1.jpg" alt="img">
         </div>
@@ -442,7 +463,7 @@ Counter Area
                 </div>
                 <div class="counter-card style2">
                     <div class="media-body">
-                        <h2 class="box-number"><span class="counter-number">12</span>+</h2>
+                        <h2 class="box-number"><span class="counter-number">10</span>+</h2>
                         <p class="box-text">
                             Regional Finale Centers</p>
                     </div>
@@ -516,12 +537,7 @@ About Area
                             </div>
                             <button data-slider-next="#aboutSlider1" class="slider-arrow slider-next"><img src="assets/img/icon/arrow-right.svg" alt="icon"></button>
                         </div>
-                        <div class="about-tag">
-                            <div class="about-experience-tag">
-                                <span class="circle-title-anime">QUEST 2025 - Season 03</span>
-                            </div>
-                            <a href="https://www.youtube.com/watch?v=C7-5kkSayl8" class="play-btn popup-video"><i class="fa-sharp fa-solid fa-play"></i></a>
-                        </div>
+
                     </div>
                 </div>
                 <div class="col-xl-5">
@@ -547,12 +563,35 @@ About Area
             </div>
         </div>
     </div>
-
+    <section id="partner" style="padding-top: 90px;" class="space-bottom bg-theme overflow-hidden">
+        <div class="container">
+            <div class="row gy-80 gx-40 align-items-center">
+                <div class="col-xl-4">
+                    <div class="cta-thumb img-shine" data-mask-src="assets/img/shape/cta_1_1-img-mask.png">
+                        <img src="quest/avv.png" alt="img">
+                    </div>
+                </div>
+                <div class="col-xl-8">
+                    <div class="me-xxl-5 pe-xxl-5">
+                        <div class="title-area">
+                            <span class="shadow-title">Partner</span>
+                            <h2 class="sec-title text-white">Amrita Vishwa Vidyapeetham</h2>
+                            <p class="sec-text text-white">Amrita Vishwa Vidyapeetham, recognized as an Institution of Eminence by the Government of India, is a globally respected, multi-disciplinary university. With its ethos rooted in the vision of its Chancellor, Mata Amritanandamayi Devi, the university seeks to integrate academic excellence with spiritual and cultural values. </p>
+                        </div>
+                        <div class="btn-wrap">
+                            <a href="https://www.amrita.edu/" class="th-btn btn-mask th-btn-icon">Visit Amrita</a>
+                            <a href="https://www.amrita.edu/about/" class="th-btn btn-mask2 th-btn-icon">Know More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <!--==============================
 Service Area  
 ==============================-->
-    <section class="service-area-2 rounded-80 space bg-gray">
+    <section class="service-area-2  space bg-gray">
         <div class="sec-bg-shape2-1 spin shape-mockup d-xl-block d-none" data-bottom="5%" data-left="12%">
             <img src="assets/img/shape/section_shape_2_1.jpg" alt="img">
         </div>
@@ -565,8 +604,8 @@ Service Area
             <div class="row justify-content-between align-items-center">
                 <div class="col-lg-6">
                     <div class="title-area">
-                        <h2 class="sec-title">Explore India’s Rich STEAM Heritage with QUEST 2025</h2>
-                        <p class="sec-text">Our quiz offers a unique educational experience, delving into India’s rich STEAM heritage. Students will embark on an exciting journey, Get ready to inspire young minds through knowledge and discovery!</p>
+                        <h2 class="sec-title">Explore India's Rich STEAM Heritage with QUEST 2025</h2>
+                        <p class="sec-text">Our quiz offers a unique educational experience, delving into India's rich STEAM heritage. Students will embark on an exciting journey, Get ready to inspire young minds through knowledge and discovery!</p>
                     </div>
                 </div>
                 <div class="col-auto">
@@ -622,30 +661,7 @@ Service Area
         </div>
     </section>
 
-    <section id="partner" style="padding-top: 90px;" class="space-bottom bg-theme overflow-hidden">
-        <div class="container">
-            <div class="row gy-80 gx-40 align-items-center">
-                <div class="col-xl-4">
-                    <div class="cta-thumb img-shine" data-mask-src="assets/img/shape/cta_1_1-img-mask.png">
-                        <img src="quest/avv.png" alt="img">
-                    </div>
-                </div>
-                <div class="col-xl-8">
-                    <div class="me-xxl-5 pe-xxl-5">
-                        <div class="title-area">
-                            <span class="shadow-title">Partner</span>
-                            <h2 class="sec-title text-white">Amrita Vishwa Vidyapeetham</h2>
-                            <p class="sec-text text-white">Amrita Vishwa Vidyapeetham, recognized as an Institution of Eminence by the Government of India, is a globally respected, multi-disciplinary university. With its ethos rooted in the vision of its Chancellor, Mata Amritanandamayi Devi, the university seeks to integrate academic excellence with spiritual and cultural values. </p>
-                        </div>
-                        <div class="btn-wrap">
-                            <a href="https://www.amrita.edu/" class="th-btn btn-mask th-btn-icon">Visit Amrita</a>
-                            <a href="https://www.amrita.edu/about/" class="th-btn btn-mask2 th-btn-icon">Know More</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+
     <!--==============================
 Portfolio Area  
 ==============================-->
@@ -838,58 +854,113 @@ Team Area
         <img src="assets/img/shape/section_shape_2_1.jpg" alt="img">
     </div>
     <div class="container">
-        <div class="row justify-content-lg-between justify-content-center align-items-center">
-            <div class="col-xxl-6 col-lg-7">
-                <div class="title-area text-lg-start text-center">
+        <div class="row justify-content-center">
+            <div class="col-lg-8 text-center">
+                <div class="title-area mb-5">
                     <h2 class="sec-title text-white">Quiz Master</h2>
                     <p class="sec-text text-white">Meet our QUEST Quiz Master</p>
                 </div>
-            </div>
-            <!-- <div class="col-auto">
-                <div class="sec-btn">
-                    <a href="#" class="th-btn style-border3 th-btn-icon">View All Team</a>
-                </div>
-            </div> -->
-        </div>
-        <div class="slider-area team-slider2 d-flex justify-content-center">
-            <div class="swiper th-slider" id="teamSlider2" data-slider-options='{"breakpoints":{"0":{"slidesPerView":1},"576":{"slidesPerView":"1"},"768":{"slidesPerView":"1"},"992":{"slidesPerView":"1"},"1200":{"slidesPerView":"1"}}}'>
-                <div class="swiper-wrapper">
-                    <!-- Single Item -->
-                    <div style="max-height: 700px;" class="swiper-slide">
-                        <div class="th-team team-card style2 mx-auto" style="max-width: 400px;">
-                            <div class="img-wrap">
-                                <div class="team-img">
-                                    <img src="assets/img/profiles.png" alt="Team">
-                                </div>
-                                <div class="th-social-wrap">
-                                    <p style="color: white; font-size: 10px; text-align: center; margin: 0 auto; max-width: 90%; line-height: 1.6; padding-bottom: 15px;">My team and I are deeply committed to transforming the global school education landscape, both for today and the future. We actively collaborate with all key stakeholders—including students, teachers, school leaders, founders, and managers—through our diverse brands, all united by a singular focus: empowering schools worldwide. By addressing current challenges and anticipating future needs, we strive to drive innovation, upskilling, and meaningful change in education at a global scale.</p>
-                                    <div class="th-social">
-                                        <a target="_blank" href="https://facebook.com/"><i class="fab fa-facebook-f"></i></a>
-                                        <a target="_blank" href="https://twitter.com/"><i class="fab fa-twitter"></i></a>
-                                        <a target="_blank" href="https://www.linkedin.com/in/gauravayadav/"><i class="fab fa-linkedin-in"></i></a>
-                                        <a target="_blank" href="https://youtube.com/"><i class="fab fa-youtube"></i></a>
+                <div class="quiz-master-card">
+                    <div class="quiz-master-content">
+                        <div class="row align-items-center">
+                            <div class="col-lg-4">
+                                <div class="team-img-wrapper text-center">
+                                    <div class="quiz-master-img">
+                                        <img src="assets/img/profiles.png" alt="Team" class="img-fluid rounded-circle">
+                                        <div class="quiz-master-badge">
+                                            <i class="fas fa-trophy"></i>
+                                        </div>
+                                    </div>
+                                    <div class="th-social mt-4">
+                                        <a target="_blank" href="https://facebook.com/" class="me-3"><i class="fab fa-facebook-f"></i></a>
+                                        <a target="_blank" href="https://twitter.com/" class="me-3"><i class="fab fa-twitter"></i></a>
+                                        <a target="_blank" href="https://www.linkedin.com/in/gauravayadav/" class="me-3"><i class="fab fa-linkedin-in"></i></a>
+                                        <a target="_blank" href="https://youtube.com/" class="me-3"><i class="fab fa-youtube"></i></a>
                                         <a target="_blank" href="https://instagram.com/"><i class="fab fa-instagram"></i></a>
                                     </div>
-                                    <a class="icon-btn" href="#"><img src="assets/img/icon/arrow-right.svg" alt="img"></a>
                                 </div>
-
                             </div>
-                            <div class="team-card-content">
-                                <div class="media-left">
-                                    <h3 class="box-title"><a style="color: black;" href="#">Mr. Gaurava Yadav</a></h3>
-                                    <span style="color: black;" class="team-desig">Head, IPN<br> Eduace Services PVT. LTD.</span>
+                            <div class="col-lg-8">
+                                <div class="team-content-wrapper">
+                                    <div class="quiz-master-info">
+                                        <h3 class="box-title mb-3"><a style="color: white;" href="#">Mr. Gaurava Yadav</a></h3>
+                                        <span style="color: white;" class="team-desig mb-4 d-block">Head, IPN<br> Eduace Services PVT. LTD.</span>
+                                        <p style="color: white; font-size: 16px; line-height: 1.8; margin-bottom: 30px; text-align: justify;">My team and I are deeply committed to transforming the global school education landscape, both for today and the future. We actively collaborate with all key stakeholders—including students, teachers, school leaders, founders, and managers—through our diverse brands, all united by a singular focus: empowering schools worldwide. By addressing current challenges and anticipating future needs, we strive to drive innovation, upskilling, and meaningful change in education at a global scale.</p>
+                                        <div class="contact-info">
+                                            <a href="tel:+91 84007 00199" class="th-btn style2 th-btn-icon">
+                                                <i class="fas fa-phone-alt me-2"></i> Contact: +91 84007 00199
+                                            </a>
+                                        </div>
+                                    </div>
                                 </div>
-                                <a class="icon-btn" href="tel:+91 84007 00199"><img src="assets/img/icon/phone.svg" alt="img"></a>
                             </div>
                         </div>
                     </div>
-                    <!-- Single Item -->
                 </div>
             </div>
-            <button data-slider-prev="#teamSlider2" class="slider-arrow slider-prev"><img src="assets/img/icon/arrow-left.svg" alt=""></button>
-            <button data-slider-next="#teamSlider2" class="slider-arrow slider-next"><img src="assets/img/icon/arrow-right.svg" alt=""></button>
         </div>
     </div>
+    <style>
+        .quiz-master-card {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            border-radius: 20px;
+            padding: 40px;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+            position: relative;
+            overflow: hidden;
+        }
+        .quiz-master-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 4px;
+            background: linear-gradient(90deg, #FF6B6B, #4ECDC4);
+        }
+        .quiz-master-img {
+            position: relative;
+            display: inline-block;
+        }
+        .quiz-master-badge {
+            position: absolute;
+            bottom: 10px;
+            right: 10px;
+            background: #FFD700;
+            color: #000;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 20px;
+            box-shadow: 0 4px 15px rgba(255, 215, 0, 0.5);
+        }
+        .quiz-master-info {
+            position: relative;
+            padding-left: 20px;
+            border-left: 2px solid rgba(255, 255, 255, 0.2);
+        }
+        .th-social a {
+            color: white;
+            font-size: 20px;
+            transition: all 0.3s ease;
+        }
+        .th-social a:hover {
+            color: #4ECDC4;
+            transform: translateY(-3px);
+        }
+        @media (max-width: 991px) {
+            .quiz-master-info {
+                padding-left: 0;
+                border-left: none;
+                margin-top: 30px;
+            }
+        }
+    </style>
 </section>
 
 

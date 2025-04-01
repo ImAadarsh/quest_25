@@ -58,29 +58,8 @@
     <!--==============================
      Preloader
   ==============================-->
-    <div id="preloader" class="preloader ">
-        <div id="loader" class="th-preloader">
-            <div class="animation-preloader">
-                <div class="txt-loading">
-                    <span preloader-text="S" class="characters">S</span>
 
-                    <span preloader-text="E" class="characters">E</span>
 
-                    <span preloader-text="A" class="characters">A</span>
-
-                    <span preloader-text="S" class="characters">S</span>
-
-                    <span preloader-text="O" class="characters">O</span>
-
-                    <span preloader-text="N" class="characters">N</span>
-
-                    <span preloader-text="3" class="characters">3</span>
-                </div>
-            </div>
-        </div>
-    </div> <!--==============================
-    Mobile Menu
-  ============================== -->
 <?php include "include/mobile.php"; ?><!--==============================
     Sidemenu
 ============================== -->
@@ -142,118 +121,40 @@ Property Page Area
                 <div class="col-xxl-12 col-lg-7">
                     <div class="tab-content" id="nav-tabContent">
                         <div class="tab-pane fade active show" id="tab-list" role="tabpanel" aria-labelledby="tab-shop-list">
-                            <div class="row gy-40">
-                                <div class="col-md-6">
-                                    <div class="agency-card">
-                                        <div class="agency-card-img">
-                                            <img src="assets/img/participating_schools/1.svg" alt="img">
-                                            <div class="agency-card-brand">
-                                                <img src="assets/img/participating_schools/quest_icon.png" alt="">
-                                            </div>
-                                        </div>
-                                        <div class="agency-card-details">
-                                            <h4 class="agency-card-title"><a href="#">Sunbeam English School, Varanasi</a></h4>
-                                            <p class="agency-card-text">Bhagwanpur, Varanasi, Uttar Pradesh 221005</p>
-                                            <div class="agency-card-meta">
-                                                <div class="media-left">
-                                                    <p class="agency-card-text"><i class="far fa-browser"></i><strong><a href="https://sunbeamschools.com/home">www.sunbeamschools.com</a></strong></p>
-                                                </div>
-                                               <!--==========   <div class="btn-wrap">
-                                                    <a href="#" class="th-btn style-border2 th-btn-icon">Details</a>
-                                                </div>-->
-                                            </div>
-                                        </div>
-                                    </div>
+                            <div class="schools-table-wrapper">
+                                <div class="table-responsive">
+                                    <table class="table table-hover schools-table">
+                                        <thead>
+                                            <tr>
+                                                <th><i class="fas fa-school me-2"></i>School Name</th>
+                                                <th><i class="fas fa-city me-2"></i>City</th>
+                                                <th><i class="fas fa-map-marker-alt me-2"></i>State</th>
+                                              
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <?php
+                                            require_once 'include/sheets.php';
+                                            $schools = getSchoolsList();
+                                            
+                                            if (!empty($schools)) {
+                                                foreach ($schools as $school) {
+                                                    if (count($school) >= 3) {
+                                                        echo '<tr>';
+                                                        echo '<td class="school-name">' . htmlspecialchars(trim($school[0])) . '</td>';
+                                                        echo '<td>' . htmlspecialchars(trim($school[1])) . '</td>';
+                                                        echo '<td>' . htmlspecialchars(trim($school[2])) . '</td>';
+                                                        echo '</tr>';
+                                                    }
+                                                }
+                                            } else {
+                                                echo '<tr><td colspan="4" class="text-center">No schools found</td></tr>';
+                                            }
+                                            ?>
+                                        </tbody>
+                                    </table>
                                 </div>
-                                <div class="col-md-6">
-                                    <div class="agency-card">
-                                        <div class="agency-card-img">
-                                            <img src="assets/img/participating_schools/2.svg" alt="img">
-                                            <div class="agency-card-brand">
-                                                <img src="assets/img/participating_schools/quest_icon.png" alt="">
-                                            </div>
-                                        </div>
-                                        <div class="agency-card-details">
-                                            <h4 class="agency-card-title"><a href="#">The Tonsbridge School, Dehradun</a></h4>
-                                            <p class="agency-card-text">Prem Nagar, Dehradun, Shahpur Santore, Uttarakhand 248001</p>
-                                            <div class="agency-card-meta">
-                                                <div class="media-left">
-                                                    <p class="agency-card-text"><i class="far fa-browser"></i><strong><a href="https://www.thetonsbridge.com/">wwww.thetonsbridge.com</a></strong></p>
-                                                </div>
-                                                 <!--========== <div class="btn-wrap">
-                                                    <a href="#" class="th-btn style-border2 th-btn-icon">Details</a>
-                                                </div> -->
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="agency-card">
-                                        <div class="agency-card-img">
-                                            <img src="assets/img/participating_schools/3.svg" alt="img">
-                                            <div class="agency-card-brand">
-                                                <img src="assets/img/participating_schools/quest_icon.png" alt="">
-                                            </div>
-                                        </div>
-                                        <div class="agency-card-details">
-                                            <h4 class="agency-card-title"><a href="#">Nurture International School, Kanpur</a></h4>
-                                            <p class="agency-card-text">Singhpur, Kanpur, Uttar Pradesh 208017</p>
-                                            <div class="agency-card-meta">
-                                                <div class="media-left">
-                                                    <p class="agency-card-text"><i class="far fa-browser"></i><strong><a href="https://niskalyanpur.in/">www.niskalyanpur.in</a></strong></p>
-                                                </div>
-                                                 <!--========== <div class="btn-wrap">
-                                                    <a href="#" class="th-btn style-border2 th-btn-icon">Details</a>
-                                                </div> -->
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>                           
-                                <div class="col-md-6">
-                                    <div class="agency-card">
-                                        <div class="agency-card-img">
-                                            <img src="assets/img/participating_schools/4.svg" alt="img">
-                                            <div class="agency-card-brand">
-                                                <img src="assets/img/participating_schools/quest_icon.png" alt="">
-                                            </div>
-                                        </div>
-                                        <div class="agency-card-details">
-                                            <h4 class="agency-card-title"><a href="#">Sri Sri Academy, Kolkata</a></h4>
-                                            <p class="agency-card-text"> Alipore Rd, Alipore, Kolkata, West Bengal 700027</p>
-                                            <div class="agency-card-meta">
-                                                <div class="media-left">
-                                                    <p class="agency-card-text"><i class="far fa-browser"></i><strong><a href="https://kolkata.ssa.org.in/">www.kolkata.ssa.org.in</a></strong></p>
-                                                </div>
-                                                 <!--========== <div class="btn-wrap">
-                                                    <a href="#" class="th-btn style-border2 th-btn-icon">Details</a>
-                                                </div> -->
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="agency-card">
-                                        <div class="agency-card-img">
-                                            <img src="assets/img/participating_schools/5.svg" alt="img">
-                                            <div class="agency-card-brand">
-                                                <img src="assets/img/participating_schools/quest_icon.png" alt="">
-                                            </div>
-                                        </div>
-                                        <div class="agency-card-details">
-                                            <h4 class="agency-card-title"><a href="#">Aster Public School, Greater Noida</a></h4>
-                                            <p class="agency-card-text"> Greater Noida, Uttar Pradesh 201306</p>
-                                            <div class="agency-card-meta">
-                                                <div class="media-left">
-                                                    <p class="agency-card-text"><i class="far fa-browser"></i><strong><a href="https://grnoida.asterinstitutions.com/">www.grnoida.asterinstitutions.in</a></strong></p>
-                                                </div>
-                                                  <!--==========<div class="btn-wrap">
-                                                    <a href="#" class="th-btn style-border2 th-btn-icon">Details</a>
-                                                </div> -->
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>                              
-                            </div>                         
+                            </div>
                         </div>                  
                     </div>
                 </div>
@@ -298,6 +199,86 @@ Property Page Area
 
     <!-- Main Js File -->
     <script src="assets/js/main.js"></script>
+
+<style>
+.schools-table-wrapper {
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.05);
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.schools-table {
+    margin-bottom: 0;
+}
+
+.schools-table thead th {
+    background: #f8f9fa;
+    border-bottom: 2px solid #e9ecef;
+    color: #2c3e50;
+    font-weight: 600;
+    padding: 15px;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    letter-spacing: 0.5px;
+}
+
+.schools-table tbody tr {
+    transition: all 0.3s ease;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.schools-table tbody tr:hover {
+    background: #f8f9fa;
+    transform: translateY(-2px);
+}
+
+.schools-table td {
+    padding: 15px;
+    vertical-align: middle;
+    color: #2c3e50;
+}
+
+.school-name {
+    font-weight: 600;
+    color: #2c3e50;
+}
+
+.status-badge {
+    display: inline-block;
+    padding: 5px 12px;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+
+.status-badge.active {
+    background: #e8f5e9;
+    color: #2e7d32;
+}
+
+.status-badge.pending {
+    background: #fff3e0;
+    color: #ef6c00;
+}
+
+@media (max-width: 768px) {
+    .schools-table-wrapper {
+        padding: 10px;
+    }
+    
+    .schools-table thead th {
+        font-size: 0.8rem;
+        padding: 10px;
+    }
+    
+    .schools-table td {
+        padding: 10px;
+        font-size: 0.9rem;
+    }
+}
+</style>
 </body>
 
 </html>

@@ -99,10 +99,10 @@
             <div class="row justify-content-center">
                 <div class="col-xl-9">
                     <div class="breadcumb-content">
-                        <h1 class="breadcumb-title">About Us</h1>
+                        <h1 class="breadcumb-title">About QUEST 2025                        </h1>
                         <ul class="breadcumb-menu">
                             <li><a href="index.php">Home</a></li>
-                            <li>About Us</li>
+                            <li>About QUEST 2025                            </li>
                         </ul>
                     </div>
                 </div>
@@ -133,12 +133,7 @@ About Area
                             <div class="img1">
                                 <img src="assets/img/about/a.png" alt="About">
                             </div>
-                            <div class="about-tag">
-                                <div class="about-experience-tag">
-                                    <span class="circle-title-anime">Eduace Quest 2025</span>
-                                </div>
-                                <a href="https://www.youtube.com/watch?v=C7-5kkSayl8" class="play-btn popup-video"><i class="fa-sharp fa-solid fa-play"></i></a>
-                            </div>
+
                         </div>
                     </div>
                     <div class="col-lg-5">

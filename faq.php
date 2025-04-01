@@ -97,7 +97,7 @@
             <div class="row justify-content-center">
                 <div class="col-xl-9">
                     <div class="breadcumb-content">
-                        <h1 class="breadcumb-title">Quest FAQ</h1>
+                        <h1 class="breadcumb-title"> QUEST 2025 FAQ</h1>
                         <ul class="breadcumb-menu">
                             <li><a href="index.php">Home</a></li>
                             <li>FAQ</li>
@@ -185,13 +185,13 @@ Faq Area
                             </div>
                             <div id="collapse-5" class="accordion-collapse collapse " aria-labelledby="collapse-item-5" data-bs-parent="#faqAccordion">
                                 <div class="accordion-body">
-                                    <p class="faq-text">Students can register individually, but schools are encouraged to facilitate team registrations.</p>
+                                    <p class="faq-text">Students can't register individually.</p>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="btn-wrap justify-content-center mt-60">
-                        <a href="about.php" class="th-btn style-border2 th-btn-icon">Read More</a>
+                        <a href="journey.php" class="th-btn style-border2 th-btn-icon">View QUEST 2025 Journey</a>
                     </div>
                 </div>
             </div>

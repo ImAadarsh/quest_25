@@ -16,13 +16,16 @@
                                 <ul>
 
                                     <li><a href="about.php">
-                                            About QUEST 2025
+                                            About QUEST
                                         </a></li>
                                         <li><a href="rules_2025.pdf">
                                             Rules
                                         </a></li>
-                                        <li><a href="#partner">
+                                        <li><a href="index.php#partner">
                                             Partner
+                                        </a></li>
+                                        <li><a href="journey.php">
+                                            Journey
                                         </a></li>
                                         <li><a href="school.php">
                                             Participating Schools
