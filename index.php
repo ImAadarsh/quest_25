@@ -882,59 +882,9 @@ Team Area
                             </div>
                         </div>
                         <!-- Single Item -->
-                        <div class="swiper-slide">
-                            <div class="th-team team-card style2">
-                                <div class="img-wrap">
-                                    <div class="team-img">
-                                        <img src="assets/img/profiles.png" alt="Team">
-                                    </div>
-                                    <div class="th-social-wrap">
-                                        <div class="th-social">
-                                            <a target="_blank" href="https://facebook.com/"><i class="fab fa-facebook-f"></i></a>
-                                            <a target="_blank" href="https://twitter.com/"><i class="fab fa-twitter"></i></a>
-                                            <a target="_blank" href="https://linkedin.com/"><i class="fab fa-linkedin-in"></i></a>
-                                            <a target="_blank" href="https://youtube.com/"><i class="fab fa-youtube"></i></a>
-                                            <a target="_blank" href="https://instagram.com/"><i class="fab fa-instagram"></i></a>
-                                        </div>
-                                        <a class="icon-btn" href="#"><img src="assets/img/icon/arrow-right.svg" alt="img"></a>
-                                    </div>
-                                </div>
-                                <div class="team-card-content">
-                                    <div class="media-left">
-                                        <h3 class="box-title"><a style="color: black;" href="#">Mr. Gaurava Yadav</a></h3>
-                                        <span style="color: black;" class="team-desig">Head, IPN<br> Eduace Services PVT. LTD.</span>
-                                    </div>
-                                    <a class="icon-btn" href="tel:+91 84007 00199"><img src="assets/img/icon/phone.svg" alt="img"></a>
-                                </div>
-                            </div>
-                        </div>
+
                         <!-- Single Item -->
-                        <div class="swiper-slide">
-                            <div class="th-team team-card style2">
-                                <div class="img-wrap">
-                                    <div class="team-img">
-                                        <img src="assets/img/profiles.png" alt="Team">
-                                    </div>
-                                    <div class="th-social-wrap">
-                                        <div class="th-social">
-                                            <a target="_blank" href="https://facebook.com/"><i class="fab fa-facebook-f"></i></a>
-                                            <a target="_blank" href="https://twitter.com/"><i class="fab fa-twitter"></i></a>
-                                            <a target="_blank" href="https://linkedin.com/"><i class="fab fa-linkedin-in"></i></a>
-                                            <a target="_blank" href="https://youtube.com/"><i class="fab fa-youtube"></i></a>
-                                            <a target="_blank" href="https://instagram.com/"><i class="fab fa-instagram"></i></a>
-                                        </div>
-                                        <a class="icon-btn" href="#"><img src="assets/img/icon/arrow-right.svg" alt="img"></a>
-                                    </div>
-                                </div>
-                                <div class="team-card-content">
-                                    <div class="media-left">
-                                        <h3 class="box-title"><a style="color: black;" href="#">Mr. Gaurava Yadav</a></h3>
-                                        <span style="color: black;" class="team-desig">Head, IPN<br> Eduace Services PVT. LTD.</span>
-                                    </div>
-                                    <a class="icon-btn" href="tel:+91 84007 00199"><img src="assets/img/icon/phone.svg" alt="img"></a>
-                                </div>
-                            </div>
-                        </div>
+
 
                     </div>
                 </div>
