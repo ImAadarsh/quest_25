@@ -799,7 +799,7 @@ Gallery Area
                             <ul class="gallery-list-1">
                                 <li class="gallery-card">
                                     <a class="popup-image" href="assets/img/winners/1.png">
-                                        <img src="assets/img/winners/1.png" alt="img">
+                                        <img src="assets/img/winners/10.png" alt="img">
                                         <i class="fal fa-plus"></i>
                                     </a>
                                 </li>
