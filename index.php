@@ -679,7 +679,7 @@ Portfolio Area
                 </div>
                 <div class="col-auto">
                     <div class="sec-btn">
-                        <a href="#" class="th-btn style-border3 th-btn-icon">QUEST Regional Finale Events</a>
+                        <a href="school.php" class="th-btn style-border3 th-btn-icon">QUEST Regional Finale Events</a>
                     </div>
                 </div>
             </div>
