@@ -8970,7 +8970,7 @@ ol.wp-block-rss {
   position: absolute;
   inset: 0;
   background: var(--theme-color);
-  opacity: 0.7;
+  opacity: 0.02;
   z-index: -1;
 }
 
