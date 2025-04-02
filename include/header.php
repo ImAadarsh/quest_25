@@ -16,7 +16,7 @@
                                 <ul>
 
                                     <li><a href="about.php">
-                                            About QUEST
+                                            About QUEST 2025
                                         </a></li>
                                         <li><a href="rules_2025.pdf">
                                             Rules
@@ -25,7 +25,7 @@
                                             Partner
                                         </a></li>
                                         <li><a href="journey.php">
-                                            Journey
+                                            QUEST 2025 Journey
                                         </a></li>
                                         <li><a href="school.php">
                                             Participating Schools
