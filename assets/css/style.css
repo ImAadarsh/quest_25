@@ -7621,8 +7621,8 @@ ol.wp-block-rss {
 .main-menu a {
   display: block;
   position: relative;
-  font-weight: 400;
-  font-size: 16px;
+  font-weight: 600;
+  font-size: 13px;
   font-family: var(--body-font);
   color: var(--white-color);
 }

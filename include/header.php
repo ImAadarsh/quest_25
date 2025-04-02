@@ -25,7 +25,7 @@
                                             Partner
                                         </a></li>
                                         <li><a href="journey.php">
-                                            QUEST 2025 Journey
+                                            QUEST Journey
                                         </a></li>
                                         <li><a href="school.php">
                                             Participating Schools

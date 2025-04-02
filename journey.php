@@ -38,65 +38,29 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <style>
         .journey-section {
-            padding: 120px 0;
-            background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%);
+            padding: 0px 0;
+            background: #ffffff;
             position: relative;
             overflow: hidden;
         }
 
-        .journey-section::before {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            height: 100%;
-            background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="%23E31837" fill-opacity="0.05" d="M0,96L48,112C96,128,192,160,288,160C384,160,480,128,576,112C672,96,768,96,864,112C960,128,1056,160,1152,160C1248,160,1344,128,1392,112L1440,96L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path></svg>');
-            background-repeat: no-repeat;
-            background-position: center top;
-            background-size: cover;
-            z-index: 0;
-        }
-
         .journey-title {
             text-align: center;
-            margin-bottom: 60px;
+            margin-bottom: 10px;
             position: relative;
             padding: 20px 0;
-            z-index: 1;
         }
 
         .journey-title h1 {
-            font-size: 5rem;
-            margin-bottom: 35px;
+            font-size: 4rem;
+            margin-bottom: 25px;
             position: relative;
             display: inline-block;
-            font-weight: 900;
+            font-weight: 800;
             text-transform: uppercase;
-            letter-spacing: 3px;
-            background: linear-gradient(45deg, #E31837, #FDB913, #00A0DC, #E31837);
-            background-size: 300% 300%;
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            animation: gradientFlow 8s ease infinite;
-            text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
-            transform-style: preserve-3d;
-            perspective: 1000px;
-        }
-
-        .journey-title h1::before {
-            content: 'QUEST 2025';
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background: linear-gradient(45deg, #E31837, #FDB913, #00A0DC);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            transform: translateZ(-10px);
-            opacity: 0.3;
-            filter: blur(4px);
+            letter-spacing: 2px;
+            color: #2c3e50;
+            text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
         }
 
         .journey-title h1::after {
@@ -105,77 +69,24 @@
             bottom: -15px;
             left: 50%;
             transform: translateX(-50%);
-            width: 180px;
-            height: 6px;
-            background: linear-gradient(45deg, #E31837, #FDB913, #00A0DC, #E31837);
-            background-size: 300% 300%;
-            border-radius: 3px;
-            box-shadow: 0 4px 15px rgba(0, 160, 220, 0.4);
-            animation: gradientFlow 8s ease infinite;
+            width: 150px;
+            height: 4px;
+            background: linear-gradient(45deg, #E31837, #FDB913, #00A0DC);
+            border-radius: 2px;
         }
 
         .journey-title p {
-            font-size: 1.4rem;
-            color: #2c3e50;
-            max-width: 800px;
+            font-size: 1.3rem;
+            color:rgb(190, 199, 209);
+            max-width: 700px;
             margin: 0 auto;
-            line-height: 1.9;
+            line-height: 1.8;
             position: relative;
-            padding: 25px 35px;
-            background: rgba(255, 255, 255, 0.95);
-            border-radius: 20px;
-            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
-            backdrop-filter: blur(10px);
-            border: 2px solid rgba(253, 185, 19, 0.1);
-            transform: translateY(0);
-            transition: all 0.4s ease;
-            animation: floatAnimation 3s ease-in-out infinite;
-        }
-
-        .journey-title p::before {
-            content: '"';
-            position: absolute;
-            top: -20px;
-            left: 20px;
-            font-size: 4rem;
-            color: #E31837;
-            opacity: 0.2;
-            font-family: Georgia, serif;
-        }
-
-        .journey-title p::after {
-            content: '"';
-            position: absolute;
-            bottom: -50px;
-            right: 20px;
-            font-size: 4rem;
-            color: #00A0DC;
-            opacity: 0.2;
-            font-family: Georgia, serif;
-        }
-
-        @keyframes gradientFlow {
-            0% {
-                background-position: 0% 50%;
-            }
-            50% {
-                background-position: 100% 50%;
-            }
-            100% {
-                background-position: 0% 50%;
-            }
-        }
-
-        @keyframes floatAnimation {
-            0% {
-                transform: translateY(0px);
-            }
-            50% {
-                transform: translateY(-10px);
-            }
-            100% {
-                transform: translateY(0px);
-            }
+            padding: 20px;
+            background: #ffffff;
+            border-radius: 15px;
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
+            border: 1px solid rgba(253, 185, 19, 0.1);
         }
 
         .journey-image {
@@ -185,12 +96,6 @@
             display: block;
             border-radius: 20px;
             box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
-            transition: all 0.3s ease;
-        }
-
-        .journey-image:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15);
         }
 
         .journey-steps {
@@ -202,14 +107,8 @@
         .journey-step {
             margin-bottom: 40px;
             position: relative;
-            opacity: 0;
-            transform: translateY(30px);
-            transition: all 0.6s ease;
-        }
-
-        .journey-step.visible {
             opacity: 1;
-            transform: translateY(0);
+            transform: none;
         }
 
         .step-content {
@@ -217,23 +116,15 @@
             border-radius: 20px;
             box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
             overflow: hidden;
-            transition: all 0.3s ease;
-        }
-
-        .step-content:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15);
         }
 
         .step-header {
             background: linear-gradient(45deg, #E31837, #FDB913, #00A0DC);
-            background-size: 200% 200%;
             padding: 20px;
             color: white;
             display: flex;
             align-items: center;
             gap: 20px;
-            animation: gradientFlow 6s ease infinite;
         }
 
         .step-number {
@@ -274,53 +165,13 @@
             content: '';
             width: 40px;
             height: 40px;
-            background: linear-gradient(45deg, #FF6B6B, #4ECDC4);
+            background: linear-gradient(45deg, #E31837, #FDB913, #00A0DC);
             border-radius: 50%;
             display: flex;
             align-items: center;
             justify-content: center;
             flex-shrink: 0;
             margin-top: 5px;
-        }
-
-        .step-description[data-step="1"]::before {
-            content: '\f234';
-            font-family: 'Font Awesome 5 Free';
-            font-weight: 900;
-            color: white;
-            font-size: 1.2rem;
-        }
-
-        .step-description[data-step="2"]::before {
-            content: '\f0f1';
-            font-family: 'Font Awesome 5 Free';
-            font-weight: 900;
-            color: white;
-            font-size: 1.2rem;
-        }
-
-        .step-description[data-step="3"]::before {
-            content: '\f19d';
-            font-family: 'Font Awesome 5 Free';
-            font-weight: 900;
-            color: white;
-            font-size: 1.2rem;
-        }
-
-        .step-description[data-step="4"]::before {
-            content: '\f3cd';
-            font-family: 'Font Awesome 5 Free';
-            font-weight: 900;
-            color: white;
-            font-size: 1.2rem;
-        }
-
-        .step-description[data-step="5"]::before {
-            content: '\f091';
-            font-family: 'Font Awesome 5 Free';
-            font-weight: 900;
-            color: white;
-            font-size: 1.2rem;
         }
 
         .step-features {
@@ -337,21 +188,13 @@
             padding: 20px;
             background: #f8f9fa;
             border-radius: 15px;
-            transition: all 0.3s ease;
             border: 1px solid rgba(0, 0, 0, 0.05);
-        }
-
-        .feature-item:hover {
-            background: #e9ecef;
-            transform: translateX(5px);
-            border-color: rgba(0, 0, 0, 0.1);
         }
 
         .feature-icon {
             width: 50px;
             height: 50px;
             background: linear-gradient(45deg, #E31837, #FDB913, #00A0DC);
-            background-size: 200% 200%;
             border-radius: 50%;
             display: flex;
             align-items: center;
@@ -359,7 +202,6 @@
             color: white;
             font-size: 1.4rem;
             flex-shrink: 0;
-            animation: gradientFlow 6s ease infinite;
         }
 
         .feature-text {
@@ -371,20 +213,14 @@
 
         @media screen and (max-width: 768px) {
             .journey-title h1 {
-                font-size: 3rem;
-                letter-spacing: 2px;
+                font-size: 2.8rem;
+                letter-spacing: 1px;
             }
 
             .journey-title p {
-                font-size: 1.2rem;
-                padding: 20px;
-                margin: 0 20px;
-                line-height: 1.7;
-            }
-
-            .journey-title p::before,
-            .journey-title p::after {
-                font-size: 3rem;
+                font-size: 1.1rem;
+                padding: 15px;
+                margin: 0 15px;
             }
 
             .step-header {
@@ -478,7 +314,6 @@
         <div class="container">
             <div class="journey-title">
                 <h1>Journey of QUEST 2025</h1>
-                <p>Embark on an exciting educational adventure that combines knowledge, competition, and innovation in STEAM education.</p>
             </div>
             <img src="quest/journey.png" alt="QUEST 2025 Journey" class="journey-image">
 
