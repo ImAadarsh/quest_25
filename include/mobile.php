@@ -8,24 +8,22 @@
             </div>
             <div class="th-mobile-menu">
             <ul>
-                                    <li>
-                                        <a href="index.php">
-                                            Home
-                                        </a>
-                              
-                                    </li>
+
                                     <li><a href="about.php">
-                                            About Us
+                                            About QUEST 2025
                                         </a></li>
                                         <li><a href="rules_2025.pdf">
                                             Rules
                                         </a></li>
-                                        <li><a href="#partner">
+                                        <li><a href="index.php#partner">
                                             Partner
                                         </a></li>
-                                        <li><a href="school.php">
-                                            Participating Schools
+                                        <li><a href="journey.php">
+                                            QUEST Journey
                                         </a></li>
+                                        <!-- <li><a href="school.php">
+                                            Participating Schools
+                                        </a></li> -->
                                         <li><a href="faq.php">
                                             FAQs
                                         </a></li>
