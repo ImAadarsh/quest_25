@@ -11,7 +11,7 @@
                                     </div>
                                     <p style="text-align: justify;" class="about-text">India's top knowledge company, empowering students in Tier-1, 2, and 3 towns. Enhancing life skills and general awareness through engaging quizzes.</p>
                                     <div class="th-social style3">
-                                        <a href="https://www.facebook.com/EduAceGroup#"><i class="fab fa-facebook-f"></i></a>
+                                        <a href="https://www.facebook.com/EduAceQUEST/"><i class="fab fa-facebook-f"></i></a>
                                         <a href="https://twitter.com/eduaceindia"><i class="fab fa-twitter"></i></a>
                                         <a href="https://www.linkedin.com/company/eduace-services/"><i class="fab fa-linkedin-in"></i></a>
                                         <a href="https://www.youtube.com/@IPNAcademy"><i class="fab fa-youtube"></i></a>
@@ -30,8 +30,10 @@
                                             <img src="assets/img/icon/phone.svg" alt="img">
                                         </div>
                                         <div class="details">
-                                            <p><a href="tel:+917753888063" class="info-box_link">77538 88063</a></p>
-                                            <p><a href="tel:+91 84007 00199" class="info-box_link">84007 00199</a></p>
+                                            <p><a href="tel:+917753888063" class="info-box_link">+91 77538 88063</a></p>
+                                            <p><a href="tel:+919026803330" class="info-box_link">+91 90268 03330</a></p>
+                                            <p><a href="tel:+919246308588" class="info-box_link">+91 92463 08588</a></p>
+                                            <p><a href="tel:+918400700199" class="info-box_link">+91 84007 00199</a></p>
                                         </div>
                                     </div>
                                     <div class="info-box_text">
@@ -40,7 +42,6 @@
                                         </div>
                                         <div class="details">
                                             <p><a href="mailto:info@eduace.in" class="info-box_link">info@eduace.in</a></p>
-                                            <p><a href="mailto:team@ipnindia.in" class="info-box_link">team@ipnindia.in</a></p>
                                         </div>
                                     </div>
                                 </div>
@@ -96,7 +97,7 @@
                     <div class="row gy-2 align-items-center">
                         <div class="col-lg-6">
                             <p class="copyright-text">
-                            <i class="fal fa-copyright"></i> 2025 Eduace Quest. Developed By  <a href="https://endeavourdigital.in">Endeavour Digital</a>.</p>
+                            <i class="fal fa-copyright"></i> 2025 Eduace QUEST 2025.</p>
                         </div>
                         <div class="col-lg-6 text-center text-lg-end">
                             <div class="footer-links">

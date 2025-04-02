@@ -52,27 +52,23 @@
         }
 
         .journey-title h1 {
-            font-size: 4rem;
+            font-size: 1.5rem;
             margin-bottom: 25px;
             position: relative;
             display: inline-block;
             font-weight: 800;
             text-transform: uppercase;
             letter-spacing: 2px;
-            color: #2c3e50;
+            color: #ffffff;
             text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+            background: linear-gradient(45deg, #E31837, #FDB913, #00A0DC);
+            padding: 20px 40px;
+            border-radius: 15px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
         }
 
         .journey-title h1::after {
-            content: '';
-            position: absolute;
-            bottom: -15px;
-            left: 50%;
-            transform: translateX(-50%);
-            width: 150px;
-            height: 4px;
-            background: linear-gradient(45deg, #E31837, #FDB913, #00A0DC);
-            border-radius: 2px;
+            display: none;
         }
 
         .journey-title p {
@@ -215,6 +211,7 @@
             .journey-title h1 {
                 font-size: 2.8rem;
                 letter-spacing: 1px;
+                padding: 15px 25px;
             }
 
             .journey-title p {
@@ -231,6 +228,7 @@
 
             .step-title {
                 font-size: 1.5rem;
+                
             }
 
             .step-body {
@@ -265,6 +263,81 @@
                 max-width: 100%;
                 margin-bottom: 40px;
             }
+        }
+
+        .contact-info {
+            margin-top: 25px;
+            padding: 20px;
+            background: #f8f9fa;
+            border-radius: 15px;
+            border: 1px solid rgba(0, 0, 0, 0.05);
+        }
+
+        .contact-item {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            margin-bottom: 15px;
+            padding: 10px;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+        }
+
+        .contact-item:last-child {
+            margin-bottom: 0;
+        }
+
+        .contact-icon {
+            width: 40px;
+            height: 40px;
+            background: linear-gradient(45deg, #E31837, #FDB913, #00A0DC);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 1.2rem;
+        }
+
+        .contact-details {
+            flex: 1;
+        }
+
+        .contact-label {
+            font-size: 0.9rem;
+            color: #6c757d;
+            margin-bottom: 3px;
+        }
+
+        .contact-value {
+            font-size: 1.1rem;
+            color: #2c3e50;
+            font-weight: 500;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        .contact-value:hover {
+            color: #E31837;
+        }
+
+        .contact-value.phone {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .phone-number {
+            padding: 5px 10px;
+            background: #f1f3f5;
+            border-radius: 5px;
+            transition: all 0.3s ease;
+        }
+
+        .phone-number:hover {
+            background: #e9ecef;
+            transform: translateY(-2px);
         }
     </style>
 </head>
@@ -315,7 +388,6 @@
             <div class="journey-title">
                 <h1>Journey of QUEST 2025</h1>
             </div>
-            <img src="quest/journey.png" alt="QUEST 2025 Journey" class="journey-image">
 
             <div class="journey-steps">
                 <div class="journey-step">
@@ -325,27 +397,9 @@
                             <h2 class="step-title">School Registration</h2>
                         </div>
                         <div class="step-body">
-                            <p class="step-description" data-step="1">Begin your QUEST journey by registering your school on the QUEST website. This is your first step towards excellence in STEAM education.</p>
-                            <div class="step-features">
-                                <div class="feature-item">
-                                    <div class="feature-icon">
-                                        <i class="fas fa-user-plus"></i>
-                                    </div>
-                                    <p class="feature-text">Easy online registration process</p>
-                                </div>
-                                <div class="feature-item">
-                                    <div class="feature-icon">
-                                        <i class="fas fa-check-circle"></i>
-                                    </div>
-                                    <p class="feature-text">Quick verification process</p>
-                                </div>
-                                <div class="feature-item">
-                                    <div class="feature-icon">
-                                        <i class="fas fa-info-circle"></i>
-                                    </div>
-                                    <p class="feature-text">Detailed information provided</p>
-                                </div>
-                            </div>
+                            <p class="step-description" data-step="1">Begin your QUEST journey by registering your school on the QUEST website. This is your first step towards QUEST 2025 Season 03 Registration.</p>
+                            <!-- Add Reguster Now button button match to theme style -->
+                            <a href="school_register.php" class="th-btn style2 th-btn-icon">Register Now</a>
                         </div>
                     </div>
                 </div>
@@ -357,25 +411,31 @@
                             <h2 class="step-title">Team Contact</h2>
                         </div>
                         <div class="step-body">
-                            <p class="step-description" data-step="2">Our dedicated Team Eduace will contact your school to provide detailed information about the event schedule and participation guidelines.</p>
-                            <div class="step-features">
-                                <div class="feature-item">
-                                    <div class="feature-icon">
+                            <p class="step-description" data-step="2">Our dedicated QUEST Team will contact your school to provide detailed information about the event schedule and participation guidelines.</p>
+                            
+                            <div class="contact-info">
+                                <div class="contact-item">
+                                    <div class="contact-icon">
                                         <i class="fas fa-phone-alt"></i>
                                     </div>
-                                    <p class="feature-text">Personalized guidance</p>
-                                </div>
-                                <div class="feature-item">
-                                    <div class="feature-icon">
-                                        <i class="fas fa-calendar-alt"></i>
+                                    <div class="contact-details">
+                                        <div class="contact-label">Contact Numbers</div>
+                                        <div class="contact-value phone">
+                                            <a href="tel:+917753888063" class="phone-number">+91 77538 88063</a>
+                                            <a href="tel:+919026803330" class="phone-number">+91 90268 03330</a>
+                                            <a href="tel:+919246308588" class="phone-number">+91 92463 08588</a>
+                                            <a href="tel:+918400700199" class="phone-number">+91 84007 00199</a>
+                                        </div>
                                     </div>
-                                    <p class="feature-text">Event scheduling</p>
                                 </div>
-                                <div class="feature-item">
-                                    <div class="feature-icon">
-                                        <i class="fas fa-book"></i>
+                                <div class="contact-item">
+                                    <div class="contact-icon">
+                                        <i class="fas fa-envelope"></i>
                                     </div>
-                                    <p class="feature-text">Resource materials</p>
+                                    <div class="contact-details">
+                                        <div class="contact-label">Email Address</div>
+                                        <a href="mailto:info@eduace.in" class="contact-value">info@eduace.in</a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -386,30 +446,11 @@
                     <div class="step-content">
                         <div class="step-header">
                             <div class="step-number">3</div>
-                            <h2 class="step-title">School Level Quest</h2>
+                            <h2 class="step-title">Classroom Level QUEST - Stage 1</h2>
                         </div>
                         <div class="step-body">
-                            <p class="step-description" data-step="3">Participate in the exciting School Level QUEST competition, where students showcase their STEAM knowledge and problem-solving skills.</p>
-                            <div class="step-features">
-                                <div class="feature-item">
-                                    <div class="feature-icon">
-                                        <i class="fas fa-brain"></i>
-                                    </div>
-                                    <p class="feature-text">STEAM knowledge assessment</p>
-                                </div>
-                                <div class="feature-item">
-                                    <div class="feature-icon">
-                                        <i class="fas fa-users"></i>
-                                    </div>
-                                    <p class="feature-text">Team collaboration</p>
-                                </div>
-                                <div class="feature-item">
-                                    <div class="feature-icon">
-                                        <i class="fas fa-trophy"></i>
-                                    </div>
-                                    <p class="feature-text">School-level recognition</p>
-                                </div>
-                            </div>
+                            <p class="step-description" data-step="3">Participate in the exciting Classroom Level QUEST competition, where students showcase their STEAM knowledge and problem-solving skills.</p>
+
                         </div>
                     </div>
                 </div>
@@ -421,27 +462,8 @@
                             <h2 class="step-title">Regional Final</h2>
                         </div>
                         <div class="step-body">
-                            <p class="step-description" data-step="4">Top performers from each school advance to the Regional Final, competing against the best from their region.</p>
-                            <div class="step-features">
-                                <div class="feature-item">
-                                    <div class="feature-icon">
-                                        <i class="fas fa-map-marker-alt"></i>
-                                    </div>
-                                    <p class="feature-text">Multiple regional centers</p>
-                                </div>
-                                <div class="feature-item">
-                                    <div class="feature-icon">
-                                        <i class="fas fa-medal"></i>
-                                    </div>
-                                    <p class="feature-text">Regional recognition</p>
-                                </div>
-                                <div class="feature-item">
-                                    <div class="feature-icon">
-                                        <i class="fas fa-star"></i>
-                                    </div>
-                                    <p class="feature-text">National qualification</p>
-                                </div>
-                            </div>
+                            <p class="step-description" data-step="4">Top 20 teams from each school advance to the Regional Final, competing in the 10 Regional Final Centers.</p>
+
                         </div>
                     </div>
                 </div>
@@ -450,30 +472,13 @@
                     <div class="step-content">
                         <div class="step-header">
                             <div class="step-number">5</div>
-                            <h2 class="step-title">National Final</h2>
+                            <h2 class="step-title">National Final</h2> 
+                            <!-- Add the Trophy Icon and big size and golden colour -->
+                            <i class="fas fa-trophy me-2" style="font-size: 2rem; color: gold;"></i>
                         </div>
                         <div class="step-body">
-                            <p class="step-description" data-step="5">The ultimate challenge! Regional winners compete in the National Final for the prestigious title of QUEST Master.</p>
-                            <div class="step-features">
-                                <div class="feature-item">
-                                    <div class="feature-icon">
-                                        <i class="fas fa-crown"></i>
-                                    </div>
-                                    <p class="feature-text">National recognition</p>
-                                </div>
-                                <div class="feature-item">
-                                    <div class="feature-icon">
-                                        <i class="fas fa-gift"></i>
-                                    </div>
-                                    <p class="feature-text">Exciting prizes</p>
-                                </div>
-                                <div class="feature-item">
-                                    <div class="feature-icon">
-                                        <i class="fas fa-certificate"></i>
-                                    </div>
-                                    <p class="feature-text">Certification</p>
-                                </div>
-                            </div>
+                            <p class="step-description" data-step="5">The ultimate challenge! Regional winners compete in the National Final for the prestigious QUEST Master title.</p>
+
                         </div>
                     </div>
                 </div>

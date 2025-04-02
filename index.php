@@ -556,14 +556,14 @@ About Area
                         </ul>
                     </div>
 
-                    <div class="btn-wrap mt-5">
+                    <div id="partner" class="btn-wrap mt-5">
                         <a href="about.php" class="th-btn style2 th-btn-icon">More About QUEST</a>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <section id="partner" style="padding-top: 90px;" class="space-bottom bg-theme overflow-hidden">
+    <section  style="padding-top: 90px;" class="space-bottom bg-theme overflow-hidden">
         <div class="container">
             <div class="row gy-80 gx-40 align-items-center">
                 <div class="col-xl-4">
@@ -884,7 +884,7 @@ Team Area
                                 <div class="team-content-wrapper">
                                     <div class="quiz-master-info">
                                         <h3 class="box-title mb-3"><a style="color: white;" href="#">Mr. Gaurava Yadav</a></h3>
-                                        <span style="color: white;" class="team-desig mb-4 d-block">Head, IPN<br> Eduace Services PVT. LTD.</span>
+                                        <span style="color: white;" class="team-desig mb-4 d-block">Quiz Master<br> QUEST 2025 | Season 03</span>
                                         <p style="color: white; font-size: 16px; line-height: 1.8; margin-bottom: 30px; text-align: justify;">My team and I are deeply committed to transforming the global school education landscape, both for today and the future. We actively collaborate with all key stakeholders—including students, teachers, school leaders, founders, and managers—through our diverse brands, all united by a singular focus: empowering schools worldwide. By addressing current challenges and anticipating future needs, we strive to drive innovation, upskilling, and meaningful change in education at a global scale.</p>
                                         <div class="contact-info">
                                             <a href="#" class="th-btn style2 th-btn-icon">
@@ -1187,9 +1187,47 @@ Contact Area
                         </div>
                         <div class="about-contact-details">
                             <h6 class="about-contact-details-title">Phone:</h6>
-                            <p class="about-contact-details-text"><a style="color: black;" href="tel:+917753888063">+917753888063</a></p>
+                            <div class="phone-numbers-container">
+                                <p class="about-contact-details-text"><a style="color: black;" href="tel:+917753888063">+91 77538 88063</a></p>
+                                <p class="about-contact-details-text"><a style="color: black;" href="tel:+919026803330">+91 90268 03330</a></p>
+                                <p class="about-contact-details-text"><a style="color: black;" href="tel:+919246308588">+91 92463 08588</a></p>
+                                <p class="about-contact-details-text"><a style="color: black;" href="tel:+918400700199">+91 84007 00199</a></p>
+                            </div>
                         </div>
                     </div>
+                    <style>
+                        .phone-numbers-container {
+                            display: flex;
+                            flex-wrap: wrap;
+                            gap: 15px;
+                            align-items: center;
+                        }
+                        
+                        .phone-numbers-container .about-contact-details-text {
+                            margin: 0;
+                            padding: 5px 10px;
+                            background: rgba(255, 255, 255, 0.1);
+                            border-radius: 5px;
+                            transition: all 0.3s ease;
+                        }
+                        
+                        .phone-numbers-container .about-contact-details-text:hover {
+                            background: rgba(255, 255, 255, 0.2);
+                        }
+                        
+                        @media (max-width: 768px) {
+                            .phone-numbers-container {
+                                flex-direction: column;
+                                align-items: flex-start;
+                                gap: 10px;
+                            }
+                            
+                            .phone-numbers-container .about-contact-details-text {
+                                width: 100%;
+                                text-align: left;
+                            }
+                        }
+                    </style>
                     <div class="about-contact-grid">
                         <div class="about-contact-icon text-white">
                             <img src="assets/img/icon/envelope.svg" alt="icon">

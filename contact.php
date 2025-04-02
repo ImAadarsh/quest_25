@@ -61,6 +61,31 @@ mysqli_close($connect);
     <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
     <!-- Theme Custom CSS -->
     <link rel="stylesheet" href="assets/css/style.css">
+    <style>
+        .about-contact-details-text {
+            margin-bottom: 8px;
+        }
+        
+        .about-contact-details-text a {
+            color: #2c3e50;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+        
+        .about-contact-details-text a:hover {
+            color: #E31837;
+        }
+        
+        @media (max-width: 768px) {
+            .about-contact-details {
+                text-align: center;
+            }
+            
+            .about-contact-details-text {
+                margin-bottom: 12px;
+            }
+        }
+    </style>
 
 </head>
 
@@ -149,8 +174,10 @@ Contact Area
                         </div>
                         <div class="about-contact-details">
                             <h6 class="about-contact-details-title">Phone Number</h6>
-                            <p class="about-contact-details-text"><a href="tel:77538 88063">77538 88063</a></p>
-                            <p class="about-contact-details-text"><a href="tel:84007 00199">84007 00199</a></p>
+                            <p class="about-contact-details-text"><a href="tel:+917753888063">+91 77538 88063</a></p>
+                            <p class="about-contact-details-text"><a href="tel:+919026803330">+91 90268 03330</a></p>
+                            <p class="about-contact-details-text"><a href="tel:+919246308588">+91 92463 08588</a></p>
+                            <p class="about-contact-details-text"><a href="tel:+918400700199">+91 84007 00199</a></p>
                         </div>
                     </div>
                 </div>
@@ -162,7 +189,6 @@ Contact Area
                         <div class="about-contact-details">
                             <h6 class="about-contact-details-title">Email Address</h6>
                             <p class="about-contact-details-text"><a href="mailto:info@eduace.in">info@eduace.in</a></p>
-                            <p class="about-contact-details-text"><a href="mailto:team@ipnindia.in">team@ipnindia.in</a></p>
                         </div>
                     </div>
                 </div>

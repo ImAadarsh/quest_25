@@ -27,9 +27,9 @@
                                         <li><a href="journey.php">
                                             QUEST Journey
                                         </a></li>
-                                        <li><a href="school.php">
+                                        <!-- <li><a href="school.php">
                                             Participating Schools
-                                        </a></li>
+                                        </a></li> -->
                                         <li><a href="faq.php">
                                             FAQs
                                         </a></li>
