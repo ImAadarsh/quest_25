@@ -855,7 +855,7 @@ Team Area
     </div>
     <div class="container">
         <div class="row justify-content-center">
-            <div class="col-lg-8 text-center">
+            <div class="col-lg-12 text-center">
                 <div class="title-area mb-5">
                     <h2 class="sec-title text-white">Quiz Master</h2>
                     <p class="sec-text text-white">Meet our QUEST Quiz Master</p>
@@ -863,7 +863,7 @@ Team Area
                 <div class="quiz-master-card">
                     <div class="quiz-master-content">
                         <div class="row align-items-center">
-                            <div class="col-lg-4">
+                            <div class="col-lg-3">
                                 <div class="team-img-wrapper text-center">
                                     <div class="quiz-master-img">
                                         <img src="assets/img/profiles.png" alt="Team" class="img-fluid rounded-circle">
@@ -880,12 +880,23 @@ Team Area
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-lg-8">
+                            <div class="col-lg-9">
                                 <div class="team-content-wrapper">
                                     <div class="quiz-master-info">
                                         <h3 class="box-title mb-3"><a style="color: white;" href="#">Mr. Gaurava Yadav</a></h3>
                                         <span style="color: white;" class="team-desig mb-4 d-block">Quiz Master<br> QUEST 2025 | Season 03</span>
-                                        <p style="color: white; font-size: 16px; line-height: 1.8; margin-bottom: 30px; text-align: justify;">My team and I are deeply committed to transforming the global school education landscape, both for today and the future. We actively collaborate with all key stakeholders—including students, teachers, school leaders, founders, and managers—through our diverse brands, all united by a singular focus: empowering schools worldwide. By addressing current challenges and anticipating future needs, we strive to drive innovation, upskilling, and meaningful change in education at a global scale.</p>
+                                        <p style="color: white; font-size: 16px; line-height: 1.8; margin-bottom: 30px; text-align: justify;">
+                                        Gaurava Yadav is an International Award-winning entrepreneur, business quiz champion, and the founder of IPN FORUM, India’s largest network of school leaders. An avid quizzer, he has won prestigious national-level business quizzes, including Tata Crucible Corporate Quiz 2009 (Runner-Up) and championships at IIT-Kanpur, IIT-Roorkee, IMI-Delhi, IIITM-Gwalior, and SIBM-Pune.
+                                        <br>
+                                        His professional initiative, Grey Gambit, won the Best Social Media Initiative Award at the Asia Communications Award 2012 in Singapore. With expertise in business, general knowledge, and current affairs, Gaurava is a sought-after Quizmaster, known for his engaging and research-driven quiz formats.
+                                        <br>
+                                        Beyond quizzing, he leads IPN Mission AIM, aiming to train 1 million teachers in AI, and collaborates with WWF-India for conservation education. When not working, he enjoys reading autobiographies and biographies and spending time with his daughters, Priyanshi and Vaani.
+                                        <br>
+                                        In its 3rd Edition QUEST 2025 is a flagship STEAM (Science, Technology, Engineering, Arts, and Mathematics) Quiz, designed to ignite curiosity and critical thinking among students. This national-level competition brings together young minds from across India to test their knowledge, problem-solving skills, and creativity in an engaging and intellectually stimulating format.
+                                        <br>
+                                        Replacement for India's top knowledge company, empowering students in Tier-1, 2, and 3 towns. Enhancing life skills and general awareness through engaging quizzes.
+
+                                        </p>
                                         <div class="contact-info">
                                             <a href="#" class="th-btn style2 th-btn-icon">
                                                 <i class="fas fa-globe me-2"></i> Visit My Website
