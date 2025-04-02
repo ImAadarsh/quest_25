@@ -887,8 +887,8 @@ Team Area
                                         <span style="color: white;" class="team-desig mb-4 d-block">Head, IPN<br> Eduace Services PVT. LTD.</span>
                                         <p style="color: white; font-size: 16px; line-height: 1.8; margin-bottom: 30px; text-align: justify;">My team and I are deeply committed to transforming the global school education landscape, both for today and the future. We actively collaborate with all key stakeholders—including students, teachers, school leaders, founders, and managers—through our diverse brands, all united by a singular focus: empowering schools worldwide. By addressing current challenges and anticipating future needs, we strive to drive innovation, upskilling, and meaningful change in education at a global scale.</p>
                                         <div class="contact-info">
-                                            <a href="tel:+91 84007 00199" class="th-btn style2 th-btn-icon">
-                                                <i class="fas fa-phone-alt me-2"></i> Contact: +91 84007 00199
+                                            <a href="#" class="th-btn style2 th-btn-icon">
+                                                <i class="fas fa-globe me-2"></i> Visit My Website
                                             </a>
                                         </div>
                                     </div>
