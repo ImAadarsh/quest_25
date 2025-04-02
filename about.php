@@ -123,7 +123,7 @@ About Area
                 <div class="row gy-40 justify-content-between align-items-center">
                     <div class="col-lg-6">
                         <div class="title-area mb-0">
-                            <h2 class="sec-title  mb-2">Quest STEAM Vision & Mission</h2>
+                            <h2 class="sec-title  mb-2">QUEST STEAM Vision & Mission</h2>
                             <p class="mb-0 ">Our mission is to inspire school students across India by celebrating the country's remarkable contributions to Science, Technology, Engineering, Arts, and Mathematics. We aim to create an engaging platform that not only tests knowledge but also introduces participants to the incredible minds who have shaped India's STEAM legacy.</p>
                          
                         </div>
