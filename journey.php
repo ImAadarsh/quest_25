@@ -399,7 +399,7 @@
                         <div class="step-body">
                             <p class="step-description" data-step="1">Begin your QUEST journey by registering your school on the QUEST website. This is your first step towards QUEST 2025 Season 03 Registration.</p>
                             <!-- Add Reguster Now button button match to theme style -->
-                            <a href="school_register.php" class="th-btn style2 th-btn-icon">Register Now</a>
+                            <a href="school_register.php" class="th-btn style2 th-btn-icon">School Registration</a>
                         </div>
                     </div>
                 </div>

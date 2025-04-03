@@ -234,7 +234,7 @@ Hero Area
                                         <h1>QUEST 2025 | Season 03<br>South Asia's LARGEST STEAM QUIZ</h1>
                                             <!-- <p>Unleash India's Innovation, Conquer Tomorrow's Challenges</p> -->
                                             <div class="header-button" style="display: flex; justify-content: center;">
-                                                <a href="school_register.php" class="th-btn style3 th-btn-icon">Register Now</a>
+                                                <a href="school_register.php" class="th-btn style3 th-btn-icon">School Registration</a>
                                             </div>
 
                                         </div>
@@ -256,7 +256,7 @@ Hero Area
                                             <h1>QUEST 2025 <br>Think, Solve, Conquer</h1>
                                             <!-- <p>Unleash India's Innovation, Conquer Tomorrow's Challenges</p> -->
                                             <div class="header-button" style="display: flex; justify-content: center;">
-                                                <a href="school_register.php" class="th-btn style3 th-btn-icon">Register Now</a>
+                                                <a href="school_register.php" class="th-btn style3 th-btn-icon">School Registration</a>
                                             </div>
 
                                         </div>
@@ -279,7 +279,7 @@ Hero Area
                                             <h1>QUEST 2025:<br>Ignite Your STEAM Genius</h1>
                                             <!-- <p>Unleash India's Innovation, Conquer Tomorrow's Challenges</p> -->
                                             <div class="header-button" style="display: flex; justify-content: center;">
-                                                <a href="school_register.php" class="th-btn style3 th-btn-icon">Register Now</a>
+                                                <a href="school_register.php" class="th-btn style3 th-btn-icon">School Registration</a>
                                             </div>
 
                                         </div>
@@ -789,7 +789,7 @@ Gallery Area
 
                         <div class="col-lg-6 col-md-8 order-md-2">
                             <div class="title-area mb-md-0 text-center">
-                                <h2 class="sec-title">Join Our Winners. Register Now</h2>
+                                <h2 class="sec-title">Join Our Winners. School Registration</h2>
                                 <div class="btn-wrap mt-4 justify-content-center">
                                     <a href="contact.php" class="th-btn mb-0 style2 th-btn-icon">QUEST 2025</a>
                                 </div>
