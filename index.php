@@ -891,10 +891,6 @@ Team Area
                                         His professional initiative, Grey Gambit, won the Best Social Media Initiative Award at the Asia Communications Award 2012 in Singapore. With expertise in business, general knowledge, and current affairs, Gaurava is a sought-after Quizmaster, known for his engaging and research-driven quiz formats.
                                         <br>
                                         Beyond quizzing, he leads IPN Mission AIM, aiming to train 1 million teachers in AI, and collaborates with WWF-India for conservation education. When not working, he enjoys reading autobiographies and biographies and spending time with his daughters, Priyanshi and Vaani.
-                                        <br>
-                                        In its 3rd Edition QUEST 2025 is a flagship STEAM (Science, Technology, Engineering, Arts, and Mathematics) Quiz, designed to ignite curiosity and critical thinking among students. This national-level competition brings together young minds from across India to test their knowledge, problem-solving skills, and creativity in an engaging and intellectually stimulating format.
-                                        <br>
-                                        Replacement for India's top knowledge company, empowering students in Tier-1, 2, and 3 towns. Enhancing life skills and general awareness through engaging quizzes.
 
                                         </p>
                                         <div class="contact-info">
