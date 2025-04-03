@@ -9,7 +9,7 @@
                                     <div class="about-logo">
                                         <a href="index.php"><img src="assets/img/logo.svg" alt="Quest"></a>
                                     </div>
-                                    <p style="text-align: justify;" class="about-text">India's top knowledge company, empowering students in Tier-1, 2, and 3 towns. Enhancing life skills and general awareness through engaging quizzes.</p>
+                                    <p style="text-align: justify;" class="about-text">In its 3rd Edition QUEST 2025 is a flagship STEAM (Science, Technology, Engineering, Arts, and Mathematics) Quiz, designed to ignite curiosity and critical thinking among students. This national-level competition brings together young minds from across India to test their knowledge, problem-solving skills, and creativity in an engaging and intellectually stimulating format.</p>
                                     <div class="th-social style3">
                                         <a href="https://www.facebook.com/EduAceQUEST/"><i class="fab fa-facebook-f"></i></a>
                                         <a href="https://twitter.com/eduaceindia"><i class="fab fa-twitter"></i></a>

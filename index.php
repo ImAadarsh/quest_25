@@ -857,7 +857,7 @@ Team Area
         <div class="row justify-content-center">
             <div class="col-lg-12 text-center">
                 <div class="title-area mb-5">
-                    <h2 class="sec-title text-white">Quiz Master</h2>
+                    <h2 class="sec-title text-white">Quizmaster</h2>
                     <p class="sec-text text-white">Meet our QUEST Quiz Master</p>
                 </div>
                 <div class="quiz-master-card">
