@@ -126,7 +126,7 @@ function sendConfirmationEmail($name, $email, $school_name) {
         </head>
         <body>
             <div class="header">
-                <img src="https://2025.questeduace.in/assets/img/logo.svg" alt="QUEST 2025 Logo" class="logo">
+                <img src="https://2025.questeduace.in/quest_png.png" alt="QUEST 2025 Logo" class="logo">
             </div>
             <div class="content">
                 <h1>Registration Confirmation</h1>
