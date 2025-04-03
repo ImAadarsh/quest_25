@@ -366,7 +366,6 @@ document.addEventListener('DOMContentLoaded', function() {
     const form = document.getElementById('schoolRegistrationForm');
     const loader = document.getElementById('loader');
     const submitBtn = document.getElementById('submitBtn');
-    const formMessages = document.getElementById('form-messages');
     
     // Function to validate form fields
     function validateForm() {
@@ -401,39 +400,13 @@ document.addEventListener('DOMContentLoaded', function() {
         return isValid;
     }
     
-    // Function to show messages
-    function showMessage(message, type) {
-        // Make sure message is a string
-        if (typeof message === 'object') {
-            try {
-                message = JSON.stringify(message);
-            } catch (e) {
-                message = "Response received but couldn't display the message";
-            }
-        }
-        
-        formMessages.textContent = message;
-        formMessages.className = 'form-messages mb-0 mt-3 ' + type;
-        formMessages.style.display = 'block';
-        
-        // Scroll to message
-        formMessages.scrollIntoView({ behavior: 'smooth', block: 'center' });
-        
-        if (type === 'success') {
-            // Hide message after 5 seconds for success messages
-            setTimeout(() => {
-                formMessages.style.display = 'none';
-            }, 5000);
-        }
-    }
-    
     // Handle form submission
     form.addEventListener('submit', function(e) {
         e.preventDefault();
         
         // Validate form
         if (!validateForm()) {
-            showMessage('Please fill all required fields correctly', 'error');
+            alert('Please fill all required fields correctly');
             return;
         }
         
@@ -450,60 +423,24 @@ document.addEventListener('DOMContentLoaded', function() {
             body: formData
         })
         .then(response => {
-            if (!response.ok) {
-                throw new Error('Network response was not ok');
-            }
-            return response.text();
-        })
-        .then(text => {
-            // Debug the raw response
-            console.log('Raw server response:', text);
-            
             // Hide loader and enable submit button
             loader.style.display = 'none';
             submitBtn.disabled = false;
             
-            try {
-                // Try to parse the JSON
-                const data = JSON.parse(text);
-                console.log('Parsed JSON data:', data);
+            if (response.ok) {
+                // Show success alert regardless of response content
+                alert("Your Registration for QUEST 2025 is Completed.");
                 
-                // Show message - handle both string and object responses
-                if (data && data.status) {
-                    if (data.status === 'success') {
-                        // Hardcode the success message
-                        showMessage("Your Registration for QUEST 2025 is Completed.", 'success');
-                        
-                        form.reset();
-                        
-                        // Remove any error classes
-                        form.querySelectorAll('.error').forEach(el => {
-                            el.classList.remove('error');
-                        });
-                        
-                        // Optionally redirect to the registered schools page
-                        setTimeout(() => {
-                            window.location.href = 'index.php';
-                        }, 5000);
-                    } else if (data.status === 'error') {
-                        // Handle error case with hardcoded message based on common errors
-                        if (data.message && data.message.includes('already registered')) {
-                            showMessage("A school with this email or name is already registered.", 'error');
-                        } else {
-                            showMessage("Registration failed. Please check your information and try again.", 'error');
-                        }
-                    } else {
-                        // For any other status
-                        showMessage('Registration status: ' + data.status, 'info');
-                    }
-                } else {
-                    // If we can't find a status in the JSON
-                    showMessage('Registration completed with an unknown status.', 'info');
-                }
-            } catch (e) {
-                // If JSON parsing fails, display the raw text
-                console.error('Error parsing JSON:', e);
-                showMessage(text || 'An error occurred processing the response', 'error');
+                // Reset form
+                form.reset();
+                
+                // Redirect to home page
+                setTimeout(() => {
+                    window.location.href = 'index.php';
+                }, 2000);
+            } else {
+                // If response not OK, show error
+                alert("Registration failed. Please check your information and try again.");
             }
         })
         .catch(error => {
@@ -511,9 +448,8 @@ document.addEventListener('DOMContentLoaded', function() {
             loader.style.display = 'none';
             submitBtn.disabled = false;
             
-            // Show error message
-            showMessage('An error occurred: ' + error.message, 'error');
-            console.error('Error:', error);
+            // Show error alert
+            alert("An error occurred. Please try again later.");
         });
     });
     
