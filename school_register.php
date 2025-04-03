@@ -469,11 +469,11 @@ document.addEventListener('DOMContentLoaded', function() {
                 console.log('Parsed JSON data:', data);
                 
                 // Show message - handle both string and object responses
-                if (data && data.message) {
-                    showMessage(data.message, data.status || 'info');
-                    
-                    // If successful, reset form
+                if (data && data.status) {
                     if (data.status === 'success') {
+                        // Hardcode the success message
+                        showMessage("Your Registration for QUEST 2025 is Completed.", 'success');
+                        
                         form.reset();
                         
                         // Remove any error classes
@@ -485,10 +485,20 @@ document.addEventListener('DOMContentLoaded', function() {
                         setTimeout(() => {
                             window.location.href = 'index.php';
                         }, 5000);
+                    } else if (data.status === 'error') {
+                        // Handle error case with hardcoded message based on common errors
+                        if (data.message && data.message.includes('already registered')) {
+                            showMessage("A school with this email or name is already registered.", 'error');
+                        } else {
+                            showMessage("Registration failed. Please check your information and try again.", 'error');
+                        }
+                    } else {
+                        // For any other status
+                        showMessage('Registration status: ' + data.status, 'info');
                     }
                 } else {
-                    // If we can't find a message in the JSON
-                    showMessage('Received response: ' + JSON.stringify(data), 'info');
+                    // If we can't find a status in the JSON
+                    showMessage('Registration completed with an unknown status.', 'info');
                 }
             } catch (e) {
                 // If JSON parsing fails, display the raw text
