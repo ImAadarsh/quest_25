@@ -100,7 +100,7 @@
                         <h1 class="breadcumb-title">School Registration</h1>
                         <ul class="breadcumb-menu">
                             <li><a href="index.php">Home</a></li>
-                            <li>School Registration4</li>
+                            <li>School Registration5</li>
                         </ul>
                     </div>
                 </div>
