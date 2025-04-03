@@ -124,43 +124,43 @@ Appointment Area
                         <p>Register your school for QUEST 2025.</p>
                     </div>
                     <form action="controllers/school_register.php" method="POST" class="appointment-form ajax-contact me-xl-5" id="schoolRegistrationForm">
-                <div class="row">
-                    <div class="login-top">
-                        <h3>School Registration Form</h3>
-                    </div>
-                    <div class="form-group style-border style-radius col-md-6">
-                        <input type="text" class="form-control" name="name" id="name" placeholder="Contact Person Name*" required>
-                        <i class="fal fa-user"></i>
-                    </div>
-                    <div class="form-group style-border style-radius col-md-6">
-                        <input type="email" class="form-control" name="email" id="email" placeholder="Email*" required>
-                        <i class="fal fa-envelope"></i>
-                    </div>
-                    <div class="form-group style-border style-radius col-md-6">
-                        <input type="text" class="form-control" name="designation" id="designation" placeholder="Contact Person Designation*" required>
-                        <i class="fal fa-briefcase"></i>
-                    </div>
-                    <div class="form-group style-border style-radius col-md-6">
-                        <input type="tel" class="form-control" name="mobile" id="mobile" placeholder="Mobile Number*" required>
-                        <i class="fal fa-phone"></i>
-                    </div>
-                    <div class="form-group style-border style-radius col-md-6">
-                        <input type="text" class="form-control" name="principal_name" id="principal_name" placeholder="School's Principal Name*" required>
-                        <i class="fal fa-user-tie"></i>
-                    </div>
-                    <div class="form-group style-border style-radius col-md-6">
-                        <input type="text" class="form-control" name="school_name" id="school_name" placeholder="School Name*" required>
-                        <i class="fal fa-school"></i>
-                    </div>
-                    <div class="form-group style-border style-radius col-md-12">
-                        <input type="text" class="form-control" name="city" id="city" placeholder="City*" required>
-                        <i class="fal fa-city"></i>
-                    </div>
-                    <div class="col-12 form-btn mt-4">
-                        <div id="loader" style="display:none; text-align:center; margin-bottom:15px;">
-                            <div class="spinner"></div>
-                            <p>Processing your registration, please wait...</p>
-                        </div>
+    <div class="row">
+        <div class="login-top">
+            <h3>School Registration Form</h3>
+        </div>
+        <div class="form-group style-border style-radius col-md-6">
+            <input type="text" class="form-control" name="name" id="name" placeholder="Contact Person Name*" required>
+            <i class="fal fa-user"></i>
+        </div>
+        <div class="form-group style-border style-radius col-md-6">
+            <input type="email" class="form-control" name="email" id="email" placeholder="Email*" required>
+            <i class="fal fa-envelope"></i>
+        </div>
+        <div class="form-group style-border style-radius col-md-6">
+            <input type="text" class="form-control" name="designation" id="designation" placeholder="Contact Person Designation*" required>
+            <i class="fal fa-briefcase"></i>
+        </div>
+        <div class="form-group style-border style-radius col-md-6">
+            <input type="tel" class="form-control" name="mobile" id="mobile" placeholder="Mobile Number*" required>
+            <i class="fal fa-phone"></i>
+        </div>
+        <div class="form-group style-border style-radius col-md-6">
+            <input type="text" class="form-control" name="principal_name" id="principal_name" placeholder="School's Principal Name*" required>
+            <i class="fal fa-user-tie"></i>
+        </div>
+        <div class="form-group style-border style-radius col-md-6">
+            <input type="text" class="form-control" name="school_name" id="school_name" placeholder="School Name*" required>
+            <i class="fal fa-school"></i>
+        </div>
+        <div class="form-group style-border style-radius col-md-12">
+            <input type="text" class="form-control" name="city" id="city" placeholder="City*" required>
+            <i class="fal fa-city"></i>
+        </div>
+        <div class="col-12 form-btn mt-4">
+            <div id="loader" style="display:none; text-align:center; margin-bottom:15px;">
+                <div class="spinner"></div>
+                <p>Processing your registration, please wait...</p>
+            </div>
                         <button type="submit" id="submitBtn" name="submit" class="th-btn style-border2">Register <span class="btn-icon"><img src="assets/img/icon/paper-plane.svg" alt="img"></span></button>
                     </div>
                 </div>
@@ -366,6 +366,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const form = document.getElementById('schoolRegistrationForm');
     const loader = document.getElementById('loader');
     const submitBtn = document.getElementById('submitBtn');
+    const formMessages = document.getElementById('form-messages');
     
     // Function to validate form fields
     function validateForm() {
@@ -400,13 +401,23 @@ document.addEventListener('DOMContentLoaded', function() {
         return isValid;
     }
     
+    // Function to show messages
+    function showMessage(message, type) {
+        formMessages.innerHTML = message; // Using innerHTML to allow HTML in messages
+        formMessages.className = 'form-messages mb-0 mt-3 ' + type;
+        formMessages.style.display = 'block';
+        
+        // Scroll to message
+        formMessages.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    }
+    
     // Handle form submission
     form.addEventListener('submit', function(e) {
         e.preventDefault();
         
         // Validate form
         if (!validateForm()) {
-            alert('Please fill all required fields correctly');
+            showMessage('Please fill all required fields correctly', 'error');
             return;
         }
         
@@ -417,39 +428,67 @@ document.addEventListener('DOMContentLoaded', function() {
         // Create FormData object
         const formData = new FormData(form);
         
-        // Send AJAX request
+        // Send form data using fetch API
         fetch(form.action, {
             method: 'POST',
             body: formData
         })
-        .then(response => {
+        .then(function(response) {
+            // Log raw response for debugging
+            console.log('Response status:', response.status);
+            
+            // Get the response text
+            return response.text();
+        })
+        .then(function(text) {
+            // Log raw text for debugging
+            console.log('Raw response text:', text);
+            
             // Hide loader and enable submit button
             loader.style.display = 'none';
             submitBtn.disabled = false;
             
-            if (response.ok) {
-                // Show success alert regardless of response content
-                alert("Your Registration for QUEST 2025 is Completed.");
+            // Try to parse as JSON
+            try {
+                // Parse the JSON response
+                const data = JSON.parse(text);
+                console.log('Parsed JSON data:', data);
                 
-                // Reset form
-                form.reset();
-                
-                // Redirect to home page
-                setTimeout(() => {
-                    window.location.href = 'index.php';
-                }, 2000);
-            } else {
-                // If response not OK, show error
-                alert("Registration failed. Please check your information and try again.");
+                // Determine message and type based on status
+                if (data.status === 'success') {
+                    // Display success message
+                    showMessage(data.message, 'success');
+                    
+                    // Reset form on success
+                    form.reset();
+                    
+                    // Remove error classes
+                    form.querySelectorAll('.error').forEach(el => {
+                        el.classList.remove('error');
+                    });
+                    
+                    // Redirect after success
+                    setTimeout(function() {
+                        window.location.href = 'index.php';
+                    }, 5000);
+                } else {
+                    // Display error message
+                    showMessage(data.message || 'An unknown error occurred', 'error');
+                }
+            } catch (e) {
+                // If parsing fails, show the raw text
+                console.error('Error parsing JSON:', e);
+                showMessage('Server error: ' + text, 'error');
             }
         })
-        .catch(error => {
+        .catch(function(error) {
             // Hide loader and enable submit button
             loader.style.display = 'none';
             submitBtn.disabled = false;
             
-            // Show error alert
-            alert("An error occurred. Please try again later.");
+            // Log and show error
+            console.error('Fetch error:', error);
+            showMessage('Connection error. Please try again later.', 'error');
         });
     });
     
