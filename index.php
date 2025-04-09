@@ -487,68 +487,45 @@ Counter Area
     <!--==============================
 Prize Money Area  
 ==============================-->
-    <div class="prize-money-area space-top space-extra-bottom bg-theme">
+    <div class="prize-money-area space-top space-extra-bottom">
         <div class="container">
-            <div class="title-area text-center mb-50">
+            <div class="title-area text-center mb-60">
                 <h2 class="sec-title text-white">Win Exciting Cash Prizes</h2>
                 <p class="sec-text text-white">Compete for prestigious awards and recognition</p>
             </div>
             <div class="row justify-content-center g-4">
-                <div class="col-xl-5 col-lg-6">
+                <div class="col-lg-6">
                     <div class="prize-card">
-                        <div class="prize-card-inner">
-                            <div class="prize-ribbon">
-                                <span>Regional Champion</span>
-                            </div>
-                            <div class="prize-icon">
-                                <i class="fas fa-trophy"></i>
-                                <div class="prize-icon-shine"></div>
-                            </div>
-                            <div class="prize-content">
-                                <h3 class="prize-title">Regional Final Winners</h3>
-                                <div class="prize-amount">
-                                    <span class="currency">₹</span>
-                                    <span class="amount">5,000</span>
-                                </div>
-                                <p class="prize-desc">Cash Prize for Regional Final Winning Team</p>
-                                <div class="prize-badges">
-                                    <span class="badge"><i class="fas fa-medal"></i> Trophy</span>
-                                    <span class="badge"><i class="fas fa-certificate"></i> Certificate</span>
-                                    <span class="badge"><i class="fas fa-award"></i> Recognition</span>
-                                </div>
-                            </div>
-                            <div class="prize-shine"></div>
-                            <div class="prize-particles"></div>
+                        <div class="prize-corner-ribbon regional">
+                            <span>REGIONAL</span>
+                            <span>CHAMPION</span>
                         </div>
+                        <div class="prize-icon">
+                            <img src="assets/img/icon/trophy.svg" alt="Trophy" class="trophy-icon">
+                        </div>
+                        <h3 class="prize-title">Regional Final Winners</h3>
+                        <div class="prize-amount">
+                            <span class="currency">₹</span>
+                            <span class="amount">5,000</span>
+                        </div>
+                        <p class="prize-desc">Cash Prize for Regional Final Winning Team</p>
                     </div>
                 </div>
-                <div class="col-xl-5 col-lg-6">
+                <div class="col-lg-6">
                     <div class="prize-card grand">
-                        <div class="prize-card-inner">
-                            <div class="prize-ribbon">
-                                <span>Grand Champion</span>
-                            </div>
-                            <div class="prize-icon">
-                                <i class="fas fa-crown"></i>
-                                <div class="prize-icon-shine"></div>
-                            </div>
-                            <div class="prize-content">
-                                <h3 class="prize-title">Grand Final Winners</h3>
-                                <div class="prize-amount">
-                                    <span class="currency">₹</span>
-                                    <span class="amount">11,000</span>
-                                </div>
-                                <p class="prize-desc">Cash Prize for Grand Final Winning Team</p>
-                                <div class="prize-badges">
-                                    <span class="badge"><i class="fas fa-medal"></i> Trophy</span>
-                                    <span class="badge"><i class="fas fa-certificate"></i> Certificate</span>
-                                    <span class="badge"><i class="fas fa-award"></i> Recognition</span>
-                                    <span class="badge"><i class="fas fa-star"></i> Special Award</span>
-                                </div>
-                            </div>
-                            <div class="prize-shine"></div>
-                            <div class="prize-particles"></div>
+                        <div class="prize-corner-ribbon grand">
+                            <span>GRAND</span>
+                            <span>CHAMPION</span>
                         </div>
+                        <div class="prize-icon">
+                            <img src="assets/img/icon/crown.svg" alt="Crown" class="crown-icon">
+                        </div>
+                        <h3 class="prize-title">Grand Final Winners</h3>
+                        <div class="prize-amount">
+                            <span class="currency">₹</span>
+                            <span class="amount">11,000</span>
+                        </div>
+                        <p class="prize-desc">Cash Prize for Grand Final Winning Team</p>
                     </div>
                 </div>
             </div>
@@ -558,253 +535,177 @@ Prize Money Area
     <style>
         .prize-money-area {
             position: relative;
-            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+            background: linear-gradient(180deg, #1a1a2e 0%, #0F111E 100%);
             padding: 100px 0;
+            overflow: hidden;
         }
         
         .prize-card {
             position: relative;
             height: 100%;
-            perspective: 1000px;
-            margin: 15px 0;
-        }
-        
-        .prize-card-inner {
-            position: relative;
-            width: 100%;
-            height: 100%;
-            padding: 40px 30px;
-            background: rgba(255, 255, 255, 0.05);
-            backdrop-filter: blur(10px);
+            min-height: 400px;
+            background: linear-gradient(135deg, #262C43 0%, #1E2235 100%);
             border-radius: 20px;
-            border: 1px solid rgba(255, 255, 255, 0.1);
-            box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
-            transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+            padding: 60px 30px 40px;
             overflow: hidden;
+            text-align: center;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
         }
         
-        .prize-card.grand .prize-card-inner {
-            background: linear-gradient(135deg, rgba(255, 215, 0, 0.1), rgba(255, 165, 0, 0.1));
-            border: 1px solid rgba(255, 215, 0, 0.2);
+        .prize-card.grand {
+            background: linear-gradient(135deg, #2C2A24 0%, #272520 100%);
         }
         
-        .prize-card:hover .prize-card-inner {
-            transform: translateY(-15px) scale(1.02);
-            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
-        }
-        
-        .prize-ribbon {
+        .prize-corner-ribbon {
             position: absolute;
-            top: 20px;
-            right: -35px;
-            width: 140px;
-            height: 30px;
-            background: #FFD700;
-            transform: rotate(45deg);
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+            top: 0;
+            right: 0;
+            width: 150px;
+            height: 150px;
+            overflow: hidden;
             z-index: 1;
         }
         
-        .prize-ribbon span {
-            color: #000;
-            font-weight: 600;
-            font-size: 11px;
+        .prize-corner-ribbon::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 0;
+            height: 0;
+            border-style: solid;
+            border-width: 0 150px 150px 0;
+            border-color: transparent #FFD700 transparent transparent;
+            z-index: -1;
+        }
+        
+        .prize-corner-ribbon span {
+            position: relative;
+            display: block;
+            text-align: center;
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 1;
             text-transform: uppercase;
-            letter-spacing: 1px;
+            padding: 0;
+            color: #000;
+            transform: rotate(45deg);
+        }
+        
+        .prize-corner-ribbon span:first-child {
+            margin-top: 25px;
+            margin-right: -35px;
+        }
+        
+        .prize-corner-ribbon span:last-child {
+            margin-top: 5px;
+            margin-right: -35px;
         }
         
         .prize-icon {
-            font-size: 56px;
+            margin-bottom: 20px;
+        }
+        
+        .trophy-icon, .crown-icon {
+            width: 70px;
+            height: 70px;
             color: #FFD700;
-            margin-bottom: 25px;
-            text-align: center;
-            position: relative;
-            display: inline-block;
-            width: 100%;
-        }
-        
-        .prize-icon-shine {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background: radial-gradient(circle at center, rgba(255,255,255,0.8) 0%, transparent 70%);
-            opacity: 0;
-            transition: opacity 0.3s ease;
-        }
-        
-        .prize-card:hover .prize-icon-shine {
-            opacity: 0.5;
-        }
-        
-        .prize-content {
-            text-align: center;
-            position: relative;
-            z-index: 1;
+            filter: drop-shadow(0 0 10px rgba(255, 215, 0, 0.3));
         }
         
         .prize-title {
             color: #fff;
-            font-size: 24px;
-            margin-bottom: 20px;
+            font-size: 26px;
+            margin-bottom: 25px;
             font-weight: 600;
             text-shadow: 0 2px 4px rgba(0,0,0,0.2);
         }
         
         .prize-amount {
-            font-size: 56px;
+            font-size: 84px;
             color: #FFD700;
             font-weight: 700;
-            margin-bottom: 20px;
-            text-shadow: 0 2px 4px rgba(0,0,0,0.2);
-            position: relative;
-            display: inline-block;
+            margin-bottom: 25px;
+            text-shadow: 0 2px 10px rgba(255, 215, 0, 0.3);
             line-height: 1;
         }
         
         .prize-amount .currency {
-            font-size: 42px;
+            font-size: 62px;
+            font-weight: 600;
             vertical-align: top;
             margin-right: 5px;
             position: relative;
-            top: 2px;
+            top: 5px;
         }
         
         .prize-desc {
             color: rgba(255, 255, 255, 0.9);
-            font-size: 16px;
-            margin-bottom: 25px;
+            font-size: 18px;
+            margin-bottom: 0;
         }
         
-        .prize-badges {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            gap: 8px;
-            margin-top: 20px;
-        }
-        
-        .prize-badges .badge {
-            background: rgba(255, 255, 255, 0.1);
-            padding: 6px 12px;
-            border-radius: 15px;
+        /* Create SVG icons if not available */
+        .prize-card .fas.fa-trophy,
+        .prize-card .fas.fa-crown {
+            font-size: 70px;
             color: #FFD700;
-            font-size: 13px;
-            display: flex;
-            align-items: center;
-            gap: 4px;
-            transition: all 0.3s ease;
-        }
-        
-        .prize-badges .badge:hover {
-            background: rgba(255, 215, 0, 0.2);
-            transform: translateY(-2px);
-        }
-        
-        .prize-shine {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background: linear-gradient(45deg, transparent, rgba(255, 255, 255, 0.1), transparent);
-            animation: shine 3s infinite;
-            pointer-events: none;
-        }
-        
-        .prize-particles {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            pointer-events: none;
-            overflow: hidden;
-        }
-        
-        .prize-particles::before {
-            content: '';
-            position: absolute;
-            width: 4px;
-            height: 4px;
-            background: #FFD700;
-            border-radius: 50%;
-            animation: float 3s infinite;
-        }
-        
-        @keyframes shine {
-            0% {
-                transform: translateX(-150%) rotate(-45deg);
-            }
-            100% {
-                transform: translateX(150%) rotate(-45deg);
-            }
-        }
-        
-        @keyframes float {
-            0% {
-                transform: translateY(0) translateX(0);
-                opacity: 0;
-            }
-            50% {
-                opacity: 1;
-            }
-            100% {
-                transform: translateY(-100px) translateX(100px);
-                opacity: 0;
-            }
-        }
-        
-        .prize-card.grand .prize-shine {
-            background: linear-gradient(45deg, transparent, rgba(255, 215, 0, 0.2), transparent);
-        }
-        
-        .prize-card.grand .prize-particles::before {
-            background: #FFD700;
-            box-shadow: 0 0 10px #FFD700;
+            filter: drop-shadow(0 0 10px rgba(255, 215, 0, 0.3));
         }
 
         @media (max-width: 1199px) {
-            .prize-card-inner {
-                padding: 30px 20px;
-            }
             .prize-amount {
-                font-size: 48px;
+                font-size: 72px;
             }
             .prize-amount .currency {
-                font-size: 36px;
+                font-size: 56px;
             }
-            .prize-title {
-                font-size: 22px;
+        }
+
+        @media (max-width: 991px) {
+            .prize-card {
+                min-height: 380px;
+                padding: 50px 25px 30px;
+            }
+            .prize-corner-ribbon {
+                width: 120px;
+                height: 120px;
+            }
+            .prize-corner-ribbon::before {
+                border-width: 0 120px 120px 0;
+            }
+            .prize-corner-ribbon span:first-child {
+                margin-top: 20px;
+                margin-right: -40px;
+                font-size: 12px;
+            }
+            .prize-corner-ribbon span:last-child {
+                margin-top: 5px;
+                margin-right: -40px;
+                font-size: 12px;
             }
         }
 
         @media (max-width: 767px) {
-            .prize-ribbon {
-                right: -45px;
-                width: 130px;
-                height: 25px;
-            }
-            .prize-ribbon span {
-                font-size: 10px;
-            }
-            .prize-icon {
-                font-size: 48px;
-                margin-bottom: 20px;
-            }
             .prize-amount {
-                font-size: 42px;
+                font-size: 56px;
             }
             .prize-amount .currency {
-                font-size: 32px;
+                font-size: 42px;
             }
-            .prize-badges .badge {
-                padding: 5px 10px;
-                font-size: 12px;
+            .prize-title {
+                font-size: 22px;
+            }
+            .trophy-icon, .crown-icon,
+            .prize-card .fas.fa-trophy,
+            .prize-card .fas.fa-crown {
+                width: 60px;
+                height: 60px;
+                font-size: 60px;
+            }
+            .prize-card {
+                min-height: 340px;
+                padding: 45px 20px 25px;
             }
         }
     </style>
