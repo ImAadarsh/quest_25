@@ -483,6 +483,159 @@ Counter Area
             </div>
         </div>
     </div>
+
+    <!--==============================
+Prize Money Area  
+==============================-->
+    <div class="prize-money-area space bg-theme overflow-hidden">
+        <div class="prize-bg-shape1 spin shape-mockup d-xl-block d-none" data-bottom="9%" data-right="-3%">
+            <img src="assets/img/shape/section_shape_2_1.jpg" alt="img">
+        </div>
+        <div class="prize-bg-shape2 wave-anim shape-mockup d-xl-block d-none" data-top="19%" data-left="2%" data-bg-src="assets/img/shape/section_shape_2_2.jpg">
+        </div>
+        <div class="container">
+            <div class="title-area text-center mb-60">
+                <h2 class="sec-title text-white">Win Exciting Cash Prizes</h2>
+                <p class="sec-text text-white">Compete for prestigious awards and recognition</p>
+            </div>
+            <div class="row justify-content-center g-4">
+                <div class="col-lg-6">
+                    <div class="prize-card">
+                        <div class="prize-card-inner">
+                            <div class="prize-icon">
+                                <i class="fas fa-trophy"></i>
+                            </div>
+                            <div class="prize-content">
+                                <h3 class="prize-title">Regional Final Winners</h3>
+                                <div class="prize-amount">
+                                    <span class="currency">₹</span>
+                                    <span class="amount">5,000</span>
+                                </div>
+                                <p class="prize-desc">Cash Prize for Regional Final Winning Team</p>
+                            </div>
+                            <div class="prize-shine"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="prize-card grand">
+                        <div class="prize-card-inner">
+                            <div class="prize-icon">
+                                <i class="fas fa-crown"></i>
+                            </div>
+                            <div class="prize-content">
+                                <h3 class="prize-title">Grand Final Winners</h3>
+                                <div class="prize-amount">
+                                    <span class="currency">₹</span>
+                                    <span class="amount">11,000</span>
+                                </div>
+                                <p class="prize-desc">Cash Prize for Grand Final Winning Team</p>
+                            </div>
+                            <div class="prize-shine"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <style>
+        .prize-money-area {
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .prize-card {
+            position: relative;
+            height: 100%;
+            perspective: 1000px;
+        }
+        
+        .prize-card-inner {
+            position: relative;
+            width: 100%;
+            height: 100%;
+            padding: 40px;
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            border-radius: 20px;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+            transition: all 0.3s ease;
+            overflow: hidden;
+        }
+        
+        .prize-card.grand .prize-card-inner {
+            background: linear-gradient(45deg, rgba(255, 215, 0, 0.1), rgba(255, 165, 0, 0.1));
+            border: 1px solid rgba(255, 215, 0, 0.3);
+        }
+        
+        .prize-card:hover .prize-card-inner {
+            transform: translateY(-10px);
+            box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+        }
+        
+        .prize-icon {
+            font-size: 48px;
+            color: #FFD700;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        
+        .prize-content {
+            text-align: center;
+        }
+        
+        .prize-title {
+            color: #fff;
+            font-size: 24px;
+            margin-bottom: 15px;
+            font-weight: 600;
+        }
+        
+        .prize-amount {
+            font-size: 48px;
+            color: #FFD700;
+            font-weight: 700;
+            margin-bottom: 15px;
+        }
+        
+        .prize-amount .currency {
+            font-size: 36px;
+            vertical-align: top;
+            margin-right: 5px;
+        }
+        
+        .prize-desc {
+            color: rgba(255, 255, 255, 0.8);
+            font-size: 16px;
+            margin-bottom: 0;
+        }
+        
+        .prize-shine {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(45deg, transparent, rgba(255, 255, 255, 0.1), transparent);
+            animation: shine 3s infinite;
+        }
+        
+        @keyframes shine {
+            0% {
+                transform: translateX(-100%);
+            }
+            100% {
+                transform: translateX(100%);
+            }
+        }
+        
+        .prize-card.grand .prize-shine {
+            background: linear-gradient(45deg, transparent, rgba(255, 215, 0, 0.2), transparent);
+        }
+    </style>
+
     <!--==============================
 About Area  
 ==============================-->
@@ -886,7 +1039,7 @@ Team Area
                                         <h3 class="box-title mb-3"><a style="color: white;" href="#">Mr. Gaurava Yadav</a></h3>
                                         <span style="color: white;" class="team-desig mb-4 d-block">Quiz Master<br> QUEST 2025 | Season 03</span>
                                         <p style="color: white; font-size: 16px; line-height: 1.8; margin-bottom: 30px; text-align: justify;">
-                                        Gaurava Yadav is an International Award-winning entrepreneur, business quiz champion, and the founder of IPN FORUM, India’s largest network of school leaders. An avid quizzer, he has won prestigious national-level business quizzes, including Tata Crucible Corporate Quiz 2009 (Runner-Up) and championships at IIT-Kanpur, IIT-Roorkee, IMI-Delhi, IIITM-Gwalior, and SIBM-Pune.
+                                        Gaurava Yadav is an International Award-winning entrepreneur, business quiz champion, and the founder of IPN FORUM, India's largest network of school leaders. An avid quizzer, he has won prestigious national-level business quizzes, including Tata Crucible Corporate Quiz 2009 (Runner-Up) and championships at IIT-Kanpur, IIT-Roorkee, IMI-Delhi, IIITM-Gwalior, and SIBM-Pune.
                                         <br>
                                         His professional initiative, Grey Gambit, won the Best Social Media Initiative Award at the Asia Communications Award 2012 in Singapore. With expertise in business, general knowledge, and current affairs, Gaurava is a sought-after Quizmaster, known for his engaging and research-driven quiz formats.
                                         <br>
