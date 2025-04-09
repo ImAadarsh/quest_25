@@ -501,7 +501,7 @@ Prize Money Area
                             <span>CHAMPION</span>
                         </div>
                         <div class="prize-icon">
-                            <img src="assets/img/icon/trophy.svg" alt="Trophy" class="trophy-icon">
+                            <img src="win/1.svg" alt="Trophy" class="trophy-icon">
                         </div>
                         <h3 class="prize-title">Regional Final Winners</h3>
                         <div class="prize-amount">
@@ -518,7 +518,7 @@ Prize Money Area
                             <span>CHAMPION</span>
                         </div>
                         <div class="prize-icon">
-                            <img src="assets/img/icon/crown.svg" alt="Crown" class="crown-icon">
+                            <img src="win/2.svg" alt="Crown" class="crown-icon">
                         </div>
                         <h3 class="prize-title">Grand Final Winners</h3>
                         <div class="prize-amount">
