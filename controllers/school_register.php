@@ -22,7 +22,7 @@ use PHPMailer\PHPMailer\Exception;
 use PHPMailer\PHPMailer\SMTP;
 
 // Function to send confirmation email
-function sendConfirmationEmail($name, $email, $school_name) {
+function sendConfirmationEmail($name, $email, $school_name, $preferred_month) {
     // Create a new PHPMailer instance
     $mail = new PHPMailer(true);
     
@@ -132,6 +132,7 @@ function sendConfirmationEmail($name, $email, $school_name) {
                 <h1>Registration Confirmation</h1>
                 <p>Dear ' . $name . ',</p>
                 <p>Thank you for registering <strong>' . $school_name . '</strong> for QUEST 2025! Your registration has been successfully completed.</p>
+                <p>Your preferred month for the Classroom Round is: <strong>' . $preferred_month . '</strong></p>
                 <p>Our team will contact you soon with further details about the event schedule and participation guidelines.</p>
                 
                 <div class="links">
@@ -176,22 +177,12 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $principal_name = $_POST['principal_name'] ?? '';
     $city = $_POST['city'] ?? '';
     $mobile = $_POST['mobile'] ?? '';
+    $preferred_month = $_POST['preferred_month'] ?? '';
     
     // Validate required fields
-    $required_fields = ['name', 'email', 'designation', 'school_name', 'principal_name', 'city', 'mobile'];
-    $missing_fields = [];
-    
-    foreach ($required_fields as $field) {
-        if (empty($_POST[$field])) {
-            $missing_fields[] = $field;
-        }
-    }
-    
-    if (!empty($missing_fields)) {
-        echo json_encode([
-            'status' => 'error',
-            'message' => 'Please fill all required fields: ' . implode(', ', $missing_fields)
-        ]);
+    if (empty($name) || empty($email) || empty($designation) || empty($school_name) || 
+        empty($principal_name) || empty($city) || empty($mobile) || empty($preferred_month)) {
+        echo json_encode(['status' => 'error', 'message' => 'All fields are required']);
         exit;
     }
     
@@ -209,20 +200,19 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     
     try {
         // Check if school already exists
-        $stmt = $conn->prepare("SELECT id FROM schools WHERE email = ?");
-        $stmt->execute([$email]);
+        $stmt = $conn->prepare("SELECT id FROM schools WHERE email = ? OR school_name = ?");
+        $stmt->execute([$email, $school_name]);
         
         if ($stmt->rowCount() > 0) {
             echo json_encode([
                 'status' => 'error',
-                'message' => 'A school with this email or name is already registered.'
+                'message' => 'School already registered'
             ]);
             exit;
         }
         
         // Insert new school
-        $stmt = $conn->prepare("INSERT INTO schools (name, email, designation, school_name, principal_name, city, mobile, created_at, updated_at) 
-                               VALUES (?, ?, ?, ?, ?, ?, ?, NOW(), NOW())");
+        $stmt = $conn->prepare("INSERT INTO schools (name, email, designation, school_name, principal_name, city, mobile, preferred_month, created_at, updated_at) VALUES (?, ?, ?, ?, ?, ?, ?, ?, NOW(), NOW())");
         
         $result = $stmt->execute([
             $name,
@@ -231,21 +221,24 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             $school_name,
             $principal_name,
             $city,
-            $mobile
+            $mobile,
+            $preferred_month
         ]);
         
         if ($result) {
             // Send confirmation email
-            $emailSent = sendConfirmationEmail($name, $email, $school_name);
+            $emailSent = sendConfirmationEmail($name, $email, $school_name, $preferred_month);
             
-            echo json_encode([
-                'status' => 'success',
-                'message' => 'Your Registration for QUEST 2025 is Completed. A confirmation email has been sent to your email address.'
-            ]);
-            
-            // Log email sending result
-            if (!$emailSent) {
-                error_log("Failed to send confirmation email to: $email");
+            if ($emailSent) {
+                echo json_encode([
+                    'status' => 'success',
+                    'message' => 'Registration successful! A confirmation email has been sent to your email address.'
+                ]);
+            } else {
+                echo json_encode([
+                    'status' => 'success',
+                    'message' => 'Registration successful! However, we were unable to send a confirmation email.'
+                ]);
             }
         } else {
             throw new Exception("Database insert failed");

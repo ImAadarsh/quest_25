@@ -156,6 +156,24 @@ Appointment Area
             <input type="text" class="form-control" name="city" id="city" placeholder="City*" required>
             <i class="fal fa-city"></i>
         </div>
+        <div class="form-group">
+            <label for="preferred_month">Preferred Month for Classroom Round</label>
+            <select class="form-control" id="preferred_month" name="preferred_month" required>
+                <option value="">Select Month</option>
+                <option value="January">January</option>
+                <option value="February">February</option>
+                <option value="March">March</option>
+                <option value="April">April</option>
+                <option value="May">May</option>
+                <option value="June">June</option>
+                <option value="July">July</option>
+                <option value="August">August</option>
+                <option value="September">September</option>
+                <option value="October">October</option>
+                <option value="November">November</option>
+                <option value="December">December</option>
+            </select>
+        </div>
         <div class="col-12 form-btn mt-4">
             <div id="loader" style="display:none; text-align:center; margin-bottom:15px;">
                 <div class="spinner"></div>
