@@ -494,12 +494,10 @@ Prize Money Area
             <div class="floating-element elem-1"></div>
             <div class="floating-element elem-2"></div>
             <div class="floating-element elem-3"></div>
-            <div class="floating-element elem-4"></div>
-            <div class="floating-element elem-5"></div>
         </div>
         <div class="container">
             <div class="title-area text-center mb-80">
-                <span class="prize-subtitle">QUEST 2025</span>
+                <span class="prize-subtitle">QUEST 2025 | SEASON 03</span>
                 <h2 class="sec-title text-white">Win Exciting Cash Prizes</h2>
                 <p class="sec-text text-white">Compete for prestigious awards and recognition</p>
             </div>
@@ -643,6 +641,7 @@ Prize Money Area
             background: rgba(255, 255, 255, 0.03);
             border-radius: 50%;
             filter: blur(5px);
+            will-change: transform;
         }
         
         .floating-element.elem-1 {
@@ -669,22 +668,6 @@ Prize Money Area
             animation: float-element 18s infinite ease-in-out 2s;
         }
         
-        .floating-element.elem-4 {
-            width: 180px;
-            height: 180px;
-            top: 30%;
-            right: 20%;
-            animation: float-element 22s infinite ease-in-out 1s;
-        }
-        
-        .floating-element.elem-5 {
-            width: 100px;
-            height: 100px;
-            bottom: 35%;
-            left: 30%;
-            animation: float-element 15s infinite ease-in-out 3s;
-        }
-        
         @keyframes float-element {
             0%, 100% { transform: translate(0, 0); }
             25% { transform: translate(30px, 40px); }
@@ -694,13 +677,15 @@ Prize Money Area
         
         .prize-subtitle {
             display: block;
-            font-size: 18px;
-            font-weight: 600;
+            font-size: 28px;
+            font-weight: 700;
             color: #4e8cff;
-            margin-bottom: 15px;
+            margin-bottom: 20px;
             letter-spacing: 2px;
             text-transform: uppercase;
-            animation: pulse-light 2s infinite;
+            animation: pulse-light 3s infinite;
+            text-shadow: 0 0 15px rgba(78, 140, 255, 0.5);
+            will-change: opacity;
         }
         
         @keyframes pulse-light {
@@ -733,6 +718,7 @@ Prize Money Area
             transform-style: preserve-3d;
             box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5);
             will-change: transform, box-shadow;
+            transform: translateZ(0);
         }
         
         .regional-card .prize-card-inner {
@@ -1262,7 +1248,7 @@ Prize Money Area
                 particlesJS('particles-js', {
                     "particles": {
                         "number": {
-                            "value": 80,
+                            "value": 40, // Reduced particle count for better performance
                             "density": {
                                 "enable": true,
                                 "value_area": 800
@@ -1310,7 +1296,7 @@ Prize Money Area
                         },
                         "move": {
                             "enable": true,
-                            "speed": 1,
+                            "speed": 0.6, // Slower movement for better performance
                             "direction": "none",
                             "random": true,
                             "straight": false,
@@ -1366,13 +1352,28 @@ Prize Money Area
                 });
             }
 
-            // 3D card movement on mousemove
+            // 3D card movement on mousemove with throttling for better performance
             const cards = document.querySelectorAll('.prize-card');
+            
+            // Throttle function to limit execution frequency
+            function throttle(callback, limit) {
+                let waiting = false;
+                return function() {
+                    if (!waiting) {
+                        callback.apply(this, arguments);
+                        waiting = true;
+                        setTimeout(function() {
+                            waiting = false;
+                        }, limit);
+                    }
+                }
+            }
+            
             cards.forEach(card => {
                 const inner = card.querySelector('.prize-card-inner');
                 const icon = card.querySelector('.prize-icon img');
                 
-                card.addEventListener('mousemove', e => {
+                const handleMouseMove = throttle(function(e) {
                     const rect = card.getBoundingClientRect();
                     const x = e.clientX - rect.left;
                     const y = e.clientY - rect.top;
@@ -1380,29 +1381,35 @@ Prize Money Area
                     const centerX = rect.width / 2;
                     const centerY = rect.height / 2;
                     
-                    const angleX = (y - centerY) / 15;
-                    const angleY = (centerX - x) / 15;
+                    const angleX = (y - centerY) / 20; // Reduced sensitivity for smoother motion
+                    const angleY = (centerX - x) / 20;
                     
-                    inner.style.transform = `translateY(-15px) rotateX(${angleX}deg) rotateY(${angleY}deg)`;
-                    
-                    if (icon) {
-                        const iconAngleX = angleX / 2;
-                        const iconAngleY = angleY / 2;
-                        icon.style.transform = `translateZ(60px) rotateX(${iconAngleX}deg) rotateY(${iconAngleY}deg)`;
-                    }
-                });
+                    requestAnimationFrame(() => {
+                        inner.style.transform = `translateY(-15px) rotateX(${angleX}deg) rotateY(${angleY}deg)`;
+                        
+                        if (icon) {
+                            const iconAngleX = angleX / 2;
+                            const iconAngleY = angleY / 2;
+                            icon.style.transform = `translateZ(60px) rotateX(${iconAngleX}deg) rotateY(${iconAngleY}deg)`;
+                        }
+                    });
+                }, 16); // Throttle to roughly 60fps
+                
+                card.addEventListener('mousemove', handleMouseMove);
                 
                 card.addEventListener('mouseleave', () => {
-                    inner.style.transform = 'translateY(0) rotateX(0) rotateY(0)';
-                    if (icon) {
-                        icon.style.transform = 'translateZ(40px) rotateY(0)';
-                    }
-                    
-                    // Add transition back on mouse leave
-                    inner.style.transition = 'all 0.6s cubic-bezier(0.23, 1, 0.32, 1)';
-                    if (icon) {
-                        icon.style.transition = 'all 0.6s cubic-bezier(0.23, 1, 0.32, 1)';
-                    }
+                    requestAnimationFrame(() => {
+                        inner.style.transform = 'translateY(0) rotateX(0) rotateY(0)';
+                        if (icon) {
+                            icon.style.transform = 'translateZ(40px) rotateY(0)';
+                        }
+                        
+                        // Add transition back on mouse leave
+                        inner.style.transition = 'all 0.6s cubic-bezier(0.23, 1, 0.32, 1)';
+                        if (icon) {
+                            icon.style.transition = 'all 0.6s cubic-bezier(0.23, 1, 0.32, 1)';
+                        }
+                    });
                 });
                 
                 card.addEventListener('mouseenter', () => {
