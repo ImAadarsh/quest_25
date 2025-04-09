@@ -487,19 +487,14 @@ Counter Area
     <!--==============================
 Prize Money Area  
 ==============================-->
-    <div class="prize-money-area space bg-theme overflow-hidden">
-        <div class="prize-bg-shape1 spin shape-mockup d-xl-block d-none" data-bottom="9%" data-right="-3%">
-            <img src="assets/img/shape/section_shape_2_1.jpg" alt="img">
-        </div>
-        <div class="prize-bg-shape2 wave-anim shape-mockup d-xl-block d-none" data-top="19%" data-left="2%" data-bg-src="assets/img/shape/section_shape_2_2.jpg">
-        </div>
+    <div class="prize-money-area space-top space-extra-bottom bg-theme">
         <div class="container">
-            <div class="title-area text-center mb-60">
+            <div class="title-area text-center mb-50">
                 <h2 class="sec-title text-white">Win Exciting Cash Prizes</h2>
                 <p class="sec-text text-white">Compete for prestigious awards and recognition</p>
             </div>
             <div class="row justify-content-center g-4">
-                <div class="col-lg-6">
+                <div class="col-xl-5 col-lg-6">
                     <div class="prize-card">
                         <div class="prize-card-inner">
                             <div class="prize-ribbon">
@@ -527,7 +522,7 @@ Prize Money Area
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-6">
+                <div class="col-xl-5 col-lg-6">
                     <div class="prize-card grand">
                         <div class="prize-card-inner">
                             <div class="prize-ribbon">
@@ -563,21 +558,22 @@ Prize Money Area
     <style>
         .prize-money-area {
             position: relative;
-            overflow: hidden;
             background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+            padding: 100px 0;
         }
         
         .prize-card {
             position: relative;
             height: 100%;
             perspective: 1000px;
+            margin: 15px 0;
         }
         
         .prize-card-inner {
             position: relative;
             width: 100%;
             height: 100%;
-            padding: 40px;
+            padding: 40px 30px;
             background: rgba(255, 255, 255, 0.05);
             backdrop-filter: blur(10px);
             border-radius: 20px;
@@ -600,8 +596,8 @@ Prize Money Area
         .prize-ribbon {
             position: absolute;
             top: 20px;
-            right: -50px;
-            width: 150px;
+            right: -35px;
+            width: 140px;
             height: 30px;
             background: #FFD700;
             transform: rotate(45deg);
@@ -609,20 +605,21 @@ Prize Money Area
             align-items: center;
             justify-content: center;
             box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+            z-index: 1;
         }
         
         .prize-ribbon span {
             color: #000;
             font-weight: 600;
-            font-size: 12px;
+            font-size: 11px;
             text-transform: uppercase;
             letter-spacing: 1px;
         }
         
         .prize-icon {
-            font-size: 64px;
+            font-size: 56px;
             color: #FFD700;
-            margin-bottom: 30px;
+            margin-bottom: 25px;
             text-align: center;
             position: relative;
             display: inline-block;
@@ -646,35 +643,40 @@ Prize Money Area
         
         .prize-content {
             text-align: center;
+            position: relative;
+            z-index: 1;
         }
         
         .prize-title {
             color: #fff;
-            font-size: 28px;
+            font-size: 24px;
             margin-bottom: 20px;
             font-weight: 600;
             text-shadow: 0 2px 4px rgba(0,0,0,0.2);
         }
         
         .prize-amount {
-            font-size: 64px;
+            font-size: 56px;
             color: #FFD700;
             font-weight: 700;
             margin-bottom: 20px;
             text-shadow: 0 2px 4px rgba(0,0,0,0.2);
             position: relative;
             display: inline-block;
+            line-height: 1;
         }
         
         .prize-amount .currency {
-            font-size: 48px;
+            font-size: 42px;
             vertical-align: top;
             margin-right: 5px;
+            position: relative;
+            top: 2px;
         }
         
         .prize-desc {
             color: rgba(255, 255, 255, 0.9);
-            font-size: 18px;
+            font-size: 16px;
             margin-bottom: 25px;
         }
         
@@ -682,19 +684,19 @@ Prize Money Area
             display: flex;
             flex-wrap: wrap;
             justify-content: center;
-            gap: 10px;
+            gap: 8px;
             margin-top: 20px;
         }
         
         .prize-badges .badge {
             background: rgba(255, 255, 255, 0.1);
-            padding: 8px 15px;
-            border-radius: 20px;
+            padding: 6px 12px;
+            border-radius: 15px;
             color: #FFD700;
-            font-size: 14px;
+            font-size: 13px;
             display: flex;
             align-items: center;
-            gap: 5px;
+            gap: 4px;
             transition: all 0.3s ease;
         }
         
@@ -721,6 +723,7 @@ Prize Money Area
             width: 100%;
             height: 100%;
             pointer-events: none;
+            overflow: hidden;
         }
         
         .prize-particles::before {
@@ -735,10 +738,10 @@ Prize Money Area
         
         @keyframes shine {
             0% {
-                transform: translateX(-100%);
+                transform: translateX(-150%) rotate(-45deg);
             }
             100% {
-                transform: translateX(100%);
+                transform: translateX(150%) rotate(-45deg);
             }
         }
         
@@ -763,6 +766,46 @@ Prize Money Area
         .prize-card.grand .prize-particles::before {
             background: #FFD700;
             box-shadow: 0 0 10px #FFD700;
+        }
+
+        @media (max-width: 1199px) {
+            .prize-card-inner {
+                padding: 30px 20px;
+            }
+            .prize-amount {
+                font-size: 48px;
+            }
+            .prize-amount .currency {
+                font-size: 36px;
+            }
+            .prize-title {
+                font-size: 22px;
+            }
+        }
+
+        @media (max-width: 767px) {
+            .prize-ribbon {
+                right: -45px;
+                width: 130px;
+                height: 25px;
+            }
+            .prize-ribbon span {
+                font-size: 10px;
+            }
+            .prize-icon {
+                font-size: 48px;
+                margin-bottom: 20px;
+            }
+            .prize-amount {
+                font-size: 42px;
+            }
+            .prize-amount .currency {
+                font-size: 32px;
+            }
+            .prize-badges .badge {
+                padding: 5px 10px;
+                font-size: 12px;
+            }
         }
     </style>
 
