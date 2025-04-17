@@ -140,7 +140,7 @@
 </head>
 <body>
     <div class="maintenance-container">
-        <img src="./quest_png.png" alt="QUEST 2025 Logo" class="logo">
+        <img src="./quest/quest_png.png" alt="QUEST 2025 Logo" class="logo">
         <h1>We'll Be Back Soon!</h1>
         <p>We're currently performing scheduled maintenance to improve your experience. Please check back later.</p>
         
