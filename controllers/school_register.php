@@ -201,7 +201,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     try {
         // Check if school already exists
         $stmt = $conn->prepare("SELECT id FROM schools WHERE email = ?");
-        $stmt->execute([$email, $school_name]);
+        $stmt->execute([$email]);
         
         if ($stmt->rowCount() > 0) {
             echo json_encode([
