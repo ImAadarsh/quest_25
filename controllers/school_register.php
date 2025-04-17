@@ -200,7 +200,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     
     try {
         // Check if school already exists
-        $stmt = $conn->prepare("SELECT id FROM schools WHERE email = ? OR school_name = ?");
+        $stmt = $conn->prepare("SELECT id FROM schools WHERE email = ?");
         $stmt->execute([$email, $school_name]);
         
         if ($stmt->rowCount() > 0) {

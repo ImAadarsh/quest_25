@@ -213,9 +213,7 @@
 
 
 
-    <!--==============================
-Hero Area
-==============================-->
+    <!--============================== Hero Area ==============================-->
     <div class="th-hero-wrapper hero-2" id="hero">
         <div class="container">
             <div style="z-index: 1;" class="swiper th-slider hero-slider1" id="heroSlide1" data-slider-options='{"effect":"fade","loop":false,"thumbs":{"swiper":".hero-grid-thumb"}}'>
