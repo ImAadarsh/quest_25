@@ -140,7 +140,7 @@
 </head>
 <body>
     <div class="maintenance-container">
-        <img src="assets/img/logo.png" alt="QUEST 2025 Logo" class="logo">
+        <img src="quest_png.png" alt="QUEST 2025 Logo" class="logo">
         <h1>We'll Be Back Soon!</h1>
         <p>We're currently performing scheduled maintenance to improve your experience. Please check back later.</p>
         
@@ -186,8 +186,8 @@
 
     <script src="https://kit.fontawesome.com/your-font-awesome-kit.js"></script>
     <script>
-        // Set the date we're counting down to (24 hours from now)
-        const countDownDate = new Date().getTime() + (24 * 60 * 60 * 1000);
+        // Set the date we're counting down to (April 18th, 2025 at 12:00 PM)
+        const countDownDate = new Date('April 18, 2025 12:00:00').getTime();
 
         // Update the countdown every 1 second
         const x = setInterval(function() {
@@ -216,6 +216,8 @@
                 document.getElementById("hours").innerHTML = "00";
                 document.getElementById("minutes").innerHTML = "00";
                 document.getElementById("seconds").innerHTML = "00";
+                document.querySelector("h1").innerHTML = "We're Back!";
+                document.querySelector("p").innerHTML = "The maintenance is complete. Please refresh the page to access the site.";
             }
         }, 1000);
     </script>
