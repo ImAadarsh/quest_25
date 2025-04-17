@@ -5,6 +5,7 @@ RewriteCond %{REQUEST_URI} !^/maintenance\.php$
 
 # Don't redirect assets
 RewriteCond %{REQUEST_URI} !^/assets/.*$
+RewriteCond %{REQUEST_URI} !^/quest/.*$
 RewriteCond %{REQUEST_URI} !^/favicon\.ico$
 
 # Redirect everything else to maintenance page
