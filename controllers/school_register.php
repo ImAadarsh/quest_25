@@ -174,14 +174,14 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Validate required fields
     if (empty($name) || empty($email) || empty($designation) || empty($school_name) ||
         empty($principal_name) || empty($city) || empty($mobile) || empty($preferred_month)) {
-        header('Location: ../school_registration.php?msg=' . urlencode('All fields are required.'));
+        header('Location: ../school_register.php?msg=' . urlencode('All fields are required.'));
         exit;
     }
 
     // Connect to DB
     $conn = getConnection();
     if (is_array($conn) && isset($conn['error'])) {
-        header('Location: ../school_registration.php?msg=' . urlencode('Database connection failed.'));
+        header('Location: ../school_register.php?msg=' . urlencode('Database connection failed.'));
         exit;
     }
 
@@ -190,7 +190,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $stmt = $conn->prepare("SELECT id FROM schools WHERE email = ?");
         $stmt->execute([$email]);
         if ($stmt->rowCount() > 0) {
-            header('Location: ../school_registration.php?msg=' . urlencode('School already registered.'));
+            header('Location: ../school_register.php?msg=' . urlencode('School already registered.'));
             exit;
         }
 
@@ -203,18 +203,18 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         if ($result) {
             $emailSent = sendConfirmationEmail($name, $email, $school_name, $preferred_month);
             if ($emailSent) {
-                header('Location: ../school_registration.php?msg=' . urlencode('Registration successful! A confirmation email has been sent.'));
+                header('Location: ../school_register.php?msg=' . urlencode('Registration successful! A confirmation email has been sent.'));
             } else {
-                header('Location: ../school_registration.php?msg=' . urlencode('Registration successful! But confirmation email could not be sent.'));
+                header('Location: ../school_register.php?msg=' . urlencode('Registration successful! But confirmation email could not be sent.'));
             }
         } else {
-            header('Location: ../school_registration.php?msg=' . urlencode('Registration failed. Please try again.'));
+            header('Location: ../school_register.php?msg=' . urlencode('Registration failed. Please try again.'));
         }
     } catch (PDOException $e) {
         error_log("Database Error: " . $e->getMessage());
-        header('Location: ../school_registration.php?msg=' . urlencode('Registration failed. Please try again later.'));
+        header('Location: ../school_register.php?msg=' . urlencode('Registration failed. Please try again later.'));
     }
 } else {
-    header('Location: ../school_registration.php?msg=' . urlencode('Invalid request method.'));
+    header('Location: ../school_register.php?msg=' . urlencode('Invalid request method.'));
 }
 ?>
