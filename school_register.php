@@ -413,55 +413,6 @@ Appointment Area
         document.body.appendChild(loader);
         return true;
     }
-
-    // Handle form submission
-    document.getElementById('schoolRegistrationForm').addEventListener('submit', function(e) {
-        const form = this;
-        const submitBtn = form.querySelector('button[type="submit"]');
-        const formMessages = document.getElementById('form-messages');
-        
-        // Disable submit button
-        submitBtn.disabled = true;
-        
-        // Show loader
-        showLoader();
-        
-        // Handle form submission
-        fetch(form.action, {
-            method: 'POST',
-            body: new FormData(form)
-        })
-        .then(response => response.json())
-        .then(data => {
-            // Remove loader
-            document.querySelector('.loader-overlay').remove();
-            
-            if (data.success) {
-                formMessages.className = 'form-messages success';
-                formMessages.textContent = data.message;
-                form.reset();
-            } else {
-                formMessages.className = 'form-messages error';
-                formMessages.textContent = data.message;
-            }
-            
-            // Re-enable submit button
-            submitBtn.disabled = false;
-        })
-        .catch(error => {
-            // Remove loader
-            document.querySelector('.loader-overlay').remove();
-            
-            formMessages.className = 'form-messages error';
-            formMessages.textContent = 'An error occurred. Please try again.';
-            
-            // Re-enable submit button
-            submitBtn.disabled = false;
-        });
-        
-        e.preventDefault();
-    });
-
     // Show alert on response if redirected back with a message
     window.onload = function() {
         const params = new URLSearchParams(window.location.search);
