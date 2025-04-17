@@ -248,6 +248,27 @@ Appointment Area
 </div>
 
 <style>
+    .loader-overlay {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.7);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 9999;
+    }
+
+    .loader-content {
+        background: white;
+        padding: 20px;
+        border-radius: 10px;
+        text-align: center;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    }
+
     .spinner {
         border: 4px solid rgba(0, 0, 0, 0.1);
         border-radius: 50%;
@@ -255,7 +276,7 @@ Appointment Area
         width: 40px;
         height: 40px;
         animation: spin 1s linear infinite;
-        margin: 0 auto;
+        margin: 0 auto 15px;
     }
     
     @keyframes spin {
@@ -264,7 +285,7 @@ Appointment Area
     }
     
     .form-messages {
-        padding: 10px;
+        padding: 15px;
         border-radius: 5px;
         margin-top: 15px;
         display: none;
@@ -380,19 +401,75 @@ Appointment Area
 </style>
 
 <script>
-        function showLoader() {
-            document.getElementById('loader').style.display = 'block';
-            return true; // Allow form to submit
-        }
+    function showLoader() {
+        const loader = document.createElement('div');
+        loader.className = 'loader-overlay';
+        loader.innerHTML = `
+            <div class="loader-content">
+                <div class="spinner"></div>
+                <p>Processing your registration, please wait...</p>
+            </div>
+        `;
+        document.body.appendChild(loader);
+        return true;
+    }
 
-        // Show alert on response if redirected back with a message
-        window.onload = function() {
-            const params = new URLSearchParams(window.location.search);
-            if (params.has('msg')) {
-                alert(decodeURIComponent(params.get('msg')));
+    // Handle form submission
+    document.getElementById('schoolRegistrationForm').addEventListener('submit', function(e) {
+        const form = this;
+        const submitBtn = form.querySelector('button[type="submit"]');
+        const formMessages = document.getElementById('form-messages');
+        
+        // Disable submit button
+        submitBtn.disabled = true;
+        
+        // Show loader
+        showLoader();
+        
+        // Handle form submission
+        fetch(form.action, {
+            method: 'POST',
+            body: new FormData(form)
+        })
+        .then(response => response.json())
+        .then(data => {
+            // Remove loader
+            document.querySelector('.loader-overlay').remove();
+            
+            if (data.success) {
+                formMessages.className = 'form-messages success';
+                formMessages.textContent = data.message;
+                form.reset();
+            } else {
+                formMessages.className = 'form-messages error';
+                formMessages.textContent = data.message;
             }
-        };
-    </script>
+            
+            // Re-enable submit button
+            submitBtn.disabled = false;
+        })
+        .catch(error => {
+            // Remove loader
+            document.querySelector('.loader-overlay').remove();
+            
+            formMessages.className = 'form-messages error';
+            formMessages.textContent = 'An error occurred. Please try again.';
+            
+            // Re-enable submit button
+            submitBtn.disabled = false;
+        });
+        
+        e.preventDefault();
+    });
+
+    // Show alert on response if redirected back with a message
+    window.onload = function() {
+        const params = new URLSearchParams(window.location.search);
+        if (params.has('msg')) {
+            alert(decodeURIComponent(params.get('msg')));
+        }
+    };
+</script>
 
                 </div>
 
