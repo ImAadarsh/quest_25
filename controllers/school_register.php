@@ -247,7 +247,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         error_log("Database Error: " . $e->getMessage());
         echo json_encode([
             'status' => 'error',
-            'message' => 'Registration failed. Please try again later.'
+            'message' => 'Registration failed. Please try again later.',
             'error' => $e->getMessage()
         ]);
     } catch (Exception $e) {
