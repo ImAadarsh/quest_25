@@ -36,22 +36,15 @@ function sendConfirmationEmail($name, $email, $school_name, $preferred_month) {
         $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;
         $mail->Port = 465;
 
-        // Set additional headers to avoid spam filters
         $mail->CharSet = 'UTF-8';
         $mail->Encoding = 'base64';
-        $mail->XMailer = 'IPN FORUM Mailer';
-        
-        // Add custom headers for better deliverability
         $mail->addCustomHeader('List-Unsubscribe', '<mailto:team@ipnindia.in?subject=Unsubscribe>');
         $mail->addCustomHeader('Precedence', 'bulk');
         $mail->addCustomHeader('X-Auto-Response-Suppress', 'OOF, AutoReply');
-        
-        // Recipients
+
         $mail->setFrom('ipnforum@gmail.com', 'QUEST 2025');
         $mail->addAddress($email, $name);
         $mail->addReplyTo('info@eduace.in', 'QUEST 2025 Team');
-        
-        // Content
         $mail->isHTML(true);
         $mail->Subject = 'QUEST 2025 - School Registration Confirmation';
         
@@ -166,8 +159,7 @@ function sendConfirmationEmail($name, $email, $school_name, $preferred_month) {
         return false;
     }
 }
-
-// Check if form is submitted
+// Only process POST requests
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Get form data
     $name = $_POST['name'] ?? '';
@@ -178,91 +170,51 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $city = $_POST['city'] ?? '';
     $mobile = $_POST['mobile'] ?? '';
     $preferred_month = $_POST['preferred_month'] ?? '';
-    
+
     // Validate required fields
-    if (empty($name) || empty($email) || empty($designation) || empty($school_name) || 
+    if (empty($name) || empty($email) || empty($designation) || empty($school_name) ||
         empty($principal_name) || empty($city) || empty($mobile) || empty($preferred_month)) {
-        echo json_encode(['status' => 'error', 'message' => 'All fields are required']);
+        header('Location: ../school_registration.php?msg=' . urlencode('All fields are required.'));
         exit;
     }
-    
-    // Get database connection
+
+    // Connect to DB
     $conn = getConnection();
-    
-    // Check if connection is successful
     if (is_array($conn) && isset($conn['error'])) {
-        echo json_encode([
-            'status' => 'error',
-            'message' => 'Database connection failed. Please try again later.'
-        ]);
+        header('Location: ../school_registration.php?msg=' . urlencode('Database connection failed.'));
         exit;
     }
-    
+
     try {
-        // Check if school already exists
+        // Check if already registered
         $stmt = $conn->prepare("SELECT id FROM schools WHERE email = ?");
         $stmt->execute([$email]);
-        
         if ($stmt->rowCount() > 0) {
-            echo json_encode([
-                'status' => 'success',
-                'message' => 'School already registered'
-            ]);
+            header('Location: ../school_registration.php?msg=' . urlencode('School already registered.'));
             exit;
         }
-        
-        // Insert new school
+
+        // Insert new registration
         $stmt = $conn->prepare("INSERT INTO schools (name, email, designation, school_name, principal_name, city, mobile, preferred_month, created_at, updated_at) VALUES (?, ?, ?, ?, ?, ?, ?, ?, NOW(), NOW())");
-        
         $result = $stmt->execute([
-            $name,
-            $email,
-            $designation,
-            $school_name,
-            $principal_name,
-            $city,
-            $mobile,
-            $preferred_month
+            $name, $email, $designation, $school_name, $principal_name, $city, $mobile, $preferred_month
         ]);
-        
+
         if ($result) {
-            // Send confirmation email
             $emailSent = sendConfirmationEmail($name, $email, $school_name, $preferred_month);
-            
             if ($emailSent) {
-                echo json_encode([
-                    'status' => 'success',
-                    'message' => 'Registration successful! A confirmation email has been sent to your email address.'
-                ]);
+                header('Location: ../school_registration.php?msg=' . urlencode('Registration successful! A confirmation email has been sent.'));
             } else {
-                echo json_encode([
-                    'status' => 'success',
-                    'message' => 'Registration successful! However, we were unable to send a confirmation email.'
-                ]);
+                header('Location: ../school_registration.php?msg=' . urlencode('Registration successful! But confirmation email could not be sent.'));
             }
         } else {
-            throw new Exception("Database insert failed");
+            header('Location: ../school_registration.php?msg=' . urlencode('Registration failed. Please try again.'));
         }
     } catch (PDOException $e) {
         error_log("Database Error: " . $e->getMessage());
-        echo json_encode([
-            'status' => 'error',
-            'message' => 'Registration failed. Please try again later.',
-            'error' => $e->getMessage()
-        ]);
-    } catch (Exception $e) {
-        error_log("Error: " . $e->getMessage());
-        echo json_encode([
-            'status' => 'error',
-            'message' => 'Registration failed. Please try again later.',
-            'error' => $e->getMessage()
-        ]);
+        header('Location: ../school_registration.php?msg=' . urlencode('Registration failed. Please try again later.'));
     }
 } else {
-    // If not POST request
-    echo json_encode([
-        'status' => 'error',
-        'message' => 'Invalid request method.'
-    ]);
+    header('Location: ../school_registration.php?msg=' . urlencode('Invalid request method.'));
 }
-?> 
+?>

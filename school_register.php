@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Eduace Quest 2025 - Agents</title>
+    <title>Eduace Quest 2025 - School Registration</title>
     <meta name="author" content="Quest">
     <meta name="description" content="Eduace Quest 2025">
     <meta name="keywords" content="Eduace Quest 2025, Endeavour Digital">
@@ -123,7 +123,7 @@ Appointment Area
                         <h2 class="sec-title">Get Your School Enrolled</h2>
                         <p>Register your school for QUEST 2025.</p>
                     </div>
-                    <form action="controllers/school_register.php" method="POST" class="appointment-form ajax-contact me-xl-5" id="schoolRegistrationForm">
+                    <form action="controllers/school_register.php" method="POST" id="schoolRegistrationForm" onsubmit="return showLoader();">
     <div class="row">
         <div class="login-top">
             <h3>School Registration Form</h3>
@@ -380,146 +380,19 @@ Appointment Area
 </style>
 
 <script>
-document.addEventListener('DOMContentLoaded', function() {
-    const form = document.getElementById('schoolRegistrationForm');
-    const loader = document.getElementById('loader');
-    const submitBtn = document.getElementById('submitBtn');
-    const formMessages = document.getElementById('form-messages');
-    
-    // Function to validate form fields
-    function validateForm() {
-        let isValid = true;
-        const inputs = form.querySelectorAll('input[required]');
-        
-        inputs.forEach(input => {
-            if (!input.value.trim()) {
-                isValid = false;
-                input.classList.add('error');
-            } else {
-                input.classList.remove('error');
-            }
-        });
-        
-        // Validate email format
-        const email = document.getElementById('email');
-        const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-        if (!emailRegex.test(email.value.trim())) {
-            isValid = false;
-            email.classList.add('error');
+        function showLoader() {
+            document.getElementById('loader').style.display = 'block';
+            return true; // Allow form to submit
         }
-        
-        // Validate mobile number (at least 10 digits)
-        const mobile = document.getElementById('mobile');
-        const mobileRegex = /^\d{10,}$/;
-        if (!mobileRegex.test(mobile.value.trim())) {
-            isValid = false;
-            mobile.classList.add('error');
-        }
-        
-        return isValid;
-    }
-    
-    // Function to show messages
-    function showMessage(message, type) {
-        formMessages.innerHTML = message; // Using innerHTML to allow HTML in messages
-        formMessages.className = 'form-messages mb-0 mt-3 ' + type;
-        formMessages.style.display = 'block';
-        
-        // Scroll to message
-        formMessages.scrollIntoView({ behavior: 'smooth', block: 'center' });
-    }
-    
-    // Handle form submission
-    form.addEventListener('submit', function(e) {
-        e.preventDefault();
-        
-        // Validate form
-        if (!validateForm()) {
-            showMessage('Please fill all required fields correctly', 'error');
-            return;
-        }
-        
-        // Show loader and disable submit button
-        loader.style.display = 'block';
-        submitBtn.disabled = true;
-        
-        // Create FormData object
-        const formData = new FormData(form);
-        
-        // Send form data using fetch API
-        fetch(form.action, {
-            method: 'POST',
-            body: formData
-        })
-        .then(function(response) {
-            // Log raw response for debugging
-            console.log('Response status:', response.status);
-            
-            // Get the response text
-            return response.text();
-        })
-        .then(function(text) {
-            // Log raw text for debugging
-            console.log('Raw response text:', text);
-            
-            // Hide loader and enable submit button
-            loader.style.display = 'none';
-            submitBtn.disabled = false;
-            
-            // Try to parse as JSON
-            try {
-                // Parse the JSON response
-                const data = JSON.parse(text);
-                console.log('Parsed JSON data:', data);
-                
-                // Determine message and type based on status
-                if (data.status === 'success') {
-                    // Display success message
-                    showMessage(data.message, 'success');
-                    
-                    // Reset form on success
-                    form.reset();
-                    
-                    // Remove error classes
-                    form.querySelectorAll('.error').forEach(el => {
-                        el.classList.remove('error');
-                    });
-                    
-                    // Redirect after success
-                    setTimeout(function() {
-                        window.location.href = 'index.php';
-                    }, 5000);
-                } else {
-                    // Display error message
-                    showMessage(data.message || 'An unknown error occurred', 'error');
-                }
-            } catch (e) {
-                // If parsing fails, show the raw text
-                console.error('Error parsing JSON:', e);
-                showMessage('Server error: ' + text, 'error');
+
+        // Show alert on response if redirected back with a message
+        window.onload = function() {
+            const params = new URLSearchParams(window.location.search);
+            if (params.has('msg')) {
+                alert(decodeURIComponent(params.get('msg')));
             }
-        })
-        .catch(function(error) {
-            // Hide loader and enable submit button
-            loader.style.display = 'none';
-            submitBtn.disabled = false;
-            
-            // Log and show error
-            console.error('Fetch error:', error);
-            showMessage('Connection error. Please try again later.', 'error');
-        });
-    });
-    
-    // Add input event listeners for real-time validation
-    form.querySelectorAll('input[required]').forEach(input => {
-        input.addEventListener('input', function() {
-            if (this.value.trim()) {
-                this.classList.remove('error');
-            }
-        });
-    });
-});
-</script>
+        };
+    </script>
 
                 </div>
 
