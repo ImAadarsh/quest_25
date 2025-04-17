@@ -205,7 +205,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         
         if ($stmt->rowCount() > 0) {
             echo json_encode([
-                'status' => 'error',
+                'status' => 'success',
                 'message' => 'School already registered'
             ]);
             exit;
