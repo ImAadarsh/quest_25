@@ -2003,7 +2003,7 @@ Feedback Area
                                     <div class="testi-grid_review">
                                         <i class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-solid fa-star"></i>
                                     </div>
-                                    <p class="testi-card_text">"Home is where love resides, memories are created, and dreams are nurtured. I have found my sanctuary in this beautiful property. Finding the perfect that resonates with your own"</p>
+                                    <p class="testi-card_text">"Quest has been a great platform for our students to showcase their knowledge and skills. It has not only tested their knowledge but also inspired them to learn more about India's scientific and artistic achievements."</p>
                                     <div class="testi-card_profile">
                                         <div class="quote-icon">
                                             <img src="assets/img/icon/qoute2.svg" alt="icon">
@@ -2029,7 +2029,7 @@ Feedback Area
                                     <div class="testi-grid_review">
                                         <i class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-solid fa-star"></i>
                                     </div>
-                                    <p class="testi-card_text">"Home is where love resides, memories are created, and dreams are nurtured. I have found my sanctuary in this beautiful property. Finding the perfect that resonates with your own"</p>
+                                    <p class="testi-card_text">"In this quest, I have learned a lot about India's rich history and culture. It has not only tested my knowledge but also inspired me to learn more about India's scientific and artistic achievements."</p>
                                     <div class="testi-card_profile">
                                         <div class="quote-icon">
                                             <img src="assets/img/icon/qoute2.svg" alt="icon">
@@ -2055,7 +2055,7 @@ Feedback Area
                                     <div class="testi-grid_review">
                                         <i class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-solid fa-star"></i>
                                     </div>
-                                    <p class="testi-card_text">"Home is where love resides, memories are created, and dreams are nurtured. I have found my sanctuary in this beautiful property. Finding the perfect that resonates with your own"</p>
+                                    <p class="testi-card_text">"Quest has been a great platform for our students to showcase their knowledge and skills. Enjoyed the quiz and the questions were very interesting."</p>
                                     <div class="testi-card_profile">
                                         <div class="quote-icon">
                                             <img src="assets/img/icon/qoute2.svg" alt="icon">
@@ -2082,7 +2082,7 @@ Feedback Area
                                     <div class="testi-grid_review">
                                         <i class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-solid fa-star"></i>
                                     </div>
-                                    <p class="testi-card_text">"Home is where love resides, memories are created, and dreams are nurtured. I have found my sanctuary in this beautiful property. Finding the perfect that resonates with your own"</p>
+                                    <p class="testi-card_text">"Quest has been a great platform for our students to showcase their knowledge and skills. Enjoyed the quiz and the questions were very interesting."</p>
                                     <div class="testi-card_profile">
                                         <div class="quote-icon">
                                             <img src="assets/img/icon/qoute2.svg" alt="icon">
