@@ -386,7 +386,7 @@
                             <i class="fas fa-calendar-alt me-2"></i> 31st Oct 2025
                         </div>
                         <div class="venue-info">
-                            <div class="venue-name">To be announced</div>
+                            <div class="venue-name">Silver Oaks International School, Bachupally                            </div>
                         </div>
                     </div>
                 </div>
