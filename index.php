@@ -597,7 +597,7 @@ Prize Money Area
         /* Prize Money Section Base Styles */
         .prize-money-area {
             position: relative;
-            background: linear-gradient(135deg, #0a0b1a 0%, #12152c 100%);
+            background: var(--theme-color);
             padding: 150px 0;
             overflow: hidden;
         }
