@@ -675,7 +675,7 @@ Prize Money Area
         
         .prize-subtitle {
             display: block;
-            font-size: 38px;
+            font-size: 20px;
             font-weight: 700;
             color:rgb(212, 225, 248);
             margin-bottom: 20px;
