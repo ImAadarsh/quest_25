@@ -18,6 +18,9 @@
                                     <li><a href="about.php">
                                             About QUEST 2025
                                         </a></li>
+                                        <li><a href="host_schools.php">
+                                            Host Schools
+                                        </a></li>
                                         <li><a href="rules_2025.pdf">
                                             Rules
                                         </a></li>
