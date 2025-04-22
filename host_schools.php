@@ -476,7 +476,7 @@
                 </div>
                 
                 <!-- Noida -->
-                <div class="card city-card h-100">
+                <!-- <div class="card city-card h-100">
                     <img src="city/noida.png" class="card-img-top" alt="Noida">
                     <div class="card-body">
                         <h5 class="card-title">Noida</h5>
@@ -487,7 +487,7 @@
                             <div class="venue-name">Delhi Public School, GBN</div>
                         </div>
                     </div>
-                </div>
+                </div> -->
                 
                 <!-- Ghaziabad -->
                 <div class="card city-card h-100">
@@ -550,7 +550,7 @@
                 <div class="card-body p-5">
                     <div class="row align-items-center">
                         <div class="col-lg-4 col-md-5 mb-4 mb-md-0">
-                            <img src="city/delhi.png" class="img-fluid rounded" alt="National Finals">
+                            <img src="city/noida.png" class="img-fluid rounded" alt="National Finals">
                         </div>
                         <div class="col-lg-8 col-md-7">
                             <div class="finals-badge">
@@ -571,7 +571,7 @@
                                         <div class="finals-label">
                                             <i class="fas fa-map-marker-alt"></i> Venue
                                         </div>
-                                        <p class="finals-value">DPS GBN</p>
+                                        <p class="finals-value">Delhi Public School, GBN</p>
                                     </div>
                                 </div>
                                 <div class="col-12 mt-4">
