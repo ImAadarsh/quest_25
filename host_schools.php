@@ -531,7 +531,7 @@
                     </div>
                 </div>
                                 <!-- Ghaziabad -->
-                <div class="card city-card h-100">
+                <!-- <div class="card city-card h-100">
                     <img src="city/ghaziabad.png" class="card-img-top" alt="Ghaziabad">
                     <div class="card-body">
                         <h5 class="card-title">Ghaziabad</h5>
@@ -542,7 +542,7 @@
                             <div class="venue-name">Delhi Public School, Siddharth Vihar</div>
                         </div>
                     </div>
-                </div>
+                </div> -->
             </div>
 
             <!-- National Finals -->
