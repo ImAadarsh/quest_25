@@ -484,7 +484,7 @@
                             <i class="fas fa-calendar-alt me-2"></i> To be announced
                         </div>
                         <div class="venue-info">
-                            <div class="venue-name">Apeejay Noida</div>
+                            <div class="venue-name">Delhi Public School, GBN</div>
                         </div>
                     </div>
                 </div>
@@ -527,6 +527,19 @@
                         </div>
                         <div class="venue-info">
                             <div class="venue-name">To be announced</div>
+                        </div>
+                    </div>
+                </div>
+                                <!-- Ghaziabad -->
+                <div class="card city-card h-100">
+                    <img src="city/ghaziabad.png" class="card-img-top" alt="Ghaziabad">
+                    <div class="card-body">
+                        <h5 class="card-title">Ghaziabad</h5>
+                        <div class="date-badge">
+                            <i class="fas fa-calendar-alt me-2"></i> To be announced
+                        </div>
+                        <div class="venue-info">
+                            <div class="venue-name">Delhi Public School, Siddharth Vihar</div>
                         </div>
                     </div>
                 </div>
