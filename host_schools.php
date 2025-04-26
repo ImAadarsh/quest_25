@@ -447,6 +447,20 @@
         </div>
     </div>
 
+        <!-- Indore: To be announced -->
+        <div class="card  h-100">
+        <img src="city/indore.png" class="card-img-top" alt="Indore">
+        <div class="card-body">
+            <h5 class="card-title">Indore</h5>
+            <div class="date-badge">
+                <i class="fas fa-calendar-alt me-2"></i> Mount Index International School
+            </div>
+            <div class="venue-info">
+                <div class="venue-name">3rd December 2025</div>
+            </div>
+        </div>
+    </div>
+
     <!-- Ghaziabad: 6th Dec 2025 -->
     <div class="card  h-100">
         <img src="city/ghaziabad.png" class="card-img-top" alt="Ghaziabad">
@@ -503,19 +517,7 @@
         </div>
     </div>
 
-    <!-- Indore: To be announced -->
-    <div class="card  h-100">
-        <img src="city/indore.png" class="card-img-top" alt="Indore">
-        <div class="card-body">
-            <h5 class="card-title">Indore</h5>
-            <div class="date-badge">
-                <i class="fas fa-calendar-alt me-2"></i> To be announced
-            </div>
-            <div class="venue-info">
-                <div class="venue-name">To be announced</div>
-            </div>
-        </div>
-    </div>
+
 </div>
 
 
