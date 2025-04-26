@@ -38,7 +38,7 @@
     <link rel="stylesheet" href="assets/css/style.css">
 
     <style>
-        .city-card {
+        .city-img{
             border-radius: 16px;
             overflow: hidden;
             transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
@@ -49,28 +49,28 @@
             background: rgba(255, 255, 255, 0.85);
         }
         
-        .city-card:hover {
+        .city-img:hover {
             transform: translateY(-5px);
             box-shadow: 0 15px 30px rgba(0, 0, 0, 0.12);
         }
         
-        .city-card img {
+        .city-img .city-img {
             height: 180px;
             object-fit: cover;
             transition: all 0.5s ease;
             filter: contrast(1.1);
         }
         
-        .city-card:hover img {
+        .city-img:hover img {
             transform: scale(1.05);
         }
         
-        .city-card .card-body {
+        .city-img .card-body {
             padding: 1rem;
             background: transparent;
         }
         
-        .city-card .card-title {
+        .city-img .card-title {
             color: #222;
             font-size: 1.25rem;
             margin-bottom: 0.75rem;
@@ -368,7 +368,7 @@
             <div class="row justify-content-center">
                 <div class="col-lg-10">
                     <div class="title-area text-center mb-40">
-                        <span class="sub-title">Venue Partners</span>
+                        <span class="sub-title">Regional Final Host Schools</span>
                         <h2 class="sec-title section-title">Quest Regional Finals 2025</h2>
                         <p>Prestigious schools across India hosting Quest 2025 competitions.</p>
                     </div>
@@ -377,173 +377,147 @@
 
             <!-- City Grid Layout -->
             <div class="grid-container">
-                <!-- Hyderabad -->
-                <div class="card city-card h-100">
-                    <img src="city/hydrabad.png" class="card-img-top" alt="Hyderabad">
-                    <div class="card-body">
-                        <h5 class="card-title">Hyderabad</h5>
-                        <div class="date-badge">
-                            <i class="fas fa-calendar-alt me-2"></i> 31st Oct 2025
-                        </div>
-                        <div class="venue-info">
-                            <div class="venue-name">Silver Oaks International School, Bachupally                            </div>
-                        </div>
-                    </div>
-                </div>
-                
-                <!-- Chennai -->
-                <div class="card city-card h-100">
-                    <img src="city/chennai.png" class="card-img-top" alt="Chennai">
-                    <div class="card-body">
-                        <h5 class="card-title">Chennai</h5>
-                        <div class="date-badge">
-                            <i class="fas fa-calendar-alt me-2"></i> 15th Nov 2025
-                        </div>
-                        <div class="venue-info">
-                            <div class="venue-name">MCTM Chidambaram</div>
-                        </div>
-                    </div>
-                </div>
-                
-                <!-- Bangalore -->
-                <div class="card city-card h-100">
-                    <img src="city/banglore.png" class="card-img-top" alt="Bangalore">
-                    <div class="card-body">
-                        <h5 class="card-title">Bangalore</h5>
-                        <div class="date-badge">
-                            <i class="fas fa-calendar-alt me-2"></i> 18th Oct 2025
-                        </div>
-                        <div class="venue-info">
-                            <div class="venue-name">St. Josephs Boys High School</div>
-                        </div>
-                    </div>
-                </div>
-                
-                <!-- Lucknow -->
-                <div class="card city-card h-100">
-                    <img src="city/lucknow.png" class="card-img-top" alt="Lucknow">
-                    <div class="card-body">
-                        <h5 class="card-title">Lucknow</h5>
-                        <div class="date-badge">
-                            <i class="fas fa-calendar-alt me-2"></i> 29th Nov 2025
-                        </div>
-                        <div class="venue-info">
-                            <div class="venue-name">Pioneer Montessorie School Eldeco</div>
-                        </div>
-                    </div>
-                </div>
-                
-                <!-- Varanasi -->
-                <div class="card city-card h-100">
-                    <img src="city/varanasi.png" class="card-img-top" alt="Varanasi">
-                    <div class="card-body">
-                        <h5 class="card-title">Varanasi</h5>
-                        <div class="date-badge">
-                            <i class="fas fa-calendar-alt me-2"></i> 26th Nov 2025
-                        </div>
-                        <div class="venue-info">
-                            <div class="venue-name">Sunbeam Varuna Varanasi</div>
-                        </div>
-                    </div>
-                </div>
-                
-                <!-- Jaipur -->
-                <div class="card city-card h-100">
-                    <img src="city/jaipur.png" class="card-img-top" alt="Jaipur">
-                    <div class="card-body">
-                        <h5 class="card-title">Jaipur</h5>
-                        <div class="date-badge">
-                            <i class="fas fa-calendar-alt me-2"></i> To be announced
-                        </div>
-                        <div class="venue-info">
-                            <div class="venue-name">To be announced</div>
-                        </div>
-                    </div>
-                </div>
-                
-                <!-- Dehradun -->
-                <div class="card city-card h-100">
-                    <img src="city/dehradun.png" class="card-img-top" alt="Dehradun">
-                    <div class="card-body">
-                        <h5 class="card-title">Dehradun</h5>
-                        <div class="date-badge">
-                            <i class="fas fa-calendar-alt me-2"></i> To be announced
-                        </div>
-                        <div class="venue-info">
-                            <div class="venue-name">To be announced</div>
-                        </div>
-                    </div>
-                </div>
-                
-                <!-- Noida -->
-                <!-- <div class="card city-card h-100">
-                    <img src="city/noida.png" class="card-img-top" alt="Noida">
-                    <div class="card-body">
-                        <h5 class="card-title">Noida</h5>
-                        <div class="date-badge">
-                            <i class="fas fa-calendar-alt me-2"></i> To be announced
-                        </div>
-                        <div class="venue-info">
-                            <div class="venue-name">Delhi Public School, GBN</div>
-                        </div>
-                    </div>
-                </div> -->
-                
-                <!-- Ghaziabad -->
-                <div class="card city-card h-100">
-                    <img src="city/ghaziabad.png" class="card-img-top" alt="Ghaziabad">
-                    <div class="card-body">
-                        <h5 class="card-title">Ghaziabad</h5>
-                        <div class="date-badge">
-                            <i class="fas fa-calendar-alt me-2"></i> 6th Dec 2025
-                        </div>
-                        <div class="venue-info">
-                            <div class="venue-name">DPS SV</div>
-                        </div>
-                    </div>
-                </div>
-                
-                <!-- Gurugram -->
-                <div class="card city-card h-100">
-                    <img src="city/gurgaon.png" class="card-img-top" alt="Gurugram">
-                    <div class="card-body">
-                        <h5 class="card-title">Gurugram</h5>
-                        <div class="date-badge">
-                            <i class="fas fa-calendar-alt me-2"></i> 13th Dec 2025
-                        </div>
-                        <div class="venue-info">
-                            <div class="venue-name">GD Goenka Signature School</div>
-                        </div>
-                    </div>
-                </div>
-                
-                <!-- Indore -->
-                <div class="card city-card h-100">
-                    <img src="city/indore.png" class="card-img-top" alt="Indore">
-                    <div class="card-body">
-                        <h5 class="card-title">Indore</h5>
-                        <div class="date-badge">
-                            <i class="fas fa-calendar-alt me-2"></i> To be announced
-                        </div>
-                        <div class="venue-info">
-                            <div class="venue-name">To be announced</div>
-                        </div>
-                    </div>
-                </div>
-                                <!-- Ghaziabad -->
-                <!-- <div class="card city-card h-100">
-                    <img src="city/ghaziabad.png" class="card-img-top" alt="Ghaziabad">
-                    <div class="card-body">
-                        <h5 class="card-title">Ghaziabad</h5>
-                        <div class="date-badge">
-                            <i class="fas fa-calendar-alt me-2"></i> To be announced
-                        </div>
-                        <div class="venue-info">
-                            <div class="venue-name">Delhi Public School, Siddharth Vihar</div>
-                        </div>
-                    </div>
-                </div> -->
+    <!-- Bangalore: 18th Oct 2025 -->
+    <div class="card  h-100">
+        <img src="city/banglore.png" class="card-img-top" alt="Bangalore">
+        <div class="card-body">
+            <h5 class="card-title">Bangalore</h5>
+            <div class="date-badge">
+                <i class="fas fa-calendar-alt me-2"></i> 18th Oct 2025
             </div>
+            <div class="venue-info">
+                <div class="venue-name">St. Josephs Boys High School</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Hyderabad: 31st Oct 2025 -->
+    <div class="card  h-100">
+        <img src="city/hydrabad.png" class="card-img-top" alt="Hyderabad">
+        <div class="card-body">
+            <h5 class="card-title">Hyderabad</h5>
+            <div class="date-badge">
+                <i class="fas fa-calendar-alt me-2"></i> 31st Oct 2025
+            </div>
+            <div class="venue-info">
+                <div class="venue-name">Silver Oaks International School, Bachupally</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Chennai: 15th Nov 2025 -->
+    <div class="card  h-100">
+        <img src="city/chennai.png" class="card-img-top" alt="Chennai">
+        <div class="card-body">
+            <h5 class="card-title">Chennai</h5>
+            <div class="date-badge">
+                <i class="fas fa-calendar-alt me-2"></i> 15th Nov 2025
+            </div>
+            <div class="venue-info">
+                <div class="venue-name">MCTM Chidambaram</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Varanasi: 26th Nov 2025 -->
+    <div class="card  h-100">
+        <img src="city/varanasi.png" class="card-img-top" alt="Varanasi">
+        <div class="card-body">
+            <h5 class="card-title">Varanasi</h5>
+            <div class="date-badge">
+                <i class="fas fa-calendar-alt me-2"></i> 26th Nov 2025
+            </div>
+            <div class="venue-info">
+                <div class="venue-name">Sunbeam Varuna Varanasi</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Lucknow: 29th Nov 2025 -->
+    <div class="card  h-100">
+        <img src="city/lucknow.png" class="card-img-top" alt="Lucknow">
+        <div class="card-body">
+            <h5 class="card-title">Lucknow</h5>
+            <div class="date-badge">
+                <i class="fas fa-calendar-alt me-2"></i> 29th Nov 2025
+            </div>
+            <div class="venue-info">
+                <div class="venue-name">Pioneer Montessorie School Eldeco</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Ghaziabad: 6th Dec 2025 -->
+    <div class="card  h-100">
+        <img src="city/ghaziabad.png" class="card-img-top" alt="Ghaziabad">
+        <div class="card-body">
+            <h5 class="card-title">Ghaziabad</h5>
+            <div class="date-badge">
+                <i class="fas fa-calendar-alt me-2"></i> 6th Dec 2025
+            </div>
+            <div class="venue-info">
+                <div class="venue-name">DPS SV</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Gurugram: 13th Dec 2025 -->
+    <div class="card  h-100">
+        <img src="city/gurgaon.png" class="card-img-top" alt="Gurugram">
+        <div class="card-body">
+            <h5 class="card-title">Gurugram</h5>
+            <div class="date-badge">
+                <i class="fas fa-calendar-alt me-2"></i> 13th Dec 2025
+            </div>
+            <div class="venue-info">
+                <div class="venue-name">GD Goenka Signature School</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Jaipur: To be announced -->
+    <div class="card  h-100">
+        <img src="city/jaipur.png" class="card-img-top" alt="Jaipur">
+        <div class="card-body">
+            <h5 class="card-title">Jaipur</h5>
+            <div class="date-badge">
+                <i class="fas fa-calendar-alt me-2"></i> To be announced
+            </div>
+            <div class="venue-info">
+                <div class="venue-name">To be announced</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Dehradun: To be announced -->
+    <div class="card  h-100">
+        <img src="city/dehradun.png" class="card-img-top" alt="Dehradun">
+        <div class="card-body">
+            <h5 class="card-title">Dehradun</h5>
+            <div class="date-badge">
+                <i class="fas fa-calendar-alt me-2"></i> To be announced
+            </div>
+            <div class="venue-info">
+                <div class="venue-name">To be announced</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Indore: To be announced -->
+    <div class="card  h-100">
+        <img src="city/indore.png" class="card-img-top" alt="Indore">
+        <div class="card-body">
+            <h5 class="card-title">Indore</h5>
+            <div class="date-badge">
+                <i class="fas fa-calendar-alt me-2"></i> To be announced
+            </div>
+            <div class="venue-info">
+                <div class="venue-name">To be announced</div>
+            </div>
+        </div>
+    </div>
+</div>
+
 
             <!-- National Finals -->
             <div class="card national-finals-card">
