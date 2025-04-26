@@ -453,10 +453,10 @@
         <div class="card-body">
             <h5 class="card-title">Indore</h5>
             <div class="date-badge">
-                <i class="fas fa-calendar-alt me-2"></i> Mount Index International School
+                <i class="fas fa-calendar-alt me-2">3rd December 2025</i> 
             </div>
             <div class="venue-info">
-                <div class="venue-name">3rd December 2025</div>
+                <div class="venue-name">Mount Index International School</div>
             </div>
         </div>
     </div>
