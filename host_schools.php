@@ -447,13 +447,13 @@
         </div>
     </div>
 
-        <!-- Indore: To be announced -->
+        <!-- Indore: 3rd December 2025 -->
         <div class="card  h-100">
         <img src="city/indore.jpeg" class="card-img-top" alt="Indore">
         <div class="card-body">
             <h5 class="card-title">Indore</h5>
             <div class="date-badge">
-                <i class="fas fa-calendar-alt me-2">3rd Dec 2025</i> 
+                <i class="fas fa-calendar-alt me-2"></i> 3rd Dec 2025
             </div>
             <div class="venue-info">
                 <div class="venue-name">Mount Index International School</div>
