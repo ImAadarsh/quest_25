@@ -419,9 +419,9 @@
                 <i class="fas fa-calendar-alt me-2"></i> 31st Oct 2025
             </div>
             <div class="venue-info">
-                <div class="venue-name">Silver Oaks International School</div>
+                <div class="venue-name">Silver Oaks International School, Bachupally</div>
             </div>
-            <a href="school_register.php" class="register-btn"><i class="fas fa-user-plus"></i> Register for Hyderabad</a>
+            <a href="school_register.php?city=Hyderabad" class="register-btn"><i class="fas fa-user-plus"></i> Register for Hyderabad</a>
         </div>
     </div>
 
@@ -436,7 +436,7 @@
             <div class="venue-info">
                 <div class="venue-name">MCTM Chidambaram</div>
             </div>
-            <a href="school_register.php" class="register-btn"><i class="fas fa-user-plus"></i> Register for Chennai</a>
+            <a href="school_register.php?city=Chennai" class="register-btn"><i class="fas fa-user-plus"></i> Register for Chennai</a>
         </div>
     </div>
 
@@ -450,7 +450,7 @@
             <div class="venue-info">
                 <div class="venue-name">St. Josephs Boys High School</div>
             </div>
-            <a href="school_register.php" class="register-btn"><i class="fas fa-user-plus"></i> Register for Bangalore</a>
+            <a href="school_register.php?city=Bangalore" class="register-btn"><i class="fas fa-user-plus"></i> Register for Bangalore</a>
         </div>
     </div>
 
@@ -465,7 +465,7 @@
             <div class="venue-info">
                 <div class="venue-name">Sunbeam Varuna Varanasi</div>
             </div>
-            <a href="school_register.php" class="register-btn"><i class="fas fa-user-plus"></i> Register for Varanasi</a>
+            <a href="school_register.php?city=Varanasi" class="register-btn"><i class="fas fa-user-plus"></i> Register for Varanasi</a>
         </div>
     </div>
 
@@ -478,9 +478,9 @@
                 <i class="fas fa-calendar-alt me-2"></i> 29th Nov 2025
             </div>
             <div class="venue-info">
-                <div class="venue-name">Pioneer Montessorie School</div>
+                <div class="venue-name">Pioneer Montessorie School Eldeco</div>
             </div>
-            <a href="school_register.php" class="register-btn"><i class="fas fa-user-plus"></i> Register for Lucknow</a>
+            <a href="school_register.php?city=Lucknow" class="register-btn"><i class="fas fa-user-plus"></i> Register for Lucknow</a>
         </div>
     </div>
 
@@ -495,7 +495,7 @@
             <div class="venue-info">
                 <div class="venue-name">Mount Index International School</div>
             </div>
-            <a href="school_register.php" class="register-btn"><i class="fas fa-user-plus"></i> Register for Indore</a>
+            <a href="school_register.php?city=Indore" class="register-btn"><i class="fas fa-user-plus"></i> Register for Indore</a>
         </div>
     </div>
 
@@ -510,7 +510,7 @@
             <div class="venue-info">
                 <div class="venue-name">DPS SV</div>
             </div>
-            <a href="school_register.php" class="register-btn"><i class="fas fa-user-plus"></i> Register for Ghaziabad</a>
+            <a href="school_register.php?city=Ghaziabad" class="register-btn"><i class="fas fa-user-plus"></i> Register for Ghaziabad</a>
         </div>
     </div>
 
@@ -525,7 +525,7 @@
             <div class="venue-info">
                 <div class="venue-name">GD Goenka Signature School</div>
             </div>
-            <a href="school_register.php" class="register-btn"><i class="fas fa-user-plus"></i> Register for Gurugram</a>
+            <a href="school_register.php?city=Gurugram" class="register-btn"><i class="fas fa-user-plus"></i> Register for Gurugram</a>
         </div>
     </div>
 
@@ -553,7 +553,7 @@
             <div class="venue-info">
                 <div class="venue-name">To be announced</div>
             </div>
-            <a href="school_register.php" class="register-btn"><i class="fas fa-user-plus"></i> Register for Noida</a>
+            <a href="school_register.php?city=Noida" class="register-btn"><i class="fas fa-user-plus"></i> Register for Noida</a>
         </div>
     </div>
 
@@ -568,7 +568,7 @@
             <div class="venue-info">
                 <div class="venue-name">To be announced</div>
             </div>
-            <a href="school_register.php" class="register-btn"><i class="fas fa-user-plus"></i> Register for Dehradun</a>
+            <a href="school_register.php?city=Dehradun" class="register-btn"><i class="fas fa-user-plus"></i> Register for Dehradun</a>
         </div>
     </div>
 

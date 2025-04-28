@@ -153,7 +153,7 @@ Appointment Area
             <i class="fal fa-school"></i>
         </div>
         <div class="form-group style-border style-radius col-md-12">
-            <input type="text" class="form-control" name="city" id="city" placeholder="City*" required>
+            <input type="text" class="form-control" name="city" id="city" placeholder="City*" required value="<?php echo isset($_GET['city']) ? htmlspecialchars($_GET['city']) : ''; ?>">
             <i class="fal fa-city"></i>
         </div>
         <div class="form-group">
