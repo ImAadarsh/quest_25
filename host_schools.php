@@ -108,9 +108,9 @@
             background: linear-gradient(135deg, #1a2980, #26d0ce);
             color: white;
             border: none;
-            padding: 12px 4px;
+            padding: 7px 4px;
             border-radius: 30px;
-            font-weight: 400;
+            font-weight: 600;
             text-transform: uppercase;
             letter-spacing: 0.5px;
             transition: all 0.3s ease;
