@@ -378,18 +378,7 @@
             <!-- City Grid Layout -->
             <div class="grid-container">
     <!-- Bangalore: 18th Oct 2025 -->
-    <div class="card  h-100">
-        <img src="city/bangalore.jpeg" class="card-img-top" alt="Bangalore">
-        <div class="card-body">
-            <h5 class="card-title">Bangalore</h5>
-            <div class="date-badge">
-                <i class="fas fa-calendar-alt me-2"></i> 18th Oct 2025
-            </div>
-            <div class="venue-info">
-                <div class="venue-name">St. Josephs Boys High School</div>
-            </div>
-        </div>
-    </div>
+
 
     <!-- Hyderabad: 31st Oct 2025 -->
     <div class="card  h-100">
@@ -402,6 +391,7 @@
             <div class="venue-info">
                 <div class="venue-name">Silver Oaks International School, Bachupally</div>
             </div>
+            <a href="school_register.php" class="btn btn-primary w-100 mt-3">Register for Hyderabad</a>
         </div>
     </div>
 
@@ -416,6 +406,21 @@
             <div class="venue-info">
                 <div class="venue-name">MCTM Chidambaram</div>
             </div>
+            <a href="school_register.php" class="btn btn-primary w-100 mt-3">Register for Chennai</a>
+        </div>
+    </div>
+
+    <div class="card  h-100">
+        <img src="city/bangalore.jpeg" class="card-img-top" alt="Bangalore">
+        <div class="card-body">
+            <h5 class="card-title">Bangalore</h5>
+            <div class="date-badge">
+                <i class="fas fa-calendar-alt me-2"></i>  15th Nov 2025
+            </div>
+            <div class="venue-info">
+                <div class="venue-name">St. Josephs Boys High School</div>
+            </div>
+            <a href="school_register.php" class="btn btn-primary w-100 mt-3">Register for Bangalore</a>
         </div>
     </div>
 
@@ -430,6 +435,7 @@
             <div class="venue-info">
                 <div class="venue-name">Sunbeam Varuna Varanasi</div>
             </div>
+            <a href="school_register.php" class="btn btn-primary w-100 mt-3">Register for Varanasi</a>
         </div>
     </div>
 
@@ -444,6 +450,7 @@
             <div class="venue-info">
                 <div class="venue-name">Pioneer Montessorie School Eldeco</div>
             </div>
+            <a href="school_register.php" class="btn btn-primary w-100 mt-3">Register for Lucknow</a>
         </div>
     </div>
 
@@ -458,6 +465,7 @@
             <div class="venue-info">
                 <div class="venue-name">Mount Index International School</div>
             </div>
+            <a href="school_register.php" class="btn btn-primary w-100 mt-3">Register for Indore</a>
         </div>
     </div>
 
@@ -472,6 +480,7 @@
             <div class="venue-info">
                 <div class="venue-name">DPS SV</div>
             </div>
+            <a href="school_register.php" class="btn btn-primary w-100 mt-3">Register for Ghaziabad</a>
         </div>
     </div>
 
@@ -486,11 +495,12 @@
             <div class="venue-info">
                 <div class="venue-name">GD Goenka Signature School</div>
             </div>
+            <a href="school_register.php" class="btn btn-primary w-100 mt-3">Register for Gurugram</a>
         </div>
     </div>
 
     <!-- Jaipur: To be announced -->
-    <div class="card  h-100">
+    <!-- <div class="card  h-100">
         <img src="city/jaipur.png" class="card-img-top" alt="Jaipur">
         <div class="card-body">
             <h5 class="card-title">Jaipur</h5>
@@ -500,6 +510,20 @@
             <div class="venue-info">
                 <div class="venue-name">To be announced</div>
             </div>
+        </div>
+    </div> -->
+
+        <div class="card  h-100">
+        <img src="city/noida.png" class="card-img-top" alt="Jaipur">
+        <div class="card-body">
+            <h5 class="card-title">Noida</h5>
+            <div class="date-badge">
+                <i class="fas fa-calendar-alt me-2"></i> To be announced
+            </div>
+            <div class="venue-info">
+                <div class="venue-name">To be announced</div>
+            </div>
+            <a href="school_register.php" class="btn btn-primary w-100 mt-3">Register for Noida</a>
         </div>
     </div>
 
@@ -514,6 +538,7 @@
             <div class="venue-info">
                 <div class="venue-name">To be announced</div>
             </div>
+            <a href="school_register.php" class="btn btn-primary w-100 mt-3">Register for Dehradun</a>
         </div>
     </div>
 
