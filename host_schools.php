@@ -349,10 +349,10 @@
             <div class="row justify-content-center">
                 <div class="col-xl-9">
                     <div class="breadcumb-content">
-                        <h1 class="breadcumb-title">Venue Partners</h1>
+                        <h1 class="breadcumb-title">Regional Final Host Schools</h1>
                         <ul class="breadcumb-menu">
                             <li><a href="index.php">Home</a></li>
-                            <li>Venue Partners</li>
+                            <li>Hosts Schools</li>
                         </ul>
                     </div>
                 </div>
