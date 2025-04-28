@@ -544,7 +544,7 @@
     </div> -->
 
         <div class="card  h-100">
-        <img src="city/noida.png" class="card-img-top" alt="Jaipur">
+        <img src="cities/11.png" class="card-img-top" alt="Jaipur">
         <div class="card-body">
             <h5 class="card-title">Noida</h5>
             <div class="date-badge">
