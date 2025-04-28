@@ -389,7 +389,7 @@
                 <i class="fas fa-calendar-alt me-2"></i> 31st Oct 2025
             </div>
             <div class="venue-info">
-                <div class="venue-name">Silver Oaks International School, Bachupally</div>
+                <div class="venue-name">Silver Oaks International School</div>
             </div>
             <a href="school_register.php" class="btn btn-primary w-100 mt-3">Register for Hyderabad</a>
         </div>
@@ -448,7 +448,7 @@
                 <i class="fas fa-calendar-alt me-2"></i> 29th Nov 2025
             </div>
             <div class="venue-info">
-                <div class="venue-name">Pioneer Montessorie School Eldeco</div>
+                <div class="venue-name">Pioneer Montessorie School</div>
             </div>
             <a href="school_register.php" class="btn btn-primary w-100 mt-3">Register for Lucknow</a>
         </div>
