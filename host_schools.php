@@ -379,7 +379,7 @@
             <div class="grid-container">
     <!-- Bangalore: 18th Oct 2025 -->
     <div class="card  h-100">
-        <img src="city/banglore.png" class="card-img-top" alt="Bangalore">
+        <img src="city/bangalore.jpeg" class="card-img-top" alt="Bangalore">
         <div class="card-body">
             <h5 class="card-title">Bangalore</h5>
             <div class="date-badge">
@@ -393,7 +393,7 @@
 
     <!-- Hyderabad: 31st Oct 2025 -->
     <div class="card  h-100">
-        <img src="city/hydrabad.png" class="card-img-top" alt="Hyderabad">
+        <img src="city/hydrabad.jpeg" class="card-img-top" alt="Hyderabad">
         <div class="card-body">
             <h5 class="card-title">Hyderabad</h5>
             <div class="date-badge">
@@ -407,7 +407,7 @@
 
     <!-- Chennai: 15th Nov 2025 -->
     <div class="card  h-100">
-        <img src="city/chennai.png" class="card-img-top" alt="Chennai">
+        <img src="city/chennai.jpeg" class="card-img-top" alt="Chennai">
         <div class="card-body">
             <h5 class="card-title">Chennai</h5>
             <div class="date-badge">
@@ -449,11 +449,11 @@
 
         <!-- Indore: To be announced -->
         <div class="card  h-100">
-        <img src="city/indore.png" class="card-img-top" alt="Indore">
+        <img src="city/indore.jpeg" class="card-img-top" alt="Indore">
         <div class="card-body">
             <h5 class="card-title">Indore</h5>
             <div class="date-badge">
-                <i class="fas fa-calendar-alt me-2">3rd December 2025</i> 
+                <i class="fas fa-calendar-alt me-2">3rd Dec 2025</i> 
             </div>
             <div class="venue-info">
                 <div class="venue-name">Mount Index International School</div>
