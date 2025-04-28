@@ -108,9 +108,9 @@
             background: linear-gradient(135deg, #1a2980, #26d0ce);
             color: white;
             border: none;
-            padding: 12px 24px;
+            padding: 12px 4px;
             border-radius: 30px;
-            font-weight: 600;
+            font-weight: 400;
             text-transform: uppercase;
             letter-spacing: 0.5px;
             transition: all 0.3s ease;
@@ -120,6 +120,7 @@
             justify-content: center;
             width: 100%;
             margin-top: 1rem;
+            font-size: 14px;
         }
         
         .register-btn:hover {
