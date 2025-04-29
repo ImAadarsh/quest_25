@@ -546,14 +546,14 @@
         <div class="card  h-100">
         <img src="cities/11.png" class="card-img-top" alt="Jaipur">
         <div class="card-body">
-            <h5 class="card-title">Noida</h5>
+            <h5 class="card-title">Gr. Noida</h5>
             <div class="date-badge">
                 <i class="fas fa-calendar-alt me-2"></i> To be announced
             </div>
             <div class="venue-info">
                 <div class="venue-name">To be announced</div>
             </div>
-            <a href="school_register.php?city=Noida" class="register-btn"><i class="fas fa-user-plus"></i> Register for Noida</a>
+            <a href="school_register.php?city=Noida" class="register-btn"><i class="fas fa-user-plus"></i> Register for Gr. Noida</a>
         </div>
     </div>
 
