@@ -30,9 +30,9 @@
                                         <li><a href="journey.php">
                                             QUEST Journey
                                         </a></li>
-                                        <!-- <li><a href="school.php">
-                                            Participating Schools
-                                        </a></li> -->
+                                        <li><a href="QUEST_Syllabus.pdf">
+                                            Syllabus
+                                        </a></li>
                                         <li><a href="faq.php">
                                             FAQs
                                         </a></li>
