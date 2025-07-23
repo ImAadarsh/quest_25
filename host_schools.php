@@ -408,7 +408,20 @@
             <!-- City Grid Layout -->
             <div class="grid-container">
     <!-- Bangalore: 18th Oct 2025 -->
-
+    <!-- Udaipur: 13th Dec 2025 -->
+    <div class="card  h-100">
+        <img src="city/udaipur.jpeg" class="card-img-top" alt="Gurugram">
+        <div class="card-body">
+            <h5 class="card-title">Udaipur</h5>
+            <div class="date-badge">
+                <i class="fas fa-calendar-alt me-2"></i> 4th Oct 2025
+            </div>
+            <div class="venue-info">
+                <div class="venue-name">Rockwoods High School Udaipur</div>
+            </div>
+            <a href="school_register.php?city=Udaipur" class="register-btn"><i class="fas fa-user-plus"></i> Register for Udaipur</a>
+        </div>
+    </div>
 
     <!-- Hyderabad: 31st Oct 2025 -->
     <div class="card  h-100">
@@ -528,6 +541,7 @@
             <a href="school_register.php?city=Gurugram" class="register-btn"><i class="fas fa-user-plus"></i> Register for Gurugram</a>
         </div>
     </div>
+
 
     <!-- Jaipur: To be announced -->
     <!-- <div class="card  h-100">
